@@ -1,0 +1,1 @@
+Pour chaque ligne du livre faire un dictionnaire (http://apprendre-python.com/page-apprendre-dictionnaire-python)
