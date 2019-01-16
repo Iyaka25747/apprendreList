@@ -16,7 +16,9 @@ Type: Vocabulaire
 Type: Phrase
     Phrase: "Darf ich auf die Toilette"/"Puis-je aller aux toilettes"
 
-Dans un 2eme temps associer un fichier son à chaque éléments 
+Selection d'un exercice
+    Une liste permet de choisir l'exercice à faire.
+    Un exercice peut être interrompu et repris ultérieurement.
 
 Déroulement de l'exercice oral
     L'exemple est affiché. Le user prononce à haute voix la réponse. Demande la solution et vérifie si c'est juste. Donne sont évaluation Juste / Faux. 
@@ -29,6 +31,10 @@ Déroulement de l'exercice écrit
     Les entrées fausses sont répétées jusqu'à ce que ça soit juste
     Une entrée fausse est suivie d un affichage de l'exemple correct avant la tentative suivante
 
+Minutage
+    Le temps d'exercice est minuté.
+    Si l'exercice est en pause et repris le temps d'exercice est compté.
 
+Dans un 2eme temps associer un fichier son à chaque éléments 
 
     
