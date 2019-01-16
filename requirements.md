@@ -2,16 +2,15 @@ Liste des besoins
 
 La source doit être du type: Type (Vocabulaire, Phrase), Pair(FR/DE):Déterminant (eg. Das / Le), Nom (Brot/Pain) ou Phrase (eg. ). 
 
-
 Langue: Allemand, Francais 
 Context: Wortshatz 9 Klasse - 1
 Type: Vocabulaire, Phrase
 
 Type: Vocabulaire
-    Déterminant: Das / Le
-    Nom_Phrase: Brot/Pain
-    Déterminant: Die / Les
-    Nom_Phrase: Brote / Pains
+    Déterminant_singulier: Das / Le
+    Nom_singulier: Brot / Pain
+    Déterminant_pluriel: Die / Les
+    Nom_pluriel: Brote / Pains
 
 Type: Phrase
     Phrase: "Darf ich auf die Toilette"/"Puis-je aller aux toilettes"
