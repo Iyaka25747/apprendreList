@@ -1,0 +1,64 @@
+{
+    "Anglais":
+        {
+            "Voc6":
+            {
+                "Page 6":
+                {
+                    "Mots":
+                    {
+                        "Ou":"Where",
+                        "Qui":"Who",
+                        "Qand":"When",
+                        "Comment":"How"     
+                    },
+                    "Phrase":
+                    {
+                        "J'ai faim":"I'm hungry",
+                        "C'est mon chien":"This is my dog"
+                    }
+                }
+            
+            },
+            "Voc7":
+            {
+                "Page 12":
+                {
+                    "Mots":
+                    {
+                        "Ou":"Where",
+                        "Qui":"Who",
+                        "Qand":"When",
+                        "Comment":"How"     
+                    },
+                    "Phrase":
+                    {
+                        "J'ai faim":"I'm hungry",
+                        "C'est mon chien":"This is my dog"
+                    }
+                }
+            
+            }
+            
+        },
+    "Allemand":
+        {
+            "type":"Vocabulaire","DeterminantFR":"Le", "DetDE":"Das","NomFR":"Pain","NomDE":"Brot"
+        },
+    "Multiplication":
+        {
+            "Multi test": 
+            {
+            "premier facteurs" : [1],
+            "deuxieme facteurs": [1,2] 
+            }
+        },
+    "Addition":
+        {
+            "Addition (1..10) + (1..10)":
+            {
+                "term1": [1,2],
+                "term2":[2]
+            }
+        }
+}
