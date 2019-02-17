@@ -27,7 +27,7 @@
                     "Mots":
                     {
                         "Ou":"Where",
-                        "How":"Comment",
+                        "Qui":"Who",
                         "Qand":"When",
                         "Comment":"How"     
                     },
@@ -43,7 +43,7 @@
         },
     "Allemand":
         {
-            "type":"Vocabulaire","DeterminantFR":"Le", "DetDE":"Das","NomFR":"Pain","NomDE":"Brot"
+            "type":"Vocabulaire","DeterminantFR":"Le", "DetAll":"Das","NomFR":"Pain","NomDE":"Brot"
         },
     "Multiplication":
         {
