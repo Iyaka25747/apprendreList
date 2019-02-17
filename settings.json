@@ -1,0 +1,10 @@
+{
+    "users": ["Ilya", "Tilio", "Caroline", "Vicky"],
+    "son": {
+        "active":"on", "commentaire":"Avec ou sans son, choisir on ou off",
+        "bad_sound":"bad.wav",
+        "good_sound":"good.wav"
+    },
+    "_random":"Mettre random à -True- pour rendre aléatoire les chiffres employés ",
+    "random":"True"
+}

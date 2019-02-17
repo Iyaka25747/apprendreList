@@ -2,9 +2,12 @@
     "Allemand": {
         "Voc6": {
             "Page 6":{
-                ["Mot", "le voyage", "Die", "Reise", "-n"],         
+                "1":["Mot", "le voyage", "Die", "Reise", "-n"],
+                "2":["Mot", "le billet, le titre de transport", "Die", "Fahrkarte", "-n"]
             },
             "Page 7":{
+                "1":["Mot", "le voyage", "Die", "Reise", "-n"],
+                "2":["Mot", "le billet, le titre de transport", "Die", "Fahrkarte", "-n"]
             }
         },
         "Voc7": {
