@@ -15,6 +15,10 @@ import csv #for statiristics logs
 ################
 
 # Récupération des paramètres généraux
+class SettingGlobal(object):
+    """Global class to hold the settings"""
+globalSettings = SettingGlobal()
+
 with open("settings.json", "r") as file:
     dataSettings = json.load(file)
     file.close()
@@ -22,21 +26,21 @@ with open("settings.json", "r") as file:
 # Initialization des sons
 soudSetting = dataSettings["son"]
 if soudSetting["active"] == "on":
-    soundActive = True
+    globalSettings.soundActive = True
 elif soudSetting["active"] == "off":
-    soundActive = False
+    globalSettings.soundActive = False
 else:
     print("ERROR in setting parameter for -son- key")
     enterKey = input("press a key to continue")
-badSound = soudSetting["bad_sound"]
-goodSound = soudSetting["good_sound"]
+globalSettings.badSound = soudSetting["bad_sound"]
+globalSettings.goodSound = soudSetting["good_sound"]
 
 
 # initialisation du temps
 maintenant = datetime.datetime.today()
-currentDate = "{day}.{month}.{year}".format(year = maintenant.year, month=  maintenant.month, day=  maintenant.day)#datetime.date.today()
-currentTime = "{hour}:{minute}:{second}".format(hour = maintenant.hour, minute=  maintenant.minute, second=  maintenant.second)
-print("Date: {0}, Time:{1}".format(currentDate, currentTime))
+globalSettings.currentDate = "{day}.{month}.{year}".format(year = maintenant.year, month=  maintenant.month, day=  maintenant.day)#datetime.date.today()
+globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant.hour, minute=  maintenant.minute, second=  maintenant.second)
+print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.currentTime))
 
 #Fichier source exercices
 exercicesFile = 'exercices.json'
