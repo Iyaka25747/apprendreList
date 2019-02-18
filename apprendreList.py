@@ -1,4 +1,4 @@
-# Voc Anglais under work4
+# Voc Anglais under work alpiq
 
 import json
 import random
@@ -70,12 +70,8 @@ nomVocChoisi = choisirElement(listElement)
 listElement = list(dataExercices[nomLangueChoisie][nomVocChoisi].keys())
 nomPageChoisie = choisirElement(listElement)
 
-# Affichage et selection mots/page
-listElement = list(dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie].keys())
-MotPageChoisie = choisirElement(listElement)
-
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
-typePossible = ["Choisir une correspondance", "Ecrire le mot"]
+typePossible = ["Trouver une correspondance", "Ecrire le mot"]
 print("Quel type d'exercice")
 typeExerciceChoisi = choisirElement(typePossible)
 
@@ -85,13 +81,19 @@ typeExerciceChoisi = choisirElement(typePossible)
 
 #Clear terminal screen
 os.system('cls' if os.name == 'nt' else 'clear')
-vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie][MotPageChoisie]
-if nomLangueChoisie == "Anglais":
-  if typeExerciceChoisi == "Choisir une correspondance":
-      motsFrancais = list(vocabulaireList.keys())
-      motsAnglais = list(vocabulaireList.values())
-      for motFrancaisDeviner in vocabulaireList.keys():
-          print(motFrancaisDeviner)
+vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie]
+if nomLangueChoisie == "Allemand":
+  if typeExerciceChoisi == "Trouver une correspondance":
+
+        for motADevinerClef in vocabulaireList:
+            # print(motADevinerClef)
+            # print(vocabulaireList[motADevinerClef])
+            vocabulaireListAutre = vocabulaireList
+            del vocabulaireListAutre[motADevinerClef]
+            # shuffle vocabulaireListAutre https://stackoverflow.com/questions/19895028/randomly-shuffling-a-dictionary-in-python
+            nombreEnemis = 3
+            
+
 
 #Enregistrement des statistiques
 myFile = open(recordFile, 'a')
