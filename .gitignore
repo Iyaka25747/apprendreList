@@ -1,0 +1,7 @@
+.vscode/settings.json
+.vscode/launch.json
+.vscode/.ropeproject/config.py
+.vscode/.ropeproject/objectdb
+__pycache__/func.cpython-37.pyc
+exercices.json
+records.csv
