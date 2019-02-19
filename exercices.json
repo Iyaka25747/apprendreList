@@ -3,7 +3,10 @@
         "Voc6": {
             "Page 6":{
                 "1":["Mot", "le voyage", "Die", "Reise", "-n"],
-                "2":["Mot", "le billet, le titre de transport", "Die", "Fahrkarte", "-n"]
+                "2":["Mot", "le billet, le titre de transport", "Die", "Fahrkarte", "-n"],
+                "3":["Mot", "le départ", "Die", "Abfahrt", "en"],
+                "4":["Mot", "le point de rencontre", "Der", "Treffpunkt", "e"],
+                "5":["Mot", "L arrivée", "Die", "Ankunft", "¨ e"]
             },
             "Page 7":{
                 "1":["Mot", "le voyage", "Die", "Reise", "-n"],
