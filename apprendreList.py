@@ -1,4 +1,4 @@
-# Voc Anglais under work alpiq
+# Voc Anglais under work 2
 
 import json
 import random
@@ -84,14 +84,23 @@ os.system('cls' if os.name == 'nt' else 'clear')
 vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie]
 if nomLangueChoisie == "Allemand":
   if typeExerciceChoisi == "Trouver une correspondance":
+    vocKeys = list(vocabulaireList.keys())
+    nombreEnemis = 2
+    for motAtrouverkeys in vocKeys:
+        #creation d'une list sans le mot à trouver
+        autreMotKeys = vocKeys[:] 
+        autreMotKeys.remove(motAtrouverkeys)
+        random.shuffle(autreMotKeys)
+        # on choisi les x premiers mot à trouver
+        autreMotKeys = autreMotKeys[:nombreEnemis]
+        #on construit la liste à montrer
+        aTrouverMotsKeys = autreMotKeys[:]
+        aTrouverMotsKeys.append(motAtrouverkeys)
+        random.shuffle(aTrouverMotsKeys)
+        #on pose la question
+        mot = vocabulaireList.get(motAtrouverkeys)
+        print("Que veut dire {motATrouver}".format(motATrouver = mot)
 
-        for motADevinerClef in vocabulaireList:
-            # print(motADevinerClef)
-            # print(vocabulaireList[motADevinerClef])
-            vocabulaireListAutre = vocabulaireList
-            del vocabulaireListAutre[motADevinerClef]
-            # shuffle vocabulaireListAutre https://stackoverflow.com/questions/19895028/randomly-shuffling-a-dictionary-in-python
-            nombreEnemis = 3
             
 
 
