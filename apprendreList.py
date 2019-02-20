@@ -106,15 +106,19 @@ if nomLangueChoisie == "Allemand":
             for key in aTrouverMotsKeys:
                 listeMotsEtranger.append(vocabulaireList.get(key)[2]+" "+vocabulaireList.get(key)[3])
             # On pose la question et on vérifie
-            reponseFausse = True
-            while reponseFausse:
+            repeteQuestion = True
+            while repeteQuestion:
                 print("{reste}/{total} Comment dire: '{motATrouver}'".format(motATrouver=motATrouverFR, reste = nombreMots - count, total =nombreMots ))
                 reponse = choisirElement(listeMotsEtranger)
                 if reponse == motATrouverEquivalent:
-                    print("Correct: '{motFR}' = '{motEquivalent}'\n".format(motFR = motATrouverFR, motEquivalent = motATrouverEquivalent))
-                    reponseFausse = False
+                    repeteQuestion = False
+                    evaluationReponse = "Juste"                
+                    print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEquivalent))                    
                 else:
-                    print("Faux: '{motFR}' n'est pas '{motEquivalent}'\n".format(motFR = motATrouverFR, motEquivalent = reponse))
+                    repeteQuestion = True
+                    evaluationReponse = "Faux"   
+                    print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEquivalent))
+                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, nomJoueur,nomLangueChoisie,nomVocChoisi,nomPageChoisie,typeExerciceChoisi,evaluationReponse, motATrouverEquivalent,reponse]
             count = count + 1
 
 #Enregistrement des statistiques
@@ -122,7 +126,7 @@ myFile = open(recordFile, 'a')
 print("Enregistrement des calculs dans {fichier}".format(fichier = recordFile ))
 with myFile:
     writer = csv.writer(myFile, delimiter=',', lineterminator='\n')
-    writer.writerows(resultatsCalculs)
+    writer.writerows(resultatQuestion)
 print("Fin de l'enregistrement")
 myFile.close()
 
