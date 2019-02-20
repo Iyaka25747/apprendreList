@@ -126,7 +126,7 @@ myFile = open(recordFile, 'a')
 print("Enregistrement des calculs dans {fichier}".format(fichier = recordFile ))
 with myFile:
     writer = csv.writer(myFile, delimiter=',', lineterminator='\n')
-    writer.writerows(resultatQuestion)
+    writer.writerows([resultatQuestion])
 print("Fin de l'enregistrement")
 myFile.close()
 
