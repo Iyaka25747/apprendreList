@@ -9,14 +9,21 @@ reader = csv.DictReader(csvFile, delimiter = ';')
 
 # build dictionnary from file
 # voc;page;line;Type;Der-Die-Das;Mot en ALL;pluriel;Mot FR
-
+lessonsDict = dict()
 count = 0
 for row in reader:
-    
+    # Check if this voc already exists
+    voc = row['voc']
+    if  voc not in lessonsDict:
+        lessonsDict[voc] = {}
+
+    page = str(row['page'])
+    if page not in lessonsDict[voc]:
+        lessonsDict[voc][page]=[]
+    lessonsDict[voc][page].append(row)
 
     count += 1
 
-readertest = sorted(reader, key = itemgetter('type'))
 
 
 
