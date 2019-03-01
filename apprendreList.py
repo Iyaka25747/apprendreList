@@ -82,15 +82,16 @@ typeExerciceChoisi = choisirElement(typePossible)
 #Clear terminal screen
 os.system('cls' if os.name == 'nt' else 'clear')
 vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie]
-if nomLangueChoisie == "Allemand":
+if nomLangueChoisie == "allemand":
   if typeExerciceChoisi == "Trouver une correspondance":
         vocKeys = list(vocabulaireList.keys())
         nombreMots = len(vocKeys)
         nombreEnnemis = 4
         count = 0
         for motAtrouverKey in vocKeys:
-            motATrouverFR = vocabulaireList.get(motAtrouverKey)[1]
-            motATrouverEquivalent = vocabulaireList.get(motAtrouverKey)[2]+" "+vocabulaireList.get(motAtrouverKey)[3]
+            motAtrouverKey = str(motAtrouverKey)
+            motATrouverFR = vocabulaireList[motAtrouverKey]['Mot FR']
+            motATrouverEquivalent = vocabulaireList[motAtrouverKey]['Der-Die-Das']+" "+vocabulaireList[motAtrouverKey]['Mot en ALL']
             #creation d'une list sans le mot à trouver
             autreMotKeys = vocKeys[:]
             autreMotKeys.remove(motAtrouverKey)
@@ -104,7 +105,7 @@ if nomLangueChoisie == "Allemand":
             # construction des mots ennemis
             listeMotsEtranger = []
             for key in aTrouverMotsKeys:
-                listeMotsEtranger.append(vocabulaireList.get(key)[2]+" "+vocabulaireList.get(key)[3])
+               XXXXXXX listeMotsEtranger.append(vocabulaireList.get(key)[2]+" "+vocabulaireList.get(key)[3])
             # On pose la question et on vérifie
             repeteQuestion = True
             while repeteQuestion:

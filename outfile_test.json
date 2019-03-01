@@ -1,0 +1,650 @@
+{
+    "allemand": {
+        "voc6": {
+            "39": [
+                {
+                    "line": "1",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Reise",
+                    "pluriel": "-n",
+                    "Mot FR": "le voyage"
+                },
+                {
+                    "line": "2",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Alle sind m\u00ef\u00bf\u00bdde und schlafen",
+                    "pluriel": "",
+                    "Mot FR": "tous sont fatigu\u00ef\u00bf\u00bds et dorment"
+                },
+                {
+                    "line": "3",
+                    "Type": "mot",
+                    "Der-Die-Das": "Der",
+                    "Mot en ALL": "Treffpunkt",
+                    "pluriel": "-e",
+                    "Mot FR": "le point de rencontre"
+                },
+                {
+                    "line": "4",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Internet",
+                    "pluriel": "",
+                    "Mot FR": "internet"
+                },
+                {
+                    "line": "5",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Im Hostel ist das Internet gratis",
+                    "pluriel": "",
+                    "Mot FR": "A l auberge, l acc\u00ef\u00bf\u00bds internet est gratuit"
+                },
+                {
+                    "line": "6",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Taschengeld (sing)",
+                    "pluriel": "",
+                    "Mot FR": "l argent de poche"
+                },
+                {
+                    "line": "7",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Souvenir",
+                    "pluriel": "s",
+                    "Mot FR": " Le souvenir"
+                },
+                {
+                    "line": "8",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Internet,",
+                    "pluriel": "",
+                    "Mot FR": "internet"
+                },
+                {
+                    "line": "9",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "WLAN",
+                    "pluriel": "",
+                    "Mot FR": "wifi"
+                },
+                {
+                    "line": "10",
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "gratis",
+                    "pluriel": "",
+                    "Mot FR": "gratuit"
+                },
+                {
+                    "line": "11",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Tram",
+                    "pluriel": "",
+                    "Mot FR": "le tram"
+                },
+                {
+                    "line": "12",
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "m\u00ef\u00bf\u00bdde",
+                    "pluriel": "",
+                    "Mot FR": "fatigu\u00ef\u00bf\u00bd,-e"
+                },
+                {
+                    "line": "13",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Abfahrt",
+                    "pluriel": "en",
+                    "Mot FR": "le d\u00ef\u00bf\u00bdpart"
+                },
+                {
+                    "line": "14",
+                    "Type": "mot",
+                    "Der-Die-Das": "Der",
+                    "Mot en ALL": "Treffpunkt",
+                    "pluriel": "e",
+                    "Mot FR": "le point de rencontre"
+                },
+                {
+                    "line": "15",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Ankunft",
+                    "pluriel": "\u00ef\u00bf\u00bd e",
+                    "Mot FR": "L arriv\u00ef\u00bf\u00bde"
+                },
+                {
+                    "line": "16",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "R\u00ef\u00bf\u00bdckreise",
+                    "pluriel": "n",
+                    "Mot FR": "le retour"
+                },
+                {
+                    "line": "17",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Strassenbahn",
+                    "pluriel": "en",
+                    "Mot FR": "le tram(way)"
+                },
+                {
+                    "line": "18",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Ruhe (sing)",
+                    "pluriel": "",
+                    "Mot FR": "le silence"
+                },
+                {
+                    "line": "19",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ab 22 Uhr ist Ruhe",
+                    "pluriel": "",
+                    "Mot FR": "A partir de 22 H le silence est de rigueur"
+                },
+                {
+                    "line": "20",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Er hat kein Geld mehr",
+                    "pluriel": "",
+                    "Mot FR": "il n\u00ef\u00bf\u00bda plus d argent"
+                },
+                {
+                    "line": "21",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "pleite sein, er ist pleite",
+                    "pluriel": "",
+                    "Mot FR": "\u00ef\u00bf\u00bdtre fauch\u00ef\u00bf\u00bd,-e"
+                },
+                {
+                    "line": "22",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "leihen, er leiht, hat geliehen",
+                    "pluriel": "",
+                    "Mot FR": "pr\u00ef\u00bf\u00bdter"
+                },
+                {
+                    "line": "23",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Man kann Fahrr\u00ef\u00bf\u00bdder leihen",
+                    "pluriel": "",
+                    "Mot FR": "on peut pr\u00ef\u00bf\u00bdter des bicyclettes"
+                },
+                {
+                    "line": "24",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Gep\u00ef\u00bf\u00bdck (sing)",
+                    "pluriel": "",
+                    "Mot FR": "les bagages"
+                },
+                {
+                    "line": "25",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "ab/geben, er gibt ab, hat abgegeben",
+                    "pluriel": "",
+                    "Mot FR": "d\u00ef\u00bf\u00bdposer"
+                },
+                {
+                    "line": "26",
+                    "Type": "mot",
+                    "Der-Die-Das": "Der",
+                    "Mot en ALL": "Speisesaal",
+                    "pluriel": "\u00ef\u00bf\u00bd-e",
+                    "Mot FR": "la salle \u00ef\u00bf\u00bd manger"
+                }
+            ],
+            "40": [
+                {
+                    "line": "1",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Geschenk",
+                    "pluriel": "e",
+                    "Mot FR": "le cadeau"
+                },
+                {
+                    "line": "2",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "kochen er kocht, er hat gekocht",
+                    "pluriel": "",
+                    "Mot FR": "cuisiner"
+                },
+                {
+                    "line": "3",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "probieren, er probiert, er hat probiert",
+                    "pluriel": "",
+                    "Mot FR": "essayer"
+                },
+                {
+                    "line": "4",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "zeigen, er zeigt, er hat gezeigt",
+                    "pluriel": "",
+                    "Mot FR": "montrer"
+                },
+                {
+                    "line": "5",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "aus/packen, er packt aus, er hat ausgepackt",
+                    "pluriel": "",
+                    "Mot FR": "d\u00ef\u00bf\u00bdballer, ouvrir"
+                },
+                {
+                    "line": "6",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Victor hat die Geschenke ausgepackt",
+                    "pluriel": "",
+                    "Mot FR": "Victor a ouvert les cadeaux"
+                },
+                {
+                    "line": "7",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "reden, er redet, er hat geredet",
+                    "pluriel": "",
+                    "Mot FR": "parler"
+                },
+                {
+                    "line": "8",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Musik h\u00ef\u00bf\u00bdren, er h\u00ef\u00bf\u00bdrt, hat geh\u00ef\u00bf\u00bdrt",
+                    "pluriel": "",
+                    "Mot FR": "\u00ef\u00bf\u00bdcouter de la musique"
+                },
+                {
+                    "line": "9",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "tanzen, er tanzt, hat getanzt",
+                    "pluriel": "",
+                    "Mot FR": "danser"
+                },
+                {
+                    "line": "10",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "auf/r\u00ef\u00bf\u00bdumen, er r\u00ef\u00bf\u00bdumt auf, hat aufger\u00ef\u00bf\u00bdumt",
+                    "pluriel": "",
+                    "Mot FR": "ranger"
+                },
+                {
+                    "line": "11",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Jens und Martina haben die K\u00ef\u00bf\u00bdche aufger\u00ef\u00bf\u00bdumt",
+                    "pluriel": "",
+                    "Mot FR": " Jens et Martina ont rang\u00ef\u00bf\u00bd la cuisine"
+                },
+                {
+                    "line": "12",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "k\u00ef\u00bf\u00bdssen, er k\u00ef\u00bf\u00bdsst, hat gek\u00ef\u00bf\u00bdsst",
+                    "pluriel": "",
+                    "Mot FR": "embrasser"
+                },
+                {
+                    "line": "13",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wer hat Jens gek\u00ef\u00bf\u00bdsst?",
+                    "pluriel": "",
+                    "Mot FR": "qui a embrass\u00ef\u00bf\u00bd Jens?"
+                },
+                {
+                    "line": "14",
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "stimmen",
+                    "pluriel": "",
+                    "Mot FR": "\u00ef\u00bf\u00bdtre juste, vrai"
+                },
+                {
+                    "line": "15",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "das stimmt",
+                    "pluriel": "",
+                    "Mot FR": "c\u00ef\u00bf\u00bdest juste"
+                },
+                {
+                    "line": "16",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "das stimmt nicht",
+                    "pluriel": "",
+                    "Mot FR": "ce n\u00ef\u00bf\u00bdest pas juste/vrai"
+                },
+                {
+                    "line": "17",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sauer sein, er ist sauer",
+                    "pluriel": "",
+                    "Mot FR": "\u00ef\u00bf\u00bdtre f\u00ef\u00bf\u00bdch\u00ef\u00bf\u00bd"
+                },
+                {
+                    "line": "18",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Alexandra ist sauer",
+                    "pluriel": "",
+                    "Mot FR": "Alexandra est f\u00ef\u00bf\u00bdch\u00ef\u00bf\u00bde"
+                },
+                {
+                    "line": "19",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Entschuldigung!",
+                    "pluriel": "",
+                    "Mot FR": "Excusez moi"
+                },
+                {
+                    "line": "20",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ich h\u00ef\u00bf\u00bdtte gern",
+                    "pluriel": "",
+                    "Mot FR": "J\u00ef\u00bf\u00bdaimerai bien\u00ef\u00bf\u00bd"
+                },
+                {
+                    "line": "21",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wie viel kostet\u00ef\u00bf\u00bd",
+                    "pluriel": "",
+                    "Mot FR": "Combien co\u00ef\u00bf\u00bdte\u00ef\u00bf\u00bd"
+                },
+                {
+                    "line": "22",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wie sp\u00ef\u00bf\u00bdt ist es?",
+                    "pluriel": "",
+                    "Mot FR": "Quelle heure est il?"
+                },
+                {
+                    "line": "23",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wo ist die Toilette, bitte?",
+                    "pluriel": "",
+                    "Mot FR": "O\u00ef\u00bf\u00bd sont les toilettes SVP?"
+                },
+                {
+                    "line": "24",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wie komme ich\u00ef\u00bf\u00bd.",
+                    "pluriel": "",
+                    "Mot FR": "comment est ce que je vais \u00ef\u00bf\u00bd"
+                },
+                {
+                    "line": "25",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "\u00ef\u00bf\u00bd zur Polizei?",
+                    "pluriel": "",
+                    "Mot FR": "\u00ef\u00bf\u00bd la police?"
+                },
+                {
+                    "line": "26",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "...zum Bahnhof?",
+                    "pluriel": "",
+                    "Mot FR": "\u00ef\u00bf\u00bd la gare?"
+                },
+                {
+                    "line": "27",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Welcher Bus f\u00ef\u00bf\u00bdhrt ins Zentrum?",
+                    "pluriel": "",
+                    "Mot FR": "Quel bus va dans le centre?"
+                },
+                {
+                    "line": "28",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wann f\u00ef\u00bf\u00bdhrt\u00ef\u00bf\u00bd?",
+                    "pluriel": "",
+                    "Mot FR": "A quelle heure part\u00ef\u00bf\u00bd?"
+                },
+                {
+                    "line": "29",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Gibt es hier Fahrkarten?",
+                    "pluriel": "",
+                    "Mot FR": "Y a t il des billets ici?"
+                },
+                {
+                    "line": "30",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Kann ich bitte noch eine Cola haben?",
+                    "pluriel": "",
+                    "Mot FR": "Pourrias je encore avoir un coco SVP?"
+                },
+                {
+                    "line": "31",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Museum",
+                    "pluriel": "die Museen",
+                    "Mot FR": "le mus\u00ef\u00bf\u00bde"
+                },
+                {
+                    "line": "32",
+                    "Type": "mot",
+                    "Der-Die-Das": "Der",
+                    "Mot en ALL": "Zoo",
+                    "pluriel": "-s",
+                    "Mot FR": "le zoo"
+                },
+                {
+                    "line": "33",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Zentrum",
+                    "pluriel": "",
+                    "Mot FR": "le centre"
+                },
+                {
+                    "line": "34",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Farhkarte",
+                    "pluriel": "-n",
+                    "Mot FR": "le billet, le titre de transport"
+                },
+                {
+                    "line": "35",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "kaufen, er kauft, hat gekauft",
+                    "pluriel": "",
+                    "Mot FR": "acheter"
+                },
+                {
+                    "line": "36",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "essen, er isst hat gegessen",
+                    "pluriel": "",
+                    "Mot FR": "manger"
+                },
+                {
+                    "line": "37",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "besuchen, er besucht, hat besucht",
+                    "pluriel": "",
+                    "Mot FR": "visiter"
+                },
+                {
+                    "line": "38",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "mit/kommen, er kommt mit, ist mitgekommen",
+                    "pluriel": "",
+                    "Mot FR": "venir avec qqn"
+                },
+                {
+                    "line": "39",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "kommst du mit?",
+                    "pluriel": "",
+                    "Mot FR": "Tu viens (avec moi avec nous)?"
+                },
+                {
+                    "line": "40",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Kirche",
+                    "pluriel": "-n",
+                    "Mot FR": "l \u00ef\u00bf\u00bdglise"
+                },
+                {
+                    "line": "41",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Sie geht in die Kirche",
+                    "pluriel": "",
+                    "Mot FR": "elle va \u00ef\u00bf\u00bd l\u00ef\u00bf\u00bd\u00ef\u00bf\u00bdglise"
+                },
+                {
+                    "line": "42",
+                    "Type": "mot",
+                    "Der-Die-Das": "Der",
+                    "Mot en ALL": "Turm",
+                    "pluriel": "\"-e",
+                    "Mot FR": "la tour"
+                },
+                {
+                    "line": "43",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Br\u00ef\u00bf\u00bdcke",
+                    "pluriel": "-n",
+                    "Mot FR": "Le pont"
+                },
+                {
+                    "line": "44",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wir gehen \u00ef\u00bf\u00bdber die Br\u00ef\u00bf\u00bdcke",
+                    "pluriel": "",
+                    "Mot FR": "Nous traversons le pont"
+                },
+                {
+                    "line": "45",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Stadion",
+                    "pluriel": "Stadien",
+                    "Mot FR": "le stade"
+                },
+                {
+                    "line": "46",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Fussballstadion",
+                    "pluriel": "-stadien",
+                    "Mot FR": "le stade de football"
+                },
+                {
+                    "line": "47",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Polizei",
+                    "pluriel": "",
+                    "Mot FR": "la police"
+                },
+                {
+                    "line": "48",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "steigen, er steigt, ist gestiegen",
+                    "pluriel": "",
+                    "Mot FR": " Jens et Martina ont rang\u00ef\u00bf\u00bd la cuisine"
+                },
+                {
+                    "line": "49",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wir sind auf dem Turm gestiegen",
+                    "pluriel": "",
+                    "Mot FR": "nous sommes mont\u00ef\u00bf\u00bds en haut de la tour"
+                },
+                {
+                    "line": "50",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "besichtigen, er besichtigt, hat besichtigt",
+                    "pluriel": "",
+                    "Mot FR": "visiter (la ville)"
+                },
+                {
+                    "line": "51",
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wie haben die Stadt besichtigt",
+                    "pluriel": "",
+                    "Mot FR": "nous avons visit\u00ef\u00bf\u00bd la ville"
+                },
+                {
+                    "line": "52",
+                    "Type": "mot",
+                    "Der-Die-Das": "Der",
+                    "Mot en ALL": "Meter",
+                    "pluriel": ",-",
+                    "Mot FR": "le m\u00ef\u00bf\u00bdtre"
+                },
+                {
+                    "line": "53",
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Altstadt",
+                    "pluriel": ",\u00ef\u00bf\u00bd-e",
+                    "Mot FR": "la vieille ville, la cit\u00ef\u00bf\u00bd"
+                },
+                {
+                    "line": "54",
+                    "Type": "mot",
+                    "Der-Die-Das": "Das",
+                    "Mot en ALL": "Kunstmuseum",
+                    "pluriel": ",-museen",
+                    "Mot FR": "le mus\u00ef\u00bf\u00bde d\u00ef\u00bf\u00bdart"
+                }
+            ]
+        }
+    }
+}

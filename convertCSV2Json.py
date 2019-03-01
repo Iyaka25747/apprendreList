@@ -4,45 +4,37 @@ from operator import itemgetter
 
 inData = []
 csvFile = open('Voc6_1.csv', 'rt')
-jsonFile = open('outfile_test.json', 'w')
+jsonFile = open('exercices.json', 'w')
 reader = csv.DictReader(csvFile, delimiter = ';')
 
 # build dictionnary from file
 # voc;page;line;Type;Der-Die-Das;Mot en ALL;pluriel;Mot FR
 lessonsDict = dict()
-count = 0
 for row in reader:
+    # Check if this language already exists
+    language = row['language']
+    if  language not in lessonsDict:
+        lessonsDict[language] = {}
     # Check if this voc already exists
     voc = row['voc']
-    if  voc not in lessonsDict:
-        lessonsDict[voc] = {}
+    if  voc not in lessonsDict[language]:
+        lessonsDict[language][voc] = {}
 
     page = str(row['page'])
-    if page not in lessonsDict[voc]:
-        lessonsDict[voc][page]=[]
-    lessonsDict[voc][page].append(row)
-
-    count += 1
-
-
-
-
-prevVoc =""
-prevPage =""
-for row in reader:
-    print(row)
-    # group by - https://stackoverflow.com/questions/773/how-do-i-use-pythons-itertools-groupby 
-    # https://adiyatmubarak.wordpress.com/2015/10/05/group-list-of-dictionary-data-by-particular-key-in-python/
-    # students = sorted(students, key=itemgetter('class'))
-
+    if page not in lessonsDict[language][voc]:
+        lessonsDict[language][voc][page]={}
     
-    if count == 0: #skip the 1st line
-        break
-    while voc == prevVoc:
-        while page == prevPage:
-        #     body = tout les lignes meme voc meme page
-                print("xx")
-#     voc, page, line, motType, derDieDas, motEtranger, motFR = itemgetter(0,1,2,3,4,5,6)(row)
+    line = row['line']
+    # if line not in lessonsDict[language][voc][page]:
+    #     lessonsDict[language][voc][page][line]=[]
 
-    json.dump(row, jsonFile)
-    jsonFile.write('\n')
+    del row['language']
+    del row['voc']
+    del row['page']
+    del row['line']
+    lessonsDict[language][voc][page][line] = row
+
+#Le fichier transformer est sauver dans un fichier pour archive
+json.dump(lessonsDict, jsonFile, indent=4)
+jsonFile.write('\n')
+
