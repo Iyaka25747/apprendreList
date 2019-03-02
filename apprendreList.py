@@ -84,18 +84,17 @@ os.system('cls' if os.name == 'nt' else 'clear')
 vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie]
 if nomLangueChoisie == "allemand":
   if typeExerciceChoisi == "Trouver une correspondance":
-        vocKeys = list(vocabulaireList.keys())
-        nombreMots = len(vocKeys)
+        nombreMots = len(vocabulaireList)
         nombreEnnemis = 4
         count = 0
-        for motAtrouverKey in vocKeys:
-            motAtrouverKey = str(motAtrouverKey)
-            motATrouverFR = vocabulaireList[motAtrouverKey]['Mot FR']
-            motATrouverEquivalent = vocabulaireList[motAtrouverKey]['Der-Die-Das']+" "+vocabulaireList[motAtrouverKey]['Mot en ALL']
+        for motAtrouver in vocabulaireList:
+            # motAtrouverKey = str(motAtrouverKey)
+            motATrouverFR = vocabulaireList[motAtrouver]['Mot FR']
+            motATrouverEquivalent = vocabulaireList[motAtrouver]['Der-Die-Das']+" "+vocabulaireList[motAtrouver]['Mot en ALL']
             #creation d'une list sans le mot à trouver
-            autreMotKeys = vocKeys[:]
-            autreMotKeys.remove(motAtrouverKey)
-            random.shuffle(autreMotKeys)
+            autresMots = dict(vocabulaireList)
+            del(autresMots[motAtrouver])
+            xxxxx random.shuffle(autreMotKeys) # https://stackoverflow.com/questions/19895028/randomly-shuffling-a-dictionary-in-python
             # on choisi les x premiers mot à trouver
             autreMotKeys = autreMotKeys[:nombreEnnemis]
             #on construit la liste à montrer
@@ -103,9 +102,11 @@ if nomLangueChoisie == "allemand":
             aTrouverMotsKeys.append(motAtrouverKey)
             random.shuffle(aTrouverMotsKeys)
             # construction des mots ennemis
-            listeMotsEtranger = []
+            listeMotsEtranger = {}
+            countMotAtrouver = 0
             for key in aTrouverMotsKeys:
-               XXXXXXX listeMotsEtranger.append(vocabulaireList.get(key)[2]+" "+vocabulaireList.get(key)[3])
+                key = 'mot'+str(countMotAtrouver)
+                listeMotsEtranger[key]= vocabulaireList['Der-Die-Das']+" "+vocabulaireList['Mot en ALL']
             # On pose la question et on vérifie
             repeteQuestion = True
             while repeteQuestion:
