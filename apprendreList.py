@@ -87,38 +87,41 @@ if nomLangueChoisie == "allemand":
         nombreMots = len(vocabulaireList)
         nombreEnnemis = 4
         count = 0
-        for motAtrouver in vocabulaireList:
+        for keyAtrouver in vocabulaireList:
             # motAtrouverKey = str(motAtrouverKey)
-            motATrouverFR = vocabulaireList[motAtrouver]['Mot FR']
-            motATrouverEquivalent = vocabulaireList[motAtrouver]['Der-Die-Das']+" "+vocabulaireList[motAtrouver]['Mot en ALL']
+            motATrouverFR = vocabulaireList[keyAtrouver]['Mot FR']
+            motATrouverEquivalent = vocabulaireList[keyAtrouver]['Der-Die-Das']+" "+vocabulaireList[keyAtrouver]['Mot en ALL']
             #creation d'une list sans le mot à trouver
             autresMots = dict(vocabulaireList)
-            del(autresMots[motAtrouver])
+            del(autresMots[keyAtrouver])
             # on mélange les mots
-            keys = list(autresMots.keys())
-            random.shuffle(keys)
-            autresMots = [(key, autresMots[key]) for key in keys]
+            autresMotsKeys = list(autresMots.keys())
+            random.shuffle(autresMotsKeys)
+            # autresMotsKeys = {(key, autresMots[key]) for key in autresMotsKeys}
             # on choisi les x premiers mot à trouver
-            autresMotsEnnemis = {}
-            countEnnemis = nombreEnnemis - 1
-            for key in keys:
+            #autresMotsEnnemis = {}
+            countEnnemis = nombreEnnemis
+            autresMotsEnnemisKeys = [] 
+            for key in autresMotsKeys:
                 if countEnnemis != 0:
-                    autresMotsEnnemis[key] = {'a':1, 'b':2} #autresMots[key]
+                    autresMotsEnnemisKeys.append(key)
                     countEnnemis -= 1
             #on construit la liste à montrer
-            aTrouverMotsKeys = autreMotKeys[:]
-            aTrouverMotsKeys.append(motAtrouverKey)
-            random.shuffle(aTrouverMotsKeys)
-            # construction des mots ennemis
-            listeMotsEtranger = {}
-            countMotAtrouver = 0
-            for key in aTrouverMotsKeys:
-                key = 'mot'+str(countMotAtrouver)
-                listeMotsEtranger[key]= vocabulaireList['Der-Die-Das']+" "+vocabulaireList['Mot en ALL']
+            motsAMontrerKeys = []
+            motsAMontrerKeys = autresMotsEnnemisKeys[:]
+            motsAMontrerKeys.append(keyAtrouver)
+            # on mélange les mots
+            random.shuffle(motsAMontrerKeys)
+            # on construit la liste des mots a afficher
+            listeMotsEtranger = []
+            for key in motsAMontrerKeys:
+                listeMotsEtranger.append(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'] )
             # On pose la question et on vérifie
             repeteQuestion = True
+
             while repeteQuestion:
-                print("{reste}/{total} Comment dire: '{motATrouver}'".format(motATrouver=motATrouverFR, reste = nombreMots - count, total =nombreMots ))
+                print("{reste}/{total} Comment dire: '{motATrouver}'".format(motATrouver=vocabulaireList[keyAtrouver]['Mot FR'], reste = nombreMots - count, total =nombreMots ))
+                
                 reponse = choisirElement(listeMotsEtranger)
                 if reponse == motATrouverEquivalent:
                     repeteQuestion = False
