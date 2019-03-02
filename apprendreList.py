@@ -103,7 +103,7 @@ if nomLangueChoisie == "allemand":
             countEnnemis = nombreEnnemis - 1
             for key in keys:
                 if countEnnemis != 0:
-                    autresMotsEnnemis[key] = {'a'=1, 'b'=2} #autresMots[key]
+                    autresMotsEnnemis[key] = {'a':1, 'b':2} #autresMots[key]
                     countEnnemis -= 1
             #on construit la liste à montrer
             aTrouverMotsKeys = autreMotKeys[:]
