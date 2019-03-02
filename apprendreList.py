@@ -79,7 +79,7 @@ typeExerciceChoisi = choisirElement(typePossible)
 # Execution de l'exercice #
 ###########################
 
-#Clear terminal screen
+#Clear terminal screen 
 os.system('cls' if os.name == 'nt' else 'clear')
 vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie]
 if nomLangueChoisie == "allemand":
