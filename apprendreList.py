@@ -94,9 +94,17 @@ if nomLangueChoisie == "allemand":
             #creation d'une list sans le mot à trouver
             autresMots = dict(vocabulaireList)
             del(autresMots[motAtrouver])
-            xxxxx random.shuffle(autreMotKeys) # https://stackoverflow.com/questions/19895028/randomly-shuffling-a-dictionary-in-python
+            # on mélange les mots
+            keys = list(autresMots.keys())
+            random.shuffle(keys)
+            autresMots = [(key, autresMots[key]) for key in keys]
             # on choisi les x premiers mot à trouver
-            autreMotKeys = autreMotKeys[:nombreEnnemis]
+            autresMotsEnnemis = {}
+            countEnnemis = nombreEnnemis - 1
+            for key in keys:
+                if countEnnemis != 0:
+                    autresMotsEnnemis[key] = {'a'=1, 'b'=2} #autresMots[key]
+                    countEnnemis -= 1
             #on construit la liste à montrer
             aTrouverMotsKeys = autreMotKeys[:]
             aTrouverMotsKeys.append(motAtrouverKey)
