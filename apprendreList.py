@@ -44,7 +44,7 @@ print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.cu
 
 #Fichier source exercices
 exercicesFile = 'exercices.json'
-with open(exercicesFile, 'r') as file:
+with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
 

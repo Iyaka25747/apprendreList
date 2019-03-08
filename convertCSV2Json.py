@@ -35,6 +35,6 @@ for row in reader:
     lessonsDict[language][voc][page][line] = row
 
 #Le fichier transformer est sauver dans un fichier pour archive
-json.dump(lessonsDict, jsonFile, indent=4)
+json.dump(lessonsDict, jsonFile, indent=4, ensure_ascii=False )
 jsonFile.write('\n')
 
