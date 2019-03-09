@@ -4,7 +4,7 @@ from operator import itemgetter
 
 inData = []
 csvFile = open('Voc6_1.csv', 'rt')
-jsonFile = open('exercices.json', 'w')
+jsonFile = open('exercices_tmp.json', 'w')
 reader = csv.DictReader(csvFile, delimiter = ';')
 
 # build dictionnary from file

@@ -1,5 +1,30 @@
 {
     "allemand": {
+        "test": {
+            "page1": {
+                "1": {
+                    "Type": "mot",
+                    "Der-Die-Das": "Die",
+                    "Mot en ALL": "Reise",
+                    "pluriel": "-n",
+                    "Mot FR": "le voyage"
+                },
+                "2": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Alle sind müde und schlafen",
+                    "pluriel": "",
+                    "Mot FR": "tous sont fatigués et dorment"
+                },
+                "3": {
+                    "Type": "mot",
+                    "Der-Die-Das": "Der",
+                    "Mot en ALL": "Treffpunkt",
+                    "pluriel": "-e",
+                    "Mot FR": "le point de rencontre"
+                }
+            }
+        },
         "voc6": {
             "39": {
                 "1": {

@@ -81,65 +81,70 @@ typeExerciceChoisi = choisirElement(typePossible)
 
 #Clear terminal screen 
 os.system('cls' if os.name == 'nt' else 'clear')
-vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie]
-if nomLangueChoisie == "allemand":
-  if typeExerciceChoisi == "Trouver une correspondance":
-        nombreMots = len(vocabulaireList)
-        nombreEnnemis = 4
-        count = 0
-        for keyAtrouver in vocabulaireList:
-            # motAtrouverKey = str(motAtrouverKey)
-            motATrouverFR = vocabulaireList[keyAtrouver]['Mot FR']
-            motATrouverEquivalent = vocabulaireList[keyAtrouver]['Der-Die-Das']+" "+vocabulaireList[keyAtrouver]['Mot en ALL']
-            #creation d'une list sans le mot à trouver
-            autresMots = dict(vocabulaireList)
-            del(autresMots[keyAtrouver])
-            # on mélange les mots
-            autresMotsKeys = list(autresMots.keys())
-            random.shuffle(autresMotsKeys)
-            # autresMotsKeys = {(key, autresMots[key]) for key in autresMotsKeys}
-            # on choisi les x premiers mot à trouver
-            #autresMotsEnnemis = {}
-            countEnnemis = nombreEnnemis
-            autresMotsEnnemisKeys = [] 
-            for key in autresMotsKeys:
-                if countEnnemis != 0:
-                    autresMotsEnnemisKeys.append(key)
-                    countEnnemis -= 1
-            #on construit la liste à montrer
-            motsAMontrerKeys = []
-            motsAMontrerKeys = autresMotsEnnemisKeys[:]
-            motsAMontrerKeys.append(keyAtrouver)
-            # on mélange les mots
-            random.shuffle(motsAMontrerKeys)
-            # on construit la liste des mots a afficher
-            listeMotsEtranger = []
-            for key in motsAMontrerKeys:
-                listeMotsEtranger.append(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'] )
-            # On pose la question et on vérifie
-            repeteQuestion = True
-
-            while repeteQuestion:
-                print("{reste}/{total} Comment dire: '{motATrouver}'".format(motATrouver=vocabulaireList[keyAtrouver]['Mot FR'], reste = nombreMots - count, total =nombreMots ))
-                
-                reponse = choisirElement(listeMotsEtranger)
-                if reponse == motATrouverEquivalent:
-                    repeteQuestion = False
-                    evaluationReponse = "Juste"                
-                    print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEquivalent))                    
-                else:
-                    repeteQuestion = True
-                    evaluationReponse = "Faux"   
-                    print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEquivalent))
-                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, nomJoueur,nomLangueChoisie,nomVocChoisi,nomPageChoisie,typeExerciceChoisi,evaluationReponse, motATrouverEquivalent,reponse]
-            count = count + 1
-
-#Enregistrement des statistiques
 myFile = open(recordFile, 'a')
 print("Enregistrement des calculs dans {fichier}".format(fichier = recordFile ))
 with myFile:
     writer = csv.writer(myFile, delimiter=',', lineterminator='\n')
-    writer.writerows([resultatQuestion])
+    vocabulaireList = dataExercices[nomLangueChoisie][nomVocChoisi][nomPageChoisie]
+    if nomLangueChoisie == "allemand":
+        ############################
+        # Trouver une correspondance
+        ############################
+        if typeExerciceChoisi == "Trouver une correspondance":
+                nombreMots = len(vocabulaireList)
+                nombreEnnemis = 4
+                count = 0
+                for keyAtrouver in vocabulaireList:
+                    # motAtrouverKey = str(motAtrouverKey)
+                    motATrouverFR = vocabulaireList[keyAtrouver]['Mot FR']
+                    motATrouverEtrange = vocabulaireList[keyAtrouver]['Der-Die-Das']+" "+vocabulaireList[keyAtrouver]['Mot en ALL']
+                    #creation d'une list sans le mot à trouver
+                    autresMots = dict(vocabulaireList)
+                    del(autresMots[keyAtrouver])
+                    # on mélange les mots
+                    autresMotsKeys = list(autresMots.keys())
+                    random.shuffle(autresMotsKeys)
+                    # autresMotsKeys = {(key, autresMots[key]) for key in autresMotsKeys}
+                    # on choisi les x premiers mot à trouver
+                    countEnnemis = nombreEnnemis
+                    autresMotsEnnemisKeys = [] 
+                    for key in autresMotsKeys:
+                        if countEnnemis != 0:
+                            autresMotsEnnemisKeys.append(key)
+                            countEnnemis -= 1
+                    #on construit la liste à montrer
+                    motsAMontrerKeys = []
+                    motsAMontrerKeys = autresMotsEnnemisKeys[:]
+                    motsAMontrerKeys.append(keyAtrouver)
+                    # on mélange les mots
+                    random.shuffle(motsAMontrerKeys)
+                    # on construit la liste des mots a afficher
+                    listeMotsEtrangeAMontrer = []
+                    for key in motsAMontrerKeys:
+                        listeMotsEtrangeAMontrer.append(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'] )
+                    # On pose la question et on vérifie
+                    repeteQuestion = True
+                    while repeteQuestion:
+                        print("{reste}/{total} Comment dire: '{motATrouverFR}'".format(motATrouverFR=vocabulaireList[keyAtrouver]['Mot FR'], reste = nombreMots - count, total =nombreMots ))
+                        
+                        reponse = choisirElement(listeMotsEtrangeAMontrer)
+                        if reponse == motATrouverEtrange:
+                            repeteQuestion = False
+                            evaluationReponse = "Juste"                
+                            print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEtrange))                    
+                        else:
+                            repeteQuestion = True
+                            evaluationReponse = "Faux"   
+                            print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEtrange))
+                        resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, nomJoueur,nomLangueChoisie,nomVocChoisi,nomPageChoisie,typeExerciceChoisi,evaluationReponse, motATrouverEtrange,reponse]
+                        writer.writerows([resultatQuestion])
+                    count = count + 1
+    #Enregistrement des statistiques
+    # myFile = open(recordFile, 'a')
+    # print("Enregistrement des calculs dans {fichier}".format(fichier = recordFile ))
+    # with myFile:
+    #     writer = csv.writer(myFile, delimiter=',', lineterminator='\n')
+    #     writer.writerows([resultatQuestion])
 print("Fin de l'enregistrement")
 myFile.close()
 
