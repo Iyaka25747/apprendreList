@@ -43,7 +43,7 @@ globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant
 print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.currentTime))
 
 #Fichier source exercices
-exercicesFile = 'exercices.json'
+exercicesFile = 'exercices_voc4.json'
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
@@ -132,10 +132,14 @@ with myFile:
                             repeteQuestion = False
                             evaluationReponse = "Juste"                
                             print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEtrange))                    
+                            if globalSettings.soundActive == True:
+                                winsound.PlaySound(globalSettings.goodSound, winsound.SND_FILENAME)
                         else:
                             repeteQuestion = True
                             evaluationReponse = "Faux"   
-                            print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = motATrouverEtrange))
+                            print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(evaluation = evaluationReponse,motFR = motATrouverFR, motEquivalent = reponse))
+                            if globalSettings.soundActive == True:
+                                winsound.PlaySound(globalSettings.badSound, winsound.SND_FILENAME)
                         resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, nomJoueur,nomLangueChoisie,nomVocChoisi,nomPageChoisie,typeExerciceChoisi,evaluationReponse, motATrouverEtrange,reponse]
                         writer.writerows([resultatQuestion])
                     count = count + 1
@@ -151,3 +155,4 @@ myFile.close()
 print("\nOuf.... c'est fini ...")
 
 fin = input("Terminé")
+

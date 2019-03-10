@@ -1,0 +1,488 @@
+{
+    "allemand": {
+        "voc4": {
+            "25": {
+                "1": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Herzlichen Glückwunsch zum Geburtstag!",
+                    "pluriel": "",
+                    "Mot FR": "Joyeux anniversaire !"
+                },
+                "2": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Frohe Ostern!",
+                    "pluriel": "",
+                    "Mot FR": "Joyeuses Pâques !"
+                },
+                "3": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Frohe Weihnachten!",
+                    "pluriel": "",
+                    "Mot FR": "Joyeux Noël !"
+                },
+                "4": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Alles Gute!",
+                    "pluriel": "",
+                    "Mot FR": "Tout de bon !"
+                },
+                "5": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Kommst du?",
+                    "pluriel": "",
+                    "Mot FR": "Tu viens ?"
+                },
+                "6": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Viel Glück!",
+                    "pluriel": "",
+                    "Mot FR": "Bonne chance !"
+                },
+                "7": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Gute Reise!",
+                    "pluriel": "",
+                    "Mot FR": "Bon voyage !"
+                },
+                "8": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Gute Besserung!",
+                    "pluriel": "",
+                    "Mot FR": "Bon rétablissement !"
+                },
+                "9": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Guten Appetit!",
+                    "pluriel": "",
+                    "Mot FR": "Bon appétit !"
+                },
+                "10": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Geburtstag",
+                    "pluriel": "-e",
+                    "Mot FR": "l’anniversaire"
+                },
+                "11": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wann hast du Geburtstag?",
+                    "pluriel": "",
+                    "Mot FR": "Quand as-tu ton anniversaire ?"
+                },
+                "12": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ich habe am … Geburtstag",
+                    "pluriel": "",
+                    "Mot FR": "J’ai mon anniversaire le…"
+                },
+                "13": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "die Party",
+                    "pluriel": "-s",
+                    "Mot FR": "la fête"
+                },
+                "14": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wie war die Party?",
+                    "pluriel": "",
+                    "Mot FR": "Comment était la fête ?"
+                },
+                "15": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Die Party war super!",
+                    "pluriel": "",
+                    "Mot FR": "La fête était super !"
+                },
+                "16": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Kuchen",
+                    "pluriel": "-",
+                    "Mot FR": "le gâteau"
+                },
+                "17": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Sạft",
+                    "pluriel": "”-e",
+                    "Mot FR": "le jus"
+                },
+                "18": {
+                    "Type": "mot",
+                    "Der-Die-Das": "das",
+                    "Mot en ALL": "Geschẹnk",
+                    "pluriel": "-e",
+                    "Mot FR": "le cadeau"
+                },
+                "19": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Eistee",
+                    "pluriel": "-s",
+                    "Mot FR": "le thé froid"
+                }
+            },
+            "26": {
+                "1": {
+                    "Type": "mot",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": "Geburtstagsparty",
+                    "pluriel": "-s",
+                    "Mot FR": "la fête d’anniversaire"
+                },
+                "2": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "feiern, er feiert",
+                    "pluriel": "",
+                    "Mot FR": "fêter, faire la fête"
+                },
+                "3": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wir feiern im Garten",
+                    "pluriel": "",
+                    "Mot FR": "Nous faisons la fête dans le jardin."
+                },
+                "4": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "ein|laden, er lädt ein",
+                    "pluriel": "",
+                    "Mot FR": "inviter"
+                },
+                "5": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ich lade meine Freunde ein.",
+                    "pluriel": "",
+                    "Mot FR": "J’invite mes amis."
+                },
+                "6": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Komm doch später!",
+                    "pluriel": "",
+                    "Mot FR": "Viens donc plus tard !"
+                },
+                "7": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "mịt|bringen, er bringt … mịt",
+                    "pluriel": "",
+                    "Mot FR": "apporter"
+                },
+                "8": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Sie bringt ein Geschenk mit.",
+                    "pluriel": "",
+                    "Mot FR": "Elle apporte un cadeau."
+                },
+                "9": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Ausflug",
+                    "pluriel": "”-e",
+                    "Mot FR": "l’excursion, la sortie"
+                },
+                "10": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wir machen einen Ausflug in die Berge.",
+                    "pluriel": "",
+                    "Mot FR": "Nous faisons une excursion à la montagne."
+                },
+                "11": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Gạst",
+                    "pluriel": "”-e",
+                    "Mot FR": "l’hôte, l’invité"
+                },
+                "12": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Gestern hatte ich keine Zeit/Lust.",
+                    "pluriel": "",
+                    "Mot FR": "Hier, je n’avais pas le temps / pas envie."
+                },
+                "13": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "früh auf |stehen, er steht früh auf",
+                    "pluriel": "",
+                    "Mot FR": "se lever tôt"
+                },
+                "14": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "lange schlafen, er schläft lange",
+                    "pluriel": "",
+                    "Mot FR": "dormir longtemps"
+                },
+                "15": {
+                    "Type": "",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": " Einladung",
+                    "pluriel": "-en",
+                    "Mot FR": "l’invitation"
+                },
+                "16": {
+                    "Type": "",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Danke für deine Einladung.",
+                    "pluriel": "",
+                    "Mot FR": "Merci pour ton invitation."
+                },
+                "17": {
+                    "Type": "",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": "Jugendlichen (Plural)",
+                    "pluriel": "",
+                    "Mot FR": "les jeunes"
+                },
+                "18": {
+                    "Type": "",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "König",
+                    "pluriel": "-e",
+                    "Mot FR": "le roi"
+                },
+                "19": {
+                    "Type": "",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": "Königin",
+                    "pluriel": "-nen",
+                    "Mot FR": "la reine"
+                },
+                "20": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Frühling",
+                    "pluriel": "",
+                    "Mot FR": "au printemps"
+                },
+                "21": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Sọmmer",
+                    "pluriel": "",
+                    "Mot FR": "en été"
+                },
+                "22": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Hẹrbst",
+                    "pluriel": "",
+                    "Mot FR": "en automne"
+                },
+                "23": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Wịnter",
+                    "pluriel": "",
+                    "Mot FR": "en hiver"
+                },
+                "24": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Monat",
+                    "pluriel": "-e",
+                    "Mot FR": "le mois"
+                },
+                "25": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Jạnuar",
+                    "pluriel": "",
+                    "Mot FR": "en janvier"
+                },
+                "26": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Februar",
+                    "pluriel": "",
+                    "Mot FR": "en février"
+                },
+                "27": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im März",
+                    "pluriel": "",
+                    "Mot FR": "en mars"
+                },
+                "28": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Aprịl",
+                    "pluriel": "",
+                    "Mot FR": "en avril"
+                }
+            },
+            "27": {
+                "1": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Mai",
+                    "pluriel": "",
+                    "Mot FR": "en mai"
+                },
+                "2": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Juni",
+                    "pluriel": "",
+                    "Mot FR": "en juin"
+                },
+                "3": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Juli",
+                    "pluriel": "",
+                    "Mot FR": "en juillet"
+                },
+                "4": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Augụst",
+                    "pluriel": "",
+                    "Mot FR": "en août"
+                },
+                "5": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Septẹmber",
+                    "pluriel": "",
+                    "Mot FR": "en septembre"
+                },
+                "6": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Oktober",
+                    "pluriel": "",
+                    "Mot FR": "en octobre"
+                },
+                "7": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Novẹmber",
+                    "pluriel": "",
+                    "Mot FR": "en novembre"
+                },
+                "8": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "im Dezẹmber",
+                    "pluriel": "",
+                    "Mot FR": "en décembre"
+                },
+                "9": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Kalẹnder",
+                    "pluriel": "-",
+                    "Mot FR": "le calendrier"
+                },
+                "10": {
+                    "Type": "mot",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": "Jahreszeit",
+                    "pluriel": "-en",
+                    "Mot FR": "la saison"
+                },
+                "11": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Es gibt vier Jahreszeiten.",
+                    "pluriel": "",
+                    "Mot FR": "Il y a quatre saisons."
+                },
+                "12": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "ịmmer",
+                    "pluriel": "",
+                    "Mot FR": "toujours"
+                },
+                "13": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "meistens",
+                    "pluriel": "",
+                    "Mot FR": "le plus souvent, la plupart du temps"
+                },
+                "14": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "ọft",
+                    "pluriel": "",
+                    "Mot FR": "souvent"
+                },
+                "15": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "mạnchmal",
+                    "pluriel": "",
+                    "Mot FR": "parfois"
+                },
+                "16": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "nie",
+                    "pluriel": "",
+                    "Mot FR": "jamais"
+                },
+                "17": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "krạnk",
+                    "pluriel": "",
+                    "Mot FR": "malade"
+                },
+                "18": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Wie geht es dir?",
+                    "pluriel": "",
+                    "Mot FR": "Comment vas-tu?"
+                },
+                "19": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Es geht mir schlecht",
+                    "pluriel": "",
+                    "Mot FR": "Je vais mal"
+                },
+                "20": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "nicht so gut",
+                    "pluriel": "",
+                    "Mot FR": "pas très bien"
+                },
+                "21": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "besser",
+                    "pluriel": "",
+                    "Mot FR": "mieux"
+                }
+            }
+        }
+    }
+}
