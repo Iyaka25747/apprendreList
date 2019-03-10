@@ -81,7 +81,7 @@ typeExerciceChoisi = choisirElement(typePossible)
 
 #Clear terminal screen 
 os.system('cls' if os.name == 'nt' else 'clear')
-myFile = open(recordFile, 'a')
+myFile = open(recordFile, 'a', encoding="utf8")
 print("Enregistrement des calculs dans {fichier}".format(fichier = recordFile ))
 with myFile:
     writer = csv.writer(myFile, delimiter=',', lineterminator='\n')
