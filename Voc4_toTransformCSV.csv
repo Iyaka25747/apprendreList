@@ -26,9 +26,9 @@ allemand;voc4;26;5;phrase;;Ich lade meine Freunde ein.;;J’invite mes amis.
 allemand;voc4;26;6;phrase;;Komm doch später!;;Viens donc plus tard !
 allemand;voc4;26;7;phrase;;mịt|bringen, er bringt … mịt;;apporter
 allemand;voc4;26;8;phrase;;Sie bringt ein Geschenk mit.;;Elle apporte un cadeau.
-allemand;voc4;26;9;mot;der;Ausflug;”-e;l’excursion, la sortie
+allemand;voc4;26;9;mot;der;Ausflug;ü-e;l’excursion, la sortie
 allemand;voc4;26;10;phrase;;Wir machen einen Ausflug in die Berge.;;Nous faisons une excursion à la montagne.
-allemand;voc4;26;11;mot;der;Gạst;”-e;l’hôte, l’invité
+allemand;voc4;26;11;mot;der;Gạst;ä-e;l’hôte, l’invité
 allemand;voc4;26;12;phrase;;Gestern hatte ich keine Zeit/Lust.;;Hier, je n’avais pas le temps / pas envie.
 allemand;voc4;26;13;phrase;;früh auf |stehen, er steht früh auf;;se lever tôt
 allemand;voc4;26;14;phrase;;lange schlafen, er schläft lange;;dormir longtemps
@@ -67,3 +67,13 @@ allemand;voc4;27;18;phrase;;Wie geht es dir?;;Comment vas-tu?
 allemand;voc4;27;19;phrase;;Es geht mir schlecht;;Je vais mal
 allemand;voc4;27;20;phrase;;nicht so gut;;pas très bien
 allemand;voc4;27;21;phrase;;besser;;mieux
+allemand;voc4;28;1;phrase;;Ich habe Fieber.;;J’ai de la fièvre.
+allemand;voc4;28;2;phrase;;Ich habe Bauchweh.;;J’ai mal de ventre.
+allemand;voc4;28;3;phrase;;Gestern hatte ich Kopfweh.;;Hier, j’avais mal de tête.
+allemand;voc4;28;4;phrase;;Bist du jetzt wieder o. k.?;;Es-tu de nouveau en forme ?
+allemand;voc4;28;5;mot;der;Ụnfall;ä-e;l’accident
+allemand;voc4;28;6;mot;das;Krạnkenhaus;ä-er;l’hôpital
+allemand;voc4;28;7;phrase;;Warst du im Krankenhaus?;;Tu étais à l’hôpital?
+allemand;voc4;28;8;phrase;;fụrchtbar;;terrible, horrible
+allemand;voc4;28;9;phrase;;Der Test war furchtbar!;;Le test était horrible !
+allemand;voc4;28;10;mot;die;Katastrophe;-n;la catastrophe

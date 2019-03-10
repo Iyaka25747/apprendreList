@@ -197,7 +197,7 @@
                     "Type": "mot",
                     "Der-Die-Das": "der",
                     "Mot en ALL": "Ausflug",
-                    "pluriel": "”-e",
+                    "pluriel": "ü-e",
                     "Mot FR": "l’excursion, la sortie"
                 },
                 "10": {
@@ -211,7 +211,7 @@
                     "Type": "mot",
                     "Der-Die-Das": "der",
                     "Mot en ALL": "Gạst",
-                    "pluriel": "”-e",
+                    "pluriel": "ä-e",
                     "Mot FR": "l’hôte, l’invité"
                 },
                 "12": {
@@ -481,6 +481,78 @@
                     "Mot en ALL": "besser",
                     "pluriel": "",
                     "Mot FR": "mieux"
+                }
+            },
+            "28": {
+                "1": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ich habe Fieber.",
+                    "pluriel": "",
+                    "Mot FR": "J’ai de la fièvre."
+                },
+                "2": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ich habe Bauchweh.",
+                    "pluriel": "",
+                    "Mot FR": "J’ai mal de ventre."
+                },
+                "3": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Gestern hatte ich Kopfweh.",
+                    "pluriel": "",
+                    "Mot FR": "Hier, j’avais mal de tête."
+                },
+                "4": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Bist du jetzt wieder o. k.?",
+                    "pluriel": "",
+                    "Mot FR": "Es-tu de nouveau en forme ?"
+                },
+                "5": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Ụnfall",
+                    "pluriel": "ä-e",
+                    "Mot FR": "l’accident"
+                },
+                "6": {
+                    "Type": "mot",
+                    "Der-Die-Das": "das",
+                    "Mot en ALL": "Krạnkenhaus",
+                    "pluriel": "ä-er",
+                    "Mot FR": "l’hôpital"
+                },
+                "7": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Warst du im Krankenhaus?",
+                    "pluriel": "",
+                    "Mot FR": "Tu étais à l’hôpital?"
+                },
+                "8": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "fụrchtbar",
+                    "pluriel": "",
+                    "Mot FR": "terrible, horrible"
+                },
+                "9": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Der Test war furchtbar!",
+                    "pluriel": "",
+                    "Mot FR": "Le test était horrible !"
+                },
+                "10": {
+                    "Type": "mot",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": "Katastrophe",
+                    "pluriel": "-n",
+                    "Mot FR": "la catastrophe"
                 }
             }
         }
