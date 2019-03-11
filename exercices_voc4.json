@@ -1,7 +1,7 @@
 {
     "allemand": {
         "voc4": {
-            "25": {
+            "p25": {
                 "1": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
@@ -88,8 +88,8 @@
                 },
                 "13": {
                     "Type": "mot",
-                    "Der-Die-Das": "",
-                    "Mot en ALL": "die Party",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": "Party",
                     "pluriel": "-s",
                     "Mot FR": "la fête"
                 },
@@ -117,14 +117,14 @@
                 "17": {
                     "Type": "mot",
                     "Der-Die-Das": "der",
-                    "Mot en ALL": "Sạft",
+                    "Mot en ALL": "Saft",
                     "pluriel": "ä-e",
                     "Mot FR": "le jus"
                 },
                 "18": {
                     "Type": "mot",
                     "Der-Die-Das": "das",
-                    "Mot en ALL": "Geschẹnk",
+                    "Mot en ALL": "Geschenk",
                     "pluriel": "-e",
                     "Mot FR": "le cadeau"
                 },
@@ -136,7 +136,7 @@
                     "Mot FR": "le thé froid"
                 }
             },
-            "26": {
+            "p26": {
                 "1": {
                     "Type": "mot",
                     "Der-Die-Das": "die",
@@ -182,7 +182,7 @@
                 "7": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "mịt|bringen, er bringt … mịt",
+                    "Mot en ALL": "mit|bringen, er bringt … mịt",
                     "pluriel": "",
                     "Mot FR": "apporter"
                 },
@@ -210,7 +210,7 @@
                 "11": {
                     "Type": "mot",
                     "Der-Die-Das": "der",
-                    "Mot en ALL": "Gạst",
+                    "Mot en ALL": "Gast",
                     "pluriel": "ä-e",
                     "Mot FR": "l’hôte, l’invité"
                 },
@@ -280,21 +280,21 @@
                 "21": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Sọmmer",
+                    "Mot en ALL": "im Sommer",
                     "pluriel": "",
                     "Mot FR": "en été"
                 },
                 "22": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Hẹrbst",
+                    "Mot en ALL": "im Herbst",
                     "pluriel": "",
                     "Mot FR": "en automne"
                 },
                 "23": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Wịnter",
+                    "Mot en ALL": "im Winter",
                     "pluriel": "",
                     "Mot FR": "en hiver"
                 },
@@ -308,7 +308,7 @@
                 "25": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Jạnuar",
+                    "Mot en ALL": "im Januar",
                     "pluriel": "",
                     "Mot FR": "en janvier"
                 },
@@ -329,12 +329,12 @@
                 "28": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Aprịl",
+                    "Mot en ALL": "im April",
                     "pluriel": "",
                     "Mot FR": "en avril"
                 }
             },
-            "27": {
+            "p27": {
                 "1": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
@@ -359,7 +359,7 @@
                 "4": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Augụst",
+                    "Mot en ALL": "im August",
                     "pluriel": "",
                     "Mot FR": "en août"
                 },
@@ -380,21 +380,21 @@
                 "7": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Novẹmber",
+                    "Mot en ALL": "im November",
                     "pluriel": "",
                     "Mot FR": "en novembre"
                 },
                 "8": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "im Dezẹmber",
+                    "Mot en ALL": "im Dezember",
                     "pluriel": "",
                     "Mot FR": "en décembre"
                 },
                 "9": {
                     "Type": "mot",
                     "Der-Die-Das": "der",
-                    "Mot en ALL": "Kalẹnder",
+                    "Mot en ALL": "Kalender",
                     "pluriel": "-",
                     "Mot FR": "le calendrier"
                 },
@@ -415,7 +415,7 @@
                 "12": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "ịmmer",
+                    "Mot en ALL": "immer",
                     "pluriel": "",
                     "Mot FR": "toujours"
                 },
@@ -429,14 +429,14 @@
                 "14": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "ọft",
+                    "Mot en ALL": "oft",
                     "pluriel": "",
                     "Mot FR": "souvent"
                 },
                 "15": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "mạnchmal",
+                    "Mot en ALL": "manchmal",
                     "pluriel": "",
                     "Mot FR": "parfois"
                 },
@@ -450,7 +450,7 @@
                 "17": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "krạnk",
+                    "Mot en ALL": "krank",
                     "pluriel": "",
                     "Mot FR": "malade"
                 },
@@ -483,7 +483,7 @@
                     "Mot FR": "mieux"
                 }
             },
-            "28": {
+            "p28": {
                 "1": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
@@ -515,14 +515,14 @@
                 "5": {
                     "Type": "mot",
                     "Der-Die-Das": "der",
-                    "Mot en ALL": "Ụnfall",
+                    "Mot en ALL": "Unfall",
                     "pluriel": "ä-e",
                     "Mot FR": "l’accident"
                 },
                 "6": {
                     "Type": "mot",
                     "Der-Die-Das": "das",
-                    "Mot en ALL": "Krạnkenhaus",
+                    "Mot en ALL": "Krankenhaus",
                     "pluriel": "ä-er",
                     "Mot FR": "l’hôpital"
                 },
@@ -536,7 +536,7 @@
                 "8": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "fụrchtbar",
+                    "Mot en ALL": "furchtbar",
                     "pluriel": "",
                     "Mot FR": "terrible, horrible"
                 },
