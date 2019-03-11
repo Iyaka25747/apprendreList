@@ -93,7 +93,10 @@ if choix.nomLangueChoisie == "allemand":
     ############################
     if choix.typeExerciceChoisi == "Trouver une correspondance":
         trouverLeMot(recordFile, dataExercices, choix, globalSettings)
+    elif choix.typeExerciceChoisi == "Ecrire le mot":
+        ecrireLesMots(recordFile, dataExercices, choix, globalSettings)
 
 print("\nOuf.... c'est fini ...")
 fin = input("Terminé, presser une touche")
+
 

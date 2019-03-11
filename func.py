@@ -219,7 +219,7 @@ def trouverLeMot(recordFile, dataExercices, choix, globalSettings):
             for key in autresMotsKeys:
                 if countEnnemis != 0:
                     autresMotsEnnemisKeys.append(key)
-                    countEnnemis -= 1
+                    countEnnemis -= 1 
             #on construit la liste à montrer
             motsAMontrerKeys = []
             motsAMontrerKeys = autresMotsEnnemisKeys[:]
@@ -263,4 +263,25 @@ def trouverLeMot(recordFile, dataExercices, choix, globalSettings):
                 myFile.close()
         count = count + 1
     print("Enregistrement des exercices dans {fichier}".format(fichier = recordFile ))
+    return
+
+
+def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
+    vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+    nombreElements = len(vocabulaireList)
+    
+    choix.typePhraseOuMot = "mot"
+
+    if choix.typePhraseOuMot == "mot":  #on exerce l'écriture des mots
+        for key in vocabulaireList:
+            if vocabulaireList[key]['Type'] == "mot":
+                motAecrireEtranger = vocabulaireList[key]['Mot en ALL']
+                motAEcrireFR = vocabulaireList[key]['Mot FR']
+                print('Ecrire le mot: [{mot}]'.format(mot= motAEcrireFR ))
+                
+            elif vocabulaireList[key]['Type'] == "phrase":
+                pass
+            else:
+                print('Ce type n est pas prévu')
+                pass
     return
