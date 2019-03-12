@@ -16,4 +16,4 @@ Exemple de Voc (Voc6)
 
 Améliorations
     Ecrire le mot:
-    - Pour l exercice ou il faut ecrire les mots. A la fin des 3 tentatives, oN pourrait afficher les erreurs faites.  On  enregistrre chaque réponse et à la fin des tentatives on affiche les réponses qui ont été entrée avec un diff sur la réponse. 
+    - Pour l exercice ou il faut ecrire les mots. A la fin des 3 tentatives, on pourrait afficher les erreurs faites.  On  enregistrre chaque réponse et à la fin des tentatives on affiche les réponses qui ont été entrée avec un diff sur la réponse. 

@@ -131,7 +131,7 @@ def trouverLeMot(recordFile, dataExercices, choix, globalSettings):
                                     choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, motATrouverEtrange, reponse]
                 myFile = open(recordFile, 'a', encoding="utf8")
                 with myFile:
-                    recordsFile = csv.writer(myFile, delimiter=',', lineterminator='\n')
+                    recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
                     recordsFile.writerows([resultatQuestion])
                 myFile.close()
         count = count + 1
@@ -141,19 +141,21 @@ def trouverLeMot(recordFile, dataExercices, choix, globalSettings):
 
 def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
     vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+    print('Ecrire des mots ou des phrases ?')
+    choixMP = ['mot', 'phrase']
+    choix.ecrireMotPhrase = choisirElement(choixMP)
     nbrMots = 0
     nbrPhrase = 0
+    # On compte les mots et les phrase dans la page
     for key in vocabulaireList:
-        if vocabulaireList[key]['Type'] == "mot":
+        if vocabulaireList[key]['Type'] == 'mot':
             nbrMots +=1
-        elif vocabulaireList[key]['Type'] == "phrase":
+        elif vocabulaireList[key]['Type'] == 'phrase':
             nbrPhrase +=1
-    
-    # nombreElements = len(vocabulaireList)
     
     choix.typePhraseOuMot = "mot"
     choix.motNombreTentatives = 3
-    if choix.typePhraseOuMot == "mot":  #on exerce l'écriture des mots
+    if choix.ecrireMotPhrase == "mot":  #on exerce l'écriture des mots
         countMots = 0
         countPhrase = 0
         for key in vocabulaireList:
@@ -161,6 +163,7 @@ def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
                 nombreElements = nbrMots
                 countMots += 1
                 motAecrireEtranger = vocabulaireList[key]['Mot en ALL']
+                motAecrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
                 motAEcrireFR = vocabulaireList[key]['Mot FR']
                 reponseFausse = True
                 count = 0
@@ -170,9 +173,22 @@ def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
                     if reponse == motAecrireEtranger:
                         print('Bravo')
                         reponseFausse = False
+                        evaluationReponse = 'juste'
+                    else:
+                        evaluationReponse = 'faux'
+                    # record the results in a file
+                    tentativeProgress = '{countMots} element/{nombreElements}, {nbrEssai} essai/{nbrEssaiTot}'.format(nbrEssaiTot=choix.motNombreTentatives, nbrEssai = count, countMots=countMots, nombreElements=nombreElements )
+
+                    resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, motAecrireEtranger, reponse]
+                    myFile = open(recordFile, 'a', encoding="utf8")
+                    with myFile:
+                        recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
+                        recordsFile.writerows([resultatQuestion])
+                    myFile.close()
                     if count == choix.motNombreTentatives:
                         break
-                print('[{motAEcrireFR}] est [{mot}]\n'.format(mot=motAecrireEtranger, motAEcrireFR = motAEcrireFR))
+
+                print('[{motAEcrireFR}] est [{mot}]\n'.format(mot=motAecrireEtrangerComplet, motAEcrireFR = motAEcrireFR))
             elif vocabulaireList[key]['Type'] == "phrase":
                 countPhrase += 1
                 pass
