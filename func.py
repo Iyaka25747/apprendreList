@@ -177,7 +177,7 @@ def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
                     else:
                         evaluationReponse = 'faux'
                     # record the results in a file
-                    tentativeProgress = '{countMots} element/{nombreElements}, {nbrEssai} essai/{nbrEssaiTot}'.format(nbrEssaiTot=choix.motNombreTentatives, nbrEssai = count, countMots=countMots, nombreElements=nombreElements )
+                    tentativeProgress = '{countMots}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=choix.motNombreTentatives, nbrEssai = count, countMots=countMots, nombreElements=nombreElements )
 
                     resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, motAecrireEtranger, reponse]
                     myFile = open(recordFile, 'a', encoding="utf8")
@@ -195,5 +195,4 @@ def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
             else:
                 print('Ce type n est pas prévu')
                 pass
-            
     return

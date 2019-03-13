@@ -48,7 +48,7 @@ globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant
 print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.currentTime))
 
 #Fichier source exercices
-exercicesFile = 'exercices_voc4.json'
+exercicesFile = 'exercices_vocAll.json'
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
