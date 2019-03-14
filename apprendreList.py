@@ -76,7 +76,7 @@ listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].key
 choix.nomPageChoisie = choisirElement(listElement)
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
-typePossible = ["Trouver une correspondance", "Ecrire le mot"]
+typePossible = ["Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
 choix.typeExerciceChoisi = choisirElement(typePossible)
 
@@ -93,7 +93,7 @@ if choix.nomLangueChoisie == "allemand":
     ############################
     if choix.typeExerciceChoisi == "Trouver une correspondance":
         trouverLeMot(recordFile, dataExercices, choix, globalSettings)
-    elif choix.typeExerciceChoisi == "Ecrire le mot":
+    elif choix.typeExerciceChoisi == "Ecrire":
         ecrireLesMots(recordFile, dataExercices, choix, globalSettings)
 
 print("\nOuf.... c'est fini ...")

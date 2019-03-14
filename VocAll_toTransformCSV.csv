@@ -91,7 +91,7 @@ allemand;voc6;p40;11;mot;Das;Tram;;le tram
 allemand;voc6;p40;12;mot;;müde;;fatigué,-e
 allemand;voc6;p40;13;mot;Die;Abfahrt;en;le départ
 allemand;voc6;p40;14;mot;Der;Treffpunkt;e;le point de rencontre
-allemand;voc6;p40;15;mot;Die;Ankunft;¨ e;L arrivée
+allemand;voc6;p40;15;mot;Die;Ankunft;ü-e;L arrivée
 allemand;voc6;p40;16;mot;Die;Rückreise;n;le retour
 allemand;voc6;p40;17;mot;Die;Strassenbahn;en;le tram(way)
 allemand;voc6;p40;18;mot;Die;Ruhe (sing);;le silence
@@ -102,7 +102,7 @@ allemand;voc6;p40;22;phrase;;leihen, er leiht, hat geliehen;;prêter
 allemand;voc6;p40;23;phrase;;Man kann Fahrräder leihen;;on peut prêter des bicyclettes
 allemand;voc6;p40;24;mot;Das;Gepäck (sing);;les bagages
 allemand;voc6;p41;1;phrase;;ab/geben, er gibt ab, hat abgegeben;;déposer
-allemand;voc6;p41;2;mot;Der;Speisesaal;¨-e;la salle à manger
+allemand;voc6;p41;2;mot;Der;Speisesaal;ä-e;la salle à manger
 allemand;voc6;p41;3;mot;Das;Geschenk;e;le cadeau
 allemand;voc6;p41;4;phrase;;kochen er kocht, er hat gekocht;;cuisiner
 allemand;voc6;p41;5;phrase;;probieren, er probiert, er hat probiert;;essayer
@@ -154,9 +154,9 @@ allemand;voc6;p39;18;phrase;;steigen, er steigt, ist gestiegen;; Jens et Martina
 allemand;voc6;p39;19;phrase;;Wir sind auf dem Turm gestiegen;;nous sommes montés en haut de la tour
 allemand;voc6;p39;20;phrase;;besichtigen, er besichtigt, hat besichtigt;;visiter (la ville)
 allemand;voc6;p39;21;phrase;;Wie haben die Stadt besichtigt;;nous avons visité la ville
-allemand;voc6;p39;22;mot;Der;Meter;,-;le mètre
-allemand;voc6;p39;23;mot;Die;Altstadt;,¨-e;la vieille ville, la cité
-allemand;voc6;p39;24;mot;Das;Kunstmuseum;,-museen;le musée d’art
+allemand;voc6;p39;22;mot;Der;Meter;-;le mètre
+allemand;voc6;p39;23;mot;Die;Altstadt;ä-e;la vieille ville, la cité
+allemand;voc6;p39;24;mot;Das;Kunstmuseum;-museen;le musée d’art
 allemand;voc7;p46;1;phrase;;zusammen;;ensemble
 allemand;voc7;p46;2;phrase;;Wir spielen zusammen Fussball.;;Nous jouons au football ensemble.
 allemand;voc7;p46;3;phrase;;Was ist passiert?;;Qu’est-ce qui s’est passé ?
@@ -171,11 +171,11 @@ allemand;voc7;p46;11;mot;die;Freundschaft;-en;l’amitié
 allemand;voc7;p46;12;mot;das;Tagebuch;ü-er;le journal (intime)
 allemand;voc7;p46;13;phrase;;wütend;;furieux-euse
 allemand;voc7;p46;14;phrase;;Alexandra ist wütend.;;Alexandra est furieuse.
-allemand;voc7;p46;15;phrase;;helfen, er hilft, hat gehọlfen;;aider
+allemand;voc7;p46;15;phrase;;helfen, er hilft, hat geholfen;;aider
 allemand;voc7;p46;16;mot;der;Anfang;ä-e;le début
 allemand;voc7;p46;17;mot;der;Tipp;-s;le conseil
 allemand;voc7;p46;18;phrase;;enttäuscht;;déçu-e
-allemand;voc7;p46;19;phrase;;Alexandra ist enttäuscht.;Alexandra est déçue.;
+allemand;voc7;p46;19;phrase;;Alexandra ist enttäuscht.;;Alexandra est déçue.
 allemand;voc7;p46;20;mot;der;Streit;(Sg.);la dispute
 allemand;voc7;p46;21;phrase;;Alexandra und Martina haben Streit.;;Alexandra et Martina ont une dispute.
 allemand;voc7;p46;22;phrase;;Freunde fürs Leben;;des amis pour la vie

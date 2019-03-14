@@ -660,7 +660,7 @@
                     "Type": "mot",
                     "Der-Die-Das": "Die",
                     "Mot en ALL": "Ankunft",
-                    "pluriel": "¨ e",
+                    "pluriel": "ü-e",
                     "Mot FR": "L arrivée"
                 },
                 "16": {
@@ -739,7 +739,7 @@
                     "Type": "mot",
                     "Der-Die-Das": "Der",
                     "Mot en ALL": "Speisesaal",
-                    "pluriel": "¨-e",
+                    "pluriel": "ä-e",
                     "Mot FR": "la salle à manger"
                 },
                 "3": {
@@ -1107,21 +1107,21 @@
                     "Type": "mot",
                     "Der-Die-Das": "Der",
                     "Mot en ALL": "Meter",
-                    "pluriel": ",-",
+                    "pluriel": "-",
                     "Mot FR": "le mètre"
                 },
                 "23": {
                     "Type": "mot",
                     "Der-Die-Das": "Die",
                     "Mot en ALL": "Altstadt",
-                    "pluriel": ",¨-e",
+                    "pluriel": "ä-e",
                     "Mot FR": "la vieille ville, la cité"
                 },
                 "24": {
                     "Type": "mot",
                     "Der-Die-Das": "Das",
                     "Mot en ALL": "Kunstmuseum",
-                    "pluriel": ",-museen",
+                    "pluriel": "-museen",
                     "Mot FR": "le musée d’art"
                 }
             }
@@ -1229,7 +1229,7 @@
                 "15": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "helfen, er hilft, hat gehọlfen",
+                    "Mot en ALL": "helfen, er hilft, hat geholfen",
                     "pluriel": "",
                     "Mot FR": "aider"
                 },
@@ -1258,8 +1258,8 @@
                     "Type": "phrase",
                     "Der-Die-Das": "",
                     "Mot en ALL": "Alexandra ist enttäuscht.",
-                    "pluriel": "Alexandra est déçue.",
-                    "Mot FR": ""
+                    "pluriel": "",
+                    "Mot FR": "Alexandra est déçue."
                 },
                 "20": {
                     "Type": "mot",

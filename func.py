@@ -4,13 +4,25 @@ import os #for terminal screen clearing
 from random import shuffle
 import csv #for statistics logs
 import random
-import difflib
-from difflib_data import *
+import difflib # https://pymotw.com/2/difflib/ 
+# from difflib_data import *
+from pprint import pprint
 
 
 class NumberMulDiv(object):
     """ Represent a multiplication"""
     
+def showError(texteJuste, texteFaux):
+    d = difflib.Differ()
+    diff = d.compare(texteFaux, texteJuste)
+    # result = list(diff)
+    # separator = ''
+    # pprint(separator.join(diff))
+    print('\r'.join(diff))
+    # pprint(result)
+    pass
+    return
+
 # Capture d'un choix qui ne peut qu'un chiffre
 def captureNumber(questionText):
     isNotInteger = True
@@ -179,6 +191,8 @@ def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
                         evaluationReponse = 'juste'
                     else:
                         evaluationReponse = 'faux'
+                        # showError(motAecrireEtranger, reponse)
+
                     # record the results in a file
                     tentativeProgress = '{countMots}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=choix.motNombreTentatives, nbrEssai = count, countMots=countMots, nombreElements=nombreElements )
 
@@ -198,11 +212,4 @@ def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
             else:
                 print('Ce type n est pas prévu')
                 pass
-    return
-
-def showError(texteJuste, texteFaux):
-    d = difflib.Differ()
-    diff = d.compare(texteFaux, texteJuste)
-    print '\n'.join(diff)
-    pass
     return
