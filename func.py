@@ -4,6 +4,9 @@ import os #for terminal screen clearing
 from random import shuffle
 import csv #for statistics logs
 import random
+import difflib
+from difflib_data import *
+
 
 class NumberMulDiv(object):
     """ Represent a multiplication"""
@@ -195,4 +198,11 @@ def ecrireLesMots(recordFile, dataExercices, choix, globalSettings):
             else:
                 print('Ce type n est pas prévu')
                 pass
+    return
+
+def showError(texteJuste, texteFaux):
+    d = difflib.Differ()
+    diff = d.compare(texteFaux, texteJuste)
+    print '\n'.join(diff)
+    pass
     return
