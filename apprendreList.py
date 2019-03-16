@@ -52,9 +52,10 @@ exercicesFile = 'exercices_vocAll.json'
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
+globalSettings.motNombreTentatives = 3 #Fixe le nombre de tentative avant de donner la réponse
 
 #initialisation du fichier de statistiques
-recordFile = "records.csv"
+globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
@@ -87,14 +88,24 @@ choix.typeExerciceChoisi = choisirElement(typePossible)
 #Clear terminal screen 
 os.system('cls' if os.name == 'nt' else 'clear')
 
+vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+nbrMots = 0
+nbrPhrase = 0
+# On compte les mots et les phrase dans la page
+for key in vocabulaireList: 
+    if vocabulaireList[key]['Type'] == 'mot':
+        globalSettings.nbrMots +=1
+    elif vocabulaireList[key]['Type'] == 'phrase':
+        globalSettings.nbrPhrase +=1
+
 if choix.nomLangueChoisie == "allemand":
     ############################
     # Trouver une correspondance
     ############################
     if choix.typeExerciceChoisi == "Trouver une correspondance":
-        trouverLeMot(recordFile, dataExercices, choix, globalSettings)
+        trouverLeMot(vocabulaireList, choix, globalSettings)
     elif choix.typeExerciceChoisi == "Ecrire":
-        ecrireLesMots(recordFile, dataExercices, choix, globalSettings)
+        ecrireLesMots(vocabulaireList, choix, globalSettings)
 
 print("\nOuf.... c'est fini ...")
 fin = input("Terminé, presser une touche")

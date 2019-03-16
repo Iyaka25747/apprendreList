@@ -1127,6 +1127,99 @@
             }
         },
         "voc7": {
+            "p45": {
+                "1": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Freund",
+                    "pluriel": "-e",
+                    "Mot FR": "l’ami"
+                },
+                "2": {
+                    "Type": "mot",
+                    "Der-Die-Das": "die",
+                    "Mot en ALL": "Freundin",
+                    "pluriel": "-nen",
+                    "Mot FR": "l’amie"
+                },
+                "3": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Junge",
+                    "pluriel": "-n",
+                    "Mot FR": "le garçon"
+                },
+                "4": {
+                    "Type": "mot",
+                    "Der-Die-Das": "das",
+                    "Mot en ALL": "Mädchen",
+                    "pluriel": "-",
+                    "Mot FR": "la fille"
+                },
+                "5": {
+                    "Type": "mot",
+                    "Der-Die-Das": "das",
+                    "Mot en ALL": "Lied",
+                    "pluriel": "-er",
+                    "Mot FR": "la chanson"
+                },
+                "6": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "tạnzen, er tanzt, hat getanzt",
+                    "pluriel": "",
+                    "Mot FR": "danser"
+                },
+                "7": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "langweilig",
+                    "pluriel": "",
+                    "Mot FR": "ennuyeux,-euse"
+                },
+                "8": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "kennen|lernen, er lernt kennen, hat kennengelernt",
+                    "pluriel": "",
+                    "Mot FR": "faire la connaissance de"
+                },
+                "9": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sich treffen, er trịfft sich, hat sich getrọffen",
+                    "pluriel": "",
+                    "Mot FR": "(se) rencontrer"
+                },
+                "10": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Martina und Jens haben sich getroffen.",
+                    "pluriel": "",
+                    "Mot FR": "Martina et Jens se sont rencontrés."
+                },
+                "11": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sprechen, er spricht, hat gesprochen",
+                    "pluriel": "",
+                    "Mot FR": "parler"
+                },
+                "12": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Alexandra hat mit Martina gesprochen.",
+                    "pluriel": "",
+                    "Mot FR": "Alexandra a parlé avec Martina."
+                },
+                "13": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "fern|sehen, er sieht fern, hat ferngesehen",
+                    "pluriel": "",
+                    "Mot FR": "regarder la télé"
+                }
+            },
             "p46": {
                 "1": {
                     "Type": "phrase",
@@ -1152,7 +1245,7 @@
                 "4": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "gehen, er geht, ist gegạngen",
+                    "Mot en ALL": "gehen, er geht, ist gegangen",
                     "pluriel": "",
                     "Mot FR": "aller"
                 },
