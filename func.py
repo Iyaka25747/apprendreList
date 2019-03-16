@@ -7,6 +7,8 @@ import random
 import difflib # https://pymotw.com/2/difflib/ 
 # from difflib_data import *
 from pprint import pprint
+# import time #for measuring elapsed time, date
+import datetime #for date, time
 
 
 class NumberMulDiv(object):
@@ -84,11 +86,21 @@ def choisirExercice(dataExercice):
     print("Tu as choisis: " + nomExerciceChoisi)
     return nomExerciceChoisi
 
+def playSoundGood(globalSettings):
+    if globalSettings.soundActive == True:
+        winsound.PlaySound(globalSettings.goodSound, winsound.SND_FILENAME)
+    return
+
+def playSoundBad(globalSettings):
+    if globalSettings.soundActive == True:
+        winsound.PlaySound(globalSettings.badSound, winsound.SND_FILENAME)
+    return
+
 def trouverLeMot(vocabulaireList, choix, globalSettings):
     
     if choix.typeExerciceChoisi == "Trouver une correspondance":
         nombreMots = len(vocabulaireList)
-        nombreEnnemis = 4
+        
         count = 0
         for keyAtrouver in vocabulaireList:
             # motAtrouverKey = str(motAtrouverKey)
@@ -103,7 +115,7 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
             random.shuffle(autresMotsKeys)
             # autresMotsKeys = {(key, autresMots[key]) for key in autresMotsKeys}
             # on choisi les x premiers mot à trouver
-            countEnnemis = nombreEnnemis
+            countEnnemis =globalSettings.nombreEnnemis
             autresMotsEnnemisKeys = []
             for key in autresMotsKeys:
                 if countEnnemis != 0:
@@ -132,31 +144,36 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
                     evaluationReponse = "Juste"
                     print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(
                         evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=motATrouverEtrange))
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(
-                            globalSettings.goodSound, winsound.SND_FILENAME)
+                    playSoundGood(globalSettings)
+                    # if globalSettings.soundActive == True:
+                    #     winsound.PlaySound(
+                    #         globalSettings.goodSound, winsound.SND_FILENAME)
                 else:
                     repeteQuestion = True
                     evaluationReponse = "Faux"
                     print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(
                         evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=reponse))
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(
-                            globalSettings.badSound, winsound.SND_FILENAME)
+                    playSoundBad(globalSettings)
                 resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, motATrouverEtrange, reponse]
-                # file = globalSettings.recordFile
-                myFile = open( globalSettings.recordFile, 'a', encoding="utf8")
-                with myFile:
-                    recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
-                    recordsFile.writerows([resultatQuestion])
-                myFile.close()
+                
+                recordTentative(resultatQuestion, globalSettings)                
             count = count + 1
         
     print("Enregistrement des exercices dans {fichier}".format(fichier = globalSettings.recordFile ))
     return
 
+def recordTentative(resultatQuestion, globalSettings):
+    myFile = open(globalSettings.recordFile, 'a', encoding="utf8")
+    with myFile:
+        recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
+        recordsFile.writerows([resultatQuestion])
+    myFile.close()
+    return
+
 def ecrire(vocabulaireList, choix, globalSettings):
     countElements = 0
+    keyMotsDifficiles = []
+    startTime = datetime.datetime.today()
     # Identifier le nombre de mots ou de phrases  
     if choix.ecrireMotPhrase == "phrase":
         nombreElements = globalSettings.nbrMots
@@ -164,7 +181,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
         nombreElements = globalSettings.nbrPhrase
 
     for key in vocabulaireList:
-        
+
         informationAEcrireEtranger = vocabulaireList[key]['Mot en ALL']
         informationAEcrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
         informationAEcrireFR = vocabulaireList[key]['Mot FR']
@@ -172,28 +189,37 @@ def ecrire(vocabulaireList, choix, globalSettings):
         tentative = 0
         if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on fait que les mots ou les phrases
             while reponseFausse:
-                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.motNombreTentatives, countElements=countElements, nombreElements=nombreElements ))
+                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
                 tentative += 1
                 if reponse == informationAEcrireEtranger:
                     print('Bravo')
                     reponseFausse = False
                     evaluationReponse = 'juste'
+                    playSoundGood(globalSettings)
                 else:
                     evaluationReponse = 'faux'
+                    playSoundBad(globalSettings)
                     if choix.ecrireMotPhraseAide:
                         showError(informationAEcrireEtranger, reponse)
-                # record the results in a file
-                tentativeProgress = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.motNombreTentatives, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
 
+                # create the entry for the record
+                tentativeProgress = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
                 resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, informationAEcrireEtranger, reponse]
-                myFile = open(globalSettings.recordFile, 'a', encoding="utf8")
-                with myFile:
-                    recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
-                    recordsFile.writerows([resultatQuestion])
-                myFile.close()
-                if tentative == globalSettings.motNombreTentatives:
+                # Log the attempt in a file
+                recordTentative(resultatQuestion, globalSettings)
+
+                if tentative == globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+                    keyMotsDifficiles.append(key)                    
                     break
             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = informationAEcrireFR))
+            # break
+        # enregistre les mots difficiles
+    # stopTime = datetime.datetime.today()
+    # deltaTime = stopTime - startTime
+    # test = stopTime.second
+    # print(test)
+    # print('Temps de l exercice: {minutes}min. et {seconde}sec.'.format(minutes=deltaTime.minute, seconde=deltaTime.second))
+    # print('hello')
     return
 
 def ecrireLesMots(vocabulaireList, choix, globalSettings):

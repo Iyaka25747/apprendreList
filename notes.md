@@ -21,4 +21,4 @@ Améliorations
 
     aller du FR et trouver all est plus dif. pour Tilio
 
- 
+ reprendre ligne 216 de func.py

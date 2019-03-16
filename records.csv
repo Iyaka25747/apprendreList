@@ -1,178 +1,60 @@
-
-20.2.2019,16:9:11,Ilya,Allemand,VocTest-court,Page 6,Trouver une correspondance,Juste,Die Fahrkarte,Die Fahrkarte
-
-12.3.2019;22:12:48;Ilya;allemand;voc4;p25;Ecrire le mot;1 element/6, 1 essai/3;faux;Geburtstag;
-13.3.2019;22:42:0;Ilya;allemand;voc4;p25;Ecrire le mot;1 element/6, 1 essai/3;faux;Geburtstag;asd
-13.3.2019;22:42:0;Ilya;allemand;voc4;p25;Ecrire le mot;1 element/6, 2 essai/3;faux;Geburtstag;a
-13.3.2019;22:42:0;Ilya;allemand;voc4;p25;Ecrire le mot;1 element/6, 3 essai/3;faux;Geburtstag;dd
-13.3.2019;22:42:0;Ilya;allemand;voc4;p25;Ecrire le mot;2 element/6, 1 essai/3;juste;Party;Party
-13.3.2019;22:42:0;Ilya;allemand;voc4;p25;Ecrire le mot;3 element/6, 1 essai/3;juste;Kuchen;Kuchen
-13.3.2019;23:27:39;Ilya;allemand;voc7;p46;Trouver une correspondance;Juste; zusammen; zusammen
-13.3.2019;23:27:39;Ilya;allemand;voc7;p46;Trouver une correspondance;Juste; Wir spielen zusammen Fussball.; Wir spielen zusammen Fussball.
-13.3.2019;23:27:39;Ilya;allemand;voc7;p46;Trouver une correspondance;Juste; Was ist passiert?; Was ist passiert?
-13.3.2019;23:27:39;Ilya;allemand;voc7;p46;Trouver une correspondance;Juste; gehen, er geht, ist gegạngen; gehen, er geht, ist gegạngen
-14.3.2019;22:16:3;Ilya;allemand;voc7;p46;Ecrire;"1/5; 1 tentative/3";faux;Freundschaft;eundschaft
-14.3.2019;22:16:3;Ilya;allemand;voc7;p46;Ecrire;"1/5; 2 tentative/3";faux;Freundschaft;asd
-14.3.2019;22:16:3;Ilya;allemand;voc7;p46;Ecrire;"1/5; 3 tentative/3";faux;Freundschaft;f
-14.3.2019;22:17:25;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;burtstag
-14.3.2019;22:21:15;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;geburttzag
-14.3.2019;22:31:1;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;gerbuasdf
-14.3.2019;22:44:58;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;asdf
-14.3.2019;22:45:36;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;asdffwefasdf
-14.3.2019;22:45:36;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Geburtstag;geburtstage
-14.3.2019;22:46:31;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;geburtstage
-14.3.2019;22:47:40;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;asdf
-14.3.2019;22:48:5;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;asdfasdf
-14.3.2019;22:50:57;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;asdfasfd
-14.3.2019;22:54:52;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;asdf
-14.3.2019;22:54:52;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Geburtstag;asdf
-14.3.2019;22:54:52;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Geburtstag;asdffas
-15.3.2019;13:45:45;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;asdf
-15.3.2019;13:45:45;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Geburtstag;fas
-15.3.2019;13:47:41;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;geebsasdf
-15.3.2019;18:45:7;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;Gerbur
-15.3.2019;18:45:7;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Geburtstag;as
-15.3.2019;18:45:7;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Geburtstag;asdf
-15.3.2019;18:57:30;Ilya;allemand;voc7;p45;Ecrire;"1/6; 1 tentative/3";faux;Freund;d
-15.3.2019;18:57:30;Ilya;allemand;voc7;p45;Ecrire;"1/6; 2 tentative/3";faux;Freund;d
-15.3.2019;18:57:30;Ilya;allemand;voc7;p45;Ecrire;"1/6; 3 tentative/3";faux;Freund;d
-15.3.2019;18:57:30;Ilya;allemand;voc7;p45;Ecrire;"2/6; 1 tentative/3";faux;Freundin;d
-15.3.2019;18:57:30;Ilya;allemand;voc7;p45;Ecrire;"2/6; 2 tentative/3";faux;Freundin;d
-15.3.2019;18:57:30;Ilya;allemand;voc7;p45;Ecrire;"2/6; 3 tentative/3";faux;Freundin;d
-15.3.2019;19:2:43;Ilya;allemand;voc7;p45;Ecrire;"1/6; 1 tentative/3";faux;Freund;wer
-15.3.2019;19:2:43;Ilya;allemand;voc7;p45;Ecrire;"1/6; 2 tentative/3";faux;Freund;ar
-15.3.2019;19:2:43;Ilya;allemand;voc7;p45;Ecrire;"1/6; 3 tentative/3";faux;Freund;wer
-15.3.2019;19:2:43;Ilya;allemand;voc7;p45;Ecrire;"2/6; 1 tentative/3";faux;Freundin;qwer
-15.3.2019;19:10:43;Ilya;allemand;voc7;p45;Trouver une correspondance;Juste;der Freund;der Freund
-15.3.2019;19:20:53;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glückwunsch
-15.3.2019;19:20:53;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;d
-15.3.2019;19:20:53;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;d
-15.3.2019;19:29:37;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;sdf
-15.3.2019;19:29:37;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-15.3.2019;19:29:37;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-15.3.2019;19:31:19;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;sdf
-15.3.2019;19:31:19;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-15.3.2019;19:31:19;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-15.3.2019;19:33:56;Ilya;allemand;voc7;p45;Ecrire;"1/6; 1 tentative/3";faux;Freund;asdf
-15.3.2019;19:33:56;Ilya;allemand;voc7;p45;Ecrire;"1/6; 2 tentative/3";faux;Freund;asfd
-15.3.2019;19:33:56;Ilya;allemand;voc7;p45;Ecrire;"1/6; 3 tentative/3";faux;Freund;sdf
-15.3.2019;19:33:56;Ilya;allemand;voc7;p45;Ecrire;"2/6; 1 tentative/3";faux;Freundin;asdf
-15.3.2019;19:33:56;Ilya;allemand;voc7;p45;Ecrire;"2/6; 2 tentative/3";faux;Freundin;asf
-15.3.2019;19:40:29;Ilya;allemand;voc7;p45;Ecrire;"1/6; 1 tentative/3";faux;tạnzen, er tanzt, hat getanzt;asdf
-15.3.2019;19:40:29;Ilya;allemand;voc7;p45;Ecrire;"1/6; 2 tentative/3";faux;tạnzen, er tanzt, hat getanzt;asdf
-15.3.2019;19:40:29;Ilya;allemand;voc7;p45;Ecrire;"1/6; 3 tentative/3";faux;tạnzen, er tanzt, hat getanzt;asdf
-16.3.2019;6:11:28;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asfd 
-16.3.2019;6:11:28;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlicen asdf Geburtstag
-16.3.2019;6:11:28;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glückwunsch zum Geboutstag!
-16.3.2019;6:57:45;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herlichen gluck
-16.3.2019;6:57:45;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Gluawunch
-16.3.2019;6:57:45;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glasflkasftstag
-16.3.2019;6:57:45;Ilya;allemand;voc4;p25;Ecrire;"2/6; 1 tentative/3";faux;Frohe Ostern!;
-16.3.2019;6:57:45;Ilya;allemand;voc4;p25;Ecrire;"2/6; 2 tentative/3";faux;Frohe Ostern!;Frohe Ozaern!
-16.3.2019;6:57:45;Ilya;allemand;voc4;p25;Ecrire;"2/6; 3 tentative/3";faux;Frohe Ostern!;Frohe Ozarn!
-16.3.2019;6:57:45;Ilya;allemand;voc4;p25;Ecrire;"3/6; 1 tentative/3";faux;Frohe Weihnachten!;Frohe Ozan!
-16.3.2019;7:1:8;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Gaslkfj unsch
-16.3.2019;7:2:36;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glxxxxsch zum Gerbur
-16.3.2019;7:4:5;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzli xxxx unsch zum
-16.3.2019;7:4:5;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzli xxxx unsch zum Gebur
-16.3.2019;7:5:54;Ilya;allemand;voc7;p45;Ecrire;"1/6; 1 tentative/3";juste;Freund;Freund
-16.3.2019;7:5:54;Ilya;allemand;voc7;p45;Ecrire;"2/6; 1 tentative/3";faux;Freundin;Freundean
-16.3.2019;7:14:22;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glxxxxnssch zum Gerbsaaaaa
-16.3.2019;7:15:52;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glxxxxnssch zum Gerbsaaaaa
-16.3.2019;7:15:52;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;
-16.3.2019;7:15:52;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;
-16.3.2019;7:15:52;Ilya;allemand;voc4;p25;Ecrire;"2/6; 1 tentative/3";faux;Frohe Ostern!;
-16.3.2019;7:16:54;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glückwxxxxsch zum Geburtstag!aa
-16.3.2019;7:17:35;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glückwxxxxsch zum Geburtstag!aa
-16.3.2019;7:18:8;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glückwxxxxsch zum Geburtstag!aa
-16.3.2019;7:35:2;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;Gerb
-16.3.2019;7:35:2;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";faux;Geburtstag;Gerburtstag
-16.3.2019;7:35:2;Ilya;allemand;voc4;p25;Ecrire;"1/6; 3 tentative/3";faux;Geburtstag;sdf
-16.3.2019;7:35:2;Ilya;allemand;voc4;p25;Ecrire;"2/6; 1 tentative/3";juste;Party;Party
-16.3.2019;7:35:2;Ilya;allemand;voc4;p25;Ecrire;"3/6; 1 tentative/3";faux;Kuchen;Kuchg
-16.3.2019;7:35:2;Ilya;allemand;voc4;p25;Ecrire;"3/6; 2 tentative/3";juste;Kuchen;Kuchen
-16.3.2019;7:36:19;Ilya;allemand;voc4;p25;Ecrire;"1/6; 1 tentative/3";faux;Geburtstag;Geburstatt
-16.3.2019;7:36:19;Ilya;allemand;voc4;p25;Ecrire;"1/6; 2 tentative/3";juste;Geburtstag;Geburtstag
-16.3.2019;7:36:19;Ilya;allemand;voc4;p25;Ecrire;"2/6; 1 tentative/3";faux;Party;Partzzz
-16.3.2019;8:19:4;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;sdf
-16.3.2019;8:19:4;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;8:19:4;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;fasdfasfd
-16.3.2019;8:19:4;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Ostern!;
-16.3.2019;8:19:4;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Frohe Ostern!;
-16.3.2019;8:19:4;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Frohe Ostern!;
-16.3.2019;8:25:51;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;sdf
-16.3.2019;8:25:51;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdfsafd
-16.3.2019;8:25:51;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;8:25:51;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Ostern!;asdf
-16.3.2019;8:28:46;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;8:28:46;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;8:28:46;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;8:31:0;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;as
-16.3.2019;8:31:0;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdfas
-16.3.2019;8:31:0;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;fd
-16.3.2019;8:38:42;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Geburtstag;sdg
-16.3.2019;8:38:42;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Geburtstag;sdg
-16.3.2019;8:38:42;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Geburtstag;asfd
-16.3.2019;8:40:45;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Geburtstag;asdf
-16.3.2019;8:40:45;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Geburtstag;asdf
-16.3.2019;8:40:45;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Geburtstag;sadf
-16.3.2019;8:40:45;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";juste;Party;Party
-16.3.2019;8:54:8;Ilya;allemand;voc4;p25;Trouver une correspondance;Faux; Herzlichen Glückwunsch zum Geburtstag!;der Saft
-16.3.2019;8:54:8;Ilya;allemand;voc4;p25;Trouver une correspondance;Juste; Herzlichen Glückwunsch zum Geburtstag!; Herzlichen Glückwunsch zum Geburtstag!
-16.3.2019;8:54:54;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Geburtstag;asdf
-16.3.2019;8:54:54;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";juste;Geburtstag;Geburtstag
-16.3.2019;8:54:54;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Party;as
-16.3.2019;8:54:54;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Party;asd
-16.3.2019;8:54:54;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Party;asdf
-16.3.2019;8:55:22;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Geburtstag;Gerbuttt
-16.3.2019;8:55:22;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Geburtstag;Geburtstat
-16.3.2019;8:55:22;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Geburtstag;sd
-16.3.2019;8:56:0;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Gluasdffas
-16.3.2019;8:56:0;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";juste;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glückwunsch zum Geburtstag!
-16.3.2019;8:56:43;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";juste;Herzlichen Glückwunsch zum Geburtstag!;Herzlichen Glückwunsch zum Geburtstag!
-16.3.2019;8:56:43;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Ostern!;as
-16.3.2019;8:56:43;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Frohe Ostern!;as
-16.3.2019;8:56:43;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Frohe Ostern!;asdf
-16.3.2019;8:56:43;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Weihnachten!;asdf
-16.3.2019;8:56:43;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Frohe Weihnachten!;asdf
-16.3.2019;8:56:43;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Frohe Weihnachten!;asdf
-16.3.2019;9:8:1;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Geburtstag;asdf
-16.3.2019;9:8:1;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Geburtstag;asfd
-16.3.2019;9:8:1;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Geburtstag;sadf
-16.3.2019;9:8:1;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Party;party
-16.3.2019;9:8:1;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";juste;Party;Party
-16.3.2019;9:8:30;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;9:8:30;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;9:8:30;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;9:8:30;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Ostern!;asf
-16.3.2019;9:8:30;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Frohe Ostern!;asf
-16.3.2019;9:8:30;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Frohe Ostern!;asdf
-16.3.2019;22:11:3;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;asfd
-16.3.2019;22:11:3;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;asdf
-16.3.2019;22:11:3;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;asfd
-16.3.2019;22:11:3;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";juste;Party;Party
-16.3.2019;22:11:3;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Kuchen;asd
-16.3.2019;22:11:3;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Kuchen;a
-16.3.2019;22:11:3;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Kuchen;d
-16.3.2019;22:11:51;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;asdf
-16.3.2019;22:11:51;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;fffas
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asd
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;f
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Ostern!;Frohe Ostern
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Frohe Ostern!;asdf
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Frohe Ostern!;f
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Weihnachten!;Frohe Weinachten!
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Frohe Weihnachten!;asfd
-16.3.2019;22:12:7;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Frohe Weihnachten!;asdf
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asdf
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;asf
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";juste;Frohe Ostern!;Frohe Ostern!
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";juste;Frohe Weihnachten!;Frohe Weihnachten!
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Alles Gute!;Alles gut!
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";juste;Alles Gute!;Alles Gute!
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";juste;Kommst du?;Kommst du?
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";juste;Viel Glück!;Viel Glück!
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";juste;Gute Reise!;Gute Reise!
-16.3.2019;22:13:20;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Gute Besserung!;Gut Verbersserung!
+16.3.2019;22:38:23;Ilya;allemand;voc4;p25;Trouver une correspondance;Faux; Herzlichen Glückwunsch zum Geburtstag!; Wann hast du Geburtstag?
+16.3.2019;22:38:23;Ilya;allemand;voc4;p25;Trouver une correspondance;Faux; Herzlichen Glückwunsch zum Geburtstag!; Gute Reise!
+16.3.2019;22:38:23;Ilya;allemand;voc4;p25;Trouver une correspondance;Faux; Herzlichen Glückwunsch zum Geburtstag!; Viel Glück!
+16.3.2019;22:38:23;Ilya;allemand;voc4;p25;Trouver une correspondance;Juste; Herzlichen Glückwunsch zum Geburtstag!; Herzlichen Glückwunsch zum Geburtstag!
+16.3.2019;22:46:7;Ilya;allemand;voc4;p25;Trouver une correspondance;Faux; Herzlichen Glückwunsch zum Geburtstag!; Die Party war super!
+16.3.2019;22:46:7;Ilya;allemand;voc4;p25;Trouver une correspondance;Faux; Herzlichen Glückwunsch zum Geburtstag!; Frohe Weihnachten!
+16.3.2019;22:46:7;Ilya;allemand;voc4;p25;Trouver une correspondance;Juste; Herzlichen Glückwunsch zum Geburtstag!; Herzlichen Glückwunsch zum Geburtstag!
+16.3.2019;22:47:14;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;as
+16.3.2019;22:47:14;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;dsa
+16.3.2019;22:47:14;Ilya;allemand;voc4;p25;Ecrire;"0/6; 3 tentative/3";faux;Herzlichen Glückwunsch zum Geburtstag!;f
+16.3.2019;22:47:14;Ilya;allemand;voc4;p25;Ecrire;"0/6; 1 tentative/3";faux;Frohe Ostern!;f
+16.3.2019;22:47:14;Ilya;allemand;voc4;p25;Ecrire;"0/6; 2 tentative/3";faux;Frohe Ostern!;a
+16.3.2019;23:6:30;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:6:30;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;f
+16.3.2019;23:6:30;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:7:37;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;sadf
+16.3.2019;23:7:37;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;asfd
+16.3.2019;23:7:37;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;re
+16.3.2019;23:8:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;sf
+16.3.2019;23:8:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;asfd
+16.3.2019;23:8:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:8:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";juste;Party;Party
+16.3.2019;23:8:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Kuchen;a
+16.3.2019;23:8:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Kuchen;a
+16.3.2019;23:8:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Kuchen;a
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;Geburtas
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;gerburtsag
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;safd
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";juste;Party;Party
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Kuchen;Hlakjdf
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Kuchen;uchen
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Kuchen;kchen
+16.3.2019;23:16:5;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";juste;Saft;Saft
+16.3.2019;23:29:0;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:29:0;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:29:0;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:31:27;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;f
+16.3.2019;23:31:27;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:31:27;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;a
+16.3.2019;23:32:46;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;sdfa
+16.3.2019;23:32:46;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;afs
+16.3.2019;23:32:46;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;asfd
+16.3.2019;23:33:32;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;g
+16.3.2019;23:33:32;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;z
+16.3.2019;23:33:32;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;z
+16.3.2019;23:34:50;Ilya;allemand;voc4;p26;Ecrire;"0/19; 1 tentative/3";faux;Geburtstagsparty;
+16.3.2019;23:34:50;Ilya;allemand;voc4;p26;Ecrire;"0/19; 2 tentative/3";faux;Geburtstagsparty;sdfa
+16.3.2019;23:34:50;Ilya;allemand;voc4;p26;Ecrire;"0/19; 3 tentative/3";faux;Geburtstagsparty;fsad
+16.3.2019;23:35:55;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;fs
+16.3.2019;23:35:55;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;asf
+16.3.2019;23:35:55;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;fas
+16.3.2019;23:42:56;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:42:56;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;aSD
+16.3.2019;23:42:56;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:43:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:43:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:43:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Geburtstag;asdf
+16.3.2019;23:43:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 1 tentative/3";faux;Party;asdf
+16.3.2019;23:43:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 2 tentative/3";faux;Party;asdf
+16.3.2019;23:43:28;Ilya;allemand;voc4;p25;Ecrire;"0/13; 3 tentative/3";faux;Party;asdf

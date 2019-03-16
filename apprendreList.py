@@ -6,8 +6,8 @@ import time #for measuring elapsed time, date
 from func import *
 import os #for terminal screen clearing
 import winsound # Son, bruitage 
-import datetime #for date
-import time
+import datetime #for date, time
+# import time
 import csv #for statistics logs
 
 ###############
@@ -52,7 +52,8 @@ exercicesFile = 'exercices_vocAll.json'
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
-globalSettings.motNombreTentatives = 3 #Fixe le nombre de tentative avant de donner la réponse
+globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
+globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 
 #initialisation du fichier de statistiques
 globalSettings.recordFile = "records.csv"
@@ -98,10 +99,10 @@ for key in vocabulaireList:
     elif vocabulaireList[key]['Type'] == 'phrase':
         globalSettings.nbrPhrase +=1
 
+#########################
+## On lance l exercice ##
+#########################
 if choix.nomLangueChoisie == "allemand":
-    ############################
-    # Trouver une correspondance
-    ############################
     if choix.typeExerciceChoisi == "Trouver une correspondance":
         trouverLeMot(vocabulaireList, choix, globalSettings)
     elif choix.typeExerciceChoisi == "Ecrire":
