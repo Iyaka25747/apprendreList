@@ -89,8 +89,8 @@ choix.typeExerciceChoisi = choisirElement(typePossible)
 os.system('cls' if os.name == 'nt' else 'clear')
 
 vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
-nbrMots = 0
-nbrPhrase = 0
+globalSettings.nbrMots = 0
+globalSettings.nbrPhrase = 0
 # On compte les mots et les phrase dans la page
 for key in vocabulaireList: 
     if vocabulaireList[key]['Type'] == 'mot':

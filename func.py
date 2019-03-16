@@ -152,7 +152,7 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
                 myFile.close()
             count = count + 1
         
-    print("Enregistrement des exercices dans {fichier}".format(fichier = globalsetting.recordFile ))
+    print("Enregistrement des exercices dans {fichier}".format(fichier = globalSettings.recordFile ))
     return
 
 def ecrire(vocabulaireList, choix, globalSettings):
@@ -164,7 +164,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
         nombreElements = globalSettings.nbrPhrase
 
     for key in vocabulaireList:
-        # tentative += 1
+        
         informationAEcrireEtranger = vocabulaireList[key]['Mot en ALL']
         informationAEcrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
         informationAEcrireFR = vocabulaireList[key]['Mot FR']
@@ -172,7 +172,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
         tentative = 0
         if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on fait que les mots ou les phrases
             while reponseFausse:
-                reponse = input('[{countElementMP}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.motNombreTentatives, countElements=countElements, nombreElements=nombreElements ))
+                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.motNombreTentatives, countElements=countElements, nombreElements=nombreElements ))
                 tentative += 1
                 if reponse == informationAEcrireEtranger:
                     print('Bravo')
@@ -183,7 +183,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
                     if choix.ecrireMotPhraseAide:
                         showError(informationAEcrireEtranger, reponse)
                 # record the results in a file
-                tentativeProgress = '{countElementMP}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.motNombreTentatives, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
+                tentativeProgress = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.motNombreTentatives, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
 
                 resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, informationAEcrireEtranger, reponse]
                 myFile = open(globalSettings.recordFile, 'a', encoding="utf8")
@@ -196,107 +196,21 @@ def ecrire(vocabulaireList, choix, globalSettings):
             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = informationAEcrireFR))
     return
 
-def ecrireLesMots(dataExercices, choix, globalSettings):
-    vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+def ecrireLesMots(vocabulaireList, choix, globalSettings):
     sorted(vocabulaireList)
     print('Ecrire des mots ou des phrases ?')
-    # choixEcrireMots = ['mot', 'mot avec aide', 'phrase', 'phrase avec aide']
-    e = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide'])
-    # choix.ecrireMotPhrase = choisirElement(choixMP)
-    if e == 'mot':
+    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide'])
+    if optionChoisie == 'mot':
         choix.ecrireMotPhrase = 'mot'
         choix.ecrireMotPhraseAide = False
-    elif e == 'mot avec aide':
+    elif optionChoisie == 'mot avec aide':
         choix.ecrireMotPhrase = 'mot'
         choix.ecrireMotPhraseAide = True
-    elif e == 'phrase':
+    elif optionChoisie == 'phrase':
         choix.ecrireMotPhrase = 'phrase'
         choix.ecrireMotPhraseAide = False
-    elif e == 'phrase avec aide':
+    elif optionChoisie == 'phrase avec aide':
         choix.ecrireMotPhrase = 'phrase'
         choix.ecrireMotPhraseAide = True
-    # nbrMots = 0
-    # nbrPhrase = 0
-    # # On compte les mots et les phrase dans la page
-    # for key in vocabulaireList:
-    #     if vocabulaireList[key]['Type'] == 'mot':
-    #         nbrMots +=1
-    #     elif vocabulaireList[key]['Type'] == 'phrase':
-    #         nbrPhrase +=1
-    
-    # choix.typePhraseOuMot = "mot"
-    # choix.motNombreTentatives = 3
     ecrire(vocabulaireList, choix, globalSettings)
-    # countMots = 0
-    # countPhrase = 0
-    # for key in vocabulaireList:
-    #     if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #"mot": #on filtre les phrases
-            
-            # nombreElements = nbrMots
-            # countMots += 1
-            # motAecrireEtranger = vocabulaireList[key]['Mot en ALL']
-            # motAecrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
-            # motAEcrireFR = vocabulaireList[key]['Mot FR']
-            # reponseFausse = True
-            # count = 0
-            # while reponseFausse:
-            #     reponse = input('[{countMots}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= motAEcrireFR, nbrEssai = count+1,nbrEssaiTot=choix.motNombreTentatives, countMots=countMots, nombreElements=nombreElements ))
-            #     count += 1
-            #     if reponse == motAecrireEtranger:
-            #         print('Bravo')
-            #         reponseFausse = False
-            #         evaluationReponse = 'juste'
-            #     else:
-            #         evaluationReponse = 'faux'
-            #         if choix.ecrireMotPhraseAide:
-            #             showError(motAecrireEtranger, reponse)
-
-            #     # record the results in a file
-            #     tentativeProgress = '{countMots}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=choix.motNombreTentatives, nbrEssai = count, countMots=countMots, nombreElements=nombreElements )
-
-            #     resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, motAecrireEtranger, reponse]
-            #     myFile = open(recordFile, 'a', encoding="utf8")
-            #     with myFile:
-            #         recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
-            #         recordsFile.writerows([resultatQuestion])
-            #     myFile.close()
-            #     if count == choix.motNombreTentatives:
-            #         break
-            # print('[{motAEcrireFR}] est [{mot}]\n'.format(mot=motAecrireEtrangerComplet, motAEcrireFR = motAEcrireFR))
-
-        # elif vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #"phrase":
-        #     nombreElements = nbrMots
-        #     countMots += 1
-        #     motAecrireEtranger = vocabulaireList[key]['Mot en ALL']
-        #     motAecrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
-        #     motAEcrireFR = vocabulaireList[key]['Mot FR']
-        #     reponseFausse = True
-        #     count = 0
-        #     while reponseFausse:
-        #         reponse = input('[{countMots}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= motAEcrireFR, nbrEssai = count+1,nbrEssaiTot=choix.motNombreTentatives, countMots=countMots, nombreElements=nombreElements ))
-        #         count += 1
-        #         if reponse == motAecrireEtranger:
-        #             print('Bravo')
-        #             reponseFausse = False
-        #             evaluationReponse = 'juste'
-        #         else:
-        #             evaluationReponse = 'faux'
-        #             # showError(motAecrireEtranger, reponse)
-
-        #         # record the results in a file
-        #         tentativeProgress = '{countMots}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=choix.motNombreTentatives, nbrEssai = count, countMots=countMots, nombreElements=nombreElements )
-
-        #         resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, motAecrireEtranger, reponse]
-        #         myFile = open(recordFile, 'a', encoding="utf8")
-        #         with myFile:
-        #             recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
-        #             recordsFile.writerows([resultatQuestion])
-        #         myFile.close()
-        #         if count == choix.motNombreTentatives:
-        #             break
-        #     print('[{motAEcrireFR}] est [{mot}]\n'.format(mot=motAecrireEtrangerComplet, motAEcrireFR = motAEcrireFR))
-        # else:
-        #     #print('Ce type n est pas prévu')
-        #     pass
-    
     return
