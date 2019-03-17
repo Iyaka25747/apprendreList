@@ -1,0 +1,43 @@
+{
+    "allemand": {
+        "voc7": {
+            "p45": {
+                "1": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Freund",
+                    "pluriel": "-e",
+                    "Mot FR": "l’ami"
+                },
+                "3": {
+                    "Type": "mot",
+                    "Der-Die-Das": "der",
+                    "Mot en ALL": "Junge",
+                    "pluriel": "-n",
+                    "Mot FR": "le garçon"
+                },
+                "6a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "tanzen",
+                    "pluriel": "",
+                    "Mot FR": "danser"
+                },
+                "6": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "tanzen, er tanzt, hat getanzt",
+                    "pluriel": "",
+                    "Mot FR": "danser"
+                },
+                "23": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "nicht mehr",
+                    "pluriel": "",
+                    "Mot FR": "ne… plus"
+                }
+            }
+        }
+    }
+}

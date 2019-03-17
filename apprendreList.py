@@ -14,6 +14,9 @@ import csv #for statistics logs
 #Initialisation
 ################
 
+debug = False
+# debug = True
+
 # Enregistrement des choix du joueur
 class choixDuJoueur(object):
     """Global class to hold the settings"""
@@ -49,6 +52,9 @@ print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.cu
 
 #Fichier source exercices
 exercicesFile = 'exercices_vocAll.json'
+if debug:
+    exercicesFile = 'exercices_vocAll_debug.json'
+
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
@@ -109,6 +115,4 @@ if choix.nomLangueChoisie == "allemand":
         ecrireLesMots(vocabulaireList, choix, globalSettings)
 
 print("\nOuf.... c'est fini ...")
-fin = input("Terminé, presser une touche")
-
-
+fin = input('Terminé, Tilio dit appuyer sur la touche \'enter\'')

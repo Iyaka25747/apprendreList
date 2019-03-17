@@ -26,6 +26,21 @@ def showError(texteJuste, texteFaux):
         print('     ' + text)
     return
 
+def showErrorString(strJuste, strFaux):
+    count = 0
+    strDiff = ''
+    pasDeFaute = True
+    while pasDeFaute:
+        if strFaux[count] == strJuste[count]:
+            strDiff += strFaux[count]
+        else:
+            pasDeFaute = False
+            strDiff += '^'
+            strDiff += strFaux[count:]
+        count += 1
+    print('Il y a une erreur: ' + strDiff)
+    return
+
 # Capture d'un choix qui ne peut qu'un chiffre
 def captureNumber(questionText):
     isNotInteger = True
@@ -129,9 +144,18 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
             random.shuffle(motsAMontrerKeys)
             # on construit la liste des mots a afficher
             listeMotsEtrangeAMontrer = []
+            
+            #     listeMotsEtrangeAMontrer.append(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+
+
+            # for key in motsAMontrerKeys:
+            #     if vocabulaireList[key]['Type'] == 'mot':
+            #         motAMontrer = vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL']
+            #     else:
+            #         motAMontrer = vocabulaireList[key]['Mot en ALL']
             for key in motsAMontrerKeys:
-                listeMotsEtrangeAMontrer.append(
-                    vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                motAMontrer = str(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                listeMotsEtrangeAMontrer.append(motAMontrer)
             # On pose la question et on vérifie
             repeteQuestion = True
             while repeteQuestion:
@@ -187,7 +211,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
         informationAEcrireFR = vocabulaireList[key]['Mot FR']
         reponseFausse = True
         tentative = 0
-        if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on fait que les mots ou les phrases
+        if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on ne fait que les mots ou les phrases ...
             while reponseFausse:
                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
                 tentative += 1
@@ -200,18 +224,20 @@ def ecrire(vocabulaireList, choix, globalSettings):
                     evaluationReponse = 'faux'
                     playSoundBad(globalSettings)
                     if choix.ecrireMotPhraseAide:
-                        showError(informationAEcrireEtranger, reponse)
+                        # showError(informationAEcrireEtranger, reponse)
+                        showErrorString(informationAEcrireEtranger, reponse)
 
                 # create the entry for the record
-                tentativeProgress = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
-                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, informationAEcrireEtranger, reponse]
+                repsonseLog = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
+                entryLog = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, repsonseLog, evaluationReponse, informationAEcrireEtranger, reponse]
                 # Log the attempt in a file
-                recordTentative(resultatQuestion, globalSettings)
+                recordTentative(entryLog, globalSettings)
 
                 if tentative == globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
                     keyMotsDifficiles.append(key)                    
                     break
             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = informationAEcrireFR))
+            countElements += 1
             # break
         # enregistre les mots difficiles
     # stopTime = datetime.datetime.today()

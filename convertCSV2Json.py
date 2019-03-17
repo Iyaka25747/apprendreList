@@ -5,6 +5,9 @@ from operator import itemgetter
 inData = []
 csvFile = open('VocAll_toTransformCSV.csv', 'rt', encoding="utf8")
 jsonFile = open('exercices_vocAll.json', 'w', encoding="utf8")
+# csvFile = open('VocAll_toTransformCSV_debug.csv', 'rt', encoding="utf8")
+# jsonFile = open('exercices_vocAll_debug.json', 'w', encoding="utf8")
+
 reader = csv.DictReader(csvFile, delimiter = ';')
 
 # build dictionnary from file
