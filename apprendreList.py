@@ -6,8 +6,8 @@ import time #for measuring elapsed time, date
 from func import *
 import os #for terminal screen clearing
 import winsound # Son, bruitage 
-import datetime #for date
-import time
+import datetime #for date, time
+# import time
 import csv #for statistics logs
 
 ###############
@@ -48,13 +48,15 @@ globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant
 print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.currentTime))
 
 #Fichier source exercices
-exercicesFile = 'exercices_voc4.json'
+exercicesFile = 'exercices_vocAll.json'
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
+globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
+globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 
 #initialisation du fichier de statistiques
-recordFile = "records.csv"
+globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
@@ -76,7 +78,7 @@ listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].key
 choix.nomPageChoisie = choisirElement(listElement)
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
-typePossible = ["Trouver une correspondance", "Ecrire le mot"]
+typePossible = ["Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
 choix.typeExerciceChoisi = choisirElement(typePossible)
 
@@ -87,13 +89,26 @@ choix.typeExerciceChoisi = choisirElement(typePossible)
 #Clear terminal screen 
 os.system('cls' if os.name == 'nt' else 'clear')
 
+vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+globalSettings.nbrMots = 0
+globalSettings.nbrPhrase = 0
+# On compte les mots et les phrase dans la page
+for key in vocabulaireList: 
+    if vocabulaireList[key]['Type'] == 'mot':
+        globalSettings.nbrMots +=1
+    elif vocabulaireList[key]['Type'] == 'phrase':
+        globalSettings.nbrPhrase +=1
+
+#########################
+## On lance l exercice ##
+#########################
 if choix.nomLangueChoisie == "allemand":
-    ############################
-    # Trouver une correspondance
-    ############################
     if choix.typeExerciceChoisi == "Trouver une correspondance":
-        trouverLeMot(recordFile, dataExercices, choix, globalSettings)
+        trouverLeMot(vocabulaireList, choix, globalSettings)
+    elif choix.typeExerciceChoisi == "Ecrire":
+        ecrireLesMots(vocabulaireList, choix, globalSettings)
 
 print("\nOuf.... c'est fini ...")
 fin = input("Terminé, presser une touche")
+
 

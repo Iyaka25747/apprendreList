@@ -1,0 +1,13 @@
+﻿der	Freund	-e	l’ami
+die	Freundin	-nen	l’amie
+der	Junge	-n	le garçon
+das	Mädchen	-	la fille
+das	Lied	-er	la chanson
+	tạnzen, er tanzt, hat getanzt		danser
+	langweilig		ennuyeux,-euse
+	kennen|lernen, er lernt kennen, hat kennengelernt		faire la connaissance de
+	sich treffen, er trịfft sich, hat sich getrọffen		(se) rencontrer
+	Martina und Jens haben sich getroffen.		Martina et Jens se sont rencontrés.
+	sprechen, er spricht, hat gesprochen		parler
+	Alexandra hat mit Martina gesprochen.		Alexandra a parlé avec Martina.
+	fern|sehen, er sieht fern, hat ferngesehen		regarder la télé

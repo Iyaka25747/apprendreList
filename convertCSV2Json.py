@@ -3,8 +3,8 @@ import json
 from operator import itemgetter 
 
 inData = []
-csvFile = open('Voc4_toTransformCSV.csv', 'rt', encoding="utf8")
-jsonFile = open('exercices_voc4.json', 'w', encoding="utf8")
+csvFile = open('VocAll_toTransformCSV.csv', 'rt', encoding="utf8")
+jsonFile = open('exercices_vocAll.json', 'w', encoding="utf8")
 reader = csv.DictReader(csvFile, delimiter = ';')
 
 # build dictionnary from file

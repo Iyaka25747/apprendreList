@@ -4,10 +4,28 @@ import os #for terminal screen clearing
 from random import shuffle
 import csv #for statistics logs
 import random
+import difflib # https://pymotw.com/2/difflib/ 
+# from difflib_data import *
+from pprint import pprint
+# import time #for measuring elapsed time, date
+import datetime #for date, time
+
 
 class NumberMulDiv(object):
     """ Represent a multiplication"""
     
+def showError(texteJuste, texteFaux):
+    texteJuste = [texteJuste]
+    texteFaux = [texteFaux]
+    d = difflib.Differ()
+    # diff = d.compare(text2, text1)
+    result = list(d.compare(texteFaux, texteJuste))
+    # result = list(difflib.ndiff(texteFaux, texteJuste))
+    for text in result:
+        text = text.strip()
+        print('     ' + text)
+    return
+
 # Capture d'un choix qui ne peut qu'un chiffre
 def captureNumber(questionText):
     isNotInteger = True
@@ -68,138 +86,21 @@ def choisirExercice(dataExercice):
     print("Tu as choisis: " + nomExerciceChoisi)
     return nomExerciceChoisi
 
-def executeMulitplication(listMultiplications, random, globalSettings, nomJoueur, nomTypeCalculChoisi, nomExerciceChoisi, modeExerciceChoisi):
-    # Récupération des facteurs de multiplication de l exercice
-    #facteursCalculs = dataExercices[nomTypeCalculChoisi][nomExerciceChoisi]
-    premierFacteurs = listMultiplications["premier facteurs"]
-    deuxiemeFacteurs = listMultiplications["deuxieme facteurs"]
-    nombreDeCalculs = len(premierFacteurs) * len(deuxiemeFacteurs)
-    print("Nombre de calculs à faire: {0}".format(nombreDeCalculs))
+def playSoundGood(globalSettings):
+    if globalSettings.soundActive == True:
+        winsound.PlaySound(globalSettings.goodSound, winsound.SND_FILENAME)
+    return
 
-    # Exercices
-    nombreCalculRestant = nombreDeCalculs
-    tempsTotalDepart = time.perf_counter()
-    nombreReponsesFaussesTot = 0
-    recordsCalculs = []
-    indexCalcul = 0
-    for facteur1 in premierFacteurs:
-        for facteur2 in deuxiemeFacteurs:
-            reponseFausse = True
-            nbrTentatives = 0
-            tempsDepartCalcul = time.perf_counter()
-            #recordCalcul = {}
-            while reponseFausse:
-                reponse = captureNumber("[{countDown} calculs restant] Entrer le résultat de {facteur1}x{facteur2}: ".format(
-                    countDown=nombreCalculRestant, facteur1=facteur1, facteur2=facteur2))
-                nbrTentatives = nbrTentatives + 1
-                # vérification de la réponse
-                if reponse == facteur1 * facteur2:
-                    reponseFausse = False
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(globalSettings.goodSound, winsound.SND_FILENAME)
-                else:
-                    reponseFausse = True
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(globalSettings.badSound, winsound.SND_FILENAME)
-                    # print("Peux faire mieux ...")
-            indexCalcul = indexCalcul + 1
-            nombreCalculRestant = nombreCalculRestant - 1
-            calcul = "{facteur1}x{facteur2}".format(
-                facteur1=facteur1, facteur2=facteur2)
-            tempsFinCalcul = time.perf_counter()
-            dureeCalcul = round(tempsFinCalcul - tempsDepartCalcul, 1)
-            print("Nombre de tentatives: " + str(nbrTentatives))
+def playSoundBad(globalSettings):
+    if globalSettings.soundActive == True:
+        winsound.PlaySound(globalSettings.badSound, winsound.SND_FILENAME)
+    return
 
-            # enregistrement du resultat
-            recordLine = [globalSettings.currentDate, globalSettings.currentTime , nomJoueur, nomTypeCalculChoisi, nomExerciceChoisi,modeExerciceChoisi, calcul, nbrTentatives, dureeCalcul]
-            if nbrTentatives > 1:
-                #calculsRecords.append(recordCalcul) # ajout à la liste
-                recordsCalculs.append(recordLine)
-            nombreReponsesFaussesTot = nombreReponsesFaussesTot + (nbrTentatives-1)
-        
-    #Statistiques globales
-    tempsTotalFin = time.perf_counter()
-    dureeExercice = round(tempsTotalFin - tempsTotalDepart, 1)
-    print("temps passé: {tempsExercice} secondes, Nombre de réponses fausses: {totalReponseFaux}".format(tempsExercice = dureeExercice,totalReponseFaux = nombreReponsesFaussesTot))
-    return recordsCalculs
-
-def executeDivision(listFacteurs,random, globalSettings, nomJoueur, nomTypeCalculChoisi, nomExerciceChoisi,modeExerciceChoisi):
-    # Récupération des facteurs de multiplication de l exercice
-    #facteursCalculs = dataExercices[nomTypeCalculChoisi][nomExerciceChoisi]
-    premierFacteurs = listFacteurs["premier facteurs"]
-    deuxiemeFacteurs = listFacteurs["deuxieme facteurs"]
+def trouverLeMot(vocabulaireList, choix, globalSettings):
     
-    #shuffle(deuxiemeFacteurs)
-    #shuffle(premierFacteurs)
-    dividendes = []
-    for i in premierFacteurs:
-        dividende = i * i
-        dividendes.append([i, i, dividende])
-        for n in deuxiemeFacteurs:
-            dividende = i * n
-            dividendes.append([i, n, dividende])
-    for n in deuxiemeFacteurs:
-            dividende = n * n
-            dividendes.append([n, n, dividende])
-    if random == 'True':
-        shuffle(dividendes)
-    nombreDeCalculs = len(dividendes)
-    print("Nombre de calculs à faire: {0}".format(nombreDeCalculs))
-
-    # Exercices
-    nombreCalculRestant = nombreDeCalculs
-    tempsTotalDepart = time.perf_counter()
-    nombreReponsesFaussesTot = 0
-    recordsCalculs = []
-    indexCalcul = 0
-    for calculItem in dividendes:
-            calculText = "{dividende}/{diviseur}".format(dividende=calculItem[2], diviseur=calculItem[0])
-            reponseFausse = True
-            nbrTentatives = 0
-            tempsDepartCalcul = time.perf_counter()
-            #recordCalcul = {}
-            while reponseFausse:
-                reponse = captureNumber("[{countDown} calculs restant] Entrer le résultat de la division {calculText}: ".format(
-                    countDown=nombreCalculRestant, calculText=calculText))
-                nbrTentatives = nbrTentatives + 1
-                # vérification de la réponse
-                if reponse == calculItem[1]:
-                    reponseFausse = False
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(
-                            globalSettings.goodSound, winsound.SND_FILENAME)
-                else:
-                    reponseFausse = True
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(globalSettings.badSound, winsound.SND_FILENAME)
-                    # print("Peux faire mieux ...")
-            indexCalcul = indexCalcul + 1
-            nombreCalculRestant = nombreCalculRestant - 1
-            tempsFinCalcul = time.perf_counter()
-            dureeCalcul = round(tempsFinCalcul - tempsDepartCalcul, 1)
-            print("Nombre de tentatives: " + str(nbrTentatives))
-
-            # enregistrement du resultat
-            recordLine = [globalSettings.currentDate, globalSettings.currentTime, nomJoueur, nomTypeCalculChoisi,
-                        nomExerciceChoisi, modeExerciceChoisi, calculText, nbrTentatives, dureeCalcul]
-            if nbrTentatives > 1:
-                #calculsRecords.append(recordCalcul) # ajout à la liste
-                recordsCalculs.append(recordLine)
-            nombreReponsesFaussesTot = nombreReponsesFaussesTot + \
-                (nbrTentatives-1)
-
-    #Statistiques globales
-    tempsTotalFin = time.perf_counter()
-    dureeExercice = round(tempsTotalFin - tempsTotalDepart, 1)
-    print("temps passé: {tempsExercice} secondes, Nombre de réponses fausses: {totalReponseFaux}".format(
-    tempsExercice=dureeExercice, totalReponseFaux=nombreReponsesFaussesTot))
-    return recordsCalculs
-
-def trouverLeMot(recordFile, dataExercices, choix, globalSettings):
-    vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
     if choix.typeExerciceChoisi == "Trouver une correspondance":
         nombreMots = len(vocabulaireList)
-        nombreEnnemis = 4
+        
         count = 0
         for keyAtrouver in vocabulaireList:
             # motAtrouverKey = str(motAtrouverKey)
@@ -214,12 +115,12 @@ def trouverLeMot(recordFile, dataExercices, choix, globalSettings):
             random.shuffle(autresMotsKeys)
             # autresMotsKeys = {(key, autresMots[key]) for key in autresMotsKeys}
             # on choisi les x premiers mot à trouver
-            countEnnemis = nombreEnnemis
+            countEnnemis =globalSettings.nombreEnnemis
             autresMotsEnnemisKeys = []
             for key in autresMotsKeys:
                 if countEnnemis != 0:
                     autresMotsEnnemisKeys.append(key)
-                    countEnnemis -= 1
+                    countEnnemis -= 1 
             #on construit la liste à montrer
             motsAMontrerKeys = []
             motsAMontrerKeys = autresMotsEnnemisKeys[:]
@@ -243,24 +144,99 @@ def trouverLeMot(recordFile, dataExercices, choix, globalSettings):
                     evaluationReponse = "Juste"
                     print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(
                         evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=motATrouverEtrange))
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(
-                            globalSettings.goodSound, winsound.SND_FILENAME)
+                    playSoundGood(globalSettings)
+                    # if globalSettings.soundActive == True:
+                    #     winsound.PlaySound(
+                    #         globalSettings.goodSound, winsound.SND_FILENAME)
                 else:
                     repeteQuestion = True
                     evaluationReponse = "Faux"
                     print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(
                         evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=reponse))
-                    if globalSettings.soundActive == True:
-                        winsound.PlaySound(
-                            globalSettings.badSound, winsound.SND_FILENAME)
-                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie,
-                                    choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, motATrouverEtrange, reponse]
-                myFile = open(recordFile, 'a', encoding="utf8")
-                with myFile:
-                    recordsFile = csv.writer(myFile, delimiter=',', lineterminator='\n')
-                    recordsFile.writerows([resultatQuestion])
-                myFile.close()
-        count = count + 1
-    print("Enregistrement des exercices dans {fichier}".format(fichier = recordFile ))
+                    playSoundBad(globalSettings)
+                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, motATrouverEtrange, reponse]
+                
+                recordTentative(resultatQuestion, globalSettings)                
+            count = count + 1
+        
+    print("Enregistrement des exercices dans {fichier}".format(fichier = globalSettings.recordFile ))
+    return
+
+def recordTentative(resultatQuestion, globalSettings):
+    myFile = open(globalSettings.recordFile, 'a', encoding="utf8")
+    with myFile:
+        recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
+        recordsFile.writerows([resultatQuestion])
+    myFile.close()
+    return
+
+def ecrire(vocabulaireList, choix, globalSettings):
+    countElements = 0
+    keyMotsDifficiles = []
+    startTime = datetime.datetime.today()
+    # Identifier le nombre de mots ou de phrases  
+    if choix.ecrireMotPhrase == "phrase":
+        nombreElements = globalSettings.nbrMots
+    else:
+        nombreElements = globalSettings.nbrPhrase
+
+    for key in vocabulaireList:
+
+        informationAEcrireEtranger = vocabulaireList[key]['Mot en ALL']
+        informationAEcrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
+        informationAEcrireFR = vocabulaireList[key]['Mot FR']
+        reponseFausse = True
+        tentative = 0
+        if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on fait que les mots ou les phrases
+            while reponseFausse:
+                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
+                tentative += 1
+                if reponse == informationAEcrireEtranger:
+                    print('Bravo')
+                    reponseFausse = False
+                    evaluationReponse = 'juste'
+                    playSoundGood(globalSettings)
+                else:
+                    evaluationReponse = 'faux'
+                    playSoundBad(globalSettings)
+                    if choix.ecrireMotPhraseAide:
+                        showError(informationAEcrireEtranger, reponse)
+
+                # create the entry for the record
+                tentativeProgress = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
+                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, informationAEcrireEtranger, reponse]
+                # Log the attempt in a file
+                recordTentative(resultatQuestion, globalSettings)
+
+                if tentative == globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+                    keyMotsDifficiles.append(key)                    
+                    break
+            print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = informationAEcrireFR))
+            # break
+        # enregistre les mots difficiles
+    # stopTime = datetime.datetime.today()
+    # deltaTime = stopTime - startTime
+    # test = stopTime.second
+    # print(test)
+    # print('Temps de l exercice: {minutes}min. et {seconde}sec.'.format(minutes=deltaTime.minute, seconde=deltaTime.second))
+    # print('hello')
+    return
+
+def ecrireLesMots(vocabulaireList, choix, globalSettings):
+    sorted(vocabulaireList)
+    print('Ecrire des mots ou des phrases ?')
+    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide'])
+    if optionChoisie == 'mot':
+        choix.ecrireMotPhrase = 'mot'
+        choix.ecrireMotPhraseAide = False
+    elif optionChoisie == 'mot avec aide':
+        choix.ecrireMotPhrase = 'mot'
+        choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'phrase':
+        choix.ecrireMotPhrase = 'phrase'
+        choix.ecrireMotPhraseAide = False
+    elif optionChoisie == 'phrase avec aide':
+        choix.ecrireMotPhrase = 'phrase'
+        choix.ecrireMotPhraseAide = True
+    ecrire(vocabulaireList, choix, globalSettings)
     return

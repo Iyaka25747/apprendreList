@@ -14,6 +14,12 @@ Exemple de Voc (Voc6)
     Phrase
         Kann ich bitte noch eine Cola haben?		Pourrias je encore avoir un coco SVP?
 
-Améliorations
-    Ecrire le mot:
-    - Pour l exercice ou il faut ecrire les mots. A la fin des 3 tentatives, oN pourrait afficher les erreurs faites.  On  enregistrre chaque réponse et à la fin des tentatives on affiche les réponses qui ont été entrée avec un diff sur la réponse. 
+Améliorations:
+aller du FR et trouver all est plus dif. pour Tilio
+    Verbes:
+        Distinguer les verbes des phrases
+        DIstinguer les verbes infinitif des verbes conjgués.
+
+
+En cours:
+ reprendre ligne 216 de func.py
