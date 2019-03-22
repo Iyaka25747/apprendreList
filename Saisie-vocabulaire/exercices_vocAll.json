@@ -1166,7 +1166,7 @@
                 "6": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "tạnzen, er tanzt, hat getanzt",
+                    "Mot en ALL": "tanzen, er tanzt, hat getanzt",
                     "pluriel": "",
                     "Mot FR": "danser"
                 },
@@ -1177,12 +1177,26 @@
                     "pluriel": "",
                     "Mot FR": "ennuyeux,-euse"
                 },
+                "8a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "kennen|lernen",
+                    "pluriel": "",
+                    "Mot FR": "faire la connaissance de"
+                },
                 "8": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
                     "Mot en ALL": "kennen|lernen, er lernt kennen, hat kennengelernt",
                     "pluriel": "",
                     "Mot FR": "faire la connaissance de"
+                },
+                "9a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sich treffen",
+                    "pluriel": "",
+                    "Mot FR": "(se) rencontrer"
                 },
                 "9": {
                     "Type": "phrase",
@@ -1197,6 +1211,13 @@
                     "Mot en ALL": "Martina und Jens haben sich getroffen.",
                     "pluriel": "",
                     "Mot FR": "Martina et Jens se sont rencontrés."
+                },
+                "11a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sprechen",
+                    "pluriel": "",
+                    "Mot FR": "parler"
                 },
                 "11": {
                     "Type": "phrase",
@@ -1222,7 +1243,7 @@
             },
             "p46": {
                 "1": {
-                    "Type": "phrase",
+                    "Type": "mot",
                     "Der-Die-Das": "",
                     "Mot en ALL": "zusammen",
                     "pluriel": "",
@@ -1242,6 +1263,13 @@
                     "pluriel": "",
                     "Mot FR": "Qu’est-ce qui s’est passé ?"
                 },
+                "4a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "gehen",
+                    "pluriel": "",
+                    "Mot FR": "aller"
+                },
                 "4": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
@@ -1255,6 +1283,13 @@
                     "Mot en ALL": "Martina und Jens sind ins Kino gegangen.",
                     "pluriel": "",
                     "Mot FR": "Martina et Jens sont allés au cinéma."
+                },
+                "6a": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sein",
+                    "pluriel": "",
+                    "Mot FR": "être"
                 },
                 "6": {
                     "Type": "phrase",
@@ -1270,12 +1305,26 @@
                     "pluriel": "",
                     "Mot FR": "Sophie a aussi été au cinéma."
                 },
+                "8a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "zu|hören",
+                    "pluriel": "",
+                    "Mot FR": "écouter"
+                },
                 "8": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
                     "Mot en ALL": "zu|hören, er hört zu, hat zugehört",
                     "pluriel": "",
                     "Mot FR": "écouter"
+                },
+                "9a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "lügen",
+                    "pluriel": "",
+                    "Mot FR": "mentir"
                 },
                 "9": {
                     "Type": "phrase",
@@ -1306,7 +1355,7 @@
                     "Mot FR": "le journal (intime)"
                 },
                 "13": {
-                    "Type": "phrase",
+                    "Type": "mot",
                     "Der-Die-Das": "",
                     "Mot en ALL": "wütend",
                     "pluriel": "",
@@ -1318,6 +1367,13 @@
                     "Mot en ALL": "Alexandra ist wütend.",
                     "pluriel": "",
                     "Mot FR": "Alexandra est furieuse."
+                },
+                "15a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "helfen",
+                    "pluriel": "",
+                    "Mot FR": "aider"
                 },
                 "15": {
                     "Type": "phrase",
@@ -1341,7 +1397,7 @@
                     "Mot FR": "le conseil"
                 },
                 "18": {
-                    "Type": "phrase",
+                    "Type": "mot",
                     "Der-Die-Das": "",
                     "Mot en ALL": "enttäuscht",
                     "pluriel": "",
@@ -1403,6 +1459,13 @@
                     "pluriel": "",
                     "Mot FR": "Que dois-je faire ?"
                 },
+                "27a": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sich fühlen",
+                    "pluriel": "",
+                    "Mot FR": "se sentir"
+                },
                 "27": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
@@ -1410,12 +1473,245 @@
                     "pluriel": "",
                     "Mot FR": "se sentir"
                 },
+                "28a": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "fehlen",
+                    "pluriel": "",
+                    "Mot FR": "manquer, tu me manques"
+                },
                 "28": {
                     "Type": "phrase",
                     "Der-Die-Das": "",
                     "Mot en ALL": "fehlen, du fehlst mir, du hast mir gefehlt",
                     "pluriel": "",
                     "Mot FR": "manquer, tu me manques"
+                }
+            },
+            "p47": {
+                "1": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sportlich",
+                    "pluriel": "",
+                    "Mot FR": "sportif-ive"
+                },
+                "2": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "unsportlich",
+                    "pluriel": "",
+                    "Mot FR": "pas sportif-ive"
+                },
+                "3": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "intelligent",
+                    "pluriel": "",
+                    "Mot FR": "intelligent-e"
+                },
+                "4": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "dumm",
+                    "pluriel": "",
+                    "Mot FR": "bête"
+                },
+                "5": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "lustig",
+                    "pluriel": "",
+                    "Mot FR": "drôle,amusant-e"
+                },
+                "6": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "traurig",
+                    "pluriel": "",
+                    "Mot FR": "triste"
+                },
+                "7": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "sympathisch",
+                    "pluriel": "",
+                    "Mot FR": "sympathique"
+                },
+                "8": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "unsympathisch",
+                    "pluriel": "",
+                    "Mot FR": "antipathique,désagréable"
+                },
+                "9": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "fair",
+                    "pluriel": "",
+                    "Mot FR": "juste"
+                },
+                "10": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "unfair",
+                    "pluriel": "",
+                    "Mot FR": "injuste"
+                },
+                "11": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "glücklich",
+                    "pluriel": "",
+                    "Mot FR": "heureux-euse"
+                },
+                "12": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "unglücklich",
+                    "pluriel": "",
+                    "Mot FR": "malheureux-euse"
+                },
+                "13": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "freundlich",
+                    "pluriel": "",
+                    "Mot FR": "aimable"
+                },
+                "14": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "unfreundlich",
+                    "pluriel": "",
+                    "Mot FR": "peu aimable,désagréable"
+                },
+                "15": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "geduldig",
+                    "pluriel": "",
+                    "Mot FR": "patient-e"
+                },
+                "16": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "ungeduldig",
+                    "pluriel": "",
+                    "Mot FR": "impatient-e"
+                },
+                "17": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "pünktlich",
+                    "pluriel": "",
+                    "Mot FR": "ponctuel-le"
+                },
+                "18": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "unpünktlich",
+                    "pluriel": "",
+                    "Mot FR": "en retard"
+                },
+                "19": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "mutig",
+                    "pluriel": "",
+                    "Mot FR": "courageux-euse"
+                },
+                "20": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "feige",
+                    "pluriel": "",
+                    "Mot FR": "lâche"
+                },
+                "21": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "ehrlich",
+                    "pluriel": "",
+                    "Mot FR": "sincère"
+                },
+                "22": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "unehrlich",
+                    "pluriel": "",
+                    "Mot FR": "pas franc, franche"
+                },
+                "23": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "komisch",
+                    "pluriel": "",
+                    "Mot FR": "drôle,bizarre"
+                },
+                "24": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Du bist lustig.",
+                    "pluriel": "",
+                    "Mot FR": "Tu es drôle."
+                },
+                "25": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Dein T-Shirt ist cool.",
+                    "pluriel": "",
+                    "Mot FR": "Ton t-shirt est cool."
+                },
+                "26": {
+                    "Type": "mot",
+                    "Der-Die-Das": "das",
+                    "Mot en ALL": "Kompliment",
+                    "pluriel": "-e",
+                    "Mot FR": "le compliment"
+                },
+                "27": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Komplimente machen, er macht, hat gemacht",
+                    "pluriel": "",
+                    "Mot FR": "faire des compliments"
+                },
+                "28": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "gefallen",
+                    "pluriel": "",
+                    "Mot FR": "plaire"
+                },
+                "29": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "gefallen, er gefällt ihm,er hat ihm gefallen",
+                    "pluriel": "",
+                    "Mot FR": "plaire"
+                },
+                "30": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Du kannst gut singen.",
+                    "pluriel": "",
+                    "Mot FR": "Tu sais bien chanter."
+                },
+                "31": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ich finde dich nett.",
+                    "pluriel": "",
+                    "Mot FR": "Je pense que tu es gentil."
+                },
+                "32": {
+                    "Type": "phrase",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "Ich mag dein Lachen.",
+                    "pluriel": "",
+                    "Mot FR": "J’aime bien ton rire."
                 }
             }
         }

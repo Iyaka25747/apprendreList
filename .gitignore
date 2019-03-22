@@ -3,5 +3,5 @@
 .vscode/.ropeproject/config.py
 .vscode/.ropeproject/objectdb
 __pycache__/func.cpython-37.pyc
-exercices.json
-records.csv
+records.csv 
+workspace-voc.code-workspace

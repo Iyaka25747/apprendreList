@@ -14,6 +14,9 @@ import csv #for statistics logs
 #Initialisation
 ################
 
+debug = False
+# debug = True
+
 # Enregistrement des choix du joueur
 class choixDuJoueur(object):
     """Global class to hold the settings"""
@@ -48,7 +51,10 @@ globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant
 print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.currentTime))
 
 #Fichier source exercices
-exercicesFile = 'exercices_vocAll.json'
+exercicesFile = 'Voc-exercices.json'
+if debug:
+    exercicesFile = 'exercices_vocAll_debug.json'
+
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
@@ -65,7 +71,7 @@ print("Joueurs: ")
 users = dataSettings["users"]
 choix.nomJoueur = choisirElement(users)
 
-# Affichage et selection de la categorie Anglais, Allemand...
+# Affichage et selection de la langue Anglais, Allemand...
 listElement = list(dataExercices.keys())
 choix.nomLangueChoisie = choisirElement(listElement)
 
@@ -91,24 +97,24 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
 globalSettings.nbrMots = 0
-globalSettings.nbrPhrase = 0
+globalSettings.nbrPhrases = 0
+globalSettings.nbrVerbes = 0
 # On compte les mots et les phrase dans la page
 for key in vocabulaireList: 
     if vocabulaireList[key]['Type'] == 'mot':
         globalSettings.nbrMots +=1
     elif vocabulaireList[key]['Type'] == 'phrase':
-        globalSettings.nbrPhrase +=1
+        globalSettings.nbrPhrases +=1
+    elif vocabulaireList[key]['Type'] == 'verbe':
+        globalSettings.nbrVerbes +=1
 
 #########################
 ## On lance l exercice ##
 #########################
-if choix.nomLangueChoisie == "allemand":
-    if choix.typeExerciceChoisi == "Trouver une correspondance":
-        trouverLeMot(vocabulaireList, choix, globalSettings)
-    elif choix.typeExerciceChoisi == "Ecrire":
-        ecrireLesMots(vocabulaireList, choix, globalSettings)
+if choix.typeExerciceChoisi == "Trouver une correspondance":
+    trouverLeMot(vocabulaireList, choix, globalSettings)
+elif choix.typeExerciceChoisi == "Ecrire":
+    ecrireLesMots(vocabulaireList, choix, globalSettings)
 
 print("\nOuf.... c'est fini ...")
-fin = input("Terminé, presser une touche")
-
-
+fin = input('Terminé, Tilio dit appuyer sur la touche \'enter\'')

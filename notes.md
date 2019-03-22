@@ -23,3 +23,7 @@ aller du FR et trouver all est plus dif. pour Tilio
 
 En cours:
  reprendre ligne 216 de func.py
+
+Ajouter une version dans l entete
+Afficher une seule ligne en haut avec tout les choix
+Se passer de la conversion .csv vers JSON

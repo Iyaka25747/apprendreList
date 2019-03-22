@@ -26,6 +26,27 @@ def showError(texteJuste, texteFaux):
         print('     ' + text)
     return
 
+def showErrorString(strJuste, strFaux):
+    count = 0
+    strDiff = ''
+    pasDeFaute = True
+    while pasDeFaute:
+        if count < len(strFaux):
+            if strJuste[count] == strFaux[count]:
+                strDiff += strFaux[count]
+            else:
+                pasDeFaute = False
+                strDiff += '^'
+                strDiff += strFaux[count:]
+        else:
+            pasDeFaute = False
+            strDiff += '^'
+            strDiff += strFaux[count:]
+
+        count += 1
+    print('Il y a une erreur: ' + strDiff)
+    return
+
 # Capture d'un choix qui ne peut qu'un chiffre
 def captureNumber(questionText):
     isNotInteger = True
@@ -129,9 +150,18 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
             random.shuffle(motsAMontrerKeys)
             # on construit la liste des mots a afficher
             listeMotsEtrangeAMontrer = []
+            
+            #     listeMotsEtrangeAMontrer.append(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+
+
+            # for key in motsAMontrerKeys:
+            #     if vocabulaireList[key]['Type'] == 'mot':
+            #         motAMontrer = vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL']
+            #     else:
+            #         motAMontrer = vocabulaireList[key]['Mot en ALL']
             for key in motsAMontrerKeys:
-                listeMotsEtrangeAMontrer.append(
-                    vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                motAMontrer = str(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                listeMotsEtrangeAMontrer.append(motAMontrer)
             # On pose la question et on vérifie
             repeteQuestion = True
             while repeteQuestion:
@@ -174,11 +204,16 @@ def ecrire(vocabulaireList, choix, globalSettings):
     countElements = 0
     keyMotsDifficiles = []
     startTime = datetime.datetime.today()
+    # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen
     # Identifier le nombre de mots ou de phrases  
     if choix.ecrireMotPhrase == "phrase":
+        nombreElements = globalSettings.nbrPhrases
+    elif choix.ecrireMotPhrase == "mot":
         nombreElements = globalSettings.nbrMots
-    else:
-        nombreElements = globalSettings.nbrPhrase
+    elif choix.ecrireMotPhrase == "verbe":
+        nombreElements = globalSettings.nbrVerbes
+    # else:
+    #     nombreElements = globalSettings.nbrPhrase
 
     for key in vocabulaireList:
 
@@ -187,7 +222,8 @@ def ecrire(vocabulaireList, choix, globalSettings):
         informationAEcrireFR = vocabulaireList[key]['Mot FR']
         reponseFausse = True
         tentative = 0
-        if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on fait que les mots ou les phrases
+        if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on ne fait que les mots ou les phrases ...
+            # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen 
             while reponseFausse:
                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
                 tentative += 1
@@ -200,18 +236,20 @@ def ecrire(vocabulaireList, choix, globalSettings):
                     evaluationReponse = 'faux'
                     playSoundBad(globalSettings)
                     if choix.ecrireMotPhraseAide:
-                        showError(informationAEcrireEtranger, reponse)
+                        # showError(informationAEcrireEtranger, reponse)
+                        showErrorString(informationAEcrireEtranger, reponse)
 
                 # create the entry for the record
-                tentativeProgress = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
-                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, tentativeProgress, evaluationReponse, informationAEcrireEtranger, reponse]
+                repsonseLog = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
+                entryLog = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, repsonseLog, evaluationReponse, informationAEcrireEtranger, reponse]
                 # Log the attempt in a file
-                recordTentative(resultatQuestion, globalSettings)
+                recordTentative(entryLog, globalSettings)
 
                 if tentative == globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
                     keyMotsDifficiles.append(key)                    
                     break
             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = informationAEcrireFR))
+            countElements += 1
             # break
         # enregistre les mots difficiles
     # stopTime = datetime.datetime.today()
@@ -225,7 +263,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
 def ecrireLesMots(vocabulaireList, choix, globalSettings):
     sorted(vocabulaireList)
     print('Ecrire des mots ou des phrases ?')
-    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide'])
+    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide', 'verbe','verbe avec aide'])
     if optionChoisie == 'mot':
         choix.ecrireMotPhrase = 'mot'
         choix.ecrireMotPhraseAide = False
@@ -238,5 +276,11 @@ def ecrireLesMots(vocabulaireList, choix, globalSettings):
     elif optionChoisie == 'phrase avec aide':
         choix.ecrireMotPhrase = 'phrase'
         choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'verbe':
+        choix.ecrireMotPhrase = 'verbe'
+        choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'verbe avec aide':
+        choix.ecrireMotPhrase = 'verbe'
+        choix.ecrireMotPhraseAide = False
     ecrire(vocabulaireList, choix, globalSettings)
     return
