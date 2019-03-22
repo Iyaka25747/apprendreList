@@ -204,12 +204,16 @@ def ecrire(vocabulaireList, choix, globalSettings):
     countElements = 0
     keyMotsDifficiles = []
     startTime = datetime.datetime.today()
-    os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen
+    # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen
     # Identifier le nombre de mots ou de phrases  
     if choix.ecrireMotPhrase == "phrase":
+        nombreElements = globalSettings.nbrPhrases
+    elif choix.ecrireMotPhrase == "mot":
         nombreElements = globalSettings.nbrMots
-    else:
-        nombreElements = globalSettings.nbrPhrase
+    elif choix.ecrireMotPhrase == "verbe":
+        nombreElements = globalSettings.nbrVerbes
+    # else:
+    #     nombreElements = globalSettings.nbrPhrase
 
     for key in vocabulaireList:
 
@@ -259,7 +263,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
 def ecrireLesMots(vocabulaireList, choix, globalSettings):
     sorted(vocabulaireList)
     print('Ecrire des mots ou des phrases ?')
-    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide'])
+    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide', 'verbe','verbe avec aide'])
     if optionChoisie == 'mot':
         choix.ecrireMotPhrase = 'mot'
         choix.ecrireMotPhraseAide = False
@@ -272,5 +276,11 @@ def ecrireLesMots(vocabulaireList, choix, globalSettings):
     elif optionChoisie == 'phrase avec aide':
         choix.ecrireMotPhrase = 'phrase'
         choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'verbe':
+        choix.ecrireMotPhrase = 'verbe'
+        choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'verbe avec aide':
+        choix.ecrireMotPhrase = 'verbe'
+        choix.ecrireMotPhraseAide = False
     ecrire(vocabulaireList, choix, globalSettings)
     return

@@ -97,13 +97,16 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
 globalSettings.nbrMots = 0
-globalSettings.nbrPhrase = 0
+globalSettings.nbrPhrases = 0
+globalSettings.nbrVerbes = 0
 # On compte les mots et les phrase dans la page
 for key in vocabulaireList: 
     if vocabulaireList[key]['Type'] == 'mot':
         globalSettings.nbrMots +=1
     elif vocabulaireList[key]['Type'] == 'phrase':
-        globalSettings.nbrPhrase +=1
+        globalSettings.nbrPhrases +=1
+    elif vocabulaireList[key]['Type'] == 'verbe':
+        globalSettings.nbrVerbes +=1
 
 #########################
 ## On lance l exercice ##
