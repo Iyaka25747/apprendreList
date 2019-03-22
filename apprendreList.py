@@ -51,7 +51,7 @@ globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant
 print("Date: {0}, Time:{1}".format(globalSettings.currentDate, globalSettings.currentTime))
 
 #Fichier source exercices
-exercicesFile = 'exercices_vocAll.json'
+exercicesFile = 'Voc-exercices.json'
 if debug:
     exercicesFile = 'exercices_vocAll_debug.json'
 

@@ -1,0 +1,38 @@
+﻿	arrive, arrived		arriver
+	call, called		appeler
+	change, changed		changer
+	climb, climbed		monter
+	die, died		mourir
+	end, ended		s’achever
+	finish, finished		finir
+	happen, happened		se passer
+	look for, looked for		chercher
+	marry, married		se marier
+	start, started		commencer
+	stay, stayed		rester
+	stop, stopped		cesser
+	study, studied		étudier
+	travel, travelled		voyager
+	try, tried		essayer
+	walk, walked		marcher
+	watch, watched		regarder
+	work, worked		travailler
+	arrive		arriver
+	call		appeler
+	change		changer
+	climb		monter
+	die		mourir
+	end		s’achever
+	finish		finir
+	happen		happened se passer
+	look for		chercher
+	marry		se marier
+	start		commencer
+	stay		rester
+	stop		cesser
+	study		étudier
+	travel		voyager
+	try		essayer
+	walk		marcher
+	watch		regarder
+	work		travailler
