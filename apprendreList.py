@@ -71,7 +71,7 @@ print("Joueurs: ")
 users = dataSettings["users"]
 choix.nomJoueur = choisirElement(users)
 
-# Affichage et selection de la categorie Anglais, Allemand...
+# Affichage et selection de la langue Anglais, Allemand...
 listElement = list(dataExercices.keys())
 choix.nomLangueChoisie = choisirElement(listElement)
 
@@ -108,11 +108,10 @@ for key in vocabulaireList:
 #########################
 ## On lance l exercice ##
 #########################
-if choix.nomLangueChoisie == "allemand":
-    if choix.typeExerciceChoisi == "Trouver une correspondance":
-        trouverLeMot(vocabulaireList, choix, globalSettings)
-    elif choix.typeExerciceChoisi == "Ecrire":
-        ecrireLesMots(vocabulaireList, choix, globalSettings)
+if choix.typeExerciceChoisi == "Trouver une correspondance":
+    trouverLeMot(vocabulaireList, choix, globalSettings)
+elif choix.typeExerciceChoisi == "Ecrire":
+    ecrireLesMots(vocabulaireList, choix, globalSettings)
 
 print("\nOuf.... c'est fini ...")
 fin = input('Terminé, Tilio dit appuyer sur la touche \'enter\'')

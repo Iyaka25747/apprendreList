@@ -31,12 +31,18 @@ def showErrorString(strJuste, strFaux):
     strDiff = ''
     pasDeFaute = True
     while pasDeFaute:
-        if strFaux[count] == strJuste[count]:
-            strDiff += strFaux[count]
+        if count < len(strFaux):
+            if strJuste[count] == strFaux[count]:
+                strDiff += strFaux[count]
+            else:
+                pasDeFaute = False
+                strDiff += '^'
+                strDiff += strFaux[count:]
         else:
             pasDeFaute = False
             strDiff += '^'
             strDiff += strFaux[count:]
+
         count += 1
     print('Il y a une erreur: ' + strDiff)
     return
@@ -198,6 +204,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
     countElements = 0
     keyMotsDifficiles = []
     startTime = datetime.datetime.today()
+    os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen
     # Identifier le nombre de mots ou de phrases  
     if choix.ecrireMotPhrase == "phrase":
         nombreElements = globalSettings.nbrMots
@@ -212,6 +219,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
         reponseFausse = True
         tentative = 0
         if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on ne fait que les mots ou les phrases ...
+            # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen 
             while reponseFausse:
                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
                 tentative += 1
