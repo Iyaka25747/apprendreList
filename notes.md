@@ -34,4 +34,4 @@ Découper la structure comme suite
 2) Je m'exerce à écrire
     - J'écris, je vois mon erreur et toute la réponse juste
     - J'écris et je vois seulment ma première erreur
-    - J'écris jusqu'à ce que ce soit juste (sans aide)
+    - J'écris jusqu'à ce que ce soit juste (sans aide) 
