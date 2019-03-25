@@ -14,8 +14,8 @@ import csv #for statistics logs
 #Initialisation
 ################
 
-debug = False
-# debug = True
+# debug = False
+debug = True
 
 # Enregistrement des choix du joueur
 class choixDuJoueur(object):

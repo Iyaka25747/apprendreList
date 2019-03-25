@@ -9,31 +9,25 @@ import difflib # https://pymotw.com/2/difflib/
 from pprint import pprint
 import sys
 
-text1 = '''1. Beautiful is better than ugly.
-2. Explicit is better than implicit.
-3. Simple is better than complex.
-4. Complex is better than complicated.
-'''.splitlines(1)
-text2 = '''1. Beautiful is better than ugly.
-3. Simple is better than complex.
-4. Complicated is better than complex.
-5. Flat is better than nested.
-'''.splitlines(1)
+class ExerciceVoc:
+    """Represent a vocabulary exercice 
+    
+    attributes: vocabulary
+    """
+    def __init__(self, vocabulary):
+        self.vocabulary = vocabulary
+    
+    def displayVoc(self):
+        print('Vocabulary: ')
 
-text1 = 'Herzlichen Glückwunsch zum Geburtstag!'
-text2 = 'Herzlichen Gloukwunsch zum Geburtstag!uuu'
-text1 = [text1]
-text2 = [text2]
+    # # Initializer / Instance Attributes
+    # def __init__(self, name):
+    #     self.name = name
+    #     # self.age = age
 
-
-d = difflib.Differ()    
-result = list(d.compare(text1, text2))
-print(type(result))
-pprint(result)
-print('\n+++++++++++++++\n')
-for text in result:
-    text = text.strip()
-    print(text)
-pass
-test = '   spacious^^\n'.rstrip()
-pass
+# exercice1 = ExerciceVoc('vocAnglais')
+exercice1 = ExerciceVoc('juice')
+print(exercice1)
+texte = 'hello'
+exercice2 = ExerciceVoc(texte)
+exercice1.displayVoc()

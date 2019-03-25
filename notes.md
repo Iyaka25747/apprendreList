@@ -26,12 +26,15 @@ Afficher une seule ligne en haut avec tout les choix
 Se passer de la conversion .csv vers JSON
 
 Découper la structure comme suite
-0) Je choisis le temps du sprint 
-    Nombre de minutes de durée des sprints (0 = je fais en un seul coup): 
-1) Je commencer à mémoriser
+0) Je choisis le temps du sprint
+    Nombre de minutes pour un sprint (0 = je fais en un seul coup): 
+1) Je me familiarise avec un nouveau voc
     - Je trouve un mots parmis plusieurs énemis/indiens (proposer un nombre d'énemis, trouver mot parmis N éléments)
     - Je pense au mot et je vérifie que c'est juste (réfléchir, voir réponse, décider juste ou faux)
-2) Je m'exerce à écrire
-    - J'écris, je vois mon erreur et toute la réponse juste
+2) J'exerce un vocabulaire
+    - J'écris, je vois ma première erreur et le reste de la réponse juste
     - J'écris et je vois seulment ma première erreur
     - J'écris jusqu'à ce que ce soit juste (sans aide) 
+
+Audio:
+Ajouter du son. Employer Audigy pour découper des mots all enregistré par Ortrud,  lui demander un enregistrement du voc.

@@ -123,14 +123,19 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
         nombreMots = len(vocabulaireList)
         
         count = 0
-        for keyAtrouver in vocabulaireList:
+        for keyVocabulaire in vocabulaireList:
             # motAtrouverKey = str(motAtrouverKey)
-            motATrouverFR = vocabulaireList[keyAtrouver]['Mot FR']
-            motATrouverEtrange = vocabulaireList[keyAtrouver]['Der-Die-Das'] + \
-                " "+vocabulaireList[keyAtrouver]['Mot en ALL']
+            motATrouverFR = vocabulaireList[keyVocabulaire]['Mot FR']
+            
+            if vocabulaireList[keyVocabulaire]['Der-Die-Das'] != '':
+                motATrouverEtrange = vocabulaireList[keyVocabulaire]['Der-Die-Das'] + " " + vocabulaireList[keyVocabulaire]['Mot en ALL']
+            else:
+                motATrouverEtrange = vocabulaireList[keyVocabulaire]['Mot en ALL']
+                    
+            
             #creation d'une list sans le mot à trouver
             autresMots = dict(vocabulaireList)
-            del(autresMots[keyAtrouver])
+            del(autresMots[keyVocabulaire])
             # on mélange les mots
             autresMotsKeys = list(autresMots.keys())
             random.shuffle(autresMotsKeys)
@@ -145,28 +150,22 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
             #on construit la liste à montrer
             motsAMontrerKeys = []
             motsAMontrerKeys = autresMotsEnnemisKeys[:]
-            motsAMontrerKeys.append(keyAtrouver)
+            motsAMontrerKeys.append(keyVocabulaire)
             # on mélange les mots
             random.shuffle(motsAMontrerKeys)
             # on construit la liste des mots a afficher
             listeMotsEtrangeAMontrer = []
-            
-            #     listeMotsEtrangeAMontrer.append(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
-
-
-            # for key in motsAMontrerKeys:
-            #     if vocabulaireList[key]['Type'] == 'mot':
-            #         motAMontrer = vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL']
-            #     else:
-            #         motAMontrer = vocabulaireList[key]['Mot en ALL']
             for key in motsAMontrerKeys:
-                motAMontrer = str(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                if vocabulaireList[key]['Der-Die-Das'] != '':
+                    motAMontrer = str(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                else:
+                    motAMontrer = vocabulaireList[key]['Mot en ALL']
                 listeMotsEtrangeAMontrer.append(motAMontrer)
             # On pose la question et on vérifie
             repeteQuestion = True
             while repeteQuestion:
-                print("{reste}/{total} Comment dire: '{motATrouverFR}'".format(
-                    motATrouverFR=vocabulaireList[keyAtrouver]['Mot FR'], reste=nombreMots - count, total=nombreMots))
+                print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(
+                    motATrouverFR=vocabulaireList[keyVocabulaire]['Mot FR'], reste=nombreMots - count, total=nombreMots, TypeElement = vocabulaireList[keyVocabulaire]['Type']))
 
                 reponse = choisirElement(listeMotsEtrangeAMontrer)
                 if reponse == motATrouverEtrange:
