@@ -11,8 +11,14 @@ from pprint import pprint
 import datetime #for date, time
 
 
-class NumberMulDiv(object):
-    """ Represent a multiplication"""
+class MyTime:  
+    """ Time management for the exercice"""
+    def __init__():
+        pass
+    
+    def start():
+        self.startTime = datime.datetime.time()
+
     
 def showError(texteJuste, texteFaux):
     texteJuste = [texteJuste]
