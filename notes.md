@@ -21,6 +21,8 @@ aller du FR et trouver all est plus dif. pour Tilio
         DIstinguer les verbes infinitif des verbes conjgués.
 
 
+en cours: Montrer le temps à chaque pas
+
 Ajouter une version dans l entete
 Afficher une seule ligne en haut avec tout les choix
 Se passer de la conversion .csv vers JSON
