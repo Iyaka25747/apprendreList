@@ -9,6 +9,15 @@ import difflib # https://pymotw.com/2/difflib/
 from pprint import pprint
 import sys
 import datetime
+from func import *
+
+exerciceTimeKeeper = TimeKeeper()
+exerciceTimeKeeper.startTimer()
+exerciceTimeKeeper.stopTimer()
+duree = exerciceTimeKeeper.totalDuration()
+# duree = TimeKeeper.totalDuration
+print("\nOuf.... c'est fini ...")
+print("Durée de l'exercice: {duree}".format(duree=duree))
 
 class ExerciceTime:
     """Represent a vocabulary exercice 

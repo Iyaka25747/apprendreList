@@ -10,14 +10,31 @@ from pprint import pprint
 # import time #for measuring elapsed time, date
 import datetime #for date, time
 
+class TimeKeeper:
+    """Time Management for the exercice in seconds
+    """
+    # varialbles:
+    # startTime
+    # stopTime
+    # totalDuration
 
-class MyTime:  
-    """ Time management for the exercice"""
-    def __init__():
+    def __init__(self):
         pass
     
-    def start():
-        self.startTime = datime.datetime.time()
+    def startTimer(self):
+        self.startTime = datetime.datetime.today()
+
+    def stopTimer(self):
+        self.stopTime = datetime.datetime.today()
+
+    def totalDuration(self):
+        self.totalDuration = self.stopTime - self.startTime
+        return self.totalDuration
+
+    # # Initializer / Instance Attributes
+    # def __init__(self, name):
+    #     self.name = name
+    #     # self.age = age
 
     
 def showError(texteJuste, texteFaux):

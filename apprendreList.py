@@ -45,6 +45,8 @@ globalSettings.goodSound = soudSetting["good_sound"]
 
 
 # initialisation du temps
+exerciceTimeKeeper = TimeKeeper()
+exerciceTimeKeeper.startTimer()
 maintenant = datetime.datetime.today()
 globalSettings.currentDate = "{day}.{month}.{year}".format(year = maintenant.year, month=  maintenant.month, day=  maintenant.day)#datetime.date.today()
 globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant.hour, minute=  maintenant.minute, second=  maintenant.second)
@@ -115,6 +117,8 @@ if choix.typeExerciceChoisi == "Trouver une correspondance":
     trouverLeMot(vocabulaireList, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
     ecrireLesMots(vocabulaireList, choix, globalSettings)
-
+exerciceTimeKeeper.stopTimer()
+duree = exerciceTimeKeeper.totalDuration()
 print("\nOuf.... c'est fini ...")
+print("Durée de l'exercice: {duree}".format(duree=duree))
 fin = input('Terminé, Tilio dit appuyer sur la touche \'enter\'')
