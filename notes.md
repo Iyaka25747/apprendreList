@@ -21,7 +21,9 @@ aller du FR et trouver all est plus dif. pour Tilio
         DIstinguer les verbes infinitif des verbes conjgués.
 
 
-en cours: Montrer le temps à chaque pas
+en cours:
+    ajouter der-die-das show error
+    func.py line 260: Montrer le temps à chaque pas, 
 
 Ajouter une version dans l entete
 Afficher une seule ligne en haut avec tout les choix

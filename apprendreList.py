@@ -101,14 +101,18 @@ vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choi
 globalSettings.nbrMots = 0
 globalSettings.nbrPhrases = 0
 globalSettings.nbrVerbes = 0
+globalSettings.nbrDerDieDas = 0
 # On compte les mots et les phrase dans la page
 for key in vocabulaireList: 
     if vocabulaireList[key]['Type'] == 'mot':
         globalSettings.nbrMots +=1
+        if vocabulaireList[key]['Der-Die-Das'] != '':
+            globalSettings.nbrDerDieDas +=1
     elif vocabulaireList[key]['Type'] == 'phrase':
         globalSettings.nbrPhrases +=1
     elif vocabulaireList[key]['Type'] == 'verbe':
         globalSettings.nbrVerbes +=1
+    
 
 #########################
 ## On lance l exercice ##

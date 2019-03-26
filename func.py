@@ -234,6 +234,8 @@ def ecrire(vocabulaireList, choix, globalSettings):
         nombreElements = globalSettings.nbrMots
     elif choix.ecrireMotPhrase == "verbe":
         nombreElements = globalSettings.nbrVerbes
+    elif choix.ecrireMotPhrase == "der-die-das":
+        nombreElements = globalSettings.nbrDerDieDas
     # else:
     #     nombreElements = globalSettings.nbrPhrase
 
@@ -241,14 +243,21 @@ def ecrire(vocabulaireList, choix, globalSettings):
 
         informationAEcrireEtranger = vocabulaireList[key]['Mot en ALL']
         informationAEcrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
+        informationAEcrireEtrangerDerDieDas = vocabulaireList[key]['Der-Die-Das']
+        if choix.ecrireDerDieDas == True:
+            informationAEcrireEtranger = informationAEcrireEtrangerComplet
         informationAEcrireFR = vocabulaireList[key]['Mot FR']
         reponseFausse = True
         tentative = 0
         if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on ne fait que les mots ou les phrases ...
+            # ecrireDerDieDas
             # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen 
             while reponseFausse:
                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
                 tentative += 1
+                # if choix.ecrireDerDieDas == True:
+                #     reponseDerDieDas = reponse[:3]
+
                 if reponse == informationAEcrireEtranger:
                     print('Bravo')
                     reponseFausse = False
@@ -285,13 +294,20 @@ def ecrire(vocabulaireList, choix, globalSettings):
 def ecrireLesMots(vocabulaireList, choix, globalSettings):
     sorted(vocabulaireList)
     print('Ecrire des mots ou des phrases ?')
-    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide', 'verbe','verbe avec aide'])
+    optionChoisie = choisirElement(['mot', 'mot avec aide','der-die-das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
     if optionChoisie == 'mot':
         choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = False
+        choix.ecrireDerDieDas = False
         choix.ecrireMotPhraseAide = False
     elif optionChoisie == 'mot avec aide':
         choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = False
         choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'der-die-das':
+        choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = True
+        choix.ecrireMotPhraseAide = False
     elif optionChoisie == 'phrase':
         choix.ecrireMotPhrase = 'phrase'
         choix.ecrireMotPhraseAide = False
