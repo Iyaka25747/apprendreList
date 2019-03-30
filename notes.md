@@ -22,12 +22,15 @@ aller du FR et trouver all est plus dif. pour Tilio
 
 
 en cours:
+    ligne 257 - vérifier les charactères saisie, le programme crache, est ce que Tilio a entré " ou ' ???
     ajouter der-die-das show error
     func.py line 260: Montrer le temps à chaque pas, 
 
 Ajouter une version dans l entete
 Afficher une seule ligne en haut avec tout les choix
 Se passer de la conversion .csv vers JSON
+
+Lorsque Tilio fait le "choisir" il faut qu il lise le mot, l imagine puis trouve la correspondance. Une aide pourrait etre d afficher le mot sans les choix, appuyer sur une touche, afficher le choix, faire le choix. 
 
 Découper la structure comme suite
 0) Je choisis le temps du sprint

@@ -254,6 +254,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
             # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen 
             while reponseFausse:
                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
+                # Vérifier la réponse ne contient pas de ", * etc....
                 tentative += 1
                 # if choix.ecrireDerDieDas == True:
                 #     reponseDerDieDas = reponse[:3]

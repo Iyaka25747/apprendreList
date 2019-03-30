@@ -19,38 +19,33 @@ allemand;voc4;p25;17;mot;der;Saft;ä-e;le jus
 allemand;voc4;p25;18;mot;das;Geschenk;-e;le cadeau
 allemand;voc4;p25;19;mot;der;Eistee;-s;le thé froid
 allemand;voc4;p26;1;mot;die;Geburtstagsparty;-s;la fête d’anniversaire
-allemand;voc4;p26;2;mot;;feiern;;fêter, faire la fête
-allemand;voc4;p26;3;verbe;;feiern, er feiert;;fêter, faire la fête
-allemand;voc4;p26;4;phrase;;Wir feiern im Garten;;Nous faisons la fête dans le jardin.
-allemand;voc4;p26;5;mot;;ein|laden;;inviter
-allemand;voc4;p26;6;verbe;;ein|laden, er lädt ein;;inviter
-allemand;voc4;p26;7;phrase;;Ich lade meine Freunde ein.;;J’invite mes amis.
-allemand;voc4;p26;8;phrase;;Komm doch später!;;Viens donc plus tard !
-allemand;voc4;p26;9;mot;;mit|bringen;;apporter
-allemand;voc4;p26;10;verbe;;mit|bringen, er bringt … mịt;;apporter
-allemand;voc4;p26;11;phrase;;Sie bringt ein Geschenk mit.;;Elle apporte un cadeau.
-allemand;voc4;p26;12;mot;der;Ausflug;ü-e;l’excursion, la sortie
-allemand;voc4;p26;13;phrase;;Wir machen einen Ausflug in die Berge.;;Nous faisons une excursion à la montagne.
-allemand;voc4;p26;14;mot;der;Gast;ä-e;l’hôte, l’invité
-allemand;voc4;p26;15;phrase;;Gestern hatte ich keine Zeit/Lust.;;Hier, je n’avais pas le temps / pas envie.
-allemand;voc4;p26;16;mot;;früh auf |stehen;;se lever tôt
-allemand;voc4;p26;17;verbe;;früh auf |stehen, er steht früh auf;;se lever tôt
-allemand;voc4;p26;18;mot;;lange schlafen;;dormir longtemps
-allemand;voc4;p26;19;verbe;;lange schlafen, er schläft lange;;dormir longtemps
-allemand;voc4;p26;20;mot;die;Einladung;-en;l’invitation
-allemand;voc4;p26;21;phrase;;Danke für deine Einladung.;;Merci pour ton invitation.
-allemand;voc4;p26;22;mot;die;Jugendlichen (Plural);;les jeunes
-allemand;voc4;p26;23;mot;der;König;-e;le roi
-allemand;voc4;p26;24;mot;die;Königin;-nen;la reine
-allemand;voc4;p26;25;phrase;;im Frühling;;au printemps
-allemand;voc4;p26;26;phrase;;im Sommer;;en été
-allemand;voc4;p26;27;phrase;;im Herbst;;en automne
-allemand;voc4;p26;28;phrase;;im Winter;;en hiver
-allemand;voc4;p26;29;mot;der;Monat;-e;le mois
-allemand;voc4;p26;30;phrase;;im Januar;;en janvier
-allemand;voc4;p26;31;phrase;;im Februar;;en février
-allemand;voc4;p26;32;phrase;;im März;;en mars
-allemand;voc4;p26;33;phrase;;im April;;en avril
+allemand;voc4;p26;2;phrase;;feiern, er feiert;;fêter, faire la fête
+allemand;voc4;p26;3;phrase;;Wir feiern im Garten;;Nous faisons la fête dans le jardin.
+allemand;voc4;p26;4;phrase;;ein|laden, er lädt ein;;inviter
+allemand;voc4;p26;5;phrase;;Ich lade meine Freunde ein.;;J’invite mes amis.
+allemand;voc4;p26;6;phrase;;Komm doch später!;;Viens donc plus tard !
+allemand;voc4;p26;7;phrase;;mit|bringen, er bringt … mịt;;apporter
+allemand;voc4;p26;8;phrase;;Sie bringt ein Geschenk mit.;;Elle apporte un cadeau.
+allemand;voc4;p26;9;mot;der;Ausflug;ü-e;l’excursion, la sortie
+allemand;voc4;p26;10;phrase;;Wir machen einen Ausflug in die Berge.;;Nous faisons une excursion à la montagne.
+allemand;voc4;p26;11;mot;der;Gast;ä-e;l’hôte, l’invité
+allemand;voc4;p26;12;phrase;;Gestern hatte ich keine Zeit/Lust.;;Hier, je n’avais pas le temps / pas envie.
+allemand;voc4;p26;13;phrase;;früh auf |stehen, er steht früh auf;;se lever tôt
+allemand;voc4;p26;14;phrase;;lange schlafen, er schläft lange;;dormir longtemps
+allemand;voc4;p26;15;mot;die;Einladung;-en;l’invitation
+allemand;voc4;p26;16;phrase;;Danke für deine Einladung.;;Merci pour ton invitation.
+allemand;voc4;p26;17;mot;die;Jugendlichen (Plural);;les jeunes
+allemand;voc4;p26;18;mot;der;König;-e;le roi
+allemand;voc4;p26;19;mot;die;Königin;-nen;la reine
+allemand;voc4;p26;20;phrase;;im Frühling;;au printemps
+allemand;voc4;p26;21;phrase;;im Sommer;;en été
+allemand;voc4;p26;22;phrase;;im Herbst;;en automne
+allemand;voc4;p26;23;phrase;;im Winter;;en hiver
+allemand;voc4;p26;24;mot;der;Monat;-e;le mois
+allemand;voc4;p26;25;phrase;;im Januar;;en janvier
+allemand;voc4;p26;26;phrase;;im Februar;;en février
+allemand;voc4;p26;27;phrase;;im März;;en mars
+allemand;voc4;p26;28;phrase;;im April;;en avril
 allemand;voc4;p27;1;phrase;;im Mai;;en mai
 allemand;voc4;p27;2;phrase;;im Juni;;en juin
 allemand;voc4;p27;3;phrase;;im Juli;;en juillet
@@ -102,42 +97,30 @@ allemand;voc6;p40;17;mot;Die;Strassenbahn;en;le tram(way)
 allemand;voc6;p40;18;mot;Die;Ruhe (sing);;le silence
 allemand;voc6;p40;19;phrase;;Ab 22 Uhr ist Ruhe;;A partir de 22 H le silence est de rigueur
 allemand;voc6;p40;20;phrase;;Er hat kein Geld mehr;;il n’a plus d argent
-allemand;voc6;p40;21;mot;;pleite sein;;être fauché,-e
-allemand;voc6;p40;22;verbe;;pleite sein, er ist pleite;;être fauché,-e
-allemand;voc6;p40;23;mot;;leihen;;prêter
-allemand;voc6;p40;24;verbe;;leihen, er leiht, hat geliehen;;prêter
-allemand;voc6;p40;25;phrase;;Man kann Fahrräder leihen;;on peut prêter des bicyclettes
-allemand;voc6;p40;26;mot;Das;Gepäck (sing);;les bagages
-allemand;voc6;p41;1;mot;;ab|geben;;déposer
-allemand;voc6;p41;2;verbe;;ab|geben, er gibt ab, hat abgegeben;;déposer
-allemand;voc6;p41;3;mot;Der;Speisesaal;ä-e;la salle à manger
-allemand;voc6;p41;4;mot;Das;Geschenk;e;le cadeau
-allemand;voc6;p41;5;mot;;kochen;;cuisiner
-allemand;voc6;p41;6;verbe;;kochen er kocht, er hat gekocht;;cuisiner
-allemand;voc6;p41;7;mot;;probieren;;essayer
-allemand;voc6;p41;8;verbe;;probieren, er probiert, er hat probiert;;essayer
-allemand;voc6;p41;9;mot;;zeigen;;montrer
-allemand;voc6;p41;10;verbe;;zeigen, er zeigt, er hat gezeigt;;montrer
-allemand;voc6;p41;11;mot;;aus|packen;;déballer, ouvrir
-allemand;voc6;p41;12;verbe;;aus|packen, er packt aus, er hat ausgepackt;;déballer, ouvrir
-allemand;voc6;p41;13;phrase;;Victor hat die Geschenke ausgepackt;;Victor a ouvert les cadeaux
-allemand;voc6;p41;14;mot;;reden;;parler
-allemand;voc6;p41;15;verbe;;reden, er redet, er hat geredet;;parler
-allemand;voc6;p41;16;phrase;;Musik hören, er hört, hat gehört;;écouter de la musique
-allemand;voc6;p41;17;mot;;tanzen;;danser
-allemand;voc6;p41;18;verbe;;tanzen, er tanzt, hat getanzt;;danser
-allemand;voc6;p41;19;mot;;auf|räumen;;ranger
-allemand;voc6;p41;20;verbe;;auf|räumen, er räumt auf, hat aufgeräumt;;ranger
-allemand;voc6;p41;21;phrase;;Jens und Martina haben die Küche aufgeräumt;; Jens et Martina ont rangé la cuisine
-allemand;voc6;p41;22;mot;;küssen;;embrasser
-allemand;voc6;p41;23;verbe;;küssen, er küsst, hat geküsst;;embrasser
-allemand;voc6;p41;24;phrase;;Wer hat Jens geküsst?;;qui a embrassé Jens?
-allemand;voc6;p41;25;mot;;stimmen;;être juste, vrai
-allemand;voc6;p41;26;phrase;;das stimmt;;c’est juste
-allemand;voc6;p41;27;phrase;;das stimmt nicht;;ce n’est pas juste/vrai
-allemand;voc6;p41;28;mot;;sauer sein;;être fâché
-allemand;voc6;p41;29;verbe;;sauer sein, er ist sauer;;être fâché
-allemand;voc6;p41;30;phrase;;Alexandra ist sauer;;Alexandra est fâchée
+allemand;voc6;p40;21;phrase;;pleite sein, er ist pleite;;être fauché,-e
+allemand;voc6;p40;22;phrase;;leihen, er leiht, hat geliehen;;prêter
+allemand;voc6;p40;23;phrase;;Man kann Fahrräder leihen;;on peut prêter des bicyclettes
+allemand;voc6;p40;24;mot;Das;Gepäck (sing);;les bagages
+allemand;voc6;p41;1;phrase;;ab/geben, er gibt ab, hat abgegeben;;déposer
+allemand;voc6;p41;2;mot;Der;Speisesaal;ä-e;la salle à manger
+allemand;voc6;p41;3;mot;Das;Geschenk;e;le cadeau
+allemand;voc6;p41;4;phrase;;kochen er kocht, er hat gekocht;;cuisiner
+allemand;voc6;p41;5;phrase;;probieren, er probiert, er hat probiert;;essayer
+allemand;voc6;p41;6;phrase;;zeigen, er zeigt, er hat gezeigt;;montrer
+allemand;voc6;p41;7;phrase;;aus/packen, er packt aus, er hat ausgepackt;;déballer, ouvrir
+allemand;voc6;p41;8;phrase;;Victor hat die Geschenke ausgepackt;;Victor a ouvert les cadeaux
+allemand;voc6;p41;9;phrase;;reden, er redet, er hat geredet;;parler
+allemand;voc6;p41;10;phrase;;Musik hören, er hört, hat gehört;;écouter de la musique
+allemand;voc6;p41;11;phrase;;tanzen, er tanzt, hat getanzt;;danser
+allemand;voc6;p41;12;phrase;;auf/räumen, er räumt auf, hat aufgeräumt;;ranger
+allemand;voc6;p41;13;phrase;;Jens und Martina haben die Küche aufgeräumt;; Jens et Martina ont rangé la cuisine
+allemand;voc6;p41;14;phrase;;küssen, er küsst, hat geküsst;;embrasser
+allemand;voc6;p41;15;phrase;;Wer hat Jens geküsst?;;qui a embrassé Jens?
+allemand;voc6;p41;16;mot;;stimmen;;être juste, vrai
+allemand;voc6;p41;17;phrase;;das stimmt;;c’est juste
+allemand;voc6;p41;18;phrase;;das stimmt nicht;;ce n’est pas juste/vrai
+allemand;voc6;p41;19;phrase;;sauer sein, er ist sauer;;être fâché
+allemand;voc6;p41;20;phrase;;Alexandra ist sauer;;Alexandra est fâchée
 allemand;voc6;p42;1;phrase;;Entschuldigung!;;Excusez moi
 allemand;voc6;p42;2;phrase;;Ich hätte gern;;J’aimerai bien…
 allemand;voc6;p42;3;phrase;;Wie viel kostet…;;Combien coûte…
@@ -155,81 +138,81 @@ allemand;voc6;p39;2;mot;Der;Zoo;-s;le zoo
 allemand;voc6;p39;3;mot;Das;Zentrum;;le centre
 allemand;voc6;p39;4;mot;Die;Farhkarte;-n;le billet, le titre de transport
 allemand;voc6;p39;5;mot;;kaufen;;acheter
-allemand;voc6;p39;6;verbe;;kaufen, er kauft, hat gekauft;;acheter
-allemand;voc6;p39;7;mot;;essen;;manger
-allemand;voc6;p39;8;verbe;;essen, er isst hat gegessen;;manger
-allemand;voc6;p39;9;mot;;besuchen;;visiter
-allemand;voc6;p39;10;verbe;;besuchen, er besucht, hat besucht;;visiter
-allemand;voc6;p39;11;mot;;mit|kommen;;venir avec qqn
-allemand;voc6;p39;12;verbe;;mit|kommen, er kommt mit, ist mitgekommen;;venir avec qqn
-allemand;voc6;p39;13;phrase;;kommst du mit?;;Tu viens (avec moi avec nous)?
-allemand;voc6;p39;14;mot;Die;Kirche;-n;l église
-allemand;voc6;p39;15;phrase;;Sie geht in die Kirche;;elle va à l’église
-allemand;voc6;p39;16;mot;Der;Turm;"""-e";la tour
-allemand;voc6;p39;17;mot;Die;Brücke;-n;Le pont
-allemand;voc6;p39;18;phrase;;Wir gehen über die Brücke;;Nous traversons le pont
-allemand;voc6;p39;19;mot;Das;Stadion;Stadien;le stade
-allemand;voc6;p39;20;mot;Das;Fussballstadion;-stadien;le stade de football
-allemand;voc6;p39;21;mot;Die;Polizei;;la police
-allemand;voc6;p39;22;phrase;;steigen, er steigt, ist gestiegen;; Jens et Martina ont rangé la cuisine
-allemand;voc6;p39;23;phrase;;Wir sind auf dem Turm gestiegen;;nous sommes montés en haut de la tour
-allemand;voc6;p39;24;verbe;;besichtigen, er besichtigt, hat besichtigt;;visiter (la ville)
-allemand;voc6;p39;25;phrase;;Wie haben die Stadt besichtigt;;nous avons visité la ville
-allemand;voc6;p39;26;mot;Der;Meter;-;le mètre
-allemand;voc6;p39;27;mot;Die;Altstadt;ä-e;la vieille ville, la cité
-allemand;voc6;p39;28;mot;Das;Kunstmuseum;-museen;le musée d’art
+allemand;voc6;p39;5;verbe;;kaufen, er kauft, hat gekauft;;acheter
+allemand;voc6;p39;6;mot;;essen;;manger
+allemand;voc6;p39;6;verbe;;essen, er isst hat gegessen;;manger
+allemand;voc6;p39;7;mot;;besuchen;;visiter
+allemand;voc6;p39;7;verbe;;besuchen, er besucht, hat besucht;;visiter
+allemand;voc6;p39;8;mot;;mit|kommen;;venir avec qqn
+allemand;voc6;p39;8;verbe;;mit|kommen, er kommt mit, ist mitgekommen;;venir avec qqn
+allemand;voc6;p39;9;phrase;;kommst du mit?;;Tu viens (avec moi avec nous)?
+allemand;voc6;p39;10;mot;Die;Kirche;-n;l église
+allemand;voc6;p39;11;phrase;;Sie geht in die Kirche;;elle va à l’église
+allemand;voc6;p39;12;mot;Der;Turm;"""-e";la tour
+allemand;voc6;p39;13;mot;Die;Brücke;-n;Le pont
+allemand;voc6;p39;14;phrase;;Wir gehen über die Brücke;;Nous traversons le pont
+allemand;voc6;p39;15;mot;Das;Stadion;Stadien;le stade
+allemand;voc6;p39;16;mot;Das;Fussballstadion;-stadien;le stade de football
+allemand;voc6;p39;17;mot;Die;Polizei;;la police
+allemand;voc6;p39;18;phrase;;steigen, er steigt, ist gestiegen;; Jens et Martina ont rangé la cuisine
+allemand;voc6;p39;19;phrase;;Wir sind auf dem Turm gestiegen;;nous sommes montés en haut de la tour
+allemand;voc6;p39;20;verbe;;besichtigen, er besichtigt, hat besichtigt;;visiter (la ville)
+allemand;voc6;p39;21;phrase;;Wie haben die Stadt besichtigt;;nous avons visité la ville
+allemand;voc6;p39;22;mot;Der;Meter;-;le mètre
+allemand;voc6;p39;23;mot;Die;Altstadt;ä-e;la vieille ville, la cité
+allemand;voc6;p39;24;mot;Das;Kunstmuseum;-museen;le musée d’art
 allemand;voc7;p45;1;mot;der;Freund;-e;l’ami
 allemand;voc7;p45;2;mot;die;Freundin;-nen;l’amie
 allemand;voc7;p45;3;mot;der;Junge;-n;le garçon
 allemand;voc7;p45;4;mot;das;Mädchen;-;la fille
 allemand;voc7;p45;5;mot;das;Lied;-er;la chanson
 allemand;voc7;p45;6;mot;;tanzen;;danser
-allemand;voc7;p45;7;verbe;;tanzen, er tanzt, hat getanzt;;danser
-allemand;voc7;p45;8;mot;;langweilig;;ennuyeux,-euse
-allemand;voc7;p45;9;mot;;kennen|lernen;;faire la connaissance de
-allemand;voc7;p45;10;verbe;;kennen|lernen, er lernt kennen, hat kennengelernt;;faire la connaissance de
-allemand;voc7;p45;11;mot;;sich treffen;;(se) rencontrer
-allemand;voc7;p45;12;verbe;;sich treffen, er trịfft sich, hat sich getrọffen;;(se) rencontrer
-allemand;voc7;p45;13;phrase;;Martina und Jens haben sich getroffen.;;Martina et Jens se sont rencontrés.
-allemand;voc7;p45;14;mot;;sprechen;;parler
-allemand;voc7;p45;15;verbe;;sprechen, er spricht, hat gesprochen;;parler
-allemand;voc7;p45;16;phrase;;Alexandra hat mit Martina gesprochen.;;Alexandra a parlé avec Martina.
-allemand;voc7;p45;17;verbe;;fern|sehen, er sieht fern, hat ferngesehen;;regarder la télé
+allemand;voc7;p45;6;verbe;;tanzen, er tanzt, hat getanzt;;danser
+allemand;voc7;p45;7;mot;;langweilig;;ennuyeux,-euse
+allemand;voc7;p45;8a;mot;;kennen|lernen;;faire la connaissance de
+allemand;voc7;p45;8;verbe;;kennen|lernen, er lernt kennen, hat kennengelernt;;faire la connaissance de
+allemand;voc7;p45;9a;mot;;sich treffen;;(se) rencontrer
+allemand;voc7;p45;9;verbe;;sich treffen, er trịfft sich, hat sich getrọffen;;(se) rencontrer
+allemand;voc7;p45;10;phrase;;Martina und Jens haben sich getroffen.;;Martina et Jens se sont rencontrés.
+allemand;voc7;p45;11a;mot;;sprechen;;parler
+allemand;voc7;p45;11;verbe;;sprechen, er spricht, hat gesprochen;;parler
+allemand;voc7;p45;12;phrase;;Alexandra hat mit Martina gesprochen.;;Alexandra a parlé avec Martina.
+allemand;voc7;p45;13;verbe;;fern|sehen, er sieht fern, hat ferngesehen;;regarder la télé
 allemand;voc7;p46;1;mot;;zusammen;;ensemble
 allemand;voc7;p46;2;phrase;;Wir spielen zusammen Fussball.;;Nous jouons au football ensemble.
 allemand;voc7;p46;3;phrase;;Was ist passiert?;;Qu’est-ce qui s’est passé ?
-allemand;voc7;p46;4;mot;;gehen;;aller
-allemand;voc7;p46;5;verbe;;gehen, er geht, ist gegangen;;aller
-allemand;voc7;p46;6;phrase;;Martina und Jens sind ins Kino gegangen.;;Martina et Jens sont allés au cinéma.
-allemand;voc7;p46;7;phrase;;sein;;être
-allemand;voc7;p46;8;verbe;;sein, er ist, ist gewesen;;être
-allemand;voc7;p46;9;phrase;;Sophie ist auch im Kino gewesen.;;Sophie a aussi été au cinéma.
-allemand;voc7;p46;10;mot;;zu|hören;;écouter
-allemand;voc7;p46;11;verbe;;zu|hören, er hört zu, hat zugehört;;écouter
-allemand;voc7;p46;12;mot;;lügen;;mentir
-allemand;voc7;p46;13;verbe;;lügen, er lügt, hat gelogen;;mentir
-allemand;voc7;p46;14;phrase;;Martina hat gelogen.;;Martina a menti.
-allemand;voc7;p46;15;mot;die;Freundschaft;-en;l’amitié
-allemand;voc7;p46;16;mot;das;Tagebuch;ü-er;le journal (intime)
-allemand;voc7;p46;17;mot;;wütend;;furieux-euse
-allemand;voc7;p46;18;phrase;;Alexandra ist wütend.;;Alexandra est furieuse.
-allemand;voc7;p46;19;mot;;helfen;;aider
-allemand;voc7;p46;20;verbe;;helfen, er hilft, hat geholfen;;aider
-allemand;voc7;p46;21;mot;der;Anfang;ä-e;le début
-allemand;voc7;p46;22;mot;der;Tipp;-s;le conseil
-allemand;voc7;p46;23;mot;;enttäuscht;;déçu-e
-allemand;voc7;p46;24;phrase;;Alexandra ist enttäuscht.;;Alexandra est déçue.
-allemand;voc7;p46;25;mot;der;Streit;(Sg.);la dispute
-allemand;voc7;p46;26;phrase;;Alexandra und Martina haben Streit.;;Alexandra et Martina ont une dispute.
-allemand;voc7;p46;27;phrase;;Freunde fürs Leben;;des amis pour la vie
-allemand;voc7;p46;28;phrase;;nicht mehr;;ne… plus
-allemand;voc7;p46;29;phrase;;nicht mehr zusammen;;sein ne plus être ensemble
-allemand;voc7;p46;30;phrase;;keine Freunde/Freundinnen mehr sein;;ne plus être ami(e)s
-allemand;voc7;p46;31;phrase;;Was soll ich nur machen?;;Que dois-je faire ?
-allemand;voc7;p46;32;phrase;;sich fühlen;;se sentir
-allemand;voc7;p46;33;verbe;;sich fühlen, er fühlt sich, hat sich gefühlt;;se sentir
-allemand;voc7;p46;34;mot;;fehlen;;manquer, tu me manques
-allemand;voc7;p46;35;verbe;;fehlen, du fehlst mir, du hast mir gefehlt;;manquer, tu me manques
+allemand;voc7;p46;4a;mot;;gehen;;aller
+allemand;voc7;p46;4;verbe;;gehen, er geht, ist gegangen;;aller
+allemand;voc7;p46;5;phrase;;Martina und Jens sind ins Kino gegangen.;;Martina et Jens sont allés au cinéma.
+allemand;voc7;p46;6a;phrase;;sein;;être
+allemand;voc7;p46;6;verbe;;sein, er ist, ist gewesen;;être
+allemand;voc7;p46;7;phrase;;Sophie ist auch im Kino gewesen.;;Sophie a aussi été au cinéma.
+allemand;voc7;p46;8a;mot;;zu|hören;;écouter
+allemand;voc7;p46;8;verbe;;zu|hören, er hört zu, hat zugehört;;écouter
+allemand;voc7;p46;9a;mot;;lügen;;mentir
+allemand;voc7;p46;9;verbe;;lügen, er lügt, hat gelogen;;mentir
+allemand;voc7;p46;10;phrase;;Martina hat gelogen.;;Martina a menti.
+allemand;voc7;p46;11;mot;die;Freundschaft;-en;l’amitié
+allemand;voc7;p46;12;mot;das;Tagebuch;ü-er;le journal (intime)
+allemand;voc7;p46;13;mot;;wütend;;furieux-euse
+allemand;voc7;p46;14;phrase;;Alexandra ist wütend.;;Alexandra est furieuse.
+allemand;voc7;p46;15a;mot;;helfen;;aider
+allemand;voc7;p46;15;verbe;;helfen, er hilft, hat geholfen;;aider
+allemand;voc7;p46;16;mot;der;Anfang;ä-e;le début
+allemand;voc7;p46;17;mot;der;Tipp;-s;le conseil
+allemand;voc7;p46;18;mot;;enttäuscht;;déçu-e
+allemand;voc7;p46;19;phrase;;Alexandra ist enttäuscht.;;Alexandra est déçue.
+allemand;voc7;p46;20;mot;der;Streit;(Sg.);la dispute
+allemand;voc7;p46;21;phrase;;Alexandra und Martina haben Streit.;;Alexandra et Martina ont une dispute.
+allemand;voc7;p46;22;phrase;;Freunde fürs Leben;;des amis pour la vie
+allemand;voc7;p46;23;phrase;;nicht mehr;;ne… plus
+allemand;voc7;p46;24;phrase;;nicht mehr zusammen;;sein ne plus être ensemble
+allemand;voc7;p46;25;phrase;;keine Freunde/Freundinnen mehr sein;;ne plus être ami(e)s
+allemand;voc7;p46;26;phrase;;Was soll ich nur machen?;;Que dois-je faire ?
+allemand;voc7;p46;27a;phrase;;sich fühlen;;se sentir
+allemand;voc7;p46;27;verbe;;sich fühlen, er fühlt sich, hat sich gefühlt;;se sentir
+allemand;voc7;p46;28a;mot;;fehlen;;manquer, tu me manques
+allemand;voc7;p46;28;verbe;;fehlen, du fehlst mir, du hast mir gefehlt;;manquer, tu me manques
 allemand;voc7;p47;1;mot;;sportlich;;sportif-ive
 allemand;voc7;p47;2;mot;;unsportlich;;pas sportif-ive
 allemand;voc7;p47;3;mot;;intelligent;;intelligent-e
@@ -300,3 +283,81 @@ anglais;unit5;p50;35;mot;;try;;essayer
 anglais;unit5;p50;36;mot;;walk;;marcher
 anglais;unit5;p50;37;mot;;watch;;regarder
 anglais;unit5;p50;38;mot;;work;;travailler
+anglais;unit6;p60;1;mot;;boring;;ennuyeux
+anglais;unit6;p60;2;mot;;busy;;animé (bondé) – <être occupé, un agenda chargé>
+anglais;unit6;p60;3;mot;;dangerous;;dangereux
+anglais;unit6;p60;4;mot;;difficult;;difficile
+anglais;unit6;p60;5;mot;;easy;;facile
+anglais;unit6;p60;6;mot;;exciting;;excitant
+anglais;unit6;p60;7;mot;;interesting;;intéressant
+anglais;unit6;p60;8;mot;;modern;;moderne
+anglais;unit6;p60;9;mot;;noisy;;bruyant
+anglais;unit6;p60;10;mot;;old-fashioned;;démodé
+anglais;unit6;p60;11;mot;;quiet;;tranquille
+anglais;unit6;p60;12;mot;;safe;;sûr
+anglais;unit6;p60;13;mot;;clean;;propre
+anglais;unit6;p60;14;mot;;comfortable;;confortable
+anglais;unit6;p60;15;mot;;crowded;;bondé
+anglais;unit6;p60;16;mot;;dark;;sombre
+anglais;unit6;p60;17;mot;;dirty;;sale
+anglais;unit6;p60;18;mot;;dry;;sec
+anglais;unit6;p60;19;mot;;empty;;vide
+anglais;unit6;p60;20;mot;;light;;clair (une couleur claire)
+anglais;unit6;p60;21;mot;;tidy;;rangé
+anglais;unit6;p60;22;mot;;uncomfortable;;inconfortable
+anglais;unit6;p60;23;mot;;untidy;;mal rangé, en désordre
+anglais;unit6;p60;24;mot;;wet;;mouillé
+anglais;unit6;p60;25;mot;;town;;ville
+anglais;unit6;p60;26;mot;;bank;;banque
+anglais;unit6;p60;27;mot;;building;;bâtiment
+anglais;unit6;p60;28;mot;;bus station;;gare routière
+anglais;unit6;p60;29;mot;;church;;église
+anglais;unit6;p60;30;mot;;crossing;;passage piétons
+anglais;unit6;p60;31;mot;;market;;marché
+anglais;unit6;p60;32;mot;;newsagent’s;;marchand de journaux
+anglais;unit6;p60;33;mot;;post office;;poste
+anglais;unit6;p60;34;mot;;road;;route
+anglais;unit6;p60;35;mot;;roundabout;;rond-point
+anglais;unit6;p60;36;mot;;secondary school;;école secondaire
+anglais;unit6;p60;37;mot;;shoe shop;;magasin de chaussures
+anglais;unit6;p60;38;mot;;square;;place
+anglais;unit6;p60;39;mot;;street;;rue
+anglais;unit6;p60;40;mot;;town centre;;centre-ville
+anglais;unit6;p60;41;mot;;traffic lights;;feux de circulation
+anglais;unit6;p61;1;mot;;behind;;derrière
+anglais;unit6;p61;2;mot;;between;;entre
+anglais;unit6;p61;3;mot;;in front of;;devant
+anglais;unit6;p61;4;mot;;next to;;à côté de
+anglais;unit6;p61;5;mot;;on the corner of;;au coin de
+anglais;unit6;p61;6;mot;;opposite;;en face de
+anglais;unit6;p61;7;phrase;;two years ago;;il y a deux ans
+anglais;unit6;p61;8;mot;;ago;;il y a
+anglais;unit6;p61;9;mot;;fall;;tomber (verbe)
+anglais;unit6;p61;10;mot;;get lost;;se perdre
+anglais;unit6;p61;11;mot;;hit;;cogner, heurter
+anglais;unit6;p61;12;phrase;;in the 1960s;;dans les années soixante
+anglais;unit6;p61;13;mot;;in the;;dans les
+anglais;unit6;p61;14;mot;;keep in touch;;rester en contact
+anglais;unit6;p61;15;phrase;;move to Australia (v) déménager / aller vivre (en Australie);;
+anglais;unit6;p61;16;mot;;move;;(verbe) déménager / aller vivre
+anglais;unit6;p61;17;mot;;popular;;populaire
+anglais;unit6;p61;18;mot;;rubbish;;(n) ordures
+anglais;unit6;p61;19;mot;;turn round;;se retourner
+anglais;unit6;p61;20;mot;;bad;;mal
+anglais;unit6;p61;21;mot;;worse;;pire (plus mal)
+anglais;unit6;p61;22;mot;;far;;loin
+anglais;unit6;p61;23;mot;;further;;plus loin
+anglais;unit6;p61;24;mot;;good;;bien
+anglais;unit6;p61;25;mot;;better;;mieux (plus mieux)
+anglais;unit6;p61;26;mot;;cross;;traverser
+anglais;unit6;p61;27;phrase;;cross the street;;traverser la rue
+anglais;unit6;p61;28;mot;;go down;;prendre
+anglais;unit6;p61;29;phrase;;go down the street;;prendre la rue
+anglais;unit6;p61;30;mot;;go straight on;;aller tout droit
+anglais;unit6;p61;31;mot;;turn;;tourner
+anglais;unit6;p61;32;mot;;turn left;;tourner à gauche
+anglais;unit6;p61;33;mot;;turn right;;tourner à droite
+anglais;unit6;p61;34;mot;;walk past;;passer devant
+anglais;unit6;p61;35;phrase;;walk past the church;;passer devant l’église
+anglais;unit6;p61;36;phrase;;Excuse me, where’s the post office, please?;;Pardon, madame/monsieur, où se trouve la poste s’il vous plaît ?
+anglais;unit6;p61;37;phrase;;It’s over there.;;Il/elle est là-bas.
