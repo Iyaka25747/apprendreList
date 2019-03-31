@@ -189,7 +189,15 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
             while repeteQuestion:
                 print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(
                     motATrouverFR=vocabulaireList[keyVocabulaire]['Mot FR'], reste=nombreMots - count, total=nombreMots, TypeElement = vocabulaireList[keyVocabulaire]['Type']))
-
+                valeurFausse = True
+                while valeurFausse:
+                    reponse = input('Te souviens tu du mot ? [1] = oui, [ENTER] = Non: ')
+                    if reponse == '1':
+                        jeMeSouviens = True
+                        valeurFausse = False
+                    elif reponse == '':
+                        jeMeSouviens = False
+                        valeurFausse = False
                 reponse = choisirElement(listeMotsEtrangeAMontrer)
                 if reponse == motATrouverEtrange:
                     repeteQuestion = False

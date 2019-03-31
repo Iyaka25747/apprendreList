@@ -14,8 +14,8 @@ import csv #for statistics logs
 #Initialisation
 ################
 
-# debug = False
-debug = True
+debug = False
+# debug = True
 
 # Enregistrement des choix du joueur
 class choixDuJoueur(object):
@@ -68,22 +68,29 @@ globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
-# Affichage et selection du joueur
-print("Joueurs: ")
-users = dataSettings["users"]
-choix.nomJoueur = choisirElement(users)
+if debug == True:
+    choix.nomJoueur = 'Ilya'
+    choix.nomLangueChoisie = 'anglais'
+    choix.nomVocChoisi = 'unit6'
+    choix.nomPageChoisie = 'p60'
+    print( '{} {} {} {}'.format(choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi,  choix.nomPageChoisie))
+else:
+    # Affichage et selection du joueur
+    print("Joueurs: ")
+    users = dataSettings["users"]
+    choix.nomJoueur = choisirElement(users)
 
-# Affichage et selection de la langue Anglais, Allemand...
-listElement = list(dataExercices.keys())
-choix.nomLangueChoisie = choisirElement(listElement)
+    # Affichage et selection de la langue Anglais, Allemand...
+    listElement = list(dataExercices.keys())
+    choix.nomLangueChoisie = choisirElement(listElement)
 
-# Affichage et selection du Voc
-listElement = list(dataExercices[choix.nomLangueChoisie].keys())
-choix.nomVocChoisi = choisirElement(listElement)
+    # Affichage et selection du Voc
+    listElement = list(dataExercices[choix.nomLangueChoisie].keys())
+    choix.nomVocChoisi = choisirElement(listElement)
 
-# Affichage et selection de la page
-listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].keys())
-choix.nomPageChoisie = choisirElement(listElement)
+    # Affichage et selection de la page
+    listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].keys())
+    choix.nomPageChoisie = choisirElement(listElement)
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
 typePossible = ["Trouver une correspondance", "Ecrire"]
