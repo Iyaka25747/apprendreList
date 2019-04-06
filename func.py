@@ -37,11 +37,15 @@ class TimeKeeper:
     #     self.name = name
     #     # self.age = age
 
-class Exercice:
+class ExerciceClass:
     """Exercice d'écriture
     """
+    def __init__(self, vocabulaire):
+        self.vocabulaire = vocabulaire
     
-    
+    def printHello(self):
+        print('hello')
+
 def showError(texteJuste, texteFaux):
     texteJuste = [texteJuste]
     texteFaux = [texteFaux]

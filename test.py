@@ -9,55 +9,17 @@ import difflib # https://pymotw.com/2/difflib/
 from pprint import pprint
 import sys
 import datetime
-from func import *
+# from func import *
 
-exerciceTimeKeeper = TimeKeeper()
-exerciceTimeKeeper.startTimer()
-exerciceTimeKeeper.stopTimer()
-duree = exerciceTimeKeeper.totalDuration()
-# duree = TimeKeeper.totalDuration
-print("\nOuf.... c'est fini ...")
-print("Durée de l'exercice: {duree}".format(duree=duree))
-
-class ExerciceTime:
-    """Represent a vocabulary exercice 
-    
-    attributes: vocabulary
+class ExerciceClass:
+    """Exercice d'écriture
     """
-    def __init__(self):
-        # self.vocabulary = vocabulary
-        pass
+    def __init__(self, vocabulaire):
+        self.vocabulaire = vocabulaire
     
-    # def displayVoc(self):
-    #     print('Vocabulary: ')
-
-    def startTime(self):
-        self.maintenant = datetime.datetime.today()
-
-    def stopTime(self):
-        self.stop = datetime.datetime.today()
-
-    def deltaTime(self):
-        self.delta = self.stop - self.maintenant
-        print('delta sec: ' + str(self.delta.seconds))
+    def printHello(self):
         print('hello')
 
-    # # Initializer / Instance Attributes
-    # def __init__(self, name):
-    #     self.name = name
-    #     # self.age = age
-
-# exercice1 = ExerciceVoc('vocAnglais')
-# exercice1 = ExerciceVoc('juice')
-# print(exercice1)
-# texte = 'hello'
-# exercice2 = ExerciceVoc(texte)
-# exercice1.displayVoc()
-# exercice1.startTime()
-
-exercice1Time = ExerciceTime()
-exercice1Time.startTime()
-input('wait')
-exercice1Time.stopTime()
-exercice1Time.deltaTime()
-# print('delta min: {min} et sec: {sec}'.format(min=0, sec = delta.seconds))
+voca={"1":"hello"}
+exercice1 = ExerciceClass(voca)
+exercice1.printHello()

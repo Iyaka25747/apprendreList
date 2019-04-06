@@ -92,6 +92,14 @@ else:
     listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].keys())
     choix.nomPageChoisie = choisirElement(listElement)
 
+# Vocabulaire list contient tous les éléments (mot, phrase...) qui seront exercés
+# Vocabulaire list est un dictionnaire:
+# {"1": {"Type": "verbe","Der-Die-Das": "","Mot en ALL": "arrive, arrived","pluriel":"","Mot FR":"arriver"},"2": {"Type": etc
+vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+
+exercice1 = ExerciceClass(vocabulaireList)
+exercice1.printHello()
+
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
 typePossible = ["Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
@@ -104,7 +112,7 @@ choix.typeExerciceChoisi = choisirElement(typePossible)
 #Clear terminal screen 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+# Initialization du nombre d'éléments à exercer
 globalSettings.nbrMots = 0
 globalSettings.nbrPhrases = 0
 globalSettings.nbrVerbes = 0
