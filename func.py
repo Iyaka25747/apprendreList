@@ -1,3 +1,4 @@
+# coding=utf-8
 import time
 import winsound # Son, bruitage 
 import os #for terminal screen clearing
@@ -120,7 +121,7 @@ def choisirExercice(dataExercice):
         noExercice = captureNumber("Choix: ")
         if noExercice <= index:
             reponseFausse = False
-    # Récupèration du titre de l'exercice
+    # Recuperation du titre de l'exercice
     index = -1
     for exercicePossible in dataExercice.keys():
         index = index + 1
