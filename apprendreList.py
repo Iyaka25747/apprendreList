@@ -1,4 +1,4 @@
-# Voc Anglais under work 2
+#Voc under work
 
 import json
 import random
@@ -45,6 +45,8 @@ globalSettings.goodSound = soudSetting["good_sound"]
 
 
 # initialisation du temps
+exerciceTimeKeeper = TimeKeeper()
+exerciceTimeKeeper.startTimer()
 maintenant = datetime.datetime.today()
 globalSettings.currentDate = "{day}.{month}.{year}".format(year = maintenant.year, month=  maintenant.month, day=  maintenant.day)#datetime.date.today()
 globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant.hour, minute=  maintenant.minute, second=  maintenant.second)
@@ -66,22 +68,29 @@ globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
-# Affichage et selection du joueur
-print("Joueurs: ")
-users = dataSettings["users"]
-choix.nomJoueur = choisirElement(users)
+if debug == True:
+    choix.nomJoueur = 'Ilya'
+    choix.nomLangueChoisie = 'anglais'
+    choix.nomVocChoisi = 'unit6'
+    choix.nomPageChoisie = 'p60'
+    print( '{} {} {} {}'.format(choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi,  choix.nomPageChoisie))
+else:
+    # Affichage et selection du joueur
+    print("Joueurs: ")
+    users = dataSettings["users"]
+    choix.nomJoueur = choisirElement(users)
 
-# Affichage et selection de la langue Anglais, Allemand...
-listElement = list(dataExercices.keys())
-choix.nomLangueChoisie = choisirElement(listElement)
+    # Affichage et selection de la langue Anglais, Allemand...
+    listElement = list(dataExercices.keys())
+    choix.nomLangueChoisie = choisirElement(listElement)
 
-# Affichage et selection du Voc
-listElement = list(dataExercices[choix.nomLangueChoisie].keys())
-choix.nomVocChoisi = choisirElement(listElement)
+    # Affichage et selection du Voc
+    listElement = list(dataExercices[choix.nomLangueChoisie].keys())
+    choix.nomVocChoisi = choisirElement(listElement)
 
-# Affichage et selection de la page
-listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].keys())
-choix.nomPageChoisie = choisirElement(listElement)
+    # Affichage et selection de la page
+    listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].keys())
+    choix.nomPageChoisie = choisirElement(listElement)
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
 typePossible = ["Trouver une correspondance", "Ecrire"]
@@ -99,14 +108,18 @@ vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choi
 globalSettings.nbrMots = 0
 globalSettings.nbrPhrases = 0
 globalSettings.nbrVerbes = 0
+globalSettings.nbrDerDieDas = 0
 # On compte les mots et les phrase dans la page
 for key in vocabulaireList: 
     if vocabulaireList[key]['Type'] == 'mot':
         globalSettings.nbrMots +=1
+        if vocabulaireList[key]['Der-Die-Das'] != '':
+            globalSettings.nbrDerDieDas +=1
     elif vocabulaireList[key]['Type'] == 'phrase':
         globalSettings.nbrPhrases +=1
     elif vocabulaireList[key]['Type'] == 'verbe':
         globalSettings.nbrVerbes +=1
+    
 
 #########################
 ## On lance l exercice ##
@@ -114,7 +127,9 @@ for key in vocabulaireList:
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     trouverLeMot(vocabulaireList, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
-    ecrireLesMots(vocabulaireList, choix, globalSettings)
-
+    ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings)
+exerciceTimeKeeper.stopTimer()
+duree = exerciceTimeKeeper.totalDuration()
 print("\nOuf.... c'est fini ...")
+print("Durée de l'exercice: {duree}".format(duree=duree))
 fin = input('Terminé, Tilio dit appuyer sur la touche \'enter\'')

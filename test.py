@@ -8,32 +8,56 @@ import difflib # https://pymotw.com/2/difflib/
 # from difflib_data import *
 from pprint import pprint
 import sys
+import datetime
+from func import *
 
-text1 = '''1. Beautiful is better than ugly.
-2. Explicit is better than implicit.
-3. Simple is better than complex.
-4. Complex is better than complicated.
-'''.splitlines(1)
-text2 = '''1. Beautiful is better than ugly.
-3. Simple is better than complex.
-4. Complicated is better than complex.
-5. Flat is better than nested.
-'''.splitlines(1)
+exerciceTimeKeeper = TimeKeeper()
+exerciceTimeKeeper.startTimer()
+exerciceTimeKeeper.stopTimer()
+duree = exerciceTimeKeeper.totalDuration()
+# duree = TimeKeeper.totalDuration
+print("\nOuf.... c'est fini ...")
+print("Durée de l'exercice: {duree}".format(duree=duree))
 
-text1 = 'Herzlichen Glückwunsch zum Geburtstag!'
-text2 = 'Herzlichen Gloukwunsch zum Geburtstag!uuu'
-text1 = [text1]
-text2 = [text2]
+class ExerciceTime:
+    """Represent a vocabulary exercice 
+    
+    attributes: vocabulary
+    """
+    def __init__(self):
+        # self.vocabulary = vocabulary
+        pass
+    
+    # def displayVoc(self):
+    #     print('Vocabulary: ')
 
+    def startTime(self):
+        self.maintenant = datetime.datetime.today()
 
-d = difflib.Differ()    
-result = list(d.compare(text1, text2))
-print(type(result))
-pprint(result)
-print('\n+++++++++++++++\n')
-for text in result:
-    text = text.strip()
-    print(text)
-pass
-test = '   spacious^^\n'.rstrip()
-pass
+    def stopTime(self):
+        self.stop = datetime.datetime.today()
+
+    def deltaTime(self):
+        self.delta = self.stop - self.maintenant
+        print('delta sec: ' + str(self.delta.seconds))
+        print('hello')
+
+    # # Initializer / Instance Attributes
+    # def __init__(self, name):
+    #     self.name = name
+    #     # self.age = age
+
+# exercice1 = ExerciceVoc('vocAnglais')
+# exercice1 = ExerciceVoc('juice')
+# print(exercice1)
+# texte = 'hello'
+# exercice2 = ExerciceVoc(texte)
+# exercice1.displayVoc()
+# exercice1.startTime()
+
+exercice1Time = ExerciceTime()
+exercice1Time.startTime()
+input('wait')
+exercice1Time.stopTime()
+exercice1Time.deltaTime()
+# print('delta min: {min} et sec: {sec}'.format(min=0, sec = delta.seconds))

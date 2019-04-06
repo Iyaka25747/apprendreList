@@ -1,3 +1,4 @@
+# coding=utf-8
 import time
 import winsound # Son, bruitage 
 import os #for terminal screen clearing
@@ -10,9 +11,36 @@ from pprint import pprint
 # import time #for measuring elapsed time, date
 import datetime #for date, time
 
+class TimeKeeper:
+    """Time Management for the exercice in seconds
+    """
+    # varialbles:
+    # startTime
+    # stopTime
+    # totalDuration
 
-class NumberMulDiv(object):
-    """ Represent a multiplication"""
+    def __init__(self):
+        pass
+    
+    def startTimer(self):
+        self.startTime = datetime.datetime.today()
+
+    def stopTimer(self):
+        self.stopTime = datetime.datetime.today()
+
+    def totalDuration(self):
+        self.totalDuration = self.stopTime - self.startTime
+        return self.totalDuration
+
+    # # Initializer / Instance Attributes
+    # def __init__(self, name):
+    #     self.name = name
+    #     # self.age = age
+
+class Exercice:
+    """Exercice d'écriture
+    """
+    
     
 def showError(texteJuste, texteFaux):
     texteJuste = [texteJuste]
@@ -97,7 +125,7 @@ def choisirExercice(dataExercice):
         noExercice = captureNumber("Choix: ")
         if noExercice <= index:
             reponseFausse = False
-    # Récupèration du titre de l'exercice
+    # Recuperation du titre de l'exercice
     index = -1
     for exercicePossible in dataExercice.keys():
         index = index + 1
@@ -123,14 +151,19 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
         nombreMots = len(vocabulaireList)
         
         count = 0
-        for keyAtrouver in vocabulaireList:
+        for keyVocabulaire in vocabulaireList:
             # motAtrouverKey = str(motAtrouverKey)
-            motATrouverFR = vocabulaireList[keyAtrouver]['Mot FR']
-            motATrouverEtrange = vocabulaireList[keyAtrouver]['Der-Die-Das'] + \
-                " "+vocabulaireList[keyAtrouver]['Mot en ALL']
+            motATrouverFR = vocabulaireList[keyVocabulaire]['Mot FR']
+            
+            if vocabulaireList[keyVocabulaire]['Der-Die-Das'] != '':
+                motATrouverEtrange = vocabulaireList[keyVocabulaire]['Der-Die-Das'] + " " + vocabulaireList[keyVocabulaire]['Mot en ALL']
+            else:
+                motATrouverEtrange = vocabulaireList[keyVocabulaire]['Mot en ALL']
+                    
+            
             #creation d'une list sans le mot à trouver
             autresMots = dict(vocabulaireList)
-            del(autresMots[keyAtrouver])
+            del(autresMots[keyVocabulaire])
             # on mélange les mots
             autresMotsKeys = list(autresMots.keys())
             random.shuffle(autresMotsKeys)
@@ -145,29 +178,31 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
             #on construit la liste à montrer
             motsAMontrerKeys = []
             motsAMontrerKeys = autresMotsEnnemisKeys[:]
-            motsAMontrerKeys.append(keyAtrouver)
+            motsAMontrerKeys.append(keyVocabulaire)
             # on mélange les mots
             random.shuffle(motsAMontrerKeys)
             # on construit la liste des mots a afficher
             listeMotsEtrangeAMontrer = []
-            
-            #     listeMotsEtrangeAMontrer.append(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
-
-
-            # for key in motsAMontrerKeys:
-            #     if vocabulaireList[key]['Type'] == 'mot':
-            #         motAMontrer = vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL']
-            #     else:
-            #         motAMontrer = vocabulaireList[key]['Mot en ALL']
             for key in motsAMontrerKeys:
-                motAMontrer = str(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                if vocabulaireList[key]['Der-Die-Das'] != '':
+                    motAMontrer = str(vocabulaireList[key]['Der-Die-Das'] + " " + vocabulaireList[key]['Mot en ALL'])
+                else:
+                    motAMontrer = vocabulaireList[key]['Mot en ALL']
                 listeMotsEtrangeAMontrer.append(motAMontrer)
             # On pose la question et on vérifie
             repeteQuestion = True
             while repeteQuestion:
-                print("{reste}/{total} Comment dire: '{motATrouverFR}'".format(
-                    motATrouverFR=vocabulaireList[keyAtrouver]['Mot FR'], reste=nombreMots - count, total=nombreMots))
-
+                print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(
+                    motATrouverFR=vocabulaireList[keyVocabulaire]['Mot FR'], reste=nombreMots - count, total=nombreMots, TypeElement = vocabulaireList[keyVocabulaire]['Type']))
+                valeurFausse = True
+                while valeurFausse:
+                    reponse = input('Te souviens tu du mot ? [1] = oui, [ENTER] = Non: ')
+                    if reponse == '1':
+                        jeMeSouviens = True
+                        valeurFausse = False
+                    elif reponse == '':
+                        jeMeSouviens = False
+                        valeurFausse = False
                 reponse = choisirElement(listeMotsEtrangeAMontrer)
                 if reponse == motATrouverEtrange:
                     repeteQuestion = False
@@ -212,6 +247,8 @@ def ecrire(vocabulaireList, choix, globalSettings):
         nombreElements = globalSettings.nbrMots
     elif choix.ecrireMotPhrase == "verbe":
         nombreElements = globalSettings.nbrVerbes
+    elif choix.ecrireMotPhrase == "der-die-das":
+        nombreElements = globalSettings.nbrDerDieDas
     # else:
     #     nombreElements = globalSettings.nbrPhrase
 
@@ -219,14 +256,22 @@ def ecrire(vocabulaireList, choix, globalSettings):
 
         informationAEcrireEtranger = vocabulaireList[key]['Mot en ALL']
         informationAEcrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
+        informationAEcrireEtrangerDerDieDas = vocabulaireList[key]['Der-Die-Das']
+        if choix.ecrireDerDieDas == True:
+            informationAEcrireEtranger = informationAEcrireEtrangerComplet
         informationAEcrireFR = vocabulaireList[key]['Mot FR']
         reponseFausse = True
         tentative = 0
         if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on ne fait que les mots ou les phrases ...
+            # ecrireDerDieDas
             # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen 
             while reponseFausse:
                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
+                # Vérifier la réponse ne contient pas de ", * etc....
                 tentative += 1
+                # if choix.ecrireDerDieDas == True:
+                #     reponseDerDieDas = reponse[:3]
+
                 if reponse == informationAEcrireEtranger:
                     print('Bravo')
                     reponseFausse = False
@@ -260,16 +305,23 @@ def ecrire(vocabulaireList, choix, globalSettings):
     # print('hello')
     return
 
-def ecrireLesMots(vocabulaireList, choix, globalSettings):
+def ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings):
     sorted(vocabulaireList)
     print('Ecrire des mots ou des phrases ?')
-    optionChoisie = choisirElement(['mot', 'mot avec aide', 'phrase', 'phrase avec aide', 'verbe','verbe avec aide'])
+    optionChoisie = choisirElement(['mot', 'mot avec aide','der-die-das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
     if optionChoisie == 'mot':
         choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = False
+        choix.ecrireDerDieDas = False
         choix.ecrireMotPhraseAide = False
     elif optionChoisie == 'mot avec aide':
         choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = False
         choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'der-die-das':
+        choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = True
+        choix.ecrireMotPhraseAide = False
     elif optionChoisie == 'phrase':
         choix.ecrireMotPhrase = 'phrase'
         choix.ecrireMotPhraseAide = False

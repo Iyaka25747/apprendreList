@@ -39,5 +39,32 @@
                 }
             }
         }
+    },
+    "anglais": {
+        "unit6": {
+            "p60": {
+                "1": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "boring",
+                    "pluriel": "",
+                    "Mot FR": "ennuyeux"
+                },
+                "2": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "busy",
+                    "pluriel": "",
+                    "Mot FR": "animé (bondé) – <être occupé, un agenda chargé>"
+                },
+                "3": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "dangerous",
+                    "pluriel": "",
+                    "Mot FR": "dangereux"
+                }
+            }
+        }
     }
 }
