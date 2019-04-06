@@ -31,10 +31,6 @@ en cours:
     Lorsque Tilio fait le "choisir" il faut qu il lise le mot, l imagine puis trouve la correspondance. Une aide pourrait etre d afficher le mot sans les choix, appuyer sur une touche, afficher le choix, faire le choix. 
 
 Ajouter une version dans l entete
-<<<<<<< HEAD
-Afficher une seule ligne en haut avec tout les choix
-Se passer de la conversion .csv vers JSON
-=======
 Afficher une seule ligne en haut avec tout les choix qui ont été choisi au démarrage.
 Se passer de la conversion .csv vers JSON
 
@@ -51,4 +47,3 @@ Découper la structure comme suite
 
 Audio:
 Ajouter du son. Employer Audigy pour découper des mots all enregistré par Ortrud,  lui demander un enregistrement du voc.
->>>>>>> uder-dev
