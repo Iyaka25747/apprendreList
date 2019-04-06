@@ -37,6 +37,10 @@ class TimeKeeper:
     #     self.name = name
     #     # self.age = age
 
+class Exercice:
+    """Exercice d'écriture
+    """
+    
     
 def showError(texteJuste, texteFaux):
     texteJuste = [texteJuste]
@@ -301,7 +305,7 @@ def ecrire(vocabulaireList, choix, globalSettings):
     # print('hello')
     return
 
-def ecrireLesMots(vocabulaireList, choix, globalSettings):
+def ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings):
     sorted(vocabulaireList)
     print('Ecrire des mots ou des phrases ?')
     optionChoisie = choisirElement(['mot', 'mot avec aide','der-die-das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])

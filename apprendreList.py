@@ -127,7 +127,7 @@ for key in vocabulaireList:
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     trouverLeMot(vocabulaireList, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
-    ecrireLesMots(vocabulaireList, choix, globalSettings)
+    ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings)
 exerciceTimeKeeper.stopTimer()
 duree = exerciceTimeKeeper.totalDuration()
 print("\nOuf.... c'est fini ...")
