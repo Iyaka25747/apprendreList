@@ -20,10 +20,10 @@ aller du FR et trouver all est plus dif. pour Tilio
         Distinguer les verbes des phrases
         DIstinguer les verbes infinitif des verbes conjgués.
 
-Reprise
+Reprise: ligne 137
    
 en cours:
-    - ligne 257 - trouver comment le programme crache, est ce que Tilio a entré " ou ' ???. J ai déjà essayé avec toute sorte de caractères bizares y.c. presser la touche " puis enter ce qui fait 2 entrée dans la saisie.
+    -  trouver comment Tilio crache le programme (saisie Tilio ligne 257 ), est ce que Tilio a entré " ou ' ???. J ai déjà essayé avec toute sorte de caractères bizares y.c. presser la touche " puis enter ce qui fait 2 entrée dans la saisie.
     - Montrer aussi les erreurs sur "der-die-das": Si die est entré au lieu de der il faut montrer l'erreur: d^ie
     - func.py line 260: Montrer le temps à chaque pas
     - Pouvoir reprendre un exercice à un certain mot. 

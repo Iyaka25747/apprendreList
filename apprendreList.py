@@ -98,12 +98,15 @@ else:
 vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
 
 exercice1 = ExerciceClass(vocabulaireList)
-exercice1.printHello()
+# exercice1.printHello()
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
 typePossible = ["Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
 choix.typeExerciceChoisi = choisirElement(typePossible)
+exercice1.addChoix("typeExercice", choix.typeExerciceChoisi)
+# exercice1.choix.append(}
+# exercice1.choix.typeExerciceChoisi = choix.typeExerciceChoisi
 
 ###########################
 # Execution de l'exercice #
@@ -113,6 +116,9 @@ choix.typeExerciceChoisi = choisirElement(typePossible)
 os.system('cls' if os.name == 'nt' else 'clear')
 
 # Initialization du nombre d'éléments à exercer
+
+exercice1.countElementsVocabulaire()
+
 globalSettings.nbrMots = 0
 globalSettings.nbrPhrases = 0
 globalSettings.nbrVerbes = 0
@@ -128,6 +134,7 @@ for key in vocabulaireList:
     elif vocabulaireList[key]['Type'] == 'verbe':
         globalSettings.nbrVerbes +=1
     
+
 
 #########################
 ## On lance l exercice ##

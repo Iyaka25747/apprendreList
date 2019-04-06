@@ -40,11 +40,34 @@ class TimeKeeper:
 class ExerciceClass:
     """Exercice d'écriture
     """
+    choix = {}
+
     def __init__(self, vocabulaire):
         self.vocabulaire = vocabulaire
     
     def printHello(self):
         print('hello')
+
+    def addChoix(self, key, value):
+        self.choix[key]=value
+
+    def countElementsVocabulaire(self):
+        # Initialization du nombre d'éléments à exercer
+        self.nbrMots = 0
+        self.nbrPhrases = 0
+        self.nbrVerbes = 0
+        self.nbrDerDieDas = 0
+        # On compte les mots et les phrase dans la page
+        for key in self.vocabulaire: 
+            if self.vocabulaire[key]['Type'] == 'mot':
+                self.nbrMots +=1
+                if self.vocabulaire[key]['Der-Die-Das'] != '':
+                    self.nbrDerDieDas +=1
+            elif self.vocabulaire[key]['Type'] == 'phrase':
+                self.nbrPhrases +=1
+            elif self.vocabulaire[key]['Type'] == 'verbe':
+                self.nbrVerbes +=1
+        # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
 
 def showError(texteJuste, texteFaux):
     texteJuste = [texteJuste]
