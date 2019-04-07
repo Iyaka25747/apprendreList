@@ -17,6 +17,8 @@ import csv #for statistics logs
 debug = False
 # debug = True
 
+exercice1 = ExerciceClass() # Un exercice pour mémoriser une liste d'information
+
 # Enregistrement des choix du joueur
 class choixDuJoueur(object):
     """Global class to hold the settings"""
@@ -31,7 +33,21 @@ with open("settings.json", "r") as file:
     dataSettings = json.load(file)
     file.close()
 
-# Initialization des sons
+#1 OOP- Initialization des sons
+soudSetting = dataSettings["son"]
+if soudSetting["active"] == "on":
+    exercice1.addSettings("activeSound", True)
+elif soudSetting["active"] == "off":
+    exercice1.addSettings("activeSound", False)
+else:
+    print("ERROR in setting parameter for -son- key")
+    enterKey = input("press a key to continue")
+# globalSettings.badSound = soudSetting["bad_sound"]
+# globalSettings.goodSound = soudSetting["good_sound"]
+exercice1.addSettings("bad_sound",soudSetting["bad_sound"])
+exercice1.addSettings("good_sound",soudSetting["good_sound"])
+
+#1 ---- Initialization des sons
 soudSetting = dataSettings["son"]
 if soudSetting["active"] == "on":
     globalSettings.soundActive = True
@@ -45,8 +61,12 @@ globalSettings.goodSound = soudSetting["good_sound"]
 
 
 # initialisation du temps
+
+#2 OOP temps global. Si on fait plusieurs exercices
 exerciceTimeKeeper = TimeKeeper()
 exerciceTimeKeeper.startTimer()
+
+#2 --- temps global. Si on fait plusieurs exercices
 maintenant = datetime.datetime.today()
 globalSettings.currentDate = "{day}.{month}.{year}".format(year = maintenant.year, month=  maintenant.month, day=  maintenant.day)#datetime.date.today()
 globalSettings.currentTime = "{hour}:{minute}:{second}".format(hour = maintenant.hour, minute=  maintenant.minute, second=  maintenant.second)
@@ -60,6 +80,12 @@ if debug:
 with open(exercicesFile, 'r', encoding='utf8') as file:
     dataExercices = json.load(file)
     file.close()
+#OOP-
+# globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
+# globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
+exercice1.addSettings("nombreTentative", 3)
+exercice1.addSettings("nombreEnnemis", 4)
+#----
 globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
 globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 
@@ -97,7 +123,7 @@ else:
 # {"1": {"Type": "verbe","Der-Die-Das": "","Mot en ALL": "arrive, arrived","pluriel":"","Mot FR":"arriver"},"2": {"Type": etc
 vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
 
-exercice1 = ExerciceClass(vocabulaireList)
+exercice1.setVocabulary(vocabulaireList)
 # exercice1.printHello()
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
@@ -139,10 +165,18 @@ for key in vocabulaireList:
 #########################
 ## On lance l exercice ##
 #########################
+
+if exercice1.choix["typeExercice"] == "Trouver une correspondance":
+    exercice1.ecrire()
+elif exercice1.choix["typeExercice"] ==  "Ecrire":
+    exercice1.trouver()
+
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     trouverLeMot(vocabulaireList, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
     ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings)
+
+
 exerciceTimeKeeper.stopTimer()
 duree = exerciceTimeKeeper.totalDuration()
 print("\nOuf.... c'est fini ...")

@@ -40,11 +40,20 @@ class TimeKeeper:
 class ExerciceClass:
     """Exercice d'écriture
     """
-    choix = {}
+    settings = {} # contient les differents settings globaux. E.g. sound ON/OFF, ...
+    choix = {} # contient les différents choix de l utilisateur
+    vocabulaire = {} # contient une page de vocabulaire
 
-    def __init__(self, vocabulaire):
-        self.vocabulaire = vocabulaire
+    def __init__(self):
+        self.timeKeeper = TimeKeeper()
+        self.timeKeeper.startTimer()
     
+    def setVocabulary(self, vocabulary):
+            self.vocabulaire = vocabulary
+
+    def addSettings(self, key, value):
+        self.settings[key]=value
+
     def printHello(self):
         print('hello')
 
@@ -68,6 +77,12 @@ class ExerciceClass:
             elif self.vocabulaire[key]['Type'] == 'verbe':
                 self.nbrVerbes +=1
         # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
+    
+    def ecrire(self):
+        pass
+    
+    def trouver(self):
+        pass
 
 def showError(texteJuste, texteFaux):
     texteJuste = [texteJuste]
