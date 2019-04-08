@@ -63,8 +63,8 @@ globalSettings.goodSound = soudSetting["good_sound"]
 # initialisation du temps
 
 #2 OOP temps global. Si on fait plusieurs exercices
-exerciceTimeKeeper = TimeKeeper()
-exerciceTimeKeeper.startTimer()
+globalTimeKeeper = TimeKeeper()
+globalTimeKeeper.startTimer()
 
 #2 --- temps global. Si on fait plusieurs exercices
 maintenant = datetime.datetime.today()
@@ -89,7 +89,9 @@ exercice1.addSettings("nombreEnnemis", 4)
 globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
 globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 
+
 #initialisation du fichier de statistiques
+#A faire plus tard: passer les enregistrements en OOP
 globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
@@ -101,22 +103,31 @@ if debug == True:
     choix.nomPageChoisie = 'p60'
     print( '{} {} {} {}'.format(choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi,  choix.nomPageChoisie))
 else:
+    #OOP- Supprimer la partie non OOP. Eg. choix.nomLangueChoisie = monchoix
     # Affichage et selection du joueur
     print("Joueurs: ")
     users = dataSettings["users"]
-    choix.nomJoueur = choisirElement(users)
+    monchoix = choisirElement(users)
+    choix.nomJoueur = monchoix
+    #OOP-
+    exercice1.addSettings("users", monchoix)
 
     # Affichage et selection de la langue Anglais, Allemand...
     listElement = list(dataExercices.keys())
-    choix.nomLangueChoisie = choisirElement(listElement)
-
+    monchoix = choisirElement(listElement)
+    choix.nomLangueChoisie = monchoix #OOP - To delelte
+    exercice1.addSettings("langue", monchoix)
     # Affichage et selection du Voc
     listElement = list(dataExercices[choix.nomLangueChoisie].keys())
-    choix.nomVocChoisi = choisirElement(listElement)
-
+    monchoix = choisirElement(listElement)
+    choix.nomVocChoisi = monchoix #OOP - To delelte
+    exercice1.addSettings("voc", monchoix)
     # Affichage et selection de la page
     listElement = list(dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi].keys())
-    choix.nomPageChoisie = choisirElement(listElement)
+    monchoix = choisirElement(listElement)
+    choix.nomPageChoisie = monchoix #OOP - To delelte
+    exercice1.addSettings("page", monchoix)
+    #OOP-FIN
 
 # Vocabulaire list contient tous les éléments (mot, phrase...) qui seront exercés
 # Vocabulaire list est un dictionnaire:
@@ -126,10 +137,11 @@ vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choi
 exercice1.setVocabulary(vocabulaireList)
 # exercice1.printHello()
 
+
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
 typePossible = ["Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
-choix.typeExerciceChoisi = choisirElement(typePossible)
+choix.typeExerciceChoisi = choisirElement(typePossible) #OOP - To delelte
 exercice1.addChoix("typeExercice", choix.typeExerciceChoisi)
 # exercice1.choix.append(}
 # exercice1.choix.typeExerciceChoisi = choix.typeExerciceChoisi
@@ -142,9 +154,9 @@ exercice1.addChoix("typeExercice", choix.typeExerciceChoisi)
 os.system('cls' if os.name == 'nt' else 'clear')
 
 # Initialization du nombre d'éléments à exercer
-
+#OOP- count
 exercice1.countElementsVocabulaire()
-
+#---- count
 globalSettings.nbrMots = 0
 globalSettings.nbrPhrases = 0
 globalSettings.nbrVerbes = 0
@@ -159,26 +171,56 @@ for key in vocabulaireList:
         globalSettings.nbrPhrases +=1
     elif vocabulaireList[key]['Type'] == 'verbe':
         globalSettings.nbrVerbes +=1
-    
+#OOP - count FIN
 
 
 #########################
 ## On lance l exercice ##
 #########################
-
+#OOP- execution
 if exercice1.choix["typeExercice"] == "Trouver une correspondance":
-    exercice1.ecrire()
-elif exercice1.choix["typeExercice"] ==  "Ecrire":
     exercice1.trouver()
-
+elif exercice1.choix["typeExercice"] ==  "Ecrire":
+    exercice1.ecrire()
+#---- execution
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     trouverLeMot(vocabulaireList, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
-    ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings)
+    # ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings)
+    sorted(vocabulaireList)
+    print('Ecrire des mots ou des phrases ?')
+    optionChoisie = choisirElement(['mot', 'mot avec aide','der-die-das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
+    if optionChoisie == 'mot':
+        choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = False
+        choix.ecrireDerDieDas = False
+        choix.ecrireMotPhraseAide = False
+    elif optionChoisie == 'mot avec aide':
+        choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = False
+        choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'der-die-das':
+        choix.ecrireMotPhrase = 'mot'
+        choix.ecrireDerDieDas = True
+        choix.ecrireMotPhraseAide = False
+    elif optionChoisie == 'phrase':
+        choix.ecrireMotPhrase = 'phrase'
+        choix.ecrireMotPhraseAide = False
+    elif optionChoisie == 'phrase avec aide':
+        choix.ecrireMotPhrase = 'phrase'
+        choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'verbe':
+        choix.ecrireMotPhrase = 'verbe'
+        choix.ecrireMotPhraseAide = True
+    elif optionChoisie == 'verbe avec aide':
+        choix.ecrireMotPhrase = 'verbe'
+        choix.ecrireMotPhraseAide = False
+    ecrire(vocabulaireList, choix, globalSettings)
+    return
+#OOP- execution FIN
 
-
-exerciceTimeKeeper.stopTimer()
-duree = exerciceTimeKeeper.totalDuration()
+globalTimeKeeper.stopTimer()
+duree = globalTimeKeeper.totalDuration()
 print("\nOuf.... c'est fini ...")
 print("Durée de l'exercice: {duree}".format(duree=duree))
 fin = input('Terminé, Tilio dit appuyer sur la touche \'enter\'')

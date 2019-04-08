@@ -79,8 +79,75 @@ class ExerciceClass:
         # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
     
     def ecrire(self):
-        pass
-    
+        countElements = 0
+        keyMotsDifficiles = []
+        startTime = datetime.datetime.today()
+        # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen
+        # Identifier le nombre de mots ou de phrases  
+        if choix.ecrireMotPhrase == "phrase":
+            nombreElements = globalSettings.nbrPhrases
+        elif choix.ecrireMotPhrase == "mot":
+            nombreElements = globalSettings.nbrMots
+        elif choix.ecrireMotPhrase == "verbe":
+            nombreElements = globalSettings.nbrVerbes
+        elif choix.ecrireMotPhrase == "der-die-das":
+            nombreElements = globalSettings.nbrDerDieDas
+        # else:
+        #     nombreElements = globalSettings.nbrPhrase
+
+        for key in vocabulaireList:
+
+            informationAEcrireEtranger = vocabulaireList[key]['Mot en ALL']
+            informationAEcrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
+            informationAEcrireEtrangerDerDieDas = vocabulaireList[key]['Der-Die-Das']
+            if choix.ecrireDerDieDas == True:
+                informationAEcrireEtranger = informationAEcrireEtrangerComplet
+            informationAEcrireFR = vocabulaireList[key]['Mot FR']
+            reponseFausse = True
+            tentative = 0
+            if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on ne fait que les mots ou les phrases ...
+                # ecrireDerDieDas
+                # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen 
+                while reponseFausse:
+                    reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
+                    # Vérifier la réponse ne contient pas de ", * etc....
+                    tentative += 1
+                    # if choix.ecrireDerDieDas == True:
+                    #     reponseDerDieDas = reponse[:3]
+
+                    if reponse == informationAEcrireEtranger:
+                        print('Bravo')
+                        reponseFausse = False
+                        evaluationReponse = 'juste'
+                        playSoundGood(globalSettings)
+                    else:
+                        evaluationReponse = 'faux'
+                        playSoundBad(globalSettings)
+                        if choix.ecrireMotPhraseAide:
+                            # showError(informationAEcrireEtranger, reponse)
+                            showErrorString(informationAEcrireEtranger, reponse)
+
+                    # create the entry for the record
+                    repsonseLog = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
+                    entryLog = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, repsonseLog, evaluationReponse, informationAEcrireEtranger, reponse]
+                    # Log the attempt in a file
+                    recordTentative(entryLog, globalSettings)
+
+                    if tentative == globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+                        keyMotsDifficiles.append(key)                    
+                        break
+                print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = informationAEcrireFR))
+                countElements += 1
+                # break
+            # enregistre les mots difficiles
+        # stopTime = datetime.datetime.today()
+        # deltaTime = stopTime - startTime
+        # test = stopTime.second
+        # print(test)
+        # print('Temps de l exercice: {minutes}min. et {seconde}sec.'.format(minutes=deltaTime.minute, seconde=deltaTime.second))
+        # print('hello')
+        return
+
     def trouver(self):
         pass
 
