@@ -81,41 +81,36 @@ class ExerciceClass:
     def ecrire(self):
         countElements = 0
         keyMotsDifficiles = []
-        startTime = datetime.datetime.today()
-        # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen
-        # Identifier le nombre de mots ou de phrases  
-        if choix.ecrireMotPhrase == "phrase":
-            nombreElements = globalSettings.nbrPhrases
-        elif choix.ecrireMotPhrase == "mot":
-            nombreElements = globalSettings.nbrMots
-        elif choix.ecrireMotPhrase == "verbe":
-            nombreElements = globalSettings.nbrVerbes
-        elif choix.ecrireMotPhrase == "der-die-das":
-            nombreElements = globalSettings.nbrDerDieDas
-        # else:
-        #     nombreElements = globalSettings.nbrPhrase
-
-        for key in vocabulaireList:
-
-            informationAEcrireEtranger = vocabulaireList[key]['Mot en ALL']
-            informationAEcrireEtrangerComplet = vocabulaireList[key]['Der-Die-Das'] + ' '+ vocabulaireList[key]['Mot en ALL']
-            informationAEcrireEtrangerDerDieDas = vocabulaireList[key]['Der-Die-Das']
-            if choix.ecrireDerDieDas == True:
-                informationAEcrireEtranger = informationAEcrireEtrangerComplet
-            informationAEcrireFR = vocabulaireList[key]['Mot FR']
+        if self.choix["quoiEcrire"] == "phrase":
+            nombreElements = self.nbrPhrases
+        elif self.choix["quoiEcrire"] == "mot":
+            if self.choix["derDieDas"] == "False":
+                nombreElements = self.nbrMots
+            else:
+                nombreElements = self.nbrDerDieDas
+        elif self.choix["quoiEcrire"] == "verbe":
+            nombreElements = self.nbrVerbes
+        # elif self.choix["quoiEcrire"] == "derDirDas":
+        #     nombreElements = self.derDirDas
+            
+        for key in self.vocabulaire:
+            informationAEcrireEtranger = self.vocabulaire[key]['Mot en ALL']
+            informationAEcrireEtrangerComplet = self.vocabulaire[key]['Der-Die-Das'] + ' '+ self.vocabulaire[key]['Mot en ALL']
+            # informationAEcrireEtrangerDerDieDas = self.vocabulaire[key]['Der-Die-Das']
+            if self.choix["derDieDas"] == "True" # choix.ecrireDerDieDas == True:
+                elementEtranger = informationAEcrireEtrangerComplet
+            elementFr = self.vocabulaire[key]['Mot FR']
             reponseFausse = True
             tentative = 0
-            if vocabulaireList[key]['Type'] == choix.ecrireMotPhrase: #on ne fait que les mots ou les phrases ...
-                # ecrireDerDieDas
-                # os.system('cls' if os.name == 'nt' else 'clear') #Clear terminal screen 
+            if self.vocabulaire[key]['Type'] == self.choix["quoiEcrire"]: #on filtre que les mots ou les phrases ou les verbes
                 while reponseFausse:
-                    reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= informationAEcrireFR, nbrEssai = tentative+1,nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, countElements=countElements, nombreElements=nombreElements ))
+                    reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= elementFr, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
                     # Vérifier la réponse ne contient pas de ", * etc....
                     tentative += 1
                     # if choix.ecrireDerDieDas == True:
                     #     reponseDerDieDas = reponse[:3]
 
-                    if reponse == informationAEcrireEtranger:
+                    if reponse == elementEtranger:
                         print('Bravo')
                         reponseFausse = False
                         evaluationReponse = 'juste'
@@ -123,9 +118,9 @@ class ExerciceClass:
                     else:
                         evaluationReponse = 'faux'
                         playSoundBad(globalSettings)
-                        if choix.ecrireMotPhraseAide:
+                        if self.choix["aide"] == "True" #choix.ecrireMotPhraseAide:
                             # showError(informationAEcrireEtranger, reponse)
-                            showErrorString(informationAEcrireEtranger, reponse)
+                            showErrorString(elementEtranger, reponse)
 
                     # create the entry for the record
                     repsonseLog = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
@@ -133,19 +128,11 @@ class ExerciceClass:
                     # Log the attempt in a file
                     recordTentative(entryLog, globalSettings)
 
-                    if tentative == globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+                    if tentative == self.settings["nombreTentativeMax"] # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
                         keyMotsDifficiles.append(key)                    
                         break
-                print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = informationAEcrireFR))
+                print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=elementEtranger, motFR = elementFr))
                 countElements += 1
-                # break
-            # enregistre les mots difficiles
-        # stopTime = datetime.datetime.today()
-        # deltaTime = stopTime - startTime
-        # test = stopTime.second
-        # print(test)
-        # print('Temps de l exercice: {minutes}min. et {seconde}sec.'.format(minutes=deltaTime.minute, seconde=deltaTime.second))
-        # print('hello')
         return
 
     def trouver(self):
