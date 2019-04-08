@@ -1,6 +1,6 @@
 Exemple de Voc (Voc6)
 
-    das Museum, Museen le musée
+    das Museum, Museen le muséee
 
     das Zẹntrum le centre
     die Fahrkarte, -n le billet, le titre de transport
