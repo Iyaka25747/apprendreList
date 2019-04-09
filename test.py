@@ -9,17 +9,30 @@ import difflib # https://pymotw.com/2/difflib/
 from pprint import pprint
 import sys
 import datetime
-# from func import *
+from func import *
 
-class ExerciceClass:
-    """Exercice d'écriture
-    """
-    def __init__(self, vocabulaire):
-        self.vocabulaire = vocabulaire
+# class ExerciceClass:
+#     """Exercice d'écriture
+#     """
+#     def __init__(self, vocabulaire):
+#         self.vocabulaire = vocabulaire
     
-    def printHello(self):
-        print('hello')
+#     def printHello(self):
+#         print('hello')
 
-voca={"1":"hello"}
-exercice1 = ExerciceClass(voca)
-exercice1.printHello()
+# voca={"1":"hello"}
+# exercice1 = ExerciceClass(voca)
+# exercice1.printHello()
+class SettingGlobal(object):
+    """Global class to hold the settings"""
+globalSettings = SettingGlobal()
+globalSettings.soundActive = True
+
+# def playSoundGood():
+# # def playSoundGood(globalSettings):
+#     global globalSettings
+#     if globalSettings.soundActive == True:
+#         winsound.PlaySound(globalSettings.goodSound, winsound.SND_FILENAME)
+#     return
+
+playSoundGood()
