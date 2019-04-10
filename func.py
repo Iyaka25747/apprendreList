@@ -128,10 +128,10 @@ class ExerciceClass:
                     # # Log the attempt in a file
                     # recordTentative(entryLog, globalSettings)
 
-                    if tentative == self.settings["nombreTentativeMax"]: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+                    if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
                         keyMotsDifficiles.append(key)                    
                         break
-                print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=elementEtranger, motFR = elementFr))
+                print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = elementFr))
                 countElements += 1
         return
 
