@@ -50,6 +50,11 @@ class ExerciceClass:
     
     def setVocabulary(self, vocabulary):
             self.vocabulaire = vocabulary
+            self.countElementsVocabulaire()
+            self.createSubVoc()
+
+    def createSubVoc(self):
+        pass
 
     def addSettings(self, key, value):
         self.settings[key]=value
@@ -81,6 +86,16 @@ class ExerciceClass:
     def ecrire(self):
         countElements = 0
         keyMotsDifficiles = []
+
+#à transformer:
+# faire des dictionnaires: Mot, mot + derDieDaws, phrase ou verbe
+# si mot ou phrase ou verbe écrire les éléments
+# elif mot +derDieDas
+#   ecrire derDieDas (que le der die ou das sans le mot ou le tout)
+# si phrase ecrire phrase
+# si verbe écrire verbe
+
+        #Choisir le type d'éléments (phrase, mots verbes) avec ou sans aide...
         if self.choix["quoiEcrire"] == "phrase":
             nombreElements = self.nbrPhrases
         elif self.choix["quoiEcrire"] == "mot":
@@ -90,8 +105,6 @@ class ExerciceClass:
                 nombreElements = self.nbrDerDieDas
         elif self.choix["quoiEcrire"] == "verbe":
             nombreElements = self.nbrVerbes
-        # elif self.choix["quoiEcrire"] == "derDirDas":
-        #     nombreElements = self.derDirDas
             
         for key in self.vocabulaire:
             elementEtranger = self.vocabulaire[key]['Mot en ALL']

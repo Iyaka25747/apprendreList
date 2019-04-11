@@ -155,7 +155,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 # Initialization du nombre d'éléments à exercer
 #OOP- count
-exercice1.countElementsVocabulaire()
+# Au l'execution de la méthode setVocabulary les éléments sont comptés ...il n'y a plus besoins de faire un exercice1.countElementsVocabulaire()
 #---- count
 globalSettings.nbrMots = 0
 globalSettings.nbrPhrases = 0
