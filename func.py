@@ -79,8 +79,62 @@ class ExerciceClass:
         # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
     
     def ecrire(self):
-        pass
-    
+        countElements = 0
+        keyMotsDifficiles = []
+        if self.choix["quoiEcrire"] == "phrase":
+            nombreElements = self.nbrPhrases
+        elif self.choix["quoiEcrire"] == "mot":
+            if self.choix["derDieDas"] == "False":
+                nombreElements = self.nbrMots
+            else:
+                nombreElements = self.nbrDerDieDas
+        elif self.choix["quoiEcrire"] == "verbe":
+            nombreElements = self.nbrVerbes
+        # elif self.choix["quoiEcrire"] == "derDirDas":
+        #     nombreElements = self.derDirDas
+            
+        for key in self.vocabulaire:
+            elementEtranger = self.vocabulaire[key]['Mot en ALL']
+            informationAEcrireEtrangerComplet = self.vocabulaire[key]['Der-Die-Das'] + ' '+ self.vocabulaire[key]['Mot en ALL']
+            # informationAEcrireEtrangerDerDieDas = self.vocabulaire[key]['Der-Die-Das']
+            if self.choix["derDieDas"] == "True": # choix.ecrireDerDieDas == True:
+                elementEtranger = informationAEcrireEtrangerComplet
+            elementFr = self.vocabulaire[key]['Mot FR']
+            reponseFausse = True
+            tentative = 0
+            if self.vocabulaire[key]['Type'] == self.choix["quoiEcrire"]: #on filtre que les mots ou les phrases ou les verbes
+                while reponseFausse:
+                    reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= elementFr, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
+                    # Vérifier la réponse ne contient pas de ", * etc....
+                    tentative += 1
+                    # if choix.ecrireDerDieDas == True:
+                    #     reponseDerDieDas = reponse[:3]
+
+                    if reponse == elementEtranger:
+                        print('Bravo')
+                        reponseFausse = False
+                        evaluationReponse = 'juste'
+                        playSoundGoodOOP(self.settings)
+                    else:
+                        evaluationReponse = 'faux'
+                        playSoundBadOOP(self.settings)
+                        if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
+                            # showError(informationAEcrireEtranger, reponse)
+                            showErrorString(elementEtranger, reponse)
+
+                    # # create the entry for the record
+                    # repsonseLog = '{countElements}/{nombreElements}; {nbrEssai} tentative/{nbrEssaiTot}'.format(nbrEssaiTot=globalSettings.ecrireNombreTentativesMax, nbrEssai = tentative, countElements=countElements, nombreElements=nombreElements )
+                    # entryLog = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, repsonseLog, evaluationReponse, informationAEcrireEtranger, reponse]
+                    # # Log the attempt in a file
+                    # recordTentative(entryLog, globalSettings)
+
+                    if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+                        keyMotsDifficiles.append(key)                    
+                        break
+                print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=informationAEcrireEtrangerComplet, motFR = elementFr))
+                countElements += 1
+        return
+
     def trouver(self):
         pass
 
@@ -178,6 +232,7 @@ def choisirExercice(dataExercice):
     return nomExerciceChoisi
 
 def playSoundGood(globalSettings):
+    # global globalSettings
     if globalSettings.soundActive == True:
         winsound.PlaySound(globalSettings.goodSound, winsound.SND_FILENAME)
     return
@@ -185,6 +240,17 @@ def playSoundGood(globalSettings):
 def playSoundBad(globalSettings):
     if globalSettings.soundActive == True:
         winsound.PlaySound(globalSettings.badSound, winsound.SND_FILENAME)
+    return
+
+def playSoundGoodOOP(settings):
+    # global globalSettings
+    if settings["activeSound"] == True:
+        winsound.PlaySound(settings["good_sound"], winsound.SND_FILENAME)
+    return
+
+def playSoundBadOOP(settings):
+    if settings["activeSound"] == True:
+        winsound.PlaySound(settings["bad_sound"], winsound.SND_FILENAME)
     return
 
 def trouverLeMot(vocabulaireList, choix, globalSettings):
