@@ -43,6 +43,9 @@ class ExerciceClass:
     settings = {} # contient les differents settings globaux. E.g. sound ON/OFF, ...
     choix = {} # contient les différents choix de l utilisateur
     vocabulaire = {} # contient une page de vocabulaire
+    vocMot ={} # que les mots
+    vocPhrase = {} # que les phrase
+    vocVerbe = {} # que les verbes
 
     def __init__(self):
         self.timeKeeper = TimeKeeper()
@@ -54,7 +57,15 @@ class ExerciceClass:
             self.createSubVoc()
 
     def createSubVoc(self):
-        pass
+        for key in self.vocabulaire:
+            if self.vocabulaire[key]['Type'] == "verbe":
+                self.vocVerbe[key] = self.vocabulaire[key]
+            elif self.vocabulaire[key]['Type'] == "phrase":
+                self.vocPhrase[key] = self.vocabulaire[key]
+            elif self.vocabulaire[key]['Type'] == "mot":
+                self.vocMot[key] = self.vocabulaire[key]
+        return
+
 
     def addSettings(self, key, value):
         self.settings[key]=value
