@@ -51,16 +51,23 @@ class ExerciceClass:
     def __init__(self):
         self.timeKeeper = TimeKeeper()
         self.timeKeeper.startTimer()
+        return
     
     def setVocabulary(self, vocabulary):
-            self.vocabulaireBrut = vocabulary
-            self.countElementsVocabulaire()
-            self.createSubVoc()
-            self.vocabulaire["vocabulaireBrut"]= vocabulary
-            self.vocabulaire["vocPhrase"] = self.vocPhrase
-            self.vocabulaire["vocMot"] = self.vocMot
-            self.vocabulaire["vocVerbe"] = self.vocVerbe
+        self.vocabulaireBrut = vocabulary
+        # self.countElementsVocabulaire(vocabulary, nbrDerDieDas,nbrMots,nbrPhrases,nbrVerbes)
+        (nbrDerDieDas,nbrMots,nbrPhrases,nbrVerbes) = self.countElementsVocabulaire2(vocabulary)
+        self.vocabulaire['nbrDerDieDas'] = nbrDerDieDas
+        self.vocabulaire['nbrMots'] = nbrMots
+        self.vocabulaire['nbrPhrases'] = nbrPhrases
+        self.vocabulaire['nbrVerbes'] = nbrVerbes
 
+        self.createSubVoc()
+        self.vocabulaire["vocabulaireBrut"]= vocabulary
+        self.vocabulaire["vocPhrase"] = self.vocPhrase
+        self.vocabulaire["vocMot"] = self.vocMot
+        self.vocabulaire["vocVerbe"] = self.vocVerbe
+        return
 
     def createSubVoc(self):
         for key in self.vocabulaireBrut:
@@ -75,12 +82,36 @@ class ExerciceClass:
 
     def addSettings(self, key, value):
         self.settings[key]=value
+        return
 
     def printHello(self):
         print('hello')
+        return
 
     def addChoix(self, key, value):
         self.choix[key]=value
+        return
+
+
+
+    def countElementsVocabulaire2(self, vocabulary):
+        # Initialization du nombre d'éléments à exercer
+        nbrMots = 0
+        nbrPhrases = 0
+        nbrVerbes = 0
+        nbrDerDieDas = 0
+        # On compte les mots et les phrase dans la page
+        for key in vocabulary: 
+            if vocabulary[key]['Type'] == 'mot':
+                nbrMots +=1
+                if vocabulary[key]['Der-Die-Das'] != '':
+                    nbrDerDieDas +=1
+            elif vocabulary[key]['Type'] == 'phrase':
+                nbrPhrases +=1
+            elif vocabulary[key]['Type'] == 'verbe':
+                nbrVerbes +=1
+        # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
+        return (nbrDerDieDas,nbrMots,nbrPhrases,nbrVerbes)
 
     def countElementsVocabulaire(self):
         # Initialization du nombre d'éléments à exercer
@@ -99,10 +130,12 @@ class ExerciceClass:
             elif self.vocabulaireBrut[key]['Type'] == 'verbe':
                 self.nbrVerbes +=1
         # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
-    
+        return
+
     def ecrire(self):
         countElements = 0
         keyMotsDifficiles = []
+       
 
 #à transformer:
 # faire des dictionnaires: Mot, mot + derDieDaws, phrase ou verbe
