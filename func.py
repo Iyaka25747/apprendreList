@@ -42,28 +42,34 @@ class ExerciceClass:
     """
     settings = {} # contient les differents settings globaux. E.g. sound ON/OFF, ...
     choix = {} # contient les différents choix de l utilisateur
-    vocabulaire = {} # contient une page de vocabulaire
+    vocabulaireBrut = {} # contient une page de vocabulaire
     vocMot ={} # que les mots
     vocPhrase = {} # que les phrase
     vocVerbe = {} # que les verbes
+    vocabulaire = {}
 
     def __init__(self):
         self.timeKeeper = TimeKeeper()
         self.timeKeeper.startTimer()
     
     def setVocabulary(self, vocabulary):
-            self.vocabulaire = vocabulary
+            self.vocabulaireBrut = vocabulary
             self.countElementsVocabulaire()
             self.createSubVoc()
+            self.vocabulaire["vocabulaireBrut"]= vocabulary
+            self.vocabulaire["vocPhrase"] = self.vocPhrase
+            self.vocabulaire["vocMot"] = self.vocMot
+            self.vocabulaire["vocVerbe"] = self.vocVerbe
+
 
     def createSubVoc(self):
-        for key in self.vocabulaire:
-            if self.vocabulaire[key]['Type'] == "verbe":
-                self.vocVerbe[key] = self.vocabulaire[key]
-            elif self.vocabulaire[key]['Type'] == "phrase":
-                self.vocPhrase[key] = self.vocabulaire[key]
-            elif self.vocabulaire[key]['Type'] == "mot":
-                self.vocMot[key] = self.vocabulaire[key]
+        for key in self.vocabulaireBrut:
+            if self.vocabulaireBrut[key]['Type'] == "verbe":
+                self.vocVerbe[key] = self.vocabulaireBrut[key]
+            elif self.vocabulaireBrut[key]['Type'] == "phrase":
+                self.vocPhrase[key] = self.vocabulaireBrut[key]
+            elif self.vocabulaireBrut[key]['Type'] == "mot":
+                self.vocMot[key] = self.vocabulaireBrut[key]
         return
 
 
@@ -83,14 +89,14 @@ class ExerciceClass:
         self.nbrVerbes = 0
         self.nbrDerDieDas = 0
         # On compte les mots et les phrase dans la page
-        for key in self.vocabulaire: 
-            if self.vocabulaire[key]['Type'] == 'mot':
+        for key in self.vocabulaireBrut: 
+            if self.vocabulaireBrut[key]['Type'] == 'mot':
                 self.nbrMots +=1
-                if self.vocabulaire[key]['Der-Die-Das'] != '':
+                if self.vocabulaireBrut[key]['Der-Die-Das'] != '':
                     self.nbrDerDieDas +=1
-            elif self.vocabulaire[key]['Type'] == 'phrase':
+            elif self.vocabulaireBrut[key]['Type'] == 'phrase':
                 self.nbrPhrases +=1
-            elif self.vocabulaire[key]['Type'] == 'verbe':
+            elif self.vocabulaireBrut[key]['Type'] == 'verbe':
                 self.nbrVerbes +=1
         # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
     
@@ -117,16 +123,16 @@ class ExerciceClass:
         elif self.choix["quoiEcrire"] == "verbe":
             nombreElements = self.nbrVerbes
             
-        for key in self.vocabulaire:
-            elementEtranger = self.vocabulaire[key]['Mot en ALL']
-            informationAEcrireEtrangerComplet = self.vocabulaire[key]['Der-Die-Das'] + ' '+ self.vocabulaire[key]['Mot en ALL']
+        for key in self.vocabulaireBrut:
+            elementEtranger = self.vocabulaireBrut[key]['Mot en ALL']
+            informationAEcrireEtrangerComplet = self.vocabulaireBrut[key]['Der-Die-Das'] + ' '+ self.vocabulaireBrut[key]['Mot en ALL']
             # informationAEcrireEtrangerDerDieDas = self.vocabulaire[key]['Der-Die-Das']
             if self.choix["derDieDas"] == "True": # choix.ecrireDerDieDas == True:
                 elementEtranger = informationAEcrireEtrangerComplet
-            elementFr = self.vocabulaire[key]['Mot FR']
+            elementFr = self.vocabulaireBrut[key]['Mot FR']
             reponseFausse = True
             tentative = 0
-            if self.vocabulaire[key]['Type'] == self.choix["quoiEcrire"]: #on filtre que les mots ou les phrases ou les verbes
+            if self.vocabulaireBrut[key]['Type'] == self.choix["quoiEcrire"]: #on filtre que les mots ou les phrases ou les verbes
                 while reponseFausse:
                     reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= elementFr, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
                     # Vérifier la réponse ne contient pas de ", * etc....

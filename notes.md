@@ -20,7 +20,7 @@ aller du FR et trouver all est plus dif. pour Tilio
         Distinguer les verbes des phrases
         DIstinguer les verbes infinitif des verbes conjgués.
 
-Reprise: line 54 self.createSubVoc()
+Reprise:line 62 - faire un seul dictionnaire déjà trier par mot, phrase ... avec le nombre d'éléments.
    
 en cours:
     -  trouver comment Tilio crache le programme (saisie Tilio ligne 257 ), est ce que Tilio a entré " ou ' ???. J ai déjà essayé avec toute sorte de caractères bizares y.c. presser la touche " puis enter ce qui fait 2 entrée dans la saisie.
