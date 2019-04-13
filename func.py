@@ -42,10 +42,10 @@ class ExerciceClass:
     """
     settings = {} # contient les differents settings globaux. E.g. sound ON/OFF, ...
     choix = {} # contient les différents choix de l utilisateur
-    vocabulaireBrut = {} # contient une page de vocabulaire
-    vocMot ={} # que les mots
-    vocPhrase = {} # que les phrase
-    vocVerbe = {} # que les verbes
+    # vocabulaireBrut = {} # contient une page de vocabulaire
+    # vocMot ={} # que les mots
+    # vocPhrase = {} # que les phrase
+    # vocVerbe = {} # que les verbes
     vocabulaire = {}
 
     def __init__(self):
@@ -55,29 +55,65 @@ class ExerciceClass:
     
     def setVocabulary(self, vocabulary):
         self.vocabulaireBrut = vocabulary
-        # self.countElementsVocabulaire(vocabulary, nbrDerDieDas,nbrMots,nbrPhrases,nbrVerbes)
-        (nbrDerDieDas,nbrMots,nbrPhrases,nbrVerbes) = self.countElementsVocabulaire2(vocabulary)
-        self.vocabulaire['nbrDerDieDas'] = nbrDerDieDas
-        self.vocabulaire['nbrMots'] = nbrMots
-        self.vocabulaire['nbrPhrases'] = nbrPhrases
-        self.vocabulaire['nbrVerbes'] = nbrVerbes
 
-        self.createSubVoc()
+        # Creation of sub vocabulary
+        vocPhrase = {}
+        vocMot = {}
+        vocDerDieDasMot = {}
+        vocVerbe = {}
+        for key in vocabulary:
+            if vocabulary[key]['Type'] == "verbe":
+                vocVerbe[key] = vocabulary[key]
+            elif vocabulary[key]['Type'] == "phrase":
+                vocPhrase[key] = vocabulary[key]
+            elif vocabulary[key]['Type'] == "mot":
+                if vocabulary[key]['Der-Die-Das'] =='' :
+                    vocMot[key] = vocabulary[key]
+                elif vocabulary[key]['Der-Die-Das'] !='' :
+                    vocDerDieDasMot[key] = vocabulary[key]
+                
         self.vocabulaire["vocabulaireBrut"]= vocabulary
-        self.vocabulaire["vocPhrase"] = self.vocPhrase
-        self.vocabulaire["vocMot"] = self.vocMot
-        self.vocabulaire["vocVerbe"] = self.vocVerbe
+        self.vocabulaire["vocPhrase"]={}
+        self.vocabulaire["vocPhrase"]["elements"] = vocPhrase
+        self.vocabulaire["vocMot"] = {}
+        self.vocabulaire["vocMot"]["elements"] = vocMot
+        self.vocabulaire["vocDerDieDasMot"] = {}
+        self.vocabulaire["vocDerDieDasMot"]["elements"] = vocDerDieDasMot
+        self.vocabulaire["vocVerbe"] = {}
+        self.vocabulaire["vocVerbe"]["elements"] = vocVerbe
+
+        # (nbrDerDieDas,nbrMots,vocDerDieDasMot,nbrPhrases,nbrVerbes) = self.countElementsVocabulaire(vocabulary)
+        self.vocabulaire["vocDerDieDasMot"]['nbrElements'] = self.countElementsVocabulaire(vocDerDieDasMot)
+        self.vocabulaire["vocMot"]['nbrElements'] = self.countElementsVocabulaire(vocMot)
+        self.vocabulaire["vocPhrase"]['nbrElements'] = self.countElementsVocabulaire(vocPhrase) 
+        self.vocabulaire["vocVerbe"]['nbrElements'] = self.countElementsVocabulaire(vocVerbe) 
         return
 
-    def createSubVoc(self):
-        for key in self.vocabulaireBrut:
-            if self.vocabulaireBrut[key]['Type'] == "verbe":
-                self.vocVerbe[key] = self.vocabulaireBrut[key]
-            elif self.vocabulaireBrut[key]['Type'] == "phrase":
-                self.vocPhrase[key] = self.vocabulaireBrut[key]
-            elif self.vocabulaireBrut[key]['Type'] == "mot":
-                self.vocMot[key] = self.vocabulaireBrut[key]
-        return
+    def countElementsVocabulaire(self, vocabulary):
+        nbrElements = 0
+        for key in vocabulary: 
+            nbrElements += 1
+        return (nbrElements)
+
+# CI-dessous, a supprimer lors du passage vers OOP, n'employer que "countElementsVocabulaire2()"
+    # def countElementsVocabulaire(self):
+    #     # Initialization du nombre d'éléments à exercer
+    #     self.nbrMots = 0
+    #     self.nbrPhrases = 0
+    #     self.nbrVerbes = 0
+    #     self.nbrDerDieDas = 0
+    #     # On compte les mots et les phrase dans la page
+    #     for key in self.vocabulaireBrut: 
+    #         if self.vocabulaireBrut[key]['Type'] == 'mot':
+    #             self.nbrMots +=1
+    #             if self.vocabulaireBrut[key]['Der-Die-Das'] != '':
+    #                 self.nbrDerDieDas +=1
+    #         elif self.vocabulaireBrut[key]['Type'] == 'phrase':
+    #             self.nbrPhrases +=1
+    #         elif self.vocabulaireBrut[key]['Type'] == 'verbe':
+    #             self.nbrVerbes +=1
+    #     # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
+    #     return
 
 
     def addSettings(self, key, value):
@@ -92,51 +128,8 @@ class ExerciceClass:
         self.choix[key]=value
         return
 
-
-
-    def countElementsVocabulaire2(self, vocabulary):
-        # Initialization du nombre d'éléments à exercer
-        nbrMots = 0
-        nbrPhrases = 0
-        nbrVerbes = 0
-        nbrDerDieDas = 0
-        # On compte les mots et les phrase dans la page
-        for key in vocabulary: 
-            if vocabulary[key]['Type'] == 'mot':
-                nbrMots +=1
-                if vocabulary[key]['Der-Die-Das'] != '':
-                    nbrDerDieDas +=1
-            elif vocabulary[key]['Type'] == 'phrase':
-                nbrPhrases +=1
-            elif vocabulary[key]['Type'] == 'verbe':
-                nbrVerbes +=1
-        # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
-        return (nbrDerDieDas,nbrMots,nbrPhrases,nbrVerbes)
-
-    def countElementsVocabulaire(self):
-        # Initialization du nombre d'éléments à exercer
-        self.nbrMots = 0
-        self.nbrPhrases = 0
-        self.nbrVerbes = 0
-        self.nbrDerDieDas = 0
-        # On compte les mots et les phrase dans la page
-        for key in self.vocabulaireBrut: 
-            if self.vocabulaireBrut[key]['Type'] == 'mot':
-                self.nbrMots +=1
-                if self.vocabulaireBrut[key]['Der-Die-Das'] != '':
-                    self.nbrDerDieDas +=1
-            elif self.vocabulaireBrut[key]['Type'] == 'phrase':
-                self.nbrPhrases +=1
-            elif self.vocabulaireBrut[key]['Type'] == 'verbe':
-                self.nbrVerbes +=1
-        # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
-        return
-
     def ecrire(self):
-        countElements = 0
-        keyMotsDifficiles = []
        
-
 #à transformer:
 # faire des dictionnaires: Mot, mot + derDieDaws, phrase ou verbe
 # si mot ou phrase ou verbe écrire les éléments
@@ -146,17 +139,38 @@ class ExerciceClass:
 # si verbe écrire verbe
 
         #Choisir le type d'éléments (phrase, mots verbes) avec ou sans aide...
-        if self.choix["quoiEcrire"] == "phrase":
-            nombreElements = self.nbrPhrases
-        elif self.choix["quoiEcrire"] == "mot":
-            if self.choix["derDieDas"] == "False":
-                nombreElements = self.nbrMots
-            else:
-                nombreElements = self.nbrDerDieDas
-        elif self.choix["quoiEcrire"] == "verbe":
-            nombreElements = self.nbrVerbes
-            
-        for key in self.vocabulaireBrut:
+        # if self.choix["quoiEcrire"] == "phrase":
+        #     nombreElements = self.vocabulaire['vocPhrase']['nbrPhrases']
+        #     elements = self.vocabulaire['vocPhrase']['elements']
+        # elif self.choix["quoiEcrire"] == "verbe":
+        #     nombreElements = self.vocabulaire['vocVerbe']['nbrVerbes']
+        #     elements = self.vocabulaire['vocVerbe']['elements']
+        # elif self.choix["quoiEcrire"] == "mot":
+        #     if self.choix["derDieDas"] == "False":
+        #         nombreElements = self.vocabulaire['vocMot']['nbrMots'] 
+        #     else:
+        #         nombreElements = self.vocabulaire['vocMot']['nbrDerDieDas']
+        
+        if not (self.choix["quoiEcrire"] == "mot" and self.choix["derDieDas"] == "True"): # cas standard
+            if self.choix["quoiEcrire"] == "phrase":
+                voc = self.vocabulaire['vocPhrase']['elements']
+            if self.choix["quoiEcrire"] == "verbe":
+                voc = self.vocabulaire['vocVerbe']['elements']
+            if self.choix["quoiEcrire"] == "mot":
+                voc = self.vocabulaire['vocMot']['elements']
+        else: # exception cas: mot der die das
+            if self.choix["quoiEcrire"] == "derDieDas":
+                voc =self.vocabulaire['vocDerDieDasPhrase']['elements']
+        
+        # elif self.choix["quoiEcrire"] == "mot":
+        #     if self.choix["derDieDas"] == "False":
+        #         nombreElements = self.vocabulaire['vocMot']['nbrMots'] 
+        #     else:
+        #         nombreElements = self.vocabulaire['vocMot']['nbrDerDieDas']
+        
+        countElements = 0
+        keyMotsDifficiles = []
+        for key in voc:
             elementEtranger = self.vocabulaireBrut[key]['Mot en ALL']
             informationAEcrireEtrangerComplet = self.vocabulaireBrut[key]['Der-Die-Das'] + ' '+ self.vocabulaireBrut[key]['Mot en ALL']
             # informationAEcrireEtrangerDerDieDas = self.vocabulaire[key]['Der-Die-Das']

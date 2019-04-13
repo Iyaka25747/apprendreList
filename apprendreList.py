@@ -14,8 +14,10 @@ import csv #for statistics logs
 #Initialisation
 ################
 
-debug = False
-# debug = True
+# debug = False
+debug = True
+debugLangue = "DE"
+# debugLangue = "EN"
 
 exercice1 = ExerciceClass() # Un exercice pour mémoriser une liste d'information
 
@@ -96,12 +98,18 @@ globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
-if debug == True:
+if debugLangue == "EN":
     choix.nomJoueur = 'Ilya'
     choix.nomLangueChoisie = 'anglais'
     choix.nomVocChoisi = 'unit6'
     choix.nomPageChoisie = 'p60'
     print( '{} {} {} {}'.format(choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi,  choix.nomPageChoisie))
+
+elif debugLangue == "DE":
+    choix.nomJoueur = 'Ilya'
+    choix.nomLangueChoisie = 'allemand'
+    choix.nomVocChoisi = 'voc7'
+    choix.nomPageChoisie = 'p45'
 else:
     #OOP- Supprimer la partie non OOP. Eg. choix.nomLangueChoisie = monchoix
     # Affichage et selection du joueur
