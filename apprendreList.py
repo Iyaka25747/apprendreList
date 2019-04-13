@@ -14,9 +14,9 @@ import csv #for statistics logs
 #Initialisation
 ################
 
-# debug = False
-debug = True
-debugLangue = "DE"
+debug = False
+# debug = True
+# debugLangue = "DE"
 # debugLangue = "EN"
 
 exercice1 = ExerciceClass() # Un exercice pour mémoriser une liste d'information
@@ -98,18 +98,19 @@ globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
-if debugLangue == "EN":
-    choix.nomJoueur = 'Ilya'
-    choix.nomLangueChoisie = 'anglais'
-    choix.nomVocChoisi = 'unit6'
-    choix.nomPageChoisie = 'p60'
-    print( '{} {} {} {}'.format(choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi,  choix.nomPageChoisie))
+if debug == "True":
+    if debugLangue == "EN":
+        choix.nomJoueur = 'Ilya'
+        choix.nomLangueChoisie = 'anglais'
+        choix.nomVocChoisi = 'unit6'
+        choix.nomPageChoisie = 'p60'
+        print( '{} {} {} {}'.format(choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi,  choix.nomPageChoisie))
 
-elif debugLangue == "DE":
-    choix.nomJoueur = 'Ilya'
-    choix.nomLangueChoisie = 'allemand'
-    choix.nomVocChoisi = 'voc7'
-    choix.nomPageChoisie = 'p45'
+    elif debugLangue == "DE":
+        choix.nomJoueur = 'Ilya'
+        choix.nomLangueChoisie = 'allemand'
+        choix.nomVocChoisi = 'voc7'
+        choix.nomPageChoisie = 'p45'
 else:
     #OOP- Supprimer la partie non OOP. Eg. choix.nomLangueChoisie = monchoix
     # Affichage et selection du joueur
@@ -194,17 +195,18 @@ elif choix.typeExerciceChoisi == "Ecrire":
     # ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings)
     sorted(vocabulaireList)
     print('Ecrire des mots ou des phrases ?')
-    optionChoisie = choisirElement(['mot', 'mot avec aide','mot der-die-das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
+    optionChoisie = choisirElement([ 'tous les mots','mot avec der, die, das', 'seulement der, die, das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
     if optionChoisie == 'mot':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","mot")
-        exercice1.addChoix("derDieDas","False")
-        exercice1.addChoix("aide","False")
-        #----
-        choix.ecrireMotPhrase = 'mot'
-        choix.ecrireDerDieDas = False
-        choix.ecrireMotPhraseAide = False
-    elif optionChoisie == 'mot avec aide':
+        pass
+        # #OOP-
+        # exercice1.addChoix("quoiEcrire","mot")
+        # exercice1.addChoix("derDieDas","False")
+        # exercice1.addChoix("aide","False")
+        # #----
+        # choix.ecrireMotPhrase = 'mot'
+        # choix.ecrireDerDieDas = False
+        # choix.ecrireMotPhraseAide = False
+    elif optionChoisie == 'tous les mots':
         #OOP-
         exercice1.addChoix("quoiEcrire","mot")
         exercice1.addChoix("derDieDas","False")
@@ -213,15 +215,20 @@ elif choix.typeExerciceChoisi == "Ecrire":
         choix.ecrireMotPhrase = 'mot'
         choix.ecrireDerDieDas = False
         choix.ecrireMotPhraseAide = True
-    elif optionChoisie == 'mot der-die-das':
+    elif optionChoisie == 'mot avec der, die, das':
         #OOP-
-        exercice1.addChoix("quoiEcrire","mot")
+        exercice1.addChoix("quoiEcrire","motDerDieDas")
         exercice1.addChoix("derDieDas","True")
-        exercice1.addChoix("aide","False")
+        exercice1.addChoix("aide","True")
         #----
         choix.ecrireMotPhrase = 'mot'
         choix.ecrireDerDieDas = True
         choix.ecrireMotPhraseAide = False
+    elif optionChoisie == 'seulement der, die, das':
+        #OOP-
+        exercice1.addChoix("quoiEcrire","seulement der, die, das")
+        exercice1.addChoix("derDieDas","True")
+        exercice1.addChoix("aide","True")
     elif optionChoisie == 'phrase':
         #OOP-
         exercice1.addChoix("quoiEcrire","phrase")
@@ -239,21 +246,21 @@ elif choix.typeExerciceChoisi == "Ecrire":
     elif optionChoisie == 'verbe':
         #OOP-
         exercice1.addChoix("quoiEcrire","verbe")
-        exercice1.addChoix("aide","True")
+        exercice1.addChoix("aide","False")
         #----
         choix.ecrireMotPhrase = 'verbe'
         choix.ecrireMotPhraseAide = True
     elif optionChoisie == 'verbe avec aide':
         #OOP-
         exercice1.addChoix("quoiEcrire","verbe")
-        exercice1.addChoix("aide","False")
+        exercice1.addChoix("aide","True")
         #----
         choix.ecrireMotPhrase = 'verbe'
         choix.ecrireMotPhraseAide = False
 #OOP- execution FIN
 
 exercice1.ecrire()
-ecrire(vocabulaireList, choix, globalSettings)
+# ecrire(vocabulaireList, choix, globalSettings)
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()

@@ -1,6 +1,9 @@
 import csv
 import json
 from operator import itemgetter 
+# #For YAML
+# import yaml
+# import io
 
 inData = []
 csvFile = open('C:\\Users\\ini\\Documents\\Development_Source_code\\apprendreList\\Saisie-vocabulaire\\VocCSV.csv', 'rt', encoding="utf8")
@@ -38,6 +41,9 @@ for row in reader:
     lessonsDict[language][voc][page][line] = row
 
 #Le fichier transformer est sauver dans un fichier pour archive
-json.dump(lessonsDict, jsonFile, indent=4, ensure_ascii=False )
+json.dump(lessonsDict, jsonFile, indent=2, ensure_ascii=False )
 jsonFile.write('\n')
 
+# # Write YAML file
+# with io.open('data.yaml', 'w', encoding='utf8') as outfile:
+#     yaml.dump(lessonsDict, outfile, default_flow_style=False, allow_unicode=True)
