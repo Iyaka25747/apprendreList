@@ -11,6 +11,12 @@ import sys
 import datetime
 from func import *
 
+val = 'asdf'
+try:
+    int(val)
+    pass
+except:
+    pass
 # class ExerciceClass:
 #     """Exercice d'écriture
 #     """

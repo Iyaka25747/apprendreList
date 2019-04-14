@@ -98,6 +98,9 @@ globalSettings.recordFile = "records.csv"
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
+################################
+##### CHOIX DU JOUEUR ##########
+################################
 if debug == "True":
     if debugLangue == "EN":
         choix.nomJoueur = 'Ilya'
@@ -136,16 +139,12 @@ else:
     monchoix = choisirElement(listElement)
     choix.nomPageChoisie = monchoix #OOP - To delelte
     exercice1.addChoix("page", monchoix)
+
+    if debug == "True":
+        exercice1.addChoix("TempsSprint", 1)
+    else:
+        exercice1.addChoix("TempsSprint", 10) # temps d'un sprint en minutes
     #OOP-FIN
-
-# Vocabulaire list contient tous les éléments (mot, phrase...) qui seront exercés
-# Vocabulaire list est un dictionnaire:
-# {"1": {"Type": "verbe","Der-Die-Das": "","Mot en ALL": "arrive, arrived","pluriel":"","Mot FR":"arriver"},"2": {"Type": etc
-vocabulaireList = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
-
-exercice1.setVocabulary(vocabulaireList)
-# exercice1.printHello()
-
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
 typePossible = ["Trouver une correspondance", "Ecrire"]
@@ -155,112 +154,23 @@ exercice1.addChoix("typeExercice", choix.typeExerciceChoisi)
 # exercice1.choix.append(}
 # exercice1.choix.typeExerciceChoisi = choix.typeExerciceChoisi
 
-###########################
-# Execution de l'exercice #
-###########################
+#################################
+####Exectution de l'exercice ####
+#################################
 
 #Clear terminal screen 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-# Initialization du nombre d'éléments à exercer
-#OOP- count
-# Au l'execution de la méthode setVocabulary les éléments sont comptés ...il n'y a plus besoins de faire un exercice1.countElementsVocabulaire()
-#---- count
-globalSettings.nbrMots = 0
-globalSettings.nbrPhrases = 0
-globalSettings.nbrVerbes = 0
-globalSettings.nbrDerDieDas = 0
-# On compte les mots et les phrase dans la page
-for key in vocabulaireList: 
-    if vocabulaireList[key]['Type'] == 'mot':
-        globalSettings.nbrMots +=1
-        if vocabulaireList[key]['Der-Die-Das'] != '':
-            globalSettings.nbrDerDieDas +=1
-    elif vocabulaireList[key]['Type'] == 'phrase':
-        globalSettings.nbrPhrases +=1
-    elif vocabulaireList[key]['Type'] == 'verbe':
-        globalSettings.nbrVerbes +=1
-#OOP - count FIN
-
-
-#########################
-## On lance l exercice ##
-#########################
-#OOP- execution
+# Initialization des differents vocabulaires sur la base du vocabualire brute
+vocabulaire = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
+exercice1.setVocabularies(vocabulaire)
 
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     # exercice1.trouver()
-    trouverLeMot(vocabulaireList, choix, globalSettings)
+    trouverLeMot(vocabulaire, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
-    # ecritureChoixTypeExercice(vocabulaireList, choix, globalSettings)
-    sorted(vocabulaireList)
-    print('Ecrire des mots ou des phrases ?')
-    optionChoisie = choisirElement([ 'tous les mots','mot avec der, die, das', 'seulement der, die, das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
-    if optionChoisie == 'mot':
-        pass
-        # #OOP-
-        # exercice1.addChoix("quoiEcrire","mot")
-        # exercice1.addChoix("derDieDas","False")
-        # exercice1.addChoix("aide","False")
-        # #----
-        # choix.ecrireMotPhrase = 'mot'
-        # choix.ecrireDerDieDas = False
-        # choix.ecrireMotPhraseAide = False
-    elif optionChoisie == 'tous les mots':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","mot")
-        exercice1.addChoix("derDieDas","False")
-        exercice1.addChoix("aide","True")
-        #----
-        choix.ecrireMotPhrase = 'mot'
-        choix.ecrireDerDieDas = False
-        choix.ecrireMotPhraseAide = True
-    elif optionChoisie == 'mot avec der, die, das':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","motDerDieDas")
-        exercice1.addChoix("derDieDas","True")
-        exercice1.addChoix("aide","True")
-        #----
-        choix.ecrireMotPhrase = 'mot'
-        choix.ecrireDerDieDas = True
-        choix.ecrireMotPhraseAide = False
-    elif optionChoisie == 'seulement der, die, das':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","seulement der, die, das")
-        exercice1.addChoix("derDieDas","True")
-        exercice1.addChoix("aide","True")
-    elif optionChoisie == 'phrase':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","phrase")
-        exercice1.addChoix("aide","False")
-        #----
-        choix.ecrireMotPhrase = 'phrase'
-        choix.ecrireMotPhraseAide = False
-    elif optionChoisie == 'phrase avec aide':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","phrase")
-        exercice1.addChoix("aide","True")
-        #----
-        choix.ecrireMotPhrase = 'phrase'
-        choix.ecrireMotPhraseAide = True
-    elif optionChoisie == 'verbe':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","verbe")
-        exercice1.addChoix("aide","False")
-        #----
-        choix.ecrireMotPhrase = 'verbe'
-        choix.ecrireMotPhraseAide = True
-    elif optionChoisie == 'verbe avec aide':
-        #OOP-
-        exercice1.addChoix("quoiEcrire","verbe")
-        exercice1.addChoix("aide","True")
-        #----
-        choix.ecrireMotPhrase = 'verbe'
-        choix.ecrireMotPhraseAide = False
-#OOP- execution FIN
-
-exercice1.ecrire()
-# ecrire(vocabulaireList, choix, globalSettings)
+    exercice1.choixEcriture()
+    exercice1.ecrire()
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()
