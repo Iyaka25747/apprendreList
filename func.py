@@ -99,27 +99,6 @@ class ExerciceClass:
             nbrElements += 1
         return (nbrElements)
 
-# CI-dessous, a supprimer lors du passage vers OOP, n'employer que "countElementsVocabulaire2()"
-    # def countElementsVocabulaire(self):
-    #     # Initialization du nombre d'éléments à exercer
-    #     self.nbrMots = 0
-    #     self.nbrPhrases = 0
-    #     self.nbrVerbes = 0
-    #     self.nbrDerDieDas = 0
-    #     # On compte les mots et les phrase dans la page
-    #     for key in self.vocabulaireBrut: 
-    #         if self.vocabulaireBrut[key]['Type'] == 'mot':
-    #             self.nbrMots +=1
-    #             if self.vocabulaireBrut[key]['Der-Die-Das'] != '':
-    #                 self.nbrDerDieDas +=1
-    #         elif self.vocabulaireBrut[key]['Type'] == 'phrase':
-    #             self.nbrPhrases +=1
-    #         elif self.vocabulaireBrut[key]['Type'] == 'verbe':
-    #             self.nbrVerbes +=1
-    #     # print(self.nbrMots,self.nbrPhrases, self.nbrVerbes, self.nbrDerDieDas)
-    #     return
-
-
     def addSettings(self, key, value):
         self.settings[key]=value
         return
@@ -132,7 +111,7 @@ class ExerciceClass:
         self.choix[key]=value
         return
 
-    def ecrire(self):
+    def ecrireQuoi(self):
         if not (self.choix["quoiEcrire"] == "seulement der, die, das"): # cas standard, on emploie les voc tel quel.
             if self.choix["quoiEcrire"] == "phrase":
                 voc = self.vocabulaire['vocPhrase']['elements']
@@ -185,15 +164,91 @@ class ExerciceClass:
         return
 
     def trouver(self):
-        pass
+        nbrElements = len(self.vocabulaire)  
+        count = 0
+        for keyVocabulaire in self.vocabulaire['vocabulaireBrut']:
+            motATrouverFR = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot FR']
+            if self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Der-Die-Das'] != '':
+                motATrouverEtrange = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Der-Die-Das'] + " " + self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot en ALL']
+            else:
+                motATrouverEtrange = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot en ALL']
+            
+            
+            #creation d'une list sans le mot à trouver
+            autresMots = dict(self.vocabulaire['vocabulaireBrut'])
+            del(autresMots[keyVocabulaire])
+            # on mélange les mots
+            autresMotsKeys = list(autresMots.keys())
+            random.shuffle(autresMotsKeys)
+            # autresMotsKeys = {(key, autresMots[key]) for key in autresMotsKeys}
+            # on choisi les x premiers mot à trouver
+            countEnnemis =self.settings['nombreEnnemis']
+            autresMotsEnnemisKeys = []
+            for key in autresMotsKeys:
+                if countEnnemis != 0:
+                    autresMotsEnnemisKeys.append(key)
+                    countEnnemis -= 1 
+            #on construit la liste à montrer
+            motsAMontrerKeys = []
+            motsAMontrerKeys = autresMotsEnnemisKeys[:]
+            motsAMontrerKeys.append(keyVocabulaire)
+            # on mélange les mots
+            random.shuffle(motsAMontrerKeys)
+            # on construit la liste des mots a afficher
+            listeMotsEtrangeAMontrer = []
+            for key in motsAMontrerKeys:
+                if self.vocabulaire['vocabulaireBrut'][key]['Der-Die-Das'] != '':
+                    motAMontrer = str(self.vocabulaire['vocabulaireBrut'][key]['Der-Die-Das'] + " " + self.vocabulaire['vocabulaireBrut'][key]['Mot en ALL'])
+                else:
+                    motAMontrer = self.vocabulaire['vocabulaireBrut'][key]['Mot en ALL']
+                listeMotsEtrangeAMontrer.append(motAMontrer)
+            # On pose la question et on vérifie
+            repeteQuestion = True
+            while repeteQuestion:
+                print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(
+                    motATrouverFR=self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot FR'], reste=nbrElements - count, total=nbrElements, TypeElement = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Type']))
+                valeurFausse = True
+                while valeurFausse:
+                    reponse = input('Te souviens tu du mot ? [1] = oui, [ENTER] = Non: ')
+                    if reponse == '1':
+                        jeMeSouviens = True
+                        valeurFausse = False
+                    elif reponse == '':
+                        jeMeSouviens = False
+                        valeurFausse = False
+                reponse = choisirElement(listeMotsEtrangeAMontrer)
+                if reponse == motATrouverEtrange:
+                    repeteQuestion = False
+                    evaluationReponse = "Juste"
+                    print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(
+                        evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=motATrouverEtrange))
+                    # playSoundGood(globalSettings)
+                    playSoundGoodOOP(self.settings)
+                    # if globalSettings.soundActive == True:
+                    #     winsound.PlaySound(
+                    #         globalSettings.goodSound, winsound.SND_FILENAME)
+                else:
+                    repeteQuestion = True
+                    evaluationReponse = "Faux"
+                    print("{evaluation}: '{motFR}' n'est pas '{motEquivalent}'\n".format(
+                        evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=reponse))
+                    # playSoundBad(globalSettings)
+                    playSoundBadOOP(self.settings)
+                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, motATrouverEtrange, reponse]
+                
+                recordTentative(resultatQuestion, globalSettings)                
+            count = count + 1
+        
+        print("Enregistrement des exercices dans {fichier}".format(fichier = globalSettings.recordFile ))
+        return
 
     def ecrireVoc(self, voc):
         countElements = 1
         keyMotsDifficiles = []
         nombreElements = len(voc)
         for key in voc:
-            elementAEcrire = voc[key]['Mot en ALL']
-            indice = voc[key]['Mot FR']
+            elementAEcrire = self.vocabulaire['vocabulaireBrut'][key]['Mot en ALL']
+            indice = self.vocabulaire['vocabulaireBrut'][key]['Mot FR']
             reponseAAfficher = elementAEcrire 
 
             reponseFausse = True
@@ -219,7 +274,7 @@ class ExerciceClass:
             countElements += 1
         return 
 
-    def choixEcriture(self):
+    def choixEcrireComment(self):
         print('Ecrire des mots ou des phrases ?')
         optionChoisie = choisirElement([ 'tous les mots','mot avec der, die, das', 'seulement der, die, das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
         if optionChoisie == 'mot':

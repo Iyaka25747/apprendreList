@@ -14,9 +14,9 @@ import csv #for statistics logs
 #Initialisation
 ################
 
-debug = False
-# debug = True
-# debugLangue = "DE"
+# debug = False
+debug = True
+debugLangue = "DE"
 # debugLangue = "EN"
 
 exercice1 = ExerciceClass() # Un exercice pour mémoriser une liste d'information
@@ -101,7 +101,7 @@ recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 ################################
 ##### CHOIX DU JOUEUR ##########
 ################################
-if debug == "True":
+if debug == True:
     if debugLangue == "EN":
         choix.nomJoueur = 'Ilya'
         choix.nomLangueChoisie = 'anglais'
@@ -166,11 +166,11 @@ vocabulaire = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.no
 exercice1.setVocabularies(vocabulaire)
 
 if choix.typeExerciceChoisi == "Trouver une correspondance":
-    # exercice1.trouver()
-    trouverLeMot(vocabulaire, choix, globalSettings)
+    exercice1.trouver()
+    # trouverLeMot(vocabulaire, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
-    exercice1.choixEcriture()
-    exercice1.ecrire()
+    exercice1.choixEcrireComment()
+    exercice1.ecrireQuoi()
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()

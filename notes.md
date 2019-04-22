@@ -1,29 +1,17 @@
-Exemple de Voc (Voc6)
+Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
-    das Museum, Museen le musée
-
-    das Zẹntrum le centre
-    die Fahrkarte, -n le billet, le titre de transport
-
-    das Ịnternet, WLAN 	/ l’internet, le WIFI <- Il y a 2 mots. il faut gérer les sysnonyme
-    der Zoo, -s / le zoo 
-
-    Verbe
-        essen, er isst hat gegessen		manger
-
-    Phrase
-        Kann ich bitte noch eine Cola haben?		Pourrias je encore avoir un coco SVP?
-
+Reprise: Revoir l'enregistrement des records pour OOP
+line 295 captureNumber(questionText) - provoque une erreur si on entre "asldkf" au lien d un chiffre. Pas de probleme si on est hors vsc Je n arrive pas à comprendre pouruqoi ...
+  
 Améliorations:
+- Dans le "trouver" on doit associer le mot et les conjugaisons (e.g. kennen|lernen)
+- Dans le "trouver" si on fait faux, il faut il est inutile de redire "je connais le mot" pour ensuite le trouver dans la liste.
 aller du FR et trouver all est plus dif. pour Tilio
     Verbes:
         Distinguer les verbes des phrases
         DIstinguer les verbes infinitif des verbes conjgués.
 
-Pour tester, vocabulaire: All, Voc7 (3), p45(1)
-
-Reprise: line 295 captureNumber(questionText) - provoque une erreur si on entre "asldkf" au lien d un chiffre. Pas de probleme si on est hors vsc Je n arrive pas à comprendre pouruqoi ...
-   
+ 
 en cours:
     - Gestion de l'effort, temps de sprint - Reprendre ligne 143 "exercice1.addChoix("TempsSprint", 1)"  
     - trouver comment Tilio crache le programme (saisie Tilio ligne 257 ), est ce que Tilio a entré " ou ' ???. J ai déjà essayé avec toute sorte de caractères bizares y.c. presser la touche " puis enter ce qui fait 2 entrée dans la saisie.
