@@ -37,6 +37,31 @@ class TimeKeeper:
     #     self.name = name
     #     # self.age = age
 
+class Record(object):
+    def __init__(self,recordFile):
+        self.recordFile = recordFile
+        return
+
+    def recordTentative(self, exercice, data):
+        recordLine = []
+        currentDate = "{day}.{month}.{year}".format(year = exercice.timeKeeper.startTime.year, month=  exercice.timeKeeper.startTime.month, day=  exercice.timeKeeper.startTime.day)#datetime.date.today()
+        currentTime = "{hour}:{minute}:{second}".format(hour = exercice.timeKeeper.startTime.hour, minute=  exercice.timeKeeper.startTime.minute, second=  exercice.timeKeeper.startTime.second)
+        recordLine = [currentDate, currentTime, exercice.choix['users'], exercice.choix['langue'], exercice.choix['voc'], exercice.choix['page'], exercice.choix['typeExercice']]
+        recordLine = recordLine + data
+
+        myFile = open(self.recordFile, 'a', encoding="utf8")
+        with myFile:
+            recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
+            recordsFile.writerows([recordLine])
+        myFile.close()
+        return
+
+
+# resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, elementAEcrire, reponse]
+                
+# resultatQuestion = [evaluationReponse, elementAEcrire, reponse]
+# record.recordTentative(resultatQuestion) 
+
 class ExerciceClass:
     """Exercice d'écriture
     """
@@ -267,6 +292,13 @@ class ExerciceClass:
                     if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
                         # showError(informationAEcrireEtranger, reponse)
                         showErrorString(elementAEcrire, reponse)
+
+                # resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, elementAEcrire, reponse]
+                
+                resultatQuestion = [evaluationReponse, elementAEcrire, reponse]
+                record.recordTentative(resultatQuestion) 
+                    
+
                 if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
                     keyMotsDifficiles.append(key)                    
                     break
@@ -501,7 +533,8 @@ def trouverLeMot(vocabulaireList, choix, globalSettings):
                     playSoundBad(globalSettings)
                 resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, motATrouverEtrange, reponse]
                 
-                recordTentative(resultatQuestion, globalSettings)                
+                recordTentative(resultatQuestion, globalSettings) 
+                               
             count = count + 1
         
     print("Enregistrement des exercices dans {fichier}".format(fichier = globalSettings.recordFile ))

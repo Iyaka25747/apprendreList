@@ -1,6 +1,6 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
-Reprise: Revoir l'enregistrement des records pour OOP
+Reprise: line 175 - Revoir l'enregistrement des records pour OOP
 line 295 captureNumber(questionText) - provoque une erreur si on entre "asldkf" au lien d un chiffre. Pas de probleme si on est hors vsc Je n arrive pas à comprendre pouruqoi ...
   
 Améliorations:

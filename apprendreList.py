@@ -95,6 +95,8 @@ globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel tr
 #initialisation du fichier de statistiques
 #A faire plus tard: passer les enregistrements en OOP
 globalSettings.recordFile = "records.csv"
+record = Record(globalSettings.recordFile)
+
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
 
@@ -114,6 +116,11 @@ if debug == True:
         choix.nomLangueChoisie = 'allemand'
         choix.nomVocChoisi = 'voc7'
         choix.nomPageChoisie = 'p45'
+
+    exercice1.addChoix("users", choix.nomJoueur)
+    exercice1.addChoix("langue", choix.nomLangueChoisie)
+    exercice1.addChoix("voc", choix.nomVocChoisi)
+    exercice1.addChoix("page", choix.nomPageChoisie)
 else:
     #OOP- Supprimer la partie non OOP. Eg. choix.nomLangueChoisie = monchoix
     # Affichage et selection du joueur
@@ -164,6 +171,9 @@ os.system('cls' if os.name == 'nt' else 'clear')
 # Initialization des differents vocabulaires sur la base du vocabualire brute
 vocabulaire = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
 exercice1.setVocabularies(vocabulaire)
+
+test = ["rec1","rec2"]
+record.recordTentative(exercice1, test)
 
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     exercice1.trouver()
