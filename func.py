@@ -291,7 +291,10 @@ class ExerciceClass:
             # indice = self.vocabulaire['vocabulaireBrut'][key]['Mot FR']
             elementAEcrire = voc[key]['Mot en ALL']
             indice = voc[key]['Mot FR']
-            reponseAAfficher = elementAEcrire 
+            if voc[key]['Der-Die-Das'] != '':
+                reponseAAfficher = voc[key]['Der-Die-Das'] + ' ' + elementAEcrire
+            else: 
+                reponseAAfficher = elementAEcrire 
 
             reponseFausse = True
             tentative = 0
