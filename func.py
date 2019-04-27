@@ -272,8 +272,10 @@ class ExerciceClass:
         keyMotsDifficiles = []
         nombreElements = len(voc)
         for key in voc:
-            elementAEcrire = self.vocabulaire['vocabulaireBrut'][key]['Mot en ALL']
-            indice = self.vocabulaire['vocabulaireBrut'][key]['Mot FR']
+            # elementAEcrire = self.vocabulaire['vocabulaireBrut'][key]['Mot en ALL']
+            # indice = self.vocabulaire['vocabulaireBrut'][key]['Mot FR']
+            elementAEcrire = voc[key]['Mot en ALL']
+            indice = voc[key]['Mot FR']
             reponseAAfficher = elementAEcrire 
 
             reponseFausse = True
