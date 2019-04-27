@@ -91,11 +91,9 @@ exercice1.addSettings("nombreEnnemis", 4)
 globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
 globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 
-
-#initialisation du fichier de statistiques
-#A faire plus tard: passer les enregistrements en OOP
+#fichier de statistiques
 globalSettings.recordFile = "records.csv"
-record = Record(globalSettings.recordFile)
+
 
 exerciceRecord = [] # Enregistrement d'un calculs "Date", "Time", "Joueur", "Nom du test", "Calcul", "nbr. Tentatives", "Duree"
 recordsCalculs = [] # enregistrement des calculs faux pour les statistiques
@@ -172,14 +170,21 @@ os.system('cls' if os.name == 'nt' else 'clear')
 vocabulaire = dataExercices[choix.nomLangueChoisie][choix.nomVocChoisi][choix.nomPageChoisie]
 exercice1.setVocabularies(vocabulaire)
 
-test = ["rec1","rec2"]
-record.recordTentative(exercice1, test)
+# test = ["rec1","rec2"]
+# record.recordTentative(exercice1, test)
 
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     exercice1.trouver()
     # trouverLeMot(vocabulaire, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
     exercice1.choixEcrireComment()
+
+    #initialisation du fichier de statistiques avec les choix
+    globalSettings.recordFile = "records.csv"
+    record = Record(globalSettings.recordFile, exercice1)
+    exercice1.record = record
+
+    #exectution de l'exercice
     exercice1.ecrireQuoi()
 
 globalTimeKeeper.stopTimer()
