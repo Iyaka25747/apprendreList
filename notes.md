@@ -1,6 +1,6 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
-Reprise: line 175 - Revoir l'enregistrement des records pour OOP
+Reprise: -vérifier l exercice "trouver" - Vérifier "ecrire les phrases"
 
   
 Améliorations:
