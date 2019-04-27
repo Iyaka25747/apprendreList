@@ -1,9 +1,12 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: line 175 - Revoir l'enregistrement des records pour OOP
-line 295 captureNumber(questionText) - provoque une erreur si on entre "asldkf" au lien d un chiffre. Pas de probleme si on est hors vsc Je n arrive pas à comprendre pouruqoi ...
+
   
 Améliorations:
+- Fermeture soudaine de l'écrant de saisie lors d exercice par Tilio
+    line 295 captureNumber(questionText) - provoque une erreur si on entre "asldkf" au lien d un chiffre. Pas de probleme si on est hors vsc Je n arrive pas à comprendre pouruqoi ...
+        - Pour comprendre apprendreList.py est encapsulé dans apprendre.bat ce qui donne la possibilité de voir un message d'erreur sans que la fenetre se ferme automatiquement. Les combinaisons clavier CTRL + T, CTRL + Z, CTRL + ENter (plusieur fois) provoquent des erreurs....
 - Dans le "trouver" on doit associer le mot et les conjugaisons (e.g. kennen|lernen)
 - Dans le "trouver" si on fait faux, il faut il est inutile de redire "je connais le mot" pour ensuite le trouver dans la liste.
 aller du FR et trouver all est plus dif. pour Tilio

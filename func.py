@@ -38,17 +38,32 @@ class TimeKeeper:
     #     # self.age = age
 
 class Record(object):
-    def __init__(self,recordFile):
+    def __init__(self,recordFile, exercice):
         self.recordFile = recordFile
+        self.setId(exercice)
         return
 
-    def recordTentative(self, exercice, data):
-        recordLine = []
+    def setId(self, exercice):
         currentDate = "{day}.{month}.{year}".format(year = exercice.timeKeeper.startTime.year, month=  exercice.timeKeeper.startTime.month, day=  exercice.timeKeeper.startTime.day)#datetime.date.today()
         currentTime = "{hour}:{minute}:{second}".format(hour = exercice.timeKeeper.startTime.hour, minute=  exercice.timeKeeper.startTime.minute, second=  exercice.timeKeeper.startTime.second)
-        recordLine = [currentDate, currentTime, exercice.choix['users'], exercice.choix['langue'], exercice.choix['voc'], exercice.choix['page'], exercice.choix['typeExercice']]
-        recordLine = recordLine + data
+        self.id = [currentDate, currentTime, exercice.choix['users'], exercice.choix['langue'], exercice.choix['voc'], exercice.choix['page'], exercice.choix['typeExercice'], exercice.choix['quoiEcrire'], exercice.choix['aide']]
+        return
 
+    def recordTentative(self, data):
+        recordLine = []
+        currentDateTime = datetime.datetime.today()
+        currentDate = "{day}.{month}.{year}".format(year = currentDateTime.year, month=  currentDateTime.month, day=  currentDateTime.day)
+        currentTime =  "{hour}:{minute}:{second}".format(hour = currentDateTime.hour, minute=  currentDateTime.minute, second=  currentDateTime.second)
+
+        recordLine = self.id + [currentDate, currentTime] + data
+        # recordLine = recordLine + data
+
+        # exerciceDate = "{day}.{month}.{year}".format(year = exercice.timeKeeper.startTime.year, month=  exercice.timeKeeper.startTime.month, day=  exercice.timeKeeper.startTime.day)#datetime.date.today()
+        # exerciceTime = "{hour}:{minute}:{second}".format(hour = exercice.timeKeeper.startTime.hour, minute=  exercice.timeKeeper.startTime.minute, second=  exercice.timeKeeper.startTime.second)
+
+        # recordLine = [exerciceDate, exerciceTime, exercice.choix['users'], exercice.choix['langue'], exercice.choix['voc'], exercice.choix['page'], exercice.choix['typeExercice']]
+
+        
         myFile = open(self.recordFile, 'a', encoding="utf8")
         with myFile:
             recordsFile = csv.writer(myFile, delimiter=';', lineterminator='\n')
@@ -298,7 +313,7 @@ class ExerciceClass:
                 # resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, elementAEcrire, reponse]
                 
                 resultatQuestion = [evaluationReponse, elementAEcrire, reponse]
-                record.recordTentative(resultatQuestion) 
+                self.record.recordTentative(resultatQuestion) 
                     
 
                 if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
@@ -354,24 +369,24 @@ def showError(texteJuste, texteFaux):
 def showErrorString(strJuste, strFaux):
     count = 0
     strDiff = ''
+    lenJuste = len(strJuste)
+    lenFaux = len(strFaux)
+    if lenFaux > lenJuste:
+        countMax = lenJuste
+    else: countMax = lenFaux
+    
     pasDeFaute = True
     while pasDeFaute:
-        if count <= len(strJuste):
-            if count == len(strJuste): # cas Freundzz ?= Freund
-                charJuste =''
-            else:
-                charJuste = strJuste[count]
-            if charJuste == strFaux[count]:
+        if count < countMax:
+            if strJuste[count] == strFaux[count]:
                 strDiff += strFaux[count]
             else:
                 pasDeFaute = False
                 strDiff += '^'
-                strDiff += strFaux[count:]
+                strDiff += strFaux[count]
         else:
             pasDeFaute = False
             strDiff += '^'
-            strDiff += strFaux[count:]
-
         count += 1
     print('Il y a une erreur: ' + strDiff)
     return
