@@ -596,135 +596,128 @@
         "6": {
           "Type": "mot",
           "Der-Die-Das": "Das",
-          "Mot en ALL": "Taschengeld (sing)",
+          "Mot en ALL": "Taschengeld",
           "pluriel": "",
-          "Mot FR": "l argent de poche"
+          "Mot FR": "l argent de poche (toujours au singulier)"
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Souvenir",
           "pluriel": "s",
-          "Mot FR": " Le souvenir"
+          "Mot FR": "Le souvenir"
         },
         "8": {
-          "Type": "mot",
-          "Der-Die-Das": "Das",
-          "Mot en ALL": "Internet, ",
-          "pluriel": "",
-          "Mot FR": "internet"
-        },
-        "9": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "WLAN",
           "pluriel": "",
           "Mot FR": "wifi"
         },
-        "10": {
+        "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "gratis",
           "pluriel": "",
           "Mot FR": "gratuit"
         },
-        "11": {
+        "10": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Tram",
           "pluriel": "",
           "Mot FR": "le tram"
         },
-        "12": {
+        "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "müde",
           "pluriel": "",
           "Mot FR": "fatigué,-e"
         },
-        "13": {
+        "12": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Abfahrt",
           "pluriel": "en",
           "Mot FR": "le départ"
         },
-        "14": {
+        "13": {
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Treffpunkt",
           "pluriel": "e",
           "Mot FR": "le point de rencontre"
         },
-        "15": {
+        "14": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Ankunft",
           "pluriel": "ü-e",
           "Mot FR": "L arrivée"
         },
-        "16": {
+        "15": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Rückreise",
           "pluriel": "n",
           "Mot FR": "le retour"
         },
-        "17": {
+        "16": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Strassenbahn",
           "pluriel": "en",
           "Mot FR": "le tram(way)"
         },
-        "18": {
+        "17": {
           "Type": "mot",
           "Der-Die-Das": "Die",
-          "Mot en ALL": "Ruhe (sing)",
+          "Mot en ALL": "Ruhe",
           "pluriel": "",
-          "Mot FR": "le silence"
+          "Mot FR": "le silence (toujours au singulier)"
         },
-        "19": {
+        "18": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ab 22 Uhr ist Ruhe",
           "pluriel": "",
           "Mot FR": "A partir de 22 H le silence est de rigueur"
         },
-        "20": {
+        "19": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Er hat kein Geld mehr",
           "pluriel": "",
           "Mot FR": "il n’a plus d argent"
         },
-        "21": {
+        "20": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "pleite sein, er ist pleite",
           "pluriel": "",
           "Mot FR": "être fauché,-e"
         },
-        "22": {
+        "21": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "leihen, er leiht, hat geliehen",
           "pluriel": "",
           "Mot FR": "prêter"
         },
-        "23": {
+        "22": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Man kann Fahrräder leihen",
           "pluriel": "",
           "Mot FR": "on peut prêter des bicyclettes"
         },
-        "24": {
+        "23": {
           "Type": "mot",
           "Der-Die-Das": "Das",
-          "Mot en ALL": "Gepäck (sing)",
+          "Mot en ALL": "Gepäck",
           "pluriel": "",
-          "Mot FR": "les bagages"
+          "Mot FR": "les bagages (toujours au singulier)"
         }
       },
       "p41": {
@@ -952,7 +945,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Kann ich bitte noch eine Cola haben?",
           "pluriel": "",
-          "Mot FR": "Pourrias je encore avoir un coco SVP?"
+          "Mot FR": "Pourrais je encore avoir un coco SVP?"
         }
       },
       "p39": {
@@ -980,7 +973,7 @@
         "4": {
           "Type": "mot",
           "Der-Die-Das": "Die",
-          "Mot en ALL": "Farhkarte",
+          "Mot en ALL": "Fahrkarte",
           "pluriel": "-n",
           "Mot FR": "le billet, le titre de transport"
         },
@@ -1343,7 +1336,7 @@
         "11": {
           "Type": "verbe",
           "Der-Die-Das": "",
-          "Mot en ALL": "zu|hören, er hört zu, hat zugehört",
+          "Mot en ALL": "er hört zu, hat zugehört",
           "pluriel": "",
           "Mot FR": "écouter"
         },

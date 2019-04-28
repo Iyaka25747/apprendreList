@@ -174,13 +174,16 @@ exercice1.setVocabularies(vocabulaire)
 # record.recordTentative(exercice1, test)
 
 if choix.typeExerciceChoisi == "Trouver une correspondance":
+    # initialisation du fichier de statistique
+    record = Record(globalSettings.recordFile, exercice1)
+    exercice1.record = record
     exercice1.trouver()
     # trouverLeMot(vocabulaire, choix, globalSettings)
 elif choix.typeExerciceChoisi == "Ecrire":
     exercice1.choixEcrireComment()
 
     #initialisation du fichier de statistiques avec les choix
-    globalSettings.recordFile = "records.csv"
+    # globalSettings.recordFile = "records.csv"
     record = Record(globalSettings.recordFile, exercice1)
     exercice1.record = record
 

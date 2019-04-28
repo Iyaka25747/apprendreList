@@ -46,7 +46,12 @@ class Record(object):
     def setId(self, exercice):
         currentDate = "{day}.{month}.{year}".format(year = exercice.timeKeeper.startTime.year, month=  exercice.timeKeeper.startTime.month, day=  exercice.timeKeeper.startTime.day)#datetime.date.today()
         currentTime = "{hour}:{minute}:{second}".format(hour = exercice.timeKeeper.startTime.hour, minute=  exercice.timeKeeper.startTime.minute, second=  exercice.timeKeeper.startTime.second)
-        self.id = [currentDate, currentTime, exercice.choix['users'], exercice.choix['langue'], exercice.choix['voc'], exercice.choix['page'], exercice.choix['typeExercice'], exercice.choix['quoiEcrire'], exercice.choix['aide']]
+        self.id = [currentDate, currentTime]
+        choix =[]
+        for key in exercice.choix:
+            choix.append(exercice.choix[key])
+        self.id = self.id + choix
+        # exercice.choix['users'], exercice.choix['langue'], exercice.choix['voc'], exercice.choix['page'], exercice.choix['typeExercice'], exercice.choix['quoiEcrire'], exercice.choix['aide']]
         return
 
     def recordTentative(self, data):
@@ -244,18 +249,20 @@ class ExerciceClass:
                 listeMotsEtrangeAMontrer.append(motAMontrer)
             # On pose la question et on vérifie
             repeteQuestion = True
+            pasReponduSouviens = True
             while repeteQuestion:
                 print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(
                     motATrouverFR=self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot FR'], reste=nbrElements - count, total=nbrElements, TypeElement = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Type']))
-                valeurFausse = True
-                while valeurFausse:
-                    reponse = input('Te souviens tu du mot ? [1] = oui, [ENTER] = Non: ')
+                # valeurFausse = True                
+                if pasReponduSouviens:
+                    pasReponduSouviens = False
+                    reponse = input('Te souviens tu du mot ? [ENTER] = oui, [1] = Non: ')                    
                     if reponse == '1':
-                        jeMeSouviens = True
-                        valeurFausse = False
+                        jeMeSouviens = "Je me souviens pas"
+                        # valeurFausse = False
                     elif reponse == '':
-                        jeMeSouviens = False
-                        valeurFausse = False
+                        jeMeSouviens = "je me souviens"
+                        # valeurFausse = False
                 reponse = choisirElement(listeMotsEtrangeAMontrer)
                 if reponse == motATrouverEtrange:
                     repeteQuestion = False
@@ -274,9 +281,9 @@ class ExerciceClass:
                         evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=reponse))
                     # playSoundBad(globalSettings)
                     playSoundBadOOP(self.settings)
-                resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, motATrouverEtrange, reponse]
-                
-                recordTentative(resultatQuestion, globalSettings)                
+                resultatQuestion = [jeMeSouviens, evaluationReponse, motATrouverEtrange, reponse]
+                self.record.recordTentative(resultatQuestion)
+
             count = count + 1
         
         print("Enregistrement des exercices dans {fichier}".format(fichier = globalSettings.recordFile ))
@@ -328,7 +335,9 @@ class ExerciceClass:
 
     def choixEcrireComment(self):
         print('Ecrire des mots ou des phrases ?')
-        optionChoisie = choisirElement([ 'tous les mots','mot avec der, die, das', 'seulement der, die, das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
+        # optionChoisie = choisirElement([ 'tous les mots','mot avec der, die, das', 'seulement der, die, das', 'verbe','verbe avec aide', 'phrase', 'phrase avec aide'])
+        optionChoisie = choisirElement([ 'tous les mots','mot avec der, die, das', 'seulement der, die, das', 'verbe', 'phrase'])
+
         if optionChoisie == 'mot':
             pass
         elif optionChoisie == 'tous les mots':
@@ -345,16 +354,16 @@ class ExerciceClass:
             self.addChoix("aide","True")
         elif optionChoisie == 'phrase':
             self.addChoix("quoiEcrire","phrase")
-            self.addChoix("aide","False")
-        elif optionChoisie == 'phrase avec aide':
-            self.addChoix("quoiEcrire","phrase")
             self.addChoix("aide","True")
+        # elif optionChoisie == 'phrase avec aide':
+        #     self.addChoix("quoiEcrire","phrase")
+        #     self.addChoix("aide","True")
         elif optionChoisie == 'verbe':
             self.addChoix("quoiEcrire","verbe")
-            self.addChoix("aide","False")
-        elif optionChoisie == 'verbe avec aide':
-            self.addChoix("quoiEcrire","verbe")
             self.addChoix("aide","True")
+        # elif optionChoisie == 'verbe avec aide':
+        #     self.addChoix("quoiEcrire","verbe")
+        #     self.addChoix("aide","True")
         return
 
 def showError(texteJuste, texteFaux):

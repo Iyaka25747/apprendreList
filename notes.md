@@ -1,6 +1,7 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: -vérifier l exercice "trouver" - Vérifier "ecrire les phrases"
+- Ne pas répéter la question est ce que tu le sais ?
 
   
 Améliorations:
