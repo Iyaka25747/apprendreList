@@ -166,20 +166,18 @@ allemand;voc7;p45;3;mot;der;Junge;-n;le garçon
 allemand;voc7;p45;4;mot;das;Mädchen;-;la fille
 allemand;voc7;p45;5;mot;das;Lied;-er;la chanson
 allemand;voc7;p45;6;mot;;tanzen;;danser
-allemand;voc7;p45;7;verbe;;er tanzt;;il danse
-allemand;voc7;p45;8;verbe;;Er hat getanzt;;il a dansé
-allemand;voc7;p45;9;mot;;langweilig;;ennuyeux,-euse
-allemand;voc7;p45;10;mot;;kennen|lernen;;faire la connaissance de
-allemand;voc7;p45;11;verbe;;er lernt Caro kennen;;il fait la connaissance de Caro
-allemand;voc7;p45;12;verbe;;er hat Caro kennengelernt;;il a fait la connaissance de Caro
-allemand;voc7;p45;13;mot;;sich treffen;;(se) rencontrer
-allemand;voc7;p45;14;verbe;;er trịfft sich;;il se rencontrer
-allemand;voc7;p45;15;verbe;;Er hat sich getrọffen;;il s’est rencontré
-allemand;voc7;p45;16;phrase;;Martina und Jens haben sich getroffen.;;Martina et Jens se sont rencontrés.
-allemand;voc7;p45;17;mot;;sprechen;;parler
-allemand;voc7;p45;18;verbe;;sprechen, er spricht, hat gesprochen;;parler (conjugaison)
-allemand;voc7;p45;19;phrase;;Alexandra hat mit Martina gesprochen.;;Alexandra a parlé avec Martina.
-allemand;voc7;p45;20;verbe;;fern|sehen, er sieht fern, hat ferngesehen;;regarder la télé (conjugaison)
+allemand;voc7;p45;7;verbe;;tanzen, er tanzt, er hat getanzt;;danser (conjugaison)
+allemand;voc7;p45;8;mot;;langweilig;;ennuyeux,-euse
+allemand;voc7;p45;9;mot;;kennen|lernen;;faire la connaissance de
+allemand;voc7;p45;10;verbe;;er lernt Caro kennen;;il fait la connaissance de Caro
+allemand;voc7;p45;11;verbe;;er hat Caro kennengelernt;;il a fait la connaissance de Caro
+allemand;voc7;p45;12;mot;;sich treffen;;(se) rencontrer
+allemand;voc7;p45;13;verbe;;treffen, er trịfft sich, er hat sich getroffen;;se rencontrer (conjugaison)
+allemand;voc7;p45;14;phrase;;Martina und Jens haben sich getroffen.;;Martina et Jens se sont rencontrés.
+allemand;voc7;p45;15;mot;;sprechen;;parler
+allemand;voc7;p45;16;verbe;;sprechen, er spricht, hat gesprochen;;parler (conjugaison)
+allemand;voc7;p45;17;phrase;;Alexandra hat mit Martina gesprochen.;;Alexandra a parlé avec Martina.
+allemand;voc7;p45;18;verbe;;fern|sehen, er sieht fern, hat ferngesehen;;regarder la télé (conjugaison)
 allemand;voc7;p46;1;mot;;zusammen;;ensemble
 allemand;voc7;p46;2;phrase;;Wir spielen zusammen Fussball.;;Nous jouons au football ensemble.
 allemand;voc7;p46;3;phrase;;Was ist passiert?;;Qu’est-ce qui s’est passé ?
@@ -190,7 +188,7 @@ allemand;voc7;p46;7;phrase;;sein;;être
 allemand;voc7;p46;8;verbe;;sein, er ist, ist gewesen;;être (conjugaison)
 allemand;voc7;p46;9;phrase;;Sophie ist auch im Kino gewesen.;;Sophie a aussi été au cinéma.
 allemand;voc7;p46;10;mot;;zu|hören;;écouter
-allemand;voc7;p46;11;verbe;;er hört zu, hat zugehört;;écouter (conjugaison)
+allemand;voc7;p46;11;verbe;;zu|hören, er hört zu, hat zugehört;;écouter (conjugaison)
 allemand;voc7;p46;12;mot;;lügen;;mentir
 allemand;voc7;p46;13;verbe;;lügen, er lügt, hat gelogen;;mentir (conjugaison)
 allemand;voc7;p46;14;phrase;;Martina hat gelogen.;;Martina a menti.
@@ -243,11 +241,10 @@ allemand;voc7;p47;25;phrase;;Dein T-Shirt ist cool.;;Ton t-shirt est cool.
 allemand;voc7;p47;26;mot;das;Kompliment;-e;le compliment
 allemand;voc7;p47;27;phrase;;Komplimente machen, er macht, hat gemacht;;faire des compliments
 allemand;voc7;p47;28;mot;;gefallen;;plaire
-allemand;voc7;p47;29;verbe;;er gefällt ihm;;il lui plaît
-allemand;voc7;p47;30;verbe;;er hat ihm gefallen;;il lui a plu
-allemand;voc7;p47;31;phrase;;Du kannst gut singen.;;Tu sais bien chanter.
-allemand;voc7;p47;32;phrase;;Ich finde dich nett.;;Je pense que tu es gentil.
-allemand;voc7;p47;33;phrase;;Ich mag dein Lachen.;;J’aime bien ton rire.
+allemand;voc7;p47;29;verbe;;gefallen, er gefällt ihm, er hat ihm gefallen;;plaire à qqn, il lui plaît, il lui a plu
+allemand;voc7;p47;30;phrase;;Du kannst gut singen.;;Tu sais bien chanter.
+allemand;voc7;p47;31;phrase;;Ich finde dich nett.;;Je pense que tu es gentil.
+allemand;voc7;p47;32;phrase;;Ich mag dein Lachen.;;J’aime bien ton rire.
 anglais;unit5;p50;1;verbe;;arrive, arrived;;arriver
 anglais;unit5;p50;2;verbe;;call, called;;appeler
 anglais;unit5;p50;3;verbe;;change, changed;;changer

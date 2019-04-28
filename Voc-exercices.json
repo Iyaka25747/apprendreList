@@ -982,28 +982,28 @@
           "Der-Die-Das": "",
           "Mot en ALL": "kaufen, er kauft, hat gekauft",
           "pluriel": "",
-          "Mot FR": "acheter"
+          "Mot FR": "acheter (conjugaison)"
         },
         "6": {
           "Type": "verbe",
           "Der-Die-Das": "",
-          "Mot en ALL": "essen, er isst hat gegessen",
+          "Mot en ALL": "essen, er isst, hat gegessen",
           "pluriel": "",
-          "Mot FR": "manger"
+          "Mot FR": "manger (conjugaison)"
         },
         "7": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "besuchen, er besucht, hat besucht",
           "pluriel": "",
-          "Mot FR": "visiter"
+          "Mot FR": "visiter (conjugaison)"
         },
         "8": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "mit|kommen, er kommt mit, ist mitgekommen",
           "pluriel": "",
-          "Mot FR": "venir avec qqn"
+          "Mot FR": "venir avec qqn (conjugaison)"
         },
         "9": {
           "Type": "phrase",
@@ -1087,7 +1087,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "besichtigen, er besichtigt, hat besichtigt",
           "pluriel": "",
-          "Mot FR": "visiter (la ville)"
+          "Mot FR": "visiter (la ville) (conjugaison)"
         },
         "21": {
           "Type": "phrase",
@@ -1166,100 +1166,86 @@
         "7": {
           "Type": "verbe",
           "Der-Die-Das": "",
-          "Mot en ALL": "er tanzt",
+          "Mot en ALL": "tanzen, er tanzt, er hat getanzt",
           "pluriel": "",
-          "Mot FR": "il danse"
+          "Mot FR": "danser (conjugaison)"
         },
         "8": {
-          "Type": "verbe",
-          "Der-Die-Das": "",
-          "Mot en ALL": "hat getanzt",
-          "pluriel": "",
-          "Mot FR": "il a dansé"
-        },
-        "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "langweilig",
           "pluriel": "",
           "Mot FR": "ennuyeux,-euse"
         },
-        "10": {
+        "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "kennen|lernen",
           "pluriel": "",
           "Mot FR": "faire la connaissance de"
         },
+        "10": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er lernt Caro kennen",
+          "pluriel": "",
+          "Mot FR": "il fait la connaissance de Caro"
+        },
         "11": {
           "Type": "verbe",
           "Der-Die-Das": "",
-          "Mot en ALL": "er lernt caro kennen",
+          "Mot en ALL": "er hat Caro kennengelernt",
           "pluriel": "",
-          "Mot FR": "il fait la connaissance de caro"
+          "Mot FR": "il a fait la connaissance de Caro"
         },
         "12": {
-          "Type": "verbe",
-          "Der-Die-Das": "",
-          "Mot en ALL": "er hat caro kennengelernt",
-          "pluriel": "",
-          "Mot FR": "il a fait la connaissance de caro"
-        },
-        "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "sich treffen",
           "pluriel": "",
           "Mot FR": "(se) rencontrer"
         },
+        "13": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "treffen, er trịfft sich, er hat sich getroffen",
+          "pluriel": "",
+          "Mot FR": "se rencontrer (conjugaison)"
+        },
         "14": {
-          "Type": "verbe",
-          "Der-Die-Das": "",
-          "Mot en ALL": "er trịfft sich",
-          "pluriel": "",
-          "Mot FR": "il se rencontrer"
-        },
-        "15": {
-          "Type": "verbe",
-          "Der-Die-Das": "",
-          "Mot en ALL": "hat sich getrọffen",
-          "pluriel": "",
-          "Mot FR": "il s’est rencontré"
-        },
-        "16": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Martina und Jens haben sich getroffen.",
           "pluriel": "",
           "Mot FR": "Martina et Jens se sont rencontrés."
         },
-        "17": {
+        "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "sprechen",
           "pluriel": "",
           "Mot FR": "parler"
         },
-        "18": {
+        "16": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "sprechen, er spricht, hat gesprochen",
           "pluriel": "",
-          "Mot FR": "parler"
+          "Mot FR": "parler (conjugaison)"
         },
-        "19": {
+        "17": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alexandra hat mit Martina gesprochen.",
           "pluriel": "",
           "Mot FR": "Alexandra a parlé avec Martina."
         },
-        "20": {
+        "18": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "fern|sehen, er sieht fern, hat ferngesehen",
           "pluriel": "",
-          "Mot FR": "regarder la télé"
+          "Mot FR": "regarder la télé (conjugaison)"
         }
       },
       "p46": {
@@ -1296,7 +1282,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "gehen, er geht, ist gegangen",
           "pluriel": "",
-          "Mot FR": "aller"
+          "Mot FR": "aller (conjugaison)"
         },
         "6": {
           "Type": "phrase",
@@ -1317,7 +1303,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "sein, er ist, ist gewesen",
           "pluriel": "",
-          "Mot FR": "être"
+          "Mot FR": "être (conjugaison)"
         },
         "9": {
           "Type": "phrase",
@@ -1336,9 +1322,9 @@
         "11": {
           "Type": "verbe",
           "Der-Die-Das": "",
-          "Mot en ALL": "er hört zu, hat zugehört",
+          "Mot en ALL": "zu|hören, er hört zu, hat zugehört",
           "pluriel": "",
-          "Mot FR": "écouter"
+          "Mot FR": "écouter (conjugaison)"
         },
         "12": {
           "Type": "mot",
@@ -1352,7 +1338,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "lügen, er lügt, hat gelogen",
           "pluriel": "",
-          "Mot FR": "mentir"
+          "Mot FR": "mentir (conjugaison)"
         },
         "14": {
           "Type": "phrase",
@@ -1401,7 +1387,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "helfen, er hilft, hat geholfen",
           "pluriel": "",
-          "Mot FR": "aider"
+          "Mot FR": "aider (conjugaison)"
         },
         "21": {
           "Type": "mot",
@@ -1492,7 +1478,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "sich fühlen, er fühlt sich, hat sich gefühlt",
           "pluriel": "",
-          "Mot FR": "se sentir"
+          "Mot FR": "se sentir (conjugaison)"
         },
         "34": {
           "Type": "mot",
@@ -1506,7 +1492,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "fehlen, du fehlst mir, du hast mir gefehlt",
           "pluriel": "",
-          "Mot FR": "manquer, tu me manques"
+          "Mot FR": "manquer, tu me manques, tu m’as manqué"
         }
       },
       "p47": {
@@ -1709,32 +1695,25 @@
         "29": {
           "Type": "verbe",
           "Der-Die-Das": "",
-          "Mot en ALL": "er gefällt ihm",
+          "Mot en ALL": "gefallen, er gefällt ihm, er hat ihm gefallen",
           "pluriel": "",
-          "Mot FR": "il lui plaît"
+          "Mot FR": "plaire à qqn, il lui plaît, il lui a plu"
         },
         "30": {
-          "Type": "verbe",
-          "Der-Die-Das": "",
-          "Mot en ALL": "er hat ihm gefallen",
-          "pluriel": "",
-          "Mot FR": "il lui a plu"
-        },
-        "31": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Du kannst gut singen.",
           "pluriel": "",
           "Mot FR": "Tu sais bien chanter."
         },
-        "32": {
+        "31": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich finde dich nett.",
           "pluriel": "",
           "Mot FR": "Je pense que tu es gentil."
         },
-        "33": {
+        "32": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich mag dein Lachen.",
