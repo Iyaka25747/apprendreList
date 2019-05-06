@@ -16,19 +16,26 @@
                     "pluriel": "-n",
                     "Mot FR": "le garçon"
                 },
-                "6a": {
+                "6": {
                     "Type": "mot",
                     "Der-Die-Das": "",
                     "Mot en ALL": "tanzen",
                     "pluriel": "",
                     "Mot FR": "danser"
                 },
-                "6": {
+                "7": {
                     "Type": "verbe",
                     "Der-Die-Das": "",
                     "Mot en ALL": "tanzen, er tanzt, hat getanzt",
                     "pluriel": "",
                     "Mot FR": "danser"
+                },
+                "10": {
+                    "Type": "mot",
+                    "Der-Die-Das": "",
+                    "Mot en ALL": "gratis",
+                    "pluriel": "",
+                    "Mot FR": "gratuit"
                 },
                 "23": {
                     "Type": "phrase",

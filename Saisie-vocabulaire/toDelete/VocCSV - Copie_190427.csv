@@ -82,24 +82,25 @@ allemand;voc6;p40;2;phrase;;Alle sind müde und schlafen;;tous sont fatigués et
 allemand;voc6;p40;3;mot;Der;Treffpunkt;-e;le point de rencontre
 allemand;voc6;p40;4;mot;Das;Internet;;internet
 allemand;voc6;p40;5;phrase;;Im Hostel ist das Internet gratis;;A l auberge, l accès internet est gratuit
-allemand;voc6;p40;6;mot;Das;Taschengeld;;l argent de poche (toujours au singulier)
-allemand;voc6;p40;7;mot;Das;Souvenir;s;Le souvenir
-allemand;voc6;p40;8;mot;Das;WLAN;;wifi
-allemand;voc6;p40;9;mot;;gratis;;gratuit
-allemand;voc6;p40;10;mot;Das;Tram;;le tram
-allemand;voc6;p40;11;mot;;müde;;fatigué,-e
-allemand;voc6;p40;12;mot;Die;Abfahrt;en;le départ
-allemand;voc6;p40;13;mot;Der;Treffpunkt;e;le point de rencontre
-allemand;voc6;p40;14;mot;Die;Ankunft;ü-e;L arrivée
-allemand;voc6;p40;15;mot;Die;Rückreise;n;le retour
-allemand;voc6;p40;16;mot;Die;Strassenbahn;en;le tram(way)
-allemand;voc6;p40;17;mot;Die;Ruhe;;le silence (toujours au singulier)
-allemand;voc6;p40;18;phrase;;Ab 22 Uhr ist Ruhe;;A partir de 22 H le silence est de rigueur
-allemand;voc6;p40;19;phrase;;Er hat kein Geld mehr;;il n’a plus d argent
-allemand;voc6;p40;20;phrase;;pleite sein, er ist pleite;;être fauché,-e
-allemand;voc6;p40;21;phrase;;leihen, er leiht, hat geliehen;;prêter
-allemand;voc6;p40;22;phrase;;Man kann Fahrräder leihen;;on peut prêter des bicyclettes
-allemand;voc6;p40;23;mot;Das;Gepäck;;les bagages (toujours au singulier)
+allemand;voc6;p40;6;mot;Das;Taschengeld (sing);;l argent de poche
+allemand;voc6;p40;7;mot;Das;Souvenir;s; Le souvenir
+allemand;voc6;p40;8;mot;Das;Internet, ;;internet
+allemand;voc6;p40;9;mot;Das;WLAN;;wifi
+allemand;voc6;p40;10;mot;;gratis;;gratuit
+allemand;voc6;p40;11;mot;Das;Tram;;le tram
+allemand;voc6;p40;12;mot;;müde;;fatigué,-e
+allemand;voc6;p40;13;mot;Die;Abfahrt;en;le départ
+allemand;voc6;p40;14;mot;Der;Treffpunkt;e;le point de rencontre
+allemand;voc6;p40;15;mot;Die;Ankunft;ü-e;L arrivée
+allemand;voc6;p40;16;mot;Die;Rückreise;n;le retour
+allemand;voc6;p40;17;mot;Die;Strassenbahn;en;le tram(way)
+allemand;voc6;p40;18;mot;Die;Ruhe (sing);;le silence
+allemand;voc6;p40;19;phrase;;Ab 22 Uhr ist Ruhe;;A partir de 22 H le silence est de rigueur
+allemand;voc6;p40;20;phrase;;Er hat kein Geld mehr;;il n’a plus d argent
+allemand;voc6;p40;21;phrase;;pleite sein, er ist pleite;;être fauché,-e
+allemand;voc6;p40;22;phrase;;leihen, er leiht, hat geliehen;;prêter
+allemand;voc6;p40;23;phrase;;Man kann Fahrräder leihen;;on peut prêter des bicyclettes
+allemand;voc6;p40;24;mot;Das;Gepäck (sing);;les bagages
 allemand;voc6;p41;1;phrase;;ab/geben, er gibt ab, hat abgegeben;;déposer
 allemand;voc6;p41;2;mot;Der;Speisesaal;ä-e;la salle à manger
 allemand;voc6;p41;3;mot;Das;Geschenk;e;le cadeau
@@ -131,19 +132,19 @@ allemand;voc6;p42;8;phrase;;...zum Bahnhof?;;à la gare?
 allemand;voc6;p42;9;phrase;;Welcher Bus fährt ins Zentrum?;;Quel bus va dans le centre?
 allemand;voc6;p42;10;phrase;;Wann fährt…?;;A quelle heure part…?
 allemand;voc6;p42;11;phrase;;Gibt es hier Fahrkarten?;;Y a t il des billets ici?
-allemand;voc6;p42;12;phrase;;Kann ich bitte noch eine Cola haben?;;Pourrais je encore avoir un coco SVP?
+allemand;voc6;p42;12;phrase;;Kann ich bitte noch eine Cola haben?;;Pourrias je encore avoir un coco SVP?
 allemand;voc6;p39;1;mot;Das;Museum;die Museen;le musée
 allemand;voc6;p39;2;mot;Der;Zoo;-s;le zoo
 allemand;voc6;p39;3;mot;Das;Zentrum;;le centre
-allemand;voc6;p39;4;mot;Die;Fahrkarte;-n;le billet, le titre de transport
+allemand;voc6;p39;4;mot;Die;Farhkarte;-n;le billet, le titre de transport
 allemand;voc6;p39;5;mot;;kaufen;;acheter
-allemand;voc6;p39;5;verbe;;kaufen, er kauft, hat gekauft;;acheter (conjugaison)
+allemand;voc6;p39;5;verbe;;kaufen, er kauft, hat gekauft;;acheter
 allemand;voc6;p39;6;mot;;essen;;manger
-allemand;voc6;p39;6;verbe;;essen, er isst, hat gegessen;;manger (conjugaison)
+allemand;voc6;p39;6;verbe;;essen, er isst hat gegessen;;manger
 allemand;voc6;p39;7;mot;;besuchen;;visiter
-allemand;voc6;p39;7;verbe;;besuchen, er besucht, hat besucht;;visiter (conjugaison)
+allemand;voc6;p39;7;verbe;;besuchen, er besucht, hat besucht;;visiter
 allemand;voc6;p39;8;mot;;mit|kommen;;venir avec qqn
-allemand;voc6;p39;8;verbe;;mit|kommen, er kommt mit, ist mitgekommen;;venir avec qqn (conjugaison)
+allemand;voc6;p39;8;verbe;;mit|kommen, er kommt mit, ist mitgekommen;;venir avec qqn
 allemand;voc6;p39;9;phrase;;kommst du mit?;;Tu viens (avec moi avec nous)?
 allemand;voc6;p39;10;mot;Die;Kirche;-n;l église
 allemand;voc6;p39;11;phrase;;Sie geht in die Kirche;;elle va à l’église
@@ -155,7 +156,7 @@ allemand;voc6;p39;16;mot;Das;Fussballstadion;-stadien;le stade de football
 allemand;voc6;p39;17;mot;Die;Polizei;;la police
 allemand;voc6;p39;18;phrase;;steigen, er steigt, ist gestiegen;; Jens et Martina ont rangé la cuisine
 allemand;voc6;p39;19;phrase;;Wir sind auf dem Turm gestiegen;;nous sommes montés en haut de la tour
-allemand;voc6;p39;20;verbe;;besichtigen, er besichtigt, hat besichtigt;;visiter (la ville) (conjugaison)
+allemand;voc6;p39;20;verbe;;besichtigen, er besichtigt, hat besichtigt;;visiter (la ville)
 allemand;voc6;p39;21;phrase;;Wie haben die Stadt besichtigt;;nous avons visité la ville
 allemand;voc6;p39;22;mot;Der;Meter;-;le mètre
 allemand;voc6;p39;23;mot;Die;Altstadt;ä-e;la vieille ville, la cité
@@ -166,38 +167,40 @@ allemand;voc7;p45;3;mot;der;Junge;-n;le garçon
 allemand;voc7;p45;4;mot;das;Mädchen;-;la fille
 allemand;voc7;p45;5;mot;das;Lied;-er;la chanson
 allemand;voc7;p45;6;mot;;tanzen;;danser
-allemand;voc7;p45;7;verbe;;tanzen, er tanzt, er hat getanzt;;danser (conjugaison)
-allemand;voc7;p45;8;mot;;langweilig;;ennuyeux,-euse
-allemand;voc7;p45;9;mot;;kennen|lernen;;faire la connaissance de
-allemand;voc7;p45;10;verbe;;er lernt Caro kennen;;il fait la connaissance de Caro
-allemand;voc7;p45;11;verbe;;er hat Caro kennengelernt;;il a fait la connaissance de Caro
-allemand;voc7;p45;12;mot;;sich treffen;;(se) rencontrer
-allemand;voc7;p45;13;verbe;;treffen, er trịfft sich, er hat sich getroffen;;se rencontrer (conjugaison)
-allemand;voc7;p45;14;phrase;;Martina und Jens haben sich getroffen.;;Martina et Jens se sont rencontrés.
-allemand;voc7;p45;15;mot;;sprechen;;parler
-allemand;voc7;p45;16;verbe;;sprechen, er spricht, hat gesprochen;;parler (conjugaison)
-allemand;voc7;p45;17;phrase;;Alexandra hat mit Martina gesprochen.;;Alexandra a parlé avec Martina.
-allemand;voc7;p45;18;verbe;;fern|sehen, er sieht fern, hat ferngesehen;;regarder la télé (conjugaison)
+allemand;voc7;p45;7;verbe;;er tanzt;;il danse
+allemand;voc7;p45;8;verbe;;hat getanzt;;il a dansé
+allemand;voc7;p45;9;mot;;langweilig;;ennuyeux,-euse
+allemand;voc7;p45;10;mot;;kennen|lernen;;faire la connaissance de
+allemand;voc7;p45;11;verbe;;er lernt caro kennen;;il fait la connaissance de caro
+allemand;voc7;p45;12;verbe;;er hat caro kennengelernt;;il a fait la connaissance de caro
+allemand;voc7;p45;13;mot;;sich treffen;;(se) rencontrer
+allemand;voc7;p45;14;verbe;;er trịfft sich;;il se rencontrer
+allemand;voc7;p45;15;verbe;;hat sich getrọffen;;il s’est rencontré
+allemand;voc7;p45;16;phrase;;Martina und Jens haben sich getroffen.;;Martina et Jens se sont rencontrés.
+allemand;voc7;p45;17;mot;;sprechen;;parler
+allemand;voc7;p45;18;verbe;;sprechen, er spricht, hat gesprochen;;parler
+allemand;voc7;p45;19;phrase;;Alexandra hat mit Martina gesprochen.;;Alexandra a parlé avec Martina.
+allemand;voc7;p45;20;verbe;;fern|sehen, er sieht fern, hat ferngesehen;;regarder la télé
 allemand;voc7;p46;1;mot;;zusammen;;ensemble
 allemand;voc7;p46;2;phrase;;Wir spielen zusammen Fussball.;;Nous jouons au football ensemble.
 allemand;voc7;p46;3;phrase;;Was ist passiert?;;Qu’est-ce qui s’est passé ?
 allemand;voc7;p46;4;mot;;gehen;;aller
-allemand;voc7;p46;5;verbe;;gehen, er geht, ist gegangen;;aller (conjugaison)
+allemand;voc7;p46;5;verbe;;gehen, er geht, ist gegangen;;aller
 allemand;voc7;p46;6;phrase;;Martina und Jens sind ins Kino gegangen.;;Martina et Jens sont allés au cinéma.
 allemand;voc7;p46;7;phrase;;sein;;être
-allemand;voc7;p46;8;verbe;;sein, er ist, ist gewesen;;être (conjugaison)
+allemand;voc7;p46;8;verbe;;sein, er ist, ist gewesen;;être
 allemand;voc7;p46;9;phrase;;Sophie ist auch im Kino gewesen.;;Sophie a aussi été au cinéma.
 allemand;voc7;p46;10;mot;;zu|hören;;écouter
-allemand;voc7;p46;11;verbe;;zu|hören, er hört zu, hat zugehört;;écouter (conjugaison)
+allemand;voc7;p46;11;verbe;;zu|hören, er hört zu, hat zugehört;;écouter
 allemand;voc7;p46;12;mot;;lügen;;mentir
-allemand;voc7;p46;13;verbe;;lügen, er lügt, hat gelogen;;mentir (conjugaison)
+allemand;voc7;p46;13;verbe;;lügen, er lügt, hat gelogen;;mentir
 allemand;voc7;p46;14;phrase;;Martina hat gelogen.;;Martina a menti.
 allemand;voc7;p46;15;mot;die;Freundschaft;-en;l’amitié
 allemand;voc7;p46;16;mot;das;Tagebuch;ü-er;le journal (intime)
 allemand;voc7;p46;17;mot;;wütend;;furieux-euse
 allemand;voc7;p46;18;phrase;;Alexandra ist wütend.;;Alexandra est furieuse.
 allemand;voc7;p46;19;mot;;helfen;;aider
-allemand;voc7;p46;20;verbe;;helfen, er hilft, hat geholfen;;aider (conjugaison)
+allemand;voc7;p46;20;verbe;;helfen, er hilft, hat geholfen;;aider
 allemand;voc7;p46;21;mot;der;Anfang;ä-e;le début
 allemand;voc7;p46;22;mot;der;Tipp;-s;le conseil
 allemand;voc7;p46;23;mot;;enttäuscht;;déçu-e
@@ -210,9 +213,9 @@ allemand;voc7;p46;29;phrase;;nicht mehr zusammen;;sein ne plus être ensemble
 allemand;voc7;p46;30;phrase;;keine Freunde/Freundinnen mehr sein;;ne plus être ami(e)s
 allemand;voc7;p46;31;phrase;;Was soll ich nur machen?;;Que dois-je faire ?
 allemand;voc7;p46;32;phrase;;sich fühlen;;se sentir
-allemand;voc7;p46;33;verbe;;sich fühlen, er fühlt sich, hat sich gefühlt;;se sentir (conjugaison)
+allemand;voc7;p46;33;verbe;;sich fühlen, er fühlt sich, hat sich gefühlt;;se sentir
 allemand;voc7;p46;34;mot;;fehlen;;manquer, tu me manques
-allemand;voc7;p46;35;verbe;;fehlen, du fehlst mir, du hast mir gefehlt;;manquer, tu me manques, tu m’as manqué
+allemand;voc7;p46;35;verbe;;fehlen, du fehlst mir, du hast mir gefehlt;;manquer, tu me manques
 allemand;voc7;p47;1;mot;;sportlich;;sportif-ive
 allemand;voc7;p47;2;mot;;unsportlich;;pas sportif-ive
 allemand;voc7;p47;3;mot;;intelligent;;intelligent-e
@@ -241,10 +244,11 @@ allemand;voc7;p47;25;phrase;;Dein T-Shirt ist cool.;;Ton t-shirt est cool.
 allemand;voc7;p47;26;mot;das;Kompliment;-e;le compliment
 allemand;voc7;p47;27;phrase;;Komplimente machen, er macht, hat gemacht;;faire des compliments
 allemand;voc7;p47;28;mot;;gefallen;;plaire
-allemand;voc7;p47;29;verbe;;gefallen, er gefällt ihm, er hat ihm gefallen;;plaire à qqn, il lui plaît, il lui a plu
-allemand;voc7;p47;30;phrase;;Du kannst gut singen.;;Tu sais bien chanter.
-allemand;voc7;p47;31;phrase;;Ich finde dich nett.;;Je pense que tu es gentil.
-allemand;voc7;p47;32;phrase;;Ich mag dein Lachen.;;J’aime bien ton rire.
+allemand;voc7;p47;29;verbe;;er gefällt ihm;;il lui plaît
+allemand;voc7;p47;30;verbe;;er hat ihm gefallen;;il lui a plu
+allemand;voc7;p47;31;phrase;;Du kannst gut singen.;;Tu sais bien chanter.
+allemand;voc7;p47;32;phrase;;Ich finde dich nett.;;Je pense que tu es gentil.
+allemand;voc7;p47;33;phrase;;Ich mag dein Lachen.;;J’aime bien ton rire.
 anglais;unit5;p50;1;verbe;;arrive, arrived;;arriver
 anglais;unit5;p50;2;verbe;;call, called;;appeler
 anglais;unit5;p50;3;verbe;;change, changed;;changer
