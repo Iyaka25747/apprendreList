@@ -260,7 +260,7 @@ class ExerciceClass:
                     if reponse == '1':
                         jeMeSouviens = "Je me souviens pas"
                         # valeurFausse = False
-                    elif reponse == '':
+                    else:
                         jeMeSouviens = "je me souviens"
                         # valeurFausse = False
                 reponse = choisirElement(listeMotsEtrangeAMontrer)
