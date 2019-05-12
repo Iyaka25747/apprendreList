@@ -1,7 +1,7 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
-- ligne 256 au break
+- Tester avec EN, ALL (trouver et écrire)
 - enregistrer les mots difficile.
   
 Améliorations:
