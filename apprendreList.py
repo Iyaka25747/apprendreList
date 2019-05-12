@@ -16,8 +16,8 @@ import csv #for statistics logs
 
 debug = False
 # debug = True
-debugLangue = "DE"
-# debugLangue = "EN"
+# debugLangue = "DE"
+debugLangue = "EN"
 
 exercice1 = ExerciceClass() # Un exercice pour mémoriser une liste d'information
 

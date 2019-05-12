@@ -509,62 +509,62 @@ allemand;voc2;p15;29;mot;;zu spät sein;;être trop tard
 allemand;voc2;p15;30;verbe;;Es ist zu spät.;;Il est trop tard.
 allemand;voc2;p15;31;mot;der;Mensch;-en;l’homme, l’être humain
 allemand;voc2;p15;32;mot;der;Roboter;-;le robot
-anglais;voc7;p70;1;verbe;;become, became;;devenir, +irrégulier
-anglais;voc7;p70;2;verbe;;build, built;;construire, +irrégulier
-anglais;voc7;p70;3;verbe;;come, came;;venir, +irrégulier
-anglais;voc7;p70;4;verbe;;do, did;;faire, +irrégulier
-anglais;voc7;p70;5;verbe;;draw, drew;;dessiner, +irrégulier
-anglais;voc7;p70;6;verbe;;get, got;;obtenir, +irrégulier
-anglais;voc7;p70;7;verbe;;give, gave;;donner, +irrégulier
-anglais;voc7;p70;8;verbe;;go, went;;aller, +irrégulier
-anglais;voc7;p70;9;verbe;;grow, grew;;grandir, +irrégulier
-anglais;voc7;p70;10;verbe;;have, had;;avoir, +irrégulier
-anglais;voc7;p70;11;verbe;;make, made;;faire, +irrégulier
-anglais;voc7;p70;12;verbe;;meet, met;;rencontrer, +irrégulier
-anglais;voc7;p70;13;verbe;;see, saw;;voir, +irrégulier
-anglais;voc7;p70;14;verbe;;send, sent;;envoyer, +irrégulier
-anglais;voc7;p70;15;verbe;;take, took;;prendre, +irrégulier
-anglais;voc7;p70;16;verbe;;tell, told;;dire, +irrégulier
-anglais;voc7;p70;17;verbe;;think, thought;;penser, +irrégulier
-anglais;voc7;p70;18;mot;;home appliance;;appareil domestique
-anglais;voc7;p70;19;mot;;clock;;pendule, horloge
-anglais;voc7;p70;20;mot;;freezer;;congélateur
-anglais;voc7;p70;21;mot;;fridge;;frigo (réfrigérateur)
-anglais;voc7;p70;22;mot;;hairdryer;;sèche-cheveux
-anglais;voc7;p70;23;mot;;heating;;chauffage
-anglais;voc7;p70;24;mot;;lamp;;lampe
-anglais;voc7;p70;25;mot;;light;;lumière
-anglais;voc7;p70;26;mot;;microwave;;micro-ondes
-anglais;voc7;p70;27;mot;;oven;;four
-anglais;voc7;p70;28;mot;;washing machine;;machine à laver
-anglais;voc7;p70;29;verbe;;climb up;;monter
-anglais;voc7;p70;30;verbe;;come down;;descendre
-anglais;voc7;p70;31;verbe;;get in;;entrer
-anglais;voc7;p70;32;verbe;;get out;;sortir
-anglais;voc7;p70;33;verbe;;pick up;;ramasser
-anglais;voc7;p70;34;verbe;;put down;;poser
-anglais;voc7;p70;35;verbe;;put on;;mettre
-anglais;voc7;p70;36;verbe;;take off;;enlever
-anglais;voc7;p71;1;verbe;;get off;;descendre
-anglais;voc7;p71;2;verbe;;get on;;monter
-anglais;voc7;p71;3;verbe;;lie down;;s’allonger
-anglais;voc7;p71;4;verbe;;switch off;;éteindre
-anglais;voc7;p71;5;verbe;;switch on;;allumer
-anglais;voc7;p71;6;verbe;;turn down;;baisser
-anglais;voc7;p71;7;verbe;;turn up;;augmenter
-anglais;voc7;p71;8;verbe;;wake up;;se réveiller
-anglais;voc7;p71;9;verbe;;accident;;accident
-anglais;voc7;p71;10;verbe;;aeroplane;;avion
-anglais;voc7;p71;11;verbe;;at once;;immédiatement
-anglais;voc7;p71;12;verbe;;burn (down);;détruire par le feu
-anglais;voc7;p71;13;verbe;;dream;;un rêve
-anglais;voc7;p71;14;verbe;;dream;;rêver
-anglais;voc7;p71;15;verbe;;farm;;la ferme
-anglais;voc7;p71;16;verbe;;flight;;vol
-anglais;voc7;p71;17;verbe;;fly;;voler (oiseau)
-anglais;voc7;p71;18;verbe;;invent;;inventer
-anglais;voc7;p71;19;verbe;;invention;;invention
-anglais;voc7;p71;20;verbe;;inventor;;inventeur
-anglais;voc7;p71;21;verbe;;light bulb;;ampoule
-anglais;voc7;p71;22;verbe;;paper;;papier
-anglais;voc7;p71;23;verbe;;save (lives);;sauver (des vies)
+anglais;unit7;p70;1;mot;;become, became;;devenir, +irrégulier
+anglais;unit7;p70;2;mot;;build, built;;construire, +irrégulier
+anglais;unit7;p70;3;mot;;come, came;;venir, +irrégulier
+anglais;unit7;p70;4;mot;;do, did;;faire, +irrégulier
+anglais;unit7;p70;5;mot;;draw, drew;;dessiner, +irrégulier
+anglais;unit7;p70;6;mot;;get, got;;obtenir, +irrégulier
+anglais;unit7;p70;7;mot;;give, gave;;donner, +irrégulier
+anglais;unit7;p70;8;mot;;go, went;;aller, +irrégulier
+anglais;unit7;p70;9;mot;;grow, grew;;grandir, +irrégulier
+anglais;unit7;p70;10;mot;;have, had;;avoir, +irrégulier
+anglais;unit7;p70;11;mot;;make, made;;faire, +irrégulier
+anglais;unit7;p70;12;mot;;meet, met;;rencontrer, +irrégulier
+anglais;unit7;p70;13;mot;;see, saw;;voir, +irrégulier
+anglais;unit7;p70;14;mot;;send, sent;;envoyer, +irrégulier
+anglais;unit7;p70;15;mot;;take, took;;prendre, +irrégulier
+anglais;unit7;p70;16;mot;;tell, told;;dire, +irrégulier
+anglais;unit7;p70;17;mot;;think, thought;;penser, +irrégulier
+anglais;unit7;p70;18;mot;;home appliance;;appareil domestique
+anglais;unit7;p70;19;mot;;clock;;pendule, horloge
+anglais;unit7;p70;20;mot;;freezer;;congélateur
+anglais;unit7;p70;21;mot;;fridge;;frigo (réfrigérateur)
+anglais;unit7;p70;22;mot;;hairdryer;;sèche-cheveux
+anglais;unit7;p70;23;mot;;heating;;chauffage
+anglais;unit7;p70;24;mot;;lamp;;lampe
+anglais;unit7;p70;25;mot;;light;;lumière
+anglais;unit7;p70;26;mot;;microwave;;micro-ondes
+anglais;unit7;p70;27;mot;;oven;;four
+anglais;unit7;p70;28;mot;;washing machine;;machine à laver
+anglais;unit7;p70;29;mot;;climb up;;monter
+anglais;unit7;p70;30;mot;;come down;;descendre
+anglais;unit7;p70;31;mot;;get in;;entrer
+anglais;unit7;p70;32;mot;;get out;;sortir
+anglais;unit7;p70;33;mot;;pick up;;ramasser
+anglais;unit7;p70;34;mot;;put down;;poser
+anglais;unit7;p70;35;mot;;put on;;mettre
+anglais;unit7;p70;36;mot;;take off;;enlever
+anglais;unit7;p71;1;mot;;get off;;descendre
+anglais;unit7;p71;2;mot;;get on;;monter
+anglais;unit7;p71;3;mot;;lie down;;s’allonger
+anglais;unit7;p71;4;mot;;switch off;;éteindre
+anglais;unit7;p71;5;mot;;switch on;;allumer
+anglais;unit7;p71;6;mot;;turn down;;baisser
+anglais;unit7;p71;7;mot;;turn up;;augmenter
+anglais;unit7;p71;8;mot;;wake up;;se réveiller
+anglais;unit7;p71;9;mot;;accident;;accident
+anglais;unit7;p71;10;mot;;aeroplane;;avion
+anglais;unit7;p71;11;mot;;at once;;immédiatement
+anglais;unit7;p71;12;mot;;burn (down);;détruire par le feu
+anglais;unit7;p71;13;mot;;dream;;un rêve
+anglais;unit7;p71;14;mot;;dream;;rêver
+anglais;unit7;p71;15;mot;;farm;;la ferme
+anglais;unit7;p71;16;mot;;flight;;vol
+anglais;unit7;p71;17;mot;;fly;;voler (oiseau)
+anglais;unit7;p71;18;mot;;invent;;inventer
+anglais;unit7;p71;19;mot;;invention;;invention
+anglais;unit7;p71;20;mot;;inventor;;inventeur
+anglais;unit7;p71;21;mot;;light bulb;;ampoule
+anglais;unit7;p71;22;mot;;paper;;papier
+anglais;unit7;p71;23;mot;;save (lives);;sauver (des vies)

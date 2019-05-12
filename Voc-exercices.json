@@ -3587,122 +3587,122 @@
         }
       }
     },
-    "voc7": {
+    "unit7": {
       "p70": {
         "1": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "become, became",
           "pluriel": "",
           "Mot FR": "devenir, +irrégulier"
         },
         "2": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "build, built",
           "pluriel": "",
           "Mot FR": "construire, +irrégulier"
         },
         "3": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "come, came",
           "pluriel": "",
           "Mot FR": "venir, +irrégulier"
         },
         "4": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "do, did",
           "pluriel": "",
           "Mot FR": "faire, +irrégulier"
         },
         "5": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "draw, drew",
           "pluriel": "",
           "Mot FR": "dessiner, +irrégulier"
         },
         "6": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get, got",
           "pluriel": "",
           "Mot FR": "obtenir, +irrégulier"
         },
         "7": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "give, gave",
           "pluriel": "",
           "Mot FR": "donner, +irrégulier"
         },
         "8": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "go, went",
           "pluriel": "",
           "Mot FR": "aller, +irrégulier"
         },
         "9": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "grow, grew",
           "pluriel": "",
           "Mot FR": "grandir, +irrégulier"
         },
         "10": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "have, had",
           "pluriel": "",
           "Mot FR": "avoir, +irrégulier"
         },
         "11": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "make, made",
           "pluriel": "",
           "Mot FR": "faire, +irrégulier"
         },
         "12": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "meet, met",
           "pluriel": "",
           "Mot FR": "rencontrer, +irrégulier"
         },
         "13": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "see, saw",
           "pluriel": "",
           "Mot FR": "voir, +irrégulier"
         },
         "14": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "send, sent",
           "pluriel": "",
           "Mot FR": "envoyer, +irrégulier"
         },
         "15": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "take, took",
           "pluriel": "",
           "Mot FR": "prendre, +irrégulier"
         },
         "16": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "tell, told",
           "pluriel": "",
           "Mot FR": "dire, +irrégulier"
         },
         "17": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "think, thought",
           "pluriel": "",
@@ -3786,56 +3786,56 @@
           "Mot FR": "machine à laver"
         },
         "29": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "climb up",
           "pluriel": "",
           "Mot FR": "monter"
         },
         "30": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "come down",
           "pluriel": "",
           "Mot FR": "descendre"
         },
         "31": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get in",
           "pluriel": "",
           "Mot FR": "entrer"
         },
         "32": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get out",
           "pluriel": "",
           "Mot FR": "sortir"
         },
         "33": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "pick up",
           "pluriel": "",
           "Mot FR": "ramasser"
         },
         "34": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "put down",
           "pluriel": "",
           "Mot FR": "poser"
         },
         "35": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "put on",
           "pluriel": "",
           "Mot FR": "mettre"
         },
         "36": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "take off",
           "pluriel": "",
@@ -3844,161 +3844,161 @@
       },
       "p71": {
         "1": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get off",
           "pluriel": "",
           "Mot FR": "descendre"
         },
         "2": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get on",
           "pluriel": "",
           "Mot FR": "monter"
         },
         "3": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "lie down",
           "pluriel": "",
           "Mot FR": "s’allonger"
         },
         "4": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "switch off",
           "pluriel": "",
           "Mot FR": "éteindre"
         },
         "5": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "switch on",
           "pluriel": "",
           "Mot FR": "allumer"
         },
         "6": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn down",
           "pluriel": "",
           "Mot FR": "baisser"
         },
         "7": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn up",
           "pluriel": "",
           "Mot FR": "augmenter"
         },
         "8": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "wake up",
           "pluriel": "",
           "Mot FR": "se réveiller"
         },
         "9": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "accident",
           "pluriel": "",
           "Mot FR": "accident"
         },
         "10": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "aeroplane",
           "pluriel": "",
           "Mot FR": "avion"
         },
         "11": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "at once",
           "pluriel": "",
           "Mot FR": "immédiatement"
         },
         "12": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "burn (down)",
           "pluriel": "",
           "Mot FR": "détruire par le feu"
         },
         "13": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dream",
           "pluriel": "",
           "Mot FR": "un rêve"
         },
         "14": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dream",
           "pluriel": "",
           "Mot FR": "rêver"
         },
         "15": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "farm",
           "pluriel": "",
           "Mot FR": "la ferme"
         },
         "16": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "flight",
           "pluriel": "",
           "Mot FR": "vol"
         },
         "17": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "fly",
           "pluriel": "",
           "Mot FR": "voler (oiseau)"
         },
         "18": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "invent",
           "pluriel": "",
           "Mot FR": "inventer"
         },
         "19": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "invention",
           "pluriel": "",
           "Mot FR": "invention"
         },
         "20": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "inventor",
           "pluriel": "",
           "Mot FR": "inventeur"
         },
         "21": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "light bulb",
           "pluriel": "",
           "Mot FR": "ampoule"
         },
         "22": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "paper",
           "pluriel": "",
           "Mot FR": "papier"
         },
         "23": {
-          "Type": "verbe",
+          "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "save (lives)",
           "pluriel": "",

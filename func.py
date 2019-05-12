@@ -206,7 +206,7 @@ class ExerciceClass:
 
     def trouver(self):
              
-        newDic = {}
+        dictionnaire = {}
         # count = 0
         for keyVocabulaire in self.vocabulaire['vocabulaireBrut']:
             motATrouverFR = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot FR']
@@ -215,15 +215,15 @@ class ExerciceClass:
                 motATrouverEtrange = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Der-Die-Das'] + " " + self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot en ALL']
             else:
                 motATrouverEtrange = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot en ALL']
-            newDic[keyVocabulaire] = {'question': motATrouverFR, 'reponse': motATrouverEtrange, 'indice': self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Type']}
+            dictionnaire[keyVocabulaire] = {'question': motATrouverFR, 'reponse': motATrouverEtrange, 'indice': self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Type']}
 
-        nbrElements = len(newDic)  
+        nbrElements = len(dictionnaire)  
         count = 0
-        for key in newDic: 
+        for motATrouverKey in dictionnaire: 
             
-            #creation d'une list sans le mot à trouver
-            autresMots = dict(newDic)
-            del(autresMots[key])
+            #creation d'une liste sans le mot à trouver
+            autresMots = dict(dictionnaire)
+            del(autresMots[motATrouverKey])
             # on mélange les mots
             autresMotsKeys = list(autresMots.keys())
             random.shuffle(autresMotsKeys)
@@ -231,14 +231,17 @@ class ExerciceClass:
             # on choisi les x premiers mot à trouver
             countEnnemis =self.settings['nombreEnnemis']
             autresMotsEnnemisKeys = []
-            for key in autresMotsKeys:
+            for tmpKey in autresMotsKeys:
                 if countEnnemis != 0:
-                    autresMotsEnnemisKeys.append(key)
+                    autresMotsEnnemisKeys.append(tmpKey)
                     countEnnemis -= 1 
             #on construit la liste à montrer
             motsAMontrerKeys = []
             motsAMontrerKeys = autresMotsEnnemisKeys[:]
-            motsAMontrerKeys.append(keyVocabulaire)
+            # motsAMontrerKeys.append(keyVocabulaire)
+            motsAMontrerKeys.append(motATrouverKey)
+
+
             # on mélange les mots
             random.shuffle(motsAMontrerKeys)
             # on construit la liste des mots a afficher
@@ -253,7 +256,7 @@ class ExerciceClass:
             repeteQuestion = True
             pasReponduSouviens = True
             while repeteQuestion:
-                print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(motATrouverFR= newDic[key]['question'], reste=nbrElements - count, total=nbrElements, TypeElement = newDic[key]['indice']))
+                print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(motATrouverFR= dictionnaire[motATrouverKey]['question'], reste=nbrElements - count, total=nbrElements, TypeElement = dictionnaire[motATrouverKey]['indice']))
                 # valeurFausse = True                
                 if pasReponduSouviens:
                     pasReponduSouviens = False
@@ -264,12 +267,15 @@ class ExerciceClass:
                     else:
                         jeMeSouviens = "je me souviens"
                         # valeurFausse = False
+                listeMotsEtrangeAMontrer = []
+                for tmp in motsAMontrerKeys:    
+                    listeMotsEtrangeAMontrer.append(dictionnaire[tmp]['reponse'])
                 reponse = choisirElement(listeMotsEtrangeAMontrer)
-                if reponse == newDic[key]['reponse']:
+                if reponse == dictionnaire[motATrouverKey]['reponse']:
                     repeteQuestion = False
                     evaluationReponse = "Juste"
                     print("{evaluation}: '{motFR}' = '{motEquivalent}'\n".format(
-                        evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=motATrouverEtrange))
+                        evaluation=evaluationReponse, motFR=dictionnaire[motATrouverKey]['question'], motEquivalent=dictionnaire[motATrouverKey]['reponse']))
                     # playSoundGood(globalSettings)
                     playSoundGoodOOP(self.settings)
                     # if globalSettings.soundActive == True:
@@ -282,12 +288,12 @@ class ExerciceClass:
                         evaluation=evaluationReponse, motFR=motATrouverFR, motEquivalent=reponse))
                     # playSoundBad(globalSettings)
                     playSoundBadOOP(self.settings)
-                resultatQuestion = [jeMeSouviens, evaluationReponse, newDic[key]['reponse'], reponse]
+                resultatQuestion = [jeMeSouviens, evaluationReponse, dictionnaire[motATrouverKey]['reponse'], reponse]
                 self.record.recordTentative(resultatQuestion)
 
             count = count + 1
         
-        print("Enregistrement des exercices dans {fichier}".format(fichier = globalSettings.recordFile ))
+        print("Enregistrement des exercices dans {fichier}".format(fichier = self.record.recordFile ))
         return
 
     def ecrireVoc(self, voc):
