@@ -1,6 +1,9 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
+phrase marche pas
+commencer a écrire sur une nouvelle ligne
+deviner marche pas avec all voc2 p14
 - Tester avec EN, ALL (trouver et écrire)
 - enregistrer les mots difficile.
   
