@@ -152,7 +152,7 @@ else:
     #OOP-FIN
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
-typePossible = ["Trouver une correspondance", "Ecrire"]
+typePossible = ["Lire les mots", "Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
 choix.typeExerciceChoisi = choisirElement(typePossible) #OOP - To delelte
 exercice1.addChoix("typeExercice", choix.typeExerciceChoisi)
@@ -173,6 +173,11 @@ exercice1.setVocabularies(vocabulaire)
 # test = ["rec1","rec2"]
 # record.recordTentative(exercice1, test)
 
+if choix.typeExerciceChoisi == "Lire les mots":
+    # initialisation du fichier de statistique
+    record = Record(globalSettings.recordFile, exercice1)
+    exercice1.record = record
+    exercice1.lire()
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     # initialisation du fichier de statistique
     record = Record(globalSettings.recordFile, exercice1)

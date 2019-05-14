@@ -169,7 +169,7 @@ class ExerciceClass:
                     vocDerDieDas[Key] = voc[Key]
                     vocDerDieDas[Key]['Mot en ALL'] = elementDDD
                 voc = vocDerDieDas
-            self.ecrireVoc(voc)
+            self.ecrireVoc(voc) #on exerce le voc par écrit
         else: # exception: trouver Der Die Das
             if self.choix["quoiEcrire"] == "seulement der, die, das":
                 voc =self.vocabulaire['vocDerDieDasMot']['elements']
@@ -204,6 +204,26 @@ class ExerciceClass:
                     countElements += 1
         return
 
+    def lire(self):
+        dictionnaire = {}
+        # count = 0
+        for keyVocabulaire in self.vocabulaire['vocabulaireBrut']:
+            motATrouverFR = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot FR']
+            # newDic[keyVocabulaire] = motATrouverFR
+            if self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Der-Die-Das'] != '':
+                motATrouverEtrange = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Der-Die-Das'] + " " + self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot en ALL']
+            else:
+                motATrouverEtrange = self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Mot en ALL']
+            dictionnaire[keyVocabulaire] = {'question': motATrouverFR, 'reponse': motATrouverEtrange, 'indice': self.vocabulaire['vocabulaireBrut'][keyVocabulaire]['Type']}
+
+        nbrElements = len(dictionnaire)  
+        count = 0
+        for motATrouverKey in dictionnaire: 
+            print("{reste}/{total} [{TypeElement}]: {motATrouverFR} <<>> {motATrouverAll}".format(motATrouverFR= dictionnaire[motATrouverKey]['question'], motATrouverAll = dictionnaire[motATrouverKey]['reponse'], reste=count+1, total=nbrElements, TypeElement = dictionnaire[motATrouverKey]['indice']))
+            pressEnter = input("")
+            count = count + 1
+        return
+       
     def trouver(self):
              
         dictionnaire = {}
@@ -256,7 +276,7 @@ class ExerciceClass:
             repeteQuestion = True
             pasReponduSouviens = True
             while repeteQuestion:
-                print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(motATrouverFR= dictionnaire[motATrouverKey]['question'], reste=nbrElements - count, total=nbrElements, TypeElement = dictionnaire[motATrouverKey]['indice']))
+                print("{reste}/{total} [{TypeElement}]: Il faut trouver: '{motATrouverFR}'".format(motATrouverFR= dictionnaire[motATrouverKey]['question'], reste=count + 1, total=nbrElements, TypeElement = dictionnaire[motATrouverKey]['indice']))
                 # valeurFausse = True                
                 if pasReponduSouviens:
                     pasReponduSouviens = False
@@ -321,6 +341,7 @@ class ExerciceClass:
                     evaluationReponse = 'juste'
                     playSoundGoodOOP(self.settings)
                 else:
+                    keyMotsDifficiles.append(key)
                     evaluationReponse = 'faux'
                     playSoundBadOOP(self.settings)
                     if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
@@ -334,7 +355,6 @@ class ExerciceClass:
                     
 
                 if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
-                    keyMotsDifficiles.append(key)                    
                     break
             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
             countElements += 1
