@@ -151,7 +151,7 @@ class ExerciceClass:
                     vocDerDieDas[Key]['Mot en ALL'] = elementDDD
                 voc = vocDerDieDas
             # self.ecrireVoc(voc) #on exerce le voc par écrit
-            self.ecrireVoc2(voc) #on exerce le voc par écrit
+            self.ecrireVoc(voc) #on exerce le voc par écrit
 
         else: # exception: trouver Der Die Das
             if self.choix["quoiEcrire"] == "seulement der, die, das":
@@ -299,50 +299,50 @@ class ExerciceClass:
         print("Enregistrement des exercices dans {fichier}".format(fichier = self.record.recordFile ))
         return
 
-    def ecrireVoc(self, voc):
-        countElements = 1
-        keyMotsDifficiles = []
-        nombreElements = len(voc)
-        for key in voc:
-            elementAEcrire = voc[key]['Mot en ALL']
-            indice = voc[key]['Mot FR']
-            if voc[key]['Der-Die-Das'] != '':
-                reponseAAfficher = voc[key]['Der-Die-Das'] + ' ' + elementAEcrire
-            else: 
-                reponseAAfficher = elementAEcrire 
+    # def ecrireVoc(self, voc):
+    #     countElements = 1
+    #     keyMotsDifficiles = []
+    #     nombreElements = len(voc)
+    #     for key in voc:
+    #         elementAEcrire = voc[key]['Mot en ALL']
+    #         indice = voc[key]['Mot FR']
+    #         if voc[key]['Der-Die-Das'] != '':
+    #             reponseAAfficher = voc[key]['Der-Die-Das'] + ' ' + elementAEcrire
+    #         else: 
+    #             reponseAAfficher = elementAEcrire 
 
-            reponseFausse = True
-            tentative = 0
-            while reponseFausse:
-                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
-                tentative += 1
-                if reponse == elementAEcrire:
-                    print('Bravo')
-                    reponseFausse = False
-                    evaluationReponse = 'juste'
-                    playSoundGoodOOP(self.settings)
-                else:
-                    keyMotsDifficiles.append(key)
-                    evaluationReponse = 'faux'
-                    playSoundBadOOP(self.settings)
-                    if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
-                        # showError(informationAEcrireEtranger, reponse)
-                        showErrorString(elementAEcrire, reponse)
+    #         reponseFausse = True
+    #         tentative = 0
+    #         while reponseFausse:
+    #             reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
+    #             tentative += 1
+    #             if reponse == elementAEcrire:
+    #                 print('Bravo')
+    #                 reponseFausse = False
+    #                 evaluationReponse = 'juste'
+    #                 playSoundGoodOOP(self.settings)
+    #             else:
+    #                 keyMotsDifficiles.append(key)
+    #                 evaluationReponse = 'faux'
+    #                 playSoundBadOOP(self.settings)
+    #                 if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
+    #                     # showError(informationAEcrireEtranger, reponse)
+    #                     showErrorString(elementAEcrire, reponse)
 
-                # resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, elementAEcrire, reponse]
+    #             # resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, elementAEcrire, reponse]
                 
-                resultatQuestion = [evaluationReponse, elementAEcrire, reponse]
-                self.record.recordTentative(resultatQuestion) 
+    #             resultatQuestion = [evaluationReponse, elementAEcrire, reponse]
+    #             self.record.recordTentative(resultatQuestion) 
                     
 
-                if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
-                    break
-            print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
-            countElements += 1
-        return 
+    #             if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+    #                 break
+    #         print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
+    #         countElements += 1
+    #     return 
 
 
-    def ecrireVoc2(self, voc):
+    def ecrireVoc(self, voc):
         countElements = 0
         keyMotsDifficiles = []
         nombreElements = len(voc)
@@ -361,9 +361,11 @@ class ExerciceClass:
 
             reponseFausse = True
             tentative = 0
+            pasRemisEnJeux = True
             while reponseFausse:
                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements + 1, nombreElements=nombreElements ))
                 tentative += 1
+                
                 if reponse == elementAEcrire:
                     print('Bravo')
                     reponseFausse = False
@@ -374,11 +376,13 @@ class ExerciceClass:
                     #areconstruire la liste avec ajouter la key 3 elements plus loin - 
                     # exercice1.addSettings("deltaRemettreErreur", 3)
                     # keysElements
-                    positionAjout = countElements + self.settings['deltaRemettreErreur']
-                    keysElementsTmp = keysElements[:positionAjout]
-                    keysElementsTmp.append(keysElements[countElements])
-                    keysElementAfter =  keysElements[keysElements[countElements]:]
-                    keysElements = keysElementsTmp + keysElementAfter
+                    if pasRemisEnJeux:
+                        positionAjout = countElements + self.settings['deltaRemettreErreur']
+                        keysElementsTmp = keysElements[:positionAjout]
+                        keysElementsTmp.append(keysElements[countElements])
+                        keysElementAfter =  keysElements[positionAjout:]
+                        keysElements = keysElementsTmp + keysElementAfter
+                        pasRemisEnJeux = False
                     evaluationReponse = 'faux'
                     playSoundBadOOP(self.settings)
                     if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
@@ -396,8 +400,8 @@ class ExerciceClass:
             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
             
             #vérification s'il reste des éléments, si oui on continue
-            if len(keysElements) > countElements:
-                ilResteDesElements = false
+            if len(keysElements) == countElements + 1:
+                ilResteDesElements = False
             countElements += 1
 
         return 
