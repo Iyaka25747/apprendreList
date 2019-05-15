@@ -87,6 +87,8 @@ with open(exercicesFile, 'r', encoding='utf8') as file:
 # globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 exercice1.addSettings("nombreTentativeMax", 3)
 exercice1.addSettings("nombreEnnemis", 4)
+exercice1.addSettings("deltaRemettreErreur", 3)
+
 #----
 globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
 globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
