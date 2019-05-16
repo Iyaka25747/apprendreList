@@ -606,7 +606,7 @@
         "1": {
           "Type": "phrase",
           "Der-Die-Das": "",
-          "Mot en ALL": "Au kiosque, il y a des magazines et des journaux",
+          "Mot en ALL": "In der Apotheke kann man Medikamente kaufen",
           "pluriel": "",
           "Mot FR": "À la pharmacie, on peut acheter des médicaments."
         },
@@ -618,202 +618,195 @@
           "Mot FR": "la pharmacie"
         },
         "3": {
-          "Type": "phrase",
-          "Der-Die-Das": "",
-          "Mot en ALL": "In der Apotheke kann man Medikamente kaufen",
-          "pluriel": "",
-          "Mot FR": ""
-        },
-        "4": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Post",
           "pluriel": "",
           "Mot FR": "la poste"
         },
-        "5": {
+        "4": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Bank",
           "pluriel": "-en",
           "Mot FR": "la banque"
         },
-        "6": {
+        "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Jakob wartet vor der Bank.",
           "pluriel": "",
           "Mot FR": "Jakob attend devant la banque."
         },
-        "7": {
+        "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "ein|kaufen",
           "pluriel": "",
           "Mot FR": "faire les courses"
         },
-        "8": {
+        "7": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er kauft ein",
           "pluriel": "",
           "Mot FR": "il fait les courses"
         },
-        "9": {
+        "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "bezahlen",
           "pluriel": "",
           "Mot FR": "payer"
         },
-        "10": {
+        "9": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er bezahlt",
           "pluriel": "",
           "Mot FR": "il paie"
         },
-        "11": {
+        "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich bezahle an der Kasse.",
           "pluriel": "",
           "Mot FR": "Je paie à la caisse."
         },
-        "12": {
+        "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "shoppen",
           "pluriel": "",
           "Mot FR": "faire du shopping"
         },
-        "13": {
+        "12": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er shoppt",
           "pluriel": "",
           "Mot FR": "il fait du shopping"
         },
-        "14": {
+        "13": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Kaufhaus",
           "pluriel": "ä-er",
           "Mot FR": "le grand magasin"
         },
-        "15": {
+        "14": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Geschäft",
           "pluriel": "-e",
           "Mot FR": "le magasin"
         },
-        "16": {
+        "15": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Kạsse",
           "pluriel": "-n",
           "Mot FR": "la caisse"
         },
-        "17": {
+        "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Lebensmittel und Waren",
           "pluriel": "",
           "Mot FR": "Aliments et denrées"
         },
-        "18": {
+        "17": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Shampoo",
           "pluriel": "-s",
           "Mot FR": "le shampoing"
         },
-        "19": {
+        "18": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Wurst",
           "pluriel": "ü-e",
           "Mot FR": "la saucisse"
         },
-        "20": {
+        "19": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Käse",
           "pluriel": "",
           "Mot FR": "le fromage (toujours au singulier)"
         },
-        "21": {
+        "20": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Banane",
           "pluriel": "-n",
           "Mot FR": "la banane"
         },
-        "22": {
+        "21": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Brot",
           "pluriel": "-e",
           "Mot FR": "le pain"
         },
-        "23": {
+        "22": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Brötchen",
           "pluriel": "-",
           "Mot FR": "le petit pain"
         },
-        "24": {
+        "23": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Medikament",
           "pluriel": "-e",
           "Mot FR": "le médicament"
         },
-        "25": {
+        "24": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Zeitschrift",
           "pluriel": "-en",
           "Mot FR": "le magazine"
         },
-        "26": {
+        "25": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Zeitung",
           "pluriel": "-en",
           "Mot FR": "le journal"
         },
-        "27": {
+        "26": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Schulsachen",
           "pluriel": "",
           "Mot FR": "Affaires d’école"
         },
-        "28": {
+        "27": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Heft",
           "pluriel": "-e",
           "Mot FR": "le cahier"
         },
-        "29": {
+        "28": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Buch",
           "pluriel": "ü-er",
           "Mot FR": "le livre"
         },
-        "30": {
+        "29": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Papier",
           "pluriel": "-e",
           "Mot FR": "le papier"
         },
-        "31": {
+        "30": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Stift",
@@ -1852,13 +1845,6 @@
           "Mot en ALL": "Abfahrt",
           "pluriel": "en",
           "Mot FR": "le départ"
-        },
-        "13": {
-          "Type": "mot",
-          "Der-Die-Das": "Der",
-          "Mot en ALL": "Treffpunkt",
-          "pluriel": "e",
-          "Mot FR": "le point de rencontre"
         },
         "14": {
           "Type": "mot",

@@ -6,12 +6,12 @@ from operator import itemgetter
 # import io
 
 inData = []
-# csvFile = open('C:\\Users\\ini\\Documents\\Development_Source_code\\apprendreList\\Saisie-vocabulaire\\VocCSV.csv', 'rt', encoding="utf8")
-# jsonFile = open('C:\\Users\\ini\\Documents\\Development_Source_code\\apprendreList\\Voc-exercices.json', 'w', encoding="utf8")
+csvFile = open(r'C:\Users\ini\Documents\Development_Source_code\apprendreList\Saisie-vocabulaire\VocCSV.csv', 'rt', encoding="utf8")
+jsonFile = open('C:\\Users\\ini\\Documents\\Development_Source_code\\apprendreList\\Voc-exercices.json', 'w', encoding="utf8")
 # csvFile = open('C:\\Users\\ini\\OneDrive\\Documents OneDrive\\dev\\apprendreList\\Saisie-vocabulaire\\VocCSV.csv', 'rt', encoding="utf8")
 # jsonFile = open('C:\\Users\\ini\\OneDrive\\Documents OneDrive\\dev\\apprendreList\\Voc-exercices.json', 'w', encoding="utf8")
-csvFile = open(r'C:\Users\ini\OneDrive\Documents OneDrive\dev\apprendreList\Saisie-vocabulaire\VocCSV.csv', 'rt', encoding="utf8")
-jsonFile = open('C:\\Users\\ini\\OneDrive\\Documents OneDrive\\dev\\apprendreList\\Voc-exercices.json', 'w', encoding="utf8")    
+# csvFile = open(r'C:\Users\ini\OneDrive\Documents OneDrive\dev\apprendreList\Saisie-vocabulaire\VocCSV.csv', 'rt', encoding="utf8")
+# jsonFile = open('C:\\Users\\ini\\OneDrive\\Documents OneDrive\\dev\\apprendreList\\Voc-exercices.json', 'w', encoding="utf8")    
 # csvFile = open('VocAll_toTransformCSV_debug.csv', 'rt', encoding="utf8")
 # jsonFile = open('exercices_vocAll_debug.json', 'w', encoding="utf8")
 
