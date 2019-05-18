@@ -196,6 +196,10 @@ elif choix.typeExerciceChoisi == "Ecrire":
 
     #exectution de l'exercice
     statKeysMotsDifficiles = exercice1.ecrireQuoi()
+    #Affichage des Mots Difficle à afficher
+
+    for tempKey in statKeysMotsDifficiles:
+        print('{nombreFaux} x faux: {indice} = {reponse}').format(nombreFaux=3, indice = xxx, reponse = xxx)
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()

@@ -399,12 +399,14 @@ class ExerciceClass:
                 ilResteDesElements = False
             countElements += 1
         # construction de la liste des mots diffiles
+
         motsDifficiles = []
-        for tmpKey in keyMotsDifficiles:
-            mot = voc[tmpKey]
-            motsDifficiles.append(mot)
-        statMotsDifficiles = Counter(motsDifficiles)
-        return statMotsDifficiles
+        keyMotsDifficiles = ['1', '1', '3']
+        # for tmpKey in keyMotsDifficiles:
+        #     # mot = voc[tmpKey]
+        #     keyaMotsDifficiles.append(tmpKey)
+        statKeysMotsDifficiles = Counter(keyMotsDifficiles)
+        return statKeysMotsDifficiles
 
 
     def choixEcrireComment(self):
