@@ -14,8 +14,8 @@ import csv #for statistics logs
 #Initialisation
 ################
 
-debug = False
-# debug = True
+# debug = False
+debug = True
 debugLangue = "DE"
 # debugLangue = "EN"
 
@@ -195,7 +195,7 @@ elif choix.typeExerciceChoisi == "Ecrire":
     exercice1.record = record
 
     #exectution de l'exercice
-    exercice1.ecrireQuoi()
+    statKeysMotsDifficiles = exercice1.ecrireQuoi()
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()

@@ -10,6 +10,11 @@ from pprint import pprint
 import sys
 import datetime
 from func import *
+from collections import Counter
+
+z = ['blue', 'red', 'blue', 'yellow', 'blue', 'red']
+stat = Counter(z)
+
 
 val = 'asdf'
 try:
