@@ -401,8 +401,8 @@ class ExerciceClass:
         # construction de la liste des mots diffiles
         motsDifficiles = []
         for tmpKey in keyMotsDifficiles:
-            mot = 
-            motsDifficiles.append(voc(tmpKey))
+            mot = voc[tmpKey]
+            motsDifficiles.append(mot)
         statMotsDifficiles = Counter(motsDifficiles)
         return statMotsDifficiles
 
