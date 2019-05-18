@@ -85,36 +85,37 @@ allemand;voc2;p13;29;mot;die;Bäckerei;-en;la boulangerie
 allemand;voc2;p13;30;phrase;;In der Bäckerei gibt es Brot und Brötchen.;;À la boulangerie, il y a du pain et des petits pains.
 allemand;voc2;p13;31;mot;der;Kiosk;-e;le kiosque
 allemand;voc2;p13;32;phrase;;Am Kiosk gibt es Zeitschriften und Zeitungen.;;Au kiosque, il y a des magazines et des journaux
-allemand;voc2;p14;1;phrase;;In der Apotheke kann man Medikamente kaufen;;À la pharmacie, on peut acheter des médicaments.
+allemand;voc2;p14;1;phrase;;Au kiosque, il y a des magazines et des journaux;;À la pharmacie, on peut acheter des médicaments.
 allemand;voc2;p14;2;mot;die;Apotheke;-n;la pharmacie
-allemand;voc2;p14;3;mot;die;Post;;la poste
-allemand;voc2;p14;4;mot;die;Bank;-en;la banque
-allemand;voc2;p14;5;phrase;;Jakob wartet vor der Bank.;;Jakob attend devant la banque.
-allemand;voc2;p14;6;mot;;ein|kaufen;;faire les courses
-allemand;voc2;p14;7;verbe;;er kauft ein;;il fait les courses
-allemand;voc2;p14;8;mot;;bezahlen;;payer
-allemand;voc2;p14;9;verbe;;er bezahlt;;il paie
-allemand;voc2;p14;10;phrase;;Ich bezahle an der Kasse.;;Je paie à la caisse.
-allemand;voc2;p14;11;mot;;shoppen;;faire du shopping
-allemand;voc2;p14;12;verbe;;er shoppt;;il fait du shopping
-allemand;voc2;p14;13;mot;das;Kaufhaus;ä-er;le grand magasin
-allemand;voc2;p14;14;mot;das;Geschäft;-e;le magasin
-allemand;voc2;p14;15;mot;die;Kạsse;-n;la caisse
-allemand;voc2;p14;16;mot;;Lebensmittel und Waren;;Aliments et denrées
-allemand;voc2;p14;17;mot;das;Shampoo;-s;le shampoing
-allemand;voc2;p14;18;mot;die;Wurst;ü-e;la saucisse
-allemand;voc2;p14;19;mot;der;Käse;;le fromage (toujours au singulier)
-allemand;voc2;p14;20;mot;die;Banane;-n;la banane
-allemand;voc2;p14;21;mot;das;Brot;-e;le pain
-allemand;voc2;p14;22;mot;das;Brötchen;-;le petit pain
-allemand;voc2;p14;23;mot;das;Medikament;-e;le médicament
-allemand;voc2;p14;24;mot;die;Zeitschrift;-en;le magazine
-allemand;voc2;p14;25;mot;die;Zeitung;-en;le journal
-allemand;voc2;p14;26;mot;;Schulsachen;;Affaires d’école
-allemand;voc2;p14;27;mot;das;Heft;-e;le cahier
-allemand;voc2;p14;28;mot;das;Buch;ü-er;le livre
-allemand;voc2;p14;29;mot;das;Papier;-e;le papier
-allemand;voc2;p14;30;mot;der;Stift;-e;le stylo
+allemand;voc2;p14;3;phrase;;In der Apotheke kann man Medikamente kaufen;;
+allemand;voc2;p14;4;mot;die;Post;;la poste
+allemand;voc2;p14;5;mot;die;Bank;-en;la banque
+allemand;voc2;p14;6;phrase;;Jakob wartet vor der Bank.;;Jakob attend devant la banque.
+allemand;voc2;p14;7;mot;;ein|kaufen;;faire les courses
+allemand;voc2;p14;8;verbe;;er kauft ein;;il fait les courses
+allemand;voc2;p14;9;mot;;bezahlen;;payer
+allemand;voc2;p14;10;verbe;;er bezahlt;;il paie
+allemand;voc2;p14;11;phrase;;Ich bezahle an der Kasse.;;Je paie à la caisse.
+allemand;voc2;p14;12;mot;;shoppen;;faire du shopping
+allemand;voc2;p14;13;verbe;;er shoppt;;il fait du shopping
+allemand;voc2;p14;14;mot;das;Kaufhaus;ä-er;le grand magasin
+allemand;voc2;p14;15;mot;das;Geschäft;-e;le magasin
+allemand;voc2;p14;16;mot;die;Kạsse;-n;la caisse
+allemand;voc2;p14;17;mot;;Lebensmittel und Waren;;Aliments et denrées
+allemand;voc2;p14;18;mot;das;Shampoo;-s;le shampoing
+allemand;voc2;p14;19;mot;die;Wurst;ü-e;la saucisse
+allemand;voc2;p14;20;mot;der;Käse;;le fromage (toujours au singulier)
+allemand;voc2;p14;21;mot;die;Banane;-n;la banane
+allemand;voc2;p14;22;mot;das;Brot;-e;le pain
+allemand;voc2;p14;23;mot;das;Brötchen;-;le petit pain
+allemand;voc2;p14;24;mot;das;Medikament;-e;le médicament
+allemand;voc2;p14;25;mot;die;Zeitschrift;-en;le magazine
+allemand;voc2;p14;26;mot;die;Zeitung;-en;le journal
+allemand;voc2;p14;27;mot;;Schulsachen;;Affaires d’école
+allemand;voc2;p14;28;mot;das;Heft;-e;le cahier
+allemand;voc2;p14;29;mot;das;Buch;ü-er;le livre
+allemand;voc2;p14;30;mot;das;Papier;-e;le papier
+allemand;voc2;p14;31;mot;der;Stift;-e;le stylo
 allemand;voc2;p15;1;mot;das;Blatt;ä-er;la feuille
 allemand;voc2;p15;2;mot;;ein Blatt Papier;;une feuille de papier
 allemand;voc2;p15;3;mot;der;Kuli;-s;le stylo
@@ -264,6 +265,7 @@ allemand;voc6;p40;9;mot;;gratis;;gratuit
 allemand;voc6;p40;10;mot;Das;Tram;;le tram
 allemand;voc6;p40;11;mot;;müde;;fatigué,-e
 allemand;voc6;p40;12;mot;Die;Abfahrt;en;le départ
+allemand;voc6;p40;13;mot;Der;Treffpunkt;e;le point de rencontre
 allemand;voc6;p40;14;mot;Die;Ankunft;ü-e;L arrivée
 allemand;voc6;p40;15;mot;Die;Rückreise;n;le retour
 allemand;voc6;p40;16;mot;Die;Strassenbahn;en;le tram(way)

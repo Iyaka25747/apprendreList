@@ -16,8 +16,8 @@ import csv #for statistics logs
 
 debug = False
 # debug = True
-# debugLangue = "DE"
-debugLangue = "EN"
+debugLangue = "DE"
+# debugLangue = "EN"
 
 exercice1 = ExerciceClass() # Un exercice pour mémoriser une liste d'information
 
@@ -87,6 +87,8 @@ with open(exercicesFile, 'r', encoding='utf8') as file:
 # globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 exercice1.addSettings("nombreTentativeMax", 3)
 exercice1.addSettings("nombreEnnemis", 4)
+exercice1.addSettings("deltaRemettreErreur", 3)
+
 #----
 globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
 globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
@@ -152,7 +154,7 @@ else:
     #OOP-FIN
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
-typePossible = ["Trouver une correspondance", "Ecrire"]
+typePossible = ["Lire les mots", "Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
 choix.typeExerciceChoisi = choisirElement(typePossible) #OOP - To delelte
 exercice1.addChoix("typeExercice", choix.typeExerciceChoisi)
@@ -173,6 +175,11 @@ exercice1.setVocabularies(vocabulaire)
 # test = ["rec1","rec2"]
 # record.recordTentative(exercice1, test)
 
+if choix.typeExerciceChoisi == "Lire les mots":
+    # initialisation du fichier de statistique
+    record = Record(globalSettings.recordFile, exercice1)
+    exercice1.record = record
+    exercice1.lire()
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     # initialisation du fichier de statistique
     record = Record(globalSettings.recordFile, exercice1)
