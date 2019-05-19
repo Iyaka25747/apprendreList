@@ -152,7 +152,7 @@ class ExerciceClass:
                     vocDerDieDas[Key]['Mot en ALL'] = elementDDD
                 voc = vocDerDieDas
             # self.ecrireVoc(voc) #on exerce le voc par écrit
-            statKeysMotsDifficiles = self.ecrireVoc(voc) #on exerce le voc par écrit
+            motsDifficilesEtFrequence = self.ecrireVoc(voc) #on exerce le voc par écrit
 
         else: # exception: trouver Der Die Das
             if self.choix["quoiEcrire"] == "seulement der, die, das":
@@ -186,7 +186,7 @@ class ExerciceClass:
                             break
                     print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
                     countElements += 1
-        return statKeysMotsDifficiles
+        return motsDifficilesEtFrequence
 
     def lire(self):
         dictionnaire = {}
@@ -400,13 +400,16 @@ class ExerciceClass:
             countElements += 1
         # construction de la liste des mots diffiles
 
-        motsDifficiles = []
-        keyMotsDifficiles = ['1', '1', '3']
-        # for tmpKey in keyMotsDifficiles:
-        #     # mot = voc[tmpKey]
-        #     keyaMotsDifficiles.append(tmpKey)
-        statKeysMotsDifficiles = Counter(keyMotsDifficiles)
-        return statKeysMotsDifficiles
+        motsDifficiles = {}
+        # keyMotsDifficiles = ['1', '1', '3'] #for debug only 
+        for tmpKey in keyMotsDifficiles:
+            # mot = voc[tmpKey]
+            motsDifficiles[tmpKey]=voc[tmpKey]
+        #on calcul les stats
+        frequenceErreur = Counter(keyMotsDifficiles)
+        # on package dans un dict 
+        motsDifficilesEtFrequence = {'motsDifficiles':motsDifficiles, 'frequenceErreur':frequenceErreur}
+        return motsDifficilesEtFrequence
 
 
     def choixEcrireComment(self):

@@ -14,8 +14,8 @@ import csv #for statistics logs
 #Initialisation
 ################
 
-# debug = False
-debug = True
+debug = False
+# debug = True
 debugLangue = "DE"
 # debugLangue = "EN"
 
@@ -195,11 +195,12 @@ elif choix.typeExerciceChoisi == "Ecrire":
     exercice1.record = record
 
     #exectution de l'exercice
-    statKeysMotsDifficiles = exercice1.ecrireQuoi()
+    motsDifficilesEtFrequence = exercice1.ecrireQuoi()
     #Affichage des Mots Difficle à afficher
-
-    for tempKey in statKeysMotsDifficiles:
-        print('{nombreFaux} x faux: {indice} = {reponse}').format(nombreFaux=3, indice = xxx, reponse = xxx)
+    print('*** Tes pires ennemis ***')
+    for tempKey in motsDifficilesEtFrequence['motsDifficiles']:
+        reponse = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Der-Die-Das'] + ' ' + motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot en ALL']
+        print('{frequenceFaux} x faux: {indice} = {reponse}'.format(frequenceFaux=motsDifficilesEtFrequence['frequenceErreur'][tempKey], indice = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot FR'], reponse = reponse))
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()
