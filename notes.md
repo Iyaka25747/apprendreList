@@ -1,7 +1,6 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
-Reprise: ln 404
-Calculer mes pires énemis les enregistrer et les montrer à la fin
+Reprise: 
 commencer a écrire sur une nouvelle ligne
 ecrire ne pas montrer / effacer les lignes précédente sinon on peut facilement copier...
 - Tester avec EN, ALL (trouver et écrire)
