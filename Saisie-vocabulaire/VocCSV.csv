@@ -15,8 +15,8 @@ allemand;voc2;p11;14;mot;;mit dem Auto;;aller en voiture
 allemand;voc2;p11;15;mot;;mit der U-Bahn;;aller en métro
 allemand;voc2;p11;16;phrase;;Entschuldigung, wo ist das Kino?;;Excusez-moi, où est le cinéma
 allemand;voc2;p11;17;mot;das;Zentrum;;le centre
-allemand;voc2;p11;18;mot;;im Zentrum;;au centre (centre-ville) (1)
-allemand;voc2;p11;18;mot;;im Stadtzentrum;;au centre-ville (2)
+allemand;voc2;p11;18;mot;;im Zentrum;;au centre (centre-ville solution 1)
+allemand;voc2;p11;18;mot;;im Stadtzentrum;;au centre-ville (centre-ville solution 2)
 allemand;voc2;p11;19;mot;das;Hotel;-s;l’hôtel
 allemand;voc2;p11;20;mot;der;Sportplatz;ä-e;le terrain de sport
 allemand;voc2;p11;21;phrase;;Jakob s’entraîne sur le terrain de sport.;;Jakob trainiert auf dem Sportplatz
@@ -30,7 +30,7 @@ allemand;voc2;p11;28;mot;die;Bank;ä e;le banc
 allemand;voc2;p11;29;phrase;;Klara wartet auf der Bank.;;Klara attend sur le banc.
 allemand;voc2;p11;30;mot;der;Weg;-e;le chemin
 allemand;voc2;p11;31;mot;;rechts;;droite
-allemand;voc2;p11;32;mot;;links;;à gauche
+allemand;voc2;p11;32;mot;;links;;gauche
 allemand;voc2;p11;33;mot;;nach rechts;;à droite
 allemand;voc2;p11;34;mot;;nach links;;à gauche
 allemand;voc2;p12;1;mot;;geradeaus;;tout droit

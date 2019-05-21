@@ -11,6 +11,16 @@ import sys
 import datetime
 from func import *
 from collections import Counter
+import operator #for sorting dict by value
+
+
+Counter = {'6': 2, '10': 1}
+# Counter = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+sorted_Errors = sorted(Counter.items(), key=operator.itemgetter(1))
+print('*** Tes pires ennemis ***')
+# for tempKey in motsDifficilesEtFrequence['motsDifficiles']:
+for tempKey in sorted_Errors:
+    pass
 
 z = ['blue', 'red', 'blue', 'yellow', 'blue', 'red']
 stat = Counter(z)

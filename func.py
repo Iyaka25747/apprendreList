@@ -393,6 +393,10 @@ class ExerciceClass:
                 if tentative == self.settings['nombreTentativeMax']:#si le nombre de tentative max est atteint on arrête.
                     break
             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
+            print("")
+            input('Appuyer sur ENTER')
+            #Clear terminal screen 
+            os.system('cls' if os.name == 'nt' else 'clear')
             
             #vérification s'il reste des éléments, si oui on continuera l'exercice
             if len(keysElements) == countElements + 1:

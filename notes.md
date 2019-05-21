@@ -1,7 +1,8 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
-commencer a écrire sur une nouvelle ligne
+Tier la fréquence d erreur avant de l afficher, see https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
+le compte 24/25 mots est faut, voir un screenshot de Tilio sur son PC
 ecrire ne pas montrer / effacer les lignes précédente sinon on peut facilement copier...
 - Tester avec EN, ALL (trouver et écrire)
 - enregistrer les mots difficile.
