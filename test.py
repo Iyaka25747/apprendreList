@@ -12,13 +12,18 @@ import datetime
 from func import *
 from collections import Counter
 import operator #for sorting dict by value
+import collections
 
 
-Counter = {'6': 2, '10': 1}
-# Counter = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
-sorted_Errors = sorted(Counter.items(), key=operator.itemgetter(1))
+# Counter = {'6': 2, '10': 1}
+Counter = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+sorted_Errors = sorted(Counter.items(), key=operator.itemgetter(1), reverse = True)
 print('*** Tes pires ennemis ***')
 # for tempKey in motsDifficilesEtFrequence['motsDifficiles']:
+
+
+# sorted_dict = collections.OrderedDict(sorted_Errors)
+
 for tempKey in sorted_Errors:
     pass
 

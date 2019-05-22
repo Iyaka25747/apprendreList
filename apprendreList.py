@@ -199,6 +199,7 @@ elif choix.typeExerciceChoisi == "Ecrire":
     #Affichage des Mots Difficle à afficher
     # sorted_x = sorted(x.items(), key=operator.itemgetter(1))
     sorted_Errors = sorted(motsDifficilesEtFrequence['frequenceErreurs'].item(), key=operator.itemgetter(1))
+    sorted_Errors = sorted(Counter.items(), key=operator.itemgetter(1), reverse = True)
     print('*** Tes pires ennemis ***')
     # for tempKey in motsDifficilesEtFrequence['motsDifficiles']:
     for tempKey in sorted_Errors:
