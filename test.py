@@ -14,7 +14,25 @@ from collections import Counter
 import operator #for sorting dict by value
 import collections
 
+keyMotsDifficiles = ['6', '6', '3'] #for debug only 
+statErreurKeyFreq = Counter(keyMotsDifficiles) # Key : freq
 
+sorted_freq = sorted(statErreurKeyFreq, reverse = True)
+
+
+
+print('*** Tes pires ennemis ***')
+for tempKey in sorted_freq:
+    # for tempKey in sorted_Errors:
+        reponse = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Der-Die-Das'] + ' ' + motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot en ALL']
+        print('{frequenceFaux} x faux: {indice} = {reponse}'.format(frequenceFaux=motsDifficilesEtFrequence['frequenceErreur'][tempKey], indice = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot FR'], reponse = reponse))
+
+
+motsDifficilesEtFrequence={}
+motsDifficilesEtFrequence['frequenceErreurs'] = {}
+# motsDifficilesEtFrequence['frequenceErreurs']= {Counter({'1': 2, '3': 1}), 'motsDifficiles': {'1': {...}, '3': {...}}}
+motsDifficilesEtFrequence['frequenceErreurs']= {'1': 1, '3': 4}
+sorted_Errors = sorted(motsDifficilesEtFrequence['frequenceErreurs'].items(), key=operator.itemgetter(1), reverse = True)
 # Counter = {'6': 2, '10': 1}
 Counter = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 sorted_Errors = sorted(Counter.items(), key=operator.itemgetter(1), reverse = True)

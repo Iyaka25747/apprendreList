@@ -344,7 +344,7 @@ class ExerciceClass:
 
 
     def ecrireVoc(self, voc):
-        countElements = 0
+        indexElement = 0
         keyMotsDifficiles = []
         nombreElements = len(voc)
         keysElements = [] # clef des éléments à exercer, évolue au cour de l exsercice, selon les fautes on étend la liste avec les mots difficile.
@@ -352,10 +352,10 @@ class ExerciceClass:
             keysElements.append(tmpKey)
         ilResteDesElements = True
         while ilResteDesElements: #tant qu il reste des éléments on continue l exercice
-            elementAEcrire = voc[keysElements[countElements]]['Mot en ALL']
-            indice = voc[keysElements[countElements]]['Mot FR']
-            if voc[keysElements[countElements]]['Der-Die-Das'] != '':
-                reponseAAfficher = voc[keysElements[countElements]]['Der-Die-Das'] + ' ' + elementAEcrire
+            elementAEcrire = voc[keysElements[indexElement]]['Mot en ALL']
+            indice = voc[keysElements[indexElement]]['Mot FR']
+            if voc[keysElements[indexElement]]['Der-Die-Das'] != '':
+                reponseAAfficher = voc[keysElements[indexElement]]['Der-Die-Das'] + ' ' + elementAEcrire
             else: 
                 reponseAAfficher = elementAEcrire 
 
@@ -364,7 +364,7 @@ class ExerciceClass:
             pasRemisEnJeux = True
             # on refait la saisie tant que la réponse est fausse.
             while reponseFausse:
-                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements + 1, nombreElements=nombreElements ))
+                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=indexElement + 1, nombreElements=nombreElements ))
                 tentative += 1
                 
                 if reponse == elementAEcrire:
@@ -373,11 +373,12 @@ class ExerciceClass:
                     evaluationReponse = 'juste'
                     playSoundGoodOOP(self.settings)
                 else: # s'il y a une erreur dans la réponse
-                    keyMotsDifficiles.append(keysElements[countElements]) # on ajout l éléments à la liste des éléments difficile
+                    keyMotsDifficiles.append(keysElements[indexElement]) # on ajout l éléments à la liste des éléments difficile
+                    # keyMotsDifficiles[keysElements[indexElement]]=indexElement # on ajout l éléments à la liste des éléments difficile
                     if pasRemisEnJeux: # on remet l éléments dans la liste si ce n est pas déjà fait.
-                        positionAjout = countElements + self.settings['deltaRemettreErreur']
+                        positionAjout = indexElement + self.settings['deltaRemettreErreur']
                         keysElementsTmp = keysElements[:positionAjout]
-                        keysElementsTmp.append(keysElements[countElements])
+                        keysElementsTmp.append(keysElements[indexElement])
                         keysElementAfter =  keysElements[positionAjout:]
                         keysElements = keysElementsTmp + keysElementAfter
                         pasRemisEnJeux = False
@@ -399,9 +400,9 @@ class ExerciceClass:
             os.system('cls' if os.name == 'nt' else 'clear')
             
             #vérification s'il reste des éléments, si oui on continuera l'exercice
-            if len(keysElements) == countElements + 1:
+            if len(keysElements) == indexElement + 1:
                 ilResteDesElements = False
-            countElements += 1
+            indexElement += 1
         # construction de la liste des mots diffiles
 
         motsDifficiles = {}
@@ -411,6 +412,8 @@ class ExerciceClass:
             motsDifficiles[tmpKey]=voc[tmpKey]
         #on calcul les stats
         frequenceErreur = Counter(keyMotsDifficiles)
+        # frequenceErreur = Counter(MotsDifficiles)
+        
         # on package dans un dict 
         motsDifficilesEtFrequence = {'motsDifficiles':motsDifficiles, 'frequenceErreur':frequenceErreur}
         return motsDifficilesEtFrequence

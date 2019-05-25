@@ -9,13 +9,15 @@ import winsound # Son, bruitage
 import datetime #for date, time
 # import time
 import csv #for statistics logs
+import operator #for sorting dict by value
+import collections
 
 ###############
 #Initialisation
 ################
 
-debug = False
-# debug = True
+# debug = False
+debug = True
 debugLangue = "DE"
 # debugLangue = "EN"
 
@@ -196,12 +198,11 @@ elif choix.typeExerciceChoisi == "Ecrire":
 
     #exectution de l'exercice
     motsDifficilesEtFrequence = exercice1.ecrireQuoi()
-    #Affichage des Mots Difficle à afficher
-    # sorted_x = sorted(x.items(), key=operator.itemgetter(1))
-    sorted_Errors = sorted(motsDifficilesEtFrequence['frequenceErreurs'].item(), key=operator.itemgetter(1))
-    sorted_Errors = sorted(Counter.items(), key=operator.itemgetter(1), reverse = True)
+    #Affichage des Mots Difficle
+    countErreurKeyFreq = motsDifficilesEtFrequence['frequenceErreur'] 
+    sorted_key = sorted(countErreurKeyFreq, reverse = False) #list of Keys sorted per frequence of error
     print('*** Tes pires ennemis ***')
-    for tempKey in motsDifficilesEtFrequence['motsDifficiles']:
+    for tempKey in sorted_key:
     # for tempKey in sorted_Errors:
         reponse = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Der-Die-Das'] + ' ' + motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot en ALL']
         print('{frequenceFaux} x faux: {indice} = {reponse}'.format(frequenceFaux=motsDifficilesEtFrequence['frequenceErreur'][tempKey], indice = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot FR'], reponse = reponse))

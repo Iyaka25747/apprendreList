@@ -1,8 +1,10 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
-Tier la fréquence d erreur avant de l afficher, see https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
-le compte 24/25 mots est faut, voir un screenshot de Tilio sur son PC
+- Simplifier le mecanisme de base, passer vers un mode ou l on doit simplement avoir une question et une réponse. Dans la réponse_donnée on affiche éventuellement une explication plus complète (e.g. <der> Kuchen) . Se débarasser du der, die, das en construisant un dict question réponse comme un autre.
+- Faire un fichier de statistic. On y inscrit le ID et la fréquence d erreur de tous les mots (0 si jamais fait faux). Le rendre lisible, on y ajoute toutes les informations. Mais la référence reste le vocabulaire de base
+- Passer à un system avec un ID unique pour tous les termes.
+- le compte 24/25 mots est faut, voir un screenshot de Tilio sur son PC
 ecrire ne pas montrer / effacer les lignes précédente sinon on peut facilement copier...
 - Tester avec EN, ALL (trouver et écrire)
 - enregistrer les mots difficile.
