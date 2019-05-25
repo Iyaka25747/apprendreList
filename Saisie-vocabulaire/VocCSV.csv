@@ -59,25 +59,25 @@ allemand;voc2;p13;3;mot;der;Ort;-e;le lieu, l’endroit
 allemand;voc2;p13;4;mot;die;Haltestelle;-n;l’arrêt
 allemand;voc2;p13;5;mot;;aus|steigen;;descendre (d’un véhicule)
 allemand;voc2;p13;6;verbe;;er steigt aus;;il descend (d’un véhicule)
-allemand;voc2;p13;7;mot;;Klara steigt an der nächsten Haltestelle aus.;;Klara descend au prochain arrêt.
+allemand;voc2;p13;7;phrase;;Klara steigt an der nächsten Haltestelle aus.;;Klara descend au prochain arrêt.
 allemand;voc2;p13;8;mot;der;Marktplatz;ä-e;la place du marché
 allemand;voc2;p13;9;mot;;nah;;proche, à proximité
 allemand;voc2;p13;10;phrase;;Alles ist ganz nah.;;Tout est à proximité.
 allemand;voc2;p13;11;mot;;weit;;loin
-allemand;voc2;p13;12;mot;Das;Kino ist nicht weit.;;Le cinéma n’est pas loin.
+allemand;voc2;p13;12;phrase;;Das Kino ist nicht weit.;;Le cinéma n’est pas loin.
 allemand;voc2;p13;13;mot;das;Jugendzentrum;-ren;le centre de jeunes
 allemand;voc2;p13;14;mot;das;Rathaus;;l’hôtel de ville
 allemand;voc2;p13;15;mot;der;Spielplatz;ä-e;le terrain de jeu
 allemand;voc2;p13;16;mot;der;Schulweg;-e; le chemin de l’école
-allemand;voc2;p13;17;mot;;ab|biegen, er biegt ab;;tourner, virer
+allemand;voc2;p13;17;mot;;ab|biegen;;tourner, virer
 allemand;voc2;p13;18;verbe;;er biegt ab;;il tourne, il vire
 allemand;voc2;p13;19;phrase;;Ich biege links ab.;;Je tourne à gauche.
 allemand;voc2;p13;20;mot;;Geschäfte;;des Magasins
 allemand;voc2;p13;21;mot;;kaufen;;acheter
-allemand;voc2;p13;22;mot;;er kauft;;il achete
+allemand;voc2;p13;22;verbe;;er kauft;;il achete
 allemand;voc2;p13;23;mot;;kosten;;coûter
-allemand;voc2;p13;24;mot;;er kostet;;il coûte
-allemand;voc2;p13;25;mot;;es kostet;;ça coûte
+allemand;voc2;p13;24;verbe;;er kostet;;il coûte
+allemand;voc2;p13;25;verbe;;es kostet;;ça coûte
 allemand;voc2;p13;26;phrase;;Die Jacke kostet nicht viel.;;La veste ne coûte pas cher.
 allemand;voc2;p13;27;mot;der;Supermarkt;-e;le supermarché
 allemand;voc2;p13;28;mot;das;Restaurant;-s;le restaurant

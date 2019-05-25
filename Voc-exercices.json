@@ -119,7 +119,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "im Stadtzentrum",
           "pluriel": "",
-          "Mot FR": "au centre-ville (centre-ville solution  2)"
+          "Mot FR": "au centre-ville (centre-ville solution 2)"
         },
         "19": {
           "Type": "mot",
@@ -420,7 +420,7 @@
           "Mot FR": "il descend (d’un véhicule)"
         },
         "7": {
-          "Type": "mot",
+          "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Klara steigt an der nächsten Haltestelle aus.",
           "pluriel": "",
@@ -455,9 +455,9 @@
           "Mot FR": "loin"
         },
         "12": {
-          "Type": "mot",
-          "Der-Die-Das": "Das",
-          "Mot en ALL": "Kino ist nicht weit.",
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das Kino ist nicht weit.",
           "pluriel": "",
           "Mot FR": "Le cinéma n’est pas loin."
         },
@@ -492,7 +492,7 @@
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "ab|biegen, er biegt ab",
+          "Mot en ALL": "ab|biegen",
           "pluriel": "",
           "Mot FR": "tourner, virer"
         },
@@ -525,7 +525,7 @@
           "Mot FR": "acheter"
         },
         "22": {
-          "Type": "mot",
+          "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er kauft",
           "pluriel": "",
@@ -539,14 +539,14 @@
           "Mot FR": "coûter"
         },
         "24": {
-          "Type": "mot",
+          "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er kostet",
           "pluriel": "",
           "Mot FR": "il coûte"
         },
         "25": {
-          "Type": "mot",
+          "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "es kostet",
           "pluriel": "",
