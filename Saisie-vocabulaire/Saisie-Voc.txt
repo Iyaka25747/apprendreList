@@ -1,37 +1,30 @@
-﻿	behind		derrière
-	between		entre
-	in front of		devant
-	next to		à côté de
-	on the corner of		au coin de
-	opposite		en face de
-	two years ago		il y a deux ans
-	ago		il y a
-	fall		tomber (verbe)
-	get lost		se perdre
-	hit		cogner, heurter
-	in the 1960s		dans les années soixante
-	in the		dans les
-	keep in touch		rester en contact
-	move to Australia (v) déménager / aller vivre (en Australie)
-	move		(verbe) déménager / aller vivre
-	popular		populaire
-	rubbish		(n) ordures
-	turn round		se retourner
-	bad		mal
-	worse		pire (plus mal)
-	far		loin
-	further		plus loin
-	good		bien
-	better		mieux (plus mieux)
-	cross		traverser
-	cross the street		traverser la rue
-	go down		prendre
-	go down the street		prendre la rue
-	go straight on		aller tout droit
-	turn		tourner
-	turn left		tourner à gauche
-	turn right		tourner à droite
-	walk past		passer devant
-	walk past the church		passer devant l’église
-	Excuse me, where’s the post office, please?		Pardon, madame/monsieur, où se trouve la poste s’il vous plaît ?
-	It’s over there.		Il/elle est là-bas.
+﻿die	Postkarte	-n	la carte postale
+die	SMS		-	le SMS
+die	E-Mail	-s	l’e-mail, le couriel (solution1) 
+die	Mail	-s	l’e-mail, le couriel (solution2) 
+	wohin?		où (déplacement + accusatif)
+	Wohin fahren wir in den Osterferien?		Où allons-nous pendant les vacances de Pâques ?
+	Wir fahren nach Spanien/Hamburg.		Nous allons en Espagne/à Hambourg.
+	Wir fahren in die Türkei/Schweiz.		Nous allons en Turquie/Suisse.
+	Wir fahren ans Meer.		Nous allons au bord de la mer.
+	Wir fahren an die Ostsee.		Nous allons au bord de la mer Baltique (mer de l'est).
+	Wir fahren an den See.		Nous allons au bord du lac.
+	Wir fahren in die Alpen/Berge.		Nous allons dans les Alpes/à la montagne.
+	Wir fahren mit dem Zug.		Nous partons en train.
+	Wir fahren mit dem Auto.		Nous partons en voiture.
+	Wir fahren mit dem Schiff.		Nous partons en bateau.
+der	Hafen	”-	le port
+	Im Hafen sind viele Schiffe.		Il y a beaucoup de bateaux au port.
+	Wie viel kostet das Zimmer für eine Nacht?		Combien coûte la chambre pour une nuit ?
+das	Hostel	-s	l’auberge de jeunesse (solution 1)
+die	Jugendherberge	-n	l’auberge de jeunesse (solution 2)
+	reservieren		réserver
+	er reserviert		il réserve
+	Sie reserviert ein Zimmer im Hostel.		Elle réserve une chambre à l’auberge de jeunesse.
+	übernachten		passer la nuit
+	er übernachtet		il passe la nuit
+	Wir übernachten im Hostel.		Nous passons la nuit dans l’auberge de jeunesse(solution 1).
+die	Übernachtung	-en	la nuit à l’hôtel, la nuitée, l’hébergement
+das	Schloss	”-er	le château
+	an|kommen		arriver
+	er kommt an		il arrive

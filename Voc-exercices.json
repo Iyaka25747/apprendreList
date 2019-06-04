@@ -7,231 +7,264 @@
           "Der-Die-Das": "die",
           "Mot en ALL": "Stadt",
           "pluriel": "ä-e",
-          "Mot FR": "la ville"
+          "Mot FR": "la ville",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Strasse",
           "pluriel": "-n",
-          "Mot FR": "la rue"
+          "Mot FR": "la rue",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Auto",
           "pluriel": "-s",
-          "Mot FR": "la voiture"
+          "Mot FR": "la voiture",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "U-Bahn",
           "pluriel": "-en",
-          "Mot FR": "le métro"
+          "Mot FR": "le métro",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Bus",
           "pluriel": "-se",
-          "Mot FR": "le bus"
+          "Mot FR": "le bus",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Haus",
           "pluriel": "ä-er",
-          "Mot FR": "la maison"
+          "Mot FR": "la maison",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Kino",
           "pluriel": "-s",
-          "Mot FR": "le cinéma"
+          "Mot FR": "le cinéma",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "gehen",
           "pluriel": "",
-          "Mot FR": "aller à pied"
+          "Mot FR": "aller à pied",
+          "": ""
         },
         "10": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er geht",
           "pluriel": "",
-          "Mot FR": "il va à pied"
+          "Mot FR": "il va à pied",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "fahren",
           "pluriel": "",
-          "Mot FR": "aller (en voiture)"
+          "Mot FR": "aller (en voiture)",
+          "": ""
         },
         "12": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er fährt",
           "pluriel": "",
-          "Mot FR": "il va (en voiture)"
+          "Mot FR": "il va (en voiture)",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "mit dem Fahrrad",
           "pluriel": "",
-          "Mot FR": "aller à bicyclette"
+          "Mot FR": "aller à bicyclette",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "mit dem Auto",
           "pluriel": "",
-          "Mot FR": "aller en voiture"
+          "Mot FR": "aller en voiture",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "mit der U-Bahn",
           "pluriel": "",
-          "Mot FR": "aller en métro"
+          "Mot FR": "aller en métro",
+          "": ""
         },
         "16": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Entschuldigung, wo ist das Kino?",
           "pluriel": "",
-          "Mot FR": "Excusez-moi, où est le cinéma"
+          "Mot FR": "Excusez-moi, où est le cinéma",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Zentrum",
           "pluriel": "",
-          "Mot FR": "le centre"
+          "Mot FR": "le centre",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "im Stadtzentrum",
           "pluriel": "",
-          "Mot FR": "au centre-ville (centre-ville solution 2)"
+          "Mot FR": "au centre-ville (centre-ville solution 2)",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Hotel",
           "pluriel": "-s",
-          "Mot FR": "l’hôtel"
+          "Mot FR": "l’hôtel",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Sportplatz",
           "pluriel": "ä-e",
-          "Mot FR": "le terrain de sport"
+          "Mot FR": "le terrain de sport",
+          "": ""
         },
         "21": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Jakob s’entraîne sur le terrain de sport.",
           "pluriel": "",
-          "Mot FR": "Jakob trainiert auf dem Sportplatz"
+          "Mot FR": "Jakob trainiert auf dem Sportplatz",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Bahnhof",
           "pluriel": "ö-e",
-          "Mot FR": "la gare"
+          "Mot FR": "la gare",
+          "": ""
         },
         "23": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Am Bahnhof kaufe ich Fahrkarten.",
           "pluriel": "",
-          "Mot FR": "J’achète des billets à la gare."
+          "Mot FR": "J’achète des billets à la gare.",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Fahrkarte",
           "pluriel": "-n",
-          "Mot FR": "le billet, le titre de transport"
+          "Mot FR": "le billet, le titre de transport",
+          "": ""
         },
         "25": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "warten",
           "pluriel": "",
-          "Mot FR": "attendre"
+          "Mot FR": "attendre",
+          "": ""
         },
         "26": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er wartet",
           "pluriel": "",
-          "Mot FR": "il attend"
+          "Mot FR": "il attend",
+          "": ""
         },
         "27": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Klara wartet auf den Bus.",
           "pluriel": "",
-          "Mot FR": "Klara attend le bus."
+          "Mot FR": "Klara attend le bus.",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Bank",
-          "pluriel": "ä e",
-          "Mot FR": "le banc"
+          "pluriel": "ä-e",
+          "Mot FR": "le banc",
+          "": ""
         },
         "29": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Klara wartet auf der Bank.",
           "pluriel": "",
-          "Mot FR": "Klara attend sur le banc."
+          "Mot FR": "Klara attend sur le banc.",
+          "": ""
         },
         "30": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Weg",
           "pluriel": "-e",
-          "Mot FR": "le chemin"
+          "Mot FR": "le chemin",
+          "": ""
         },
         "31": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "rechts",
           "pluriel": "",
-          "Mot FR": "droite"
+          "Mot FR": "droite",
+          "": ""
         },
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "links",
           "pluriel": "",
-          "Mot FR": "gauche"
+          "Mot FR": "gauche",
+          "": ""
         },
         "33": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "nach rechts",
           "pluriel": "",
-          "Mot FR": "à droite"
+          "Mot FR": "à droite",
+          "": ""
         },
         "34": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "nach links",
           "pluriel": "",
-          "Mot FR": "à gauche"
+          "Mot FR": "à gauche",
+          "": ""
         }
       },
       "p12": {
@@ -240,140 +273,160 @@
           "Der-Die-Das": "",
           "Mot en ALL": "geradeaus",
           "pluriel": "",
-          "Mot FR": "tout droit"
+          "Mot FR": "tout droit",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Geh rechts und dann geradeaus.",
           "pluriel": "",
-          "Mot FR": "Va à droite et ensuite tout droit."
+          "Mot FR": "Va à droite et ensuite tout droit.",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "an",
           "pluriel": "",
-          "Mot FR": "à"
+          "Mot FR": "à",
+          "": ""
         },
         "4": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie steht an der Wand.",
           "pluriel": "",
-          "Mot FR": "elle est debout au mur"
+          "Mot FR": "elle est debout au mur",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "auf",
           "pluriel": "",
-          "Mot FR": "sur"
+          "Mot FR": "sur",
+          "": ""
         },
         "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie ist auf dem Bett.",
           "pluriel": "",
-          "Mot FR": "elle est sur le lit"
+          "Mot FR": "elle est sur le lit",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unter",
           "pluriel": "",
-          "Mot FR": "sous"
+          "Mot FR": "sous",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie schläft unter dem Bett.",
           "pluriel": "",
-          "Mot FR": "elle dort sous le lit"
+          "Mot FR": "elle dort sous le lit",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "vor",
           "pluriel": "",
-          "Mot FR": "devant"
+          "Mot FR": "devant",
+          "": ""
         },
         "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie schläft vor dem Bett.",
           "pluriel": "",
-          "Mot FR": "elle dort devamt le lit"
+          "Mot FR": "elle dort devamt le lit",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "hinter",
           "pluriel": "",
-          "Mot FR": "derrière"
+          "Mot FR": "derrière",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie liegt hinter dem Bett.",
           "pluriel": "",
-          "Mot FR": "elle est derrière le lit"
+          "Mot FR": "elle est derrière le lit",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "in",
           "pluriel": "",
-          "Mot FR": "dans, en, à"
+          "Mot FR": "dans, en, à",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie ist im Bett.",
           "pluriel": "",
-          "Mot FR": "elle est au lit"
+          "Mot FR": "elle est au lit",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "neben",
           "pluriel": "",
-          "Mot FR": "à côté de"
+          "Mot FR": "à côté de",
+          "": ""
         },
         "16": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie schläft neben dem Bett.",
           "pluriel": "",
-          "Mot FR": ""
+          "Mot FR": "",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "über",
           "pluriel": "",
-          "Mot FR": "au-dessus (de)"
+          "Mot FR": "au-dessus (de)",
+          "": ""
         },
         "18": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie ist über dem Bett.",
           "pluriel": "",
-          "Mot FR": "elle est au-dessus du lit"
+          "Mot FR": "elle est au-dessus du lit",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "zwischen",
           "pluriel": "",
-          "Mot FR": "entre"
+          "Mot FR": "entre",
+          "": ""
         },
         "20": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie schläft zwischen den Stühlen.",
           "pluriel": "",
-          "Mot FR": "elle dort entre les chaises"
+          "Mot FR": "elle dort entre les chaises",
+          "": ""
         }
       },
       "p13": {
@@ -382,224 +435,256 @@
           "Der-Die-Das": "die",
           "Mot en ALL": "Kreuzung",
           "pluriel": "-en",
-          "Mot FR": "le croisement"
+          "Mot FR": "le croisement",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Ampel",
           "pluriel": "-n",
-          "Mot FR": "le feu (de signalisation)"
+          "Mot FR": "le feu (de signalisation)",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Ort",
           "pluriel": "-e",
-          "Mot FR": "le lieu, l’endroit"
+          "Mot FR": "le lieu, l’endroit",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Haltestelle",
           "pluriel": "-n",
-          "Mot FR": "l’arrêt"
+          "Mot FR": "l’arrêt",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "aus|steigen",
           "pluriel": "",
-          "Mot FR": "descendre (d’un véhicule)"
+          "Mot FR": "descendre (d’un véhicule)",
+          "": ""
         },
         "6": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er steigt aus",
           "pluriel": "",
-          "Mot FR": "il descend (d’un véhicule)"
+          "Mot FR": "il descend (d’un véhicule)",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Klara steigt an der nächsten Haltestelle aus.",
           "pluriel": "",
-          "Mot FR": "Klara descend au prochain arrêt."
+          "Mot FR": "Klara descend au prochain arrêt.",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Marktplatz",
           "pluriel": "ä-e",
-          "Mot FR": "la place du marché"
+          "Mot FR": "la place du marché",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "nah",
           "pluriel": "",
-          "Mot FR": "proche, à proximité"
+          "Mot FR": "proche, à proximité",
+          "": ""
         },
         "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alles ist ganz nah.",
           "pluriel": "",
-          "Mot FR": "Tout est à proximité."
+          "Mot FR": "Tout est à proximité.",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "weit",
           "pluriel": "",
-          "Mot FR": "loin"
+          "Mot FR": "loin",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Das Kino ist nicht weit.",
           "pluriel": "",
-          "Mot FR": "Le cinéma n’est pas loin."
+          "Mot FR": "Le cinéma n’est pas loin.",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Jugendzentrum",
           "pluriel": "-ren",
-          "Mot FR": "le centre de jeunes"
+          "Mot FR": "le centre de jeunes",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Rathaus",
           "pluriel": "",
-          "Mot FR": "l’hôtel de ville"
+          "Mot FR": "l’hôtel de ville",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Spielplatz",
           "pluriel": "ä-e",
-          "Mot FR": "le terrain de jeu"
+          "Mot FR": "le terrain de jeu",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Schulweg",
           "pluriel": "-e",
-          "Mot FR": " le chemin de l’école"
+          "Mot FR": " le chemin de l’école",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "ab|biegen",
           "pluriel": "",
-          "Mot FR": "tourner, virer"
+          "Mot FR": "tourner, virer",
+          "": ""
         },
         "18": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er biegt ab",
           "pluriel": "",
-          "Mot FR": "il tourne, il vire"
+          "Mot FR": "il tourne, il vire",
+          "": ""
         },
         "19": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich biege links ab.",
           "pluriel": "",
-          "Mot FR": "Je tourne à gauche."
+          "Mot FR": "Je tourne à gauche.",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Geschäfte",
           "pluriel": "",
-          "Mot FR": "des Magasins"
+          "Mot FR": "des Magasins",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "kaufen",
           "pluriel": "",
-          "Mot FR": "acheter"
+          "Mot FR": "acheter",
+          "": ""
         },
         "22": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er kauft",
           "pluriel": "",
-          "Mot FR": "il achete"
+          "Mot FR": "il achete",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "kosten",
           "pluriel": "",
-          "Mot FR": "coûter"
+          "Mot FR": "coûter",
+          "": ""
         },
         "24": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er kostet",
           "pluriel": "",
-          "Mot FR": "il coûte"
+          "Mot FR": "il coûte",
+          "": ""
         },
         "25": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "es kostet",
           "pluriel": "",
-          "Mot FR": "ça coûte"
+          "Mot FR": "ça coûte",
+          "": ""
         },
         "26": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Die Jacke kostet nicht viel.",
           "pluriel": "",
-          "Mot FR": "La veste ne coûte pas cher."
+          "Mot FR": "La veste ne coûte pas cher.",
+          "": ""
         },
         "27": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Supermarkt",
           "pluriel": "-e",
-          "Mot FR": "le supermarché"
+          "Mot FR": "le supermarché",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Restaurant",
           "pluriel": "-s",
-          "Mot FR": "le restaurant"
+          "Mot FR": "le restaurant",
+          "": ""
         },
         "29": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Bäckerei",
           "pluriel": "-en",
-          "Mot FR": "la boulangerie"
+          "Mot FR": "la boulangerie",
+          "": ""
         },
         "30": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "In der Bäckerei gibt es Brot und Brötchen.",
           "pluriel": "",
-          "Mot FR": "À la boulangerie, il y a du pain et des petits pains."
+          "Mot FR": "À la boulangerie, il y a du pain et des petits pains.",
+          "": ""
         },
         "31": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Kiosk",
           "pluriel": "-e",
-          "Mot FR": "le kiosque"
+          "Mot FR": "le kiosque",
+          "": ""
         },
         "32": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Am Kiosk gibt es Zeitschriften und Zeitungen.",
           "pluriel": "",
-          "Mot FR": "Au kiosque, il y a des magazines et des journaux"
+          "Mot FR": "Au kiosque, il y a des magazines et des journaux",
+          "": ""
         }
       },
       "p14": {
@@ -608,210 +693,240 @@
           "Der-Die-Das": "",
           "Mot en ALL": "In der Apotheke kann man Medikamente kaufen",
           "pluriel": "",
-          "Mot FR": "À la pharmacie, on peut acheter des médicaments."
+          "Mot FR": "À la pharmacie, on peut acheter des médicaments.",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Apotheke",
           "pluriel": "-n",
-          "Mot FR": "la pharmacie"
+          "Mot FR": "la pharmacie",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Post",
           "pluriel": "",
-          "Mot FR": "la poste"
+          "Mot FR": "la poste",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Bank",
           "pluriel": "-en",
-          "Mot FR": "la banque"
+          "Mot FR": "la banque",
+          "": ""
         },
         "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Jakob wartet vor der Bank.",
           "pluriel": "",
-          "Mot FR": "Jakob attend devant la banque."
+          "Mot FR": "Jakob attend devant la banque.",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "ein|kaufen",
           "pluriel": "",
-          "Mot FR": "faire les courses"
+          "Mot FR": "faire les courses",
+          "": ""
         },
         "7": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er kauft ein",
           "pluriel": "",
-          "Mot FR": "il fait les courses"
+          "Mot FR": "il fait les courses",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "bezahlen",
           "pluriel": "",
-          "Mot FR": "payer"
+          "Mot FR": "payer",
+          "": ""
         },
         "9": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er bezahlt",
           "pluriel": "",
-          "Mot FR": "il paie"
+          "Mot FR": "il paie",
+          "": ""
         },
         "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich bezahle an der Kasse.",
           "pluriel": "",
-          "Mot FR": "Je paie à la caisse."
+          "Mot FR": "Je paie à la caisse.",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "shoppen",
           "pluriel": "",
-          "Mot FR": "faire du shopping"
+          "Mot FR": "faire du shopping",
+          "": ""
         },
         "12": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er shoppt",
           "pluriel": "",
-          "Mot FR": "il fait du shopping"
+          "Mot FR": "il fait du shopping",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Kaufhaus",
           "pluriel": "ä-er",
-          "Mot FR": "le grand magasin"
+          "Mot FR": "le grand magasin",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Geschäft",
           "pluriel": "-e",
-          "Mot FR": "le magasin"
+          "Mot FR": "le magasin",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Kạsse",
           "pluriel": "-n",
-          "Mot FR": "la caisse"
+          "Mot FR": "la caisse",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Lebensmittel und Waren",
           "pluriel": "",
-          "Mot FR": "Aliments et denrées"
+          "Mot FR": "Aliments et denrées",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Shampoo",
           "pluriel": "-s",
-          "Mot FR": "le shampoing"
+          "Mot FR": "le shampoing",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Wurst",
           "pluriel": "ü-e",
-          "Mot FR": "la saucisse"
+          "Mot FR": "la saucisse",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Käse",
           "pluriel": "",
-          "Mot FR": "le fromage (toujours au singulier)"
+          "Mot FR": "le fromage (toujours au singulier)",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Banane",
           "pluriel": "-n",
-          "Mot FR": "la banane"
+          "Mot FR": "la banane",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Brot",
           "pluriel": "-e",
-          "Mot FR": "le pain"
+          "Mot FR": "le pain",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Brötchen",
           "pluriel": "-",
-          "Mot FR": "le petit pain"
+          "Mot FR": "le petit pain",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Medikament",
           "pluriel": "-e",
-          "Mot FR": "le médicament"
+          "Mot FR": "le médicament",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Zeitschrift",
           "pluriel": "-en",
-          "Mot FR": "le magazine"
+          "Mot FR": "le magazine",
+          "": ""
         },
         "25": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Zeitung",
           "pluriel": "-en",
-          "Mot FR": "le journal"
+          "Mot FR": "le journal",
+          "": ""
         },
         "26": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Schulsachen",
           "pluriel": "",
-          "Mot FR": "Affaires d’école"
+          "Mot FR": "Affaires d’école",
+          "": ""
         },
         "27": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Heft",
           "pluriel": "-e",
-          "Mot FR": "le cahier"
+          "Mot FR": "le cahier",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Buch",
           "pluriel": "ü-er",
-          "Mot FR": "le livre"
+          "Mot FR": "le livre",
+          "": ""
         },
         "29": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Papier",
           "pluriel": "-e",
-          "Mot FR": "le papier"
+          "Mot FR": "le papier",
+          "": ""
         },
         "30": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Stift",
           "pluriel": "-e",
-          "Mot FR": "le stylo"
+          "Mot FR": "le stylo",
+          "": ""
         }
       },
       "p15": {
@@ -820,217 +935,248 @@
           "Der-Die-Das": "das",
           "Mot en ALL": "Blatt",
           "pluriel": "ä-er",
-          "Mot FR": "la feuille"
+          "Mot FR": "la feuille",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "ein Blatt Papier",
           "pluriel": "",
-          "Mot FR": "une feuille de papier"
+          "Mot FR": "une feuille de papier",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Kuli",
           "pluriel": "-s",
-          "Mot FR": "le stylo"
+          "Mot FR": "le stylo",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Bleistift",
           "pluriel": "-e",
-          "Mot FR": "le crayon"
+          "Mot FR": "le crayon",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Radiergummi",
           "pluriel": "-s",
-          "Mot FR": "la gomme"
+          "Mot FR": "la gomme",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Lineal",
           "pluriel": "-e",
-          "Mot FR": "la règle"
+          "Mot FR": "la règle",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Schere",
           "pluriel": "-n",
-          "Mot FR": "les ciseaux"
+          "Mot FR": "les ciseaux",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Eine Geschichte verstehen",
           "pluriel": "",
-          "Mot FR": "Comprendre une histoire"
+          "Mot FR": "Comprendre une histoire",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Was ist los?",
           "pluriel": "",
-          "Mot FR": "Que se passe-t-il ?"
+          "Mot FR": "Que se passe-t-il ?",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "zuerst",
           "pluriel": "",
-          "Mot FR": "d’abord"
+          "Mot FR": "d’abord",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dann",
           "pluriel": "",
-          "Mot FR": "après, ensuite, alors"
+          "Mot FR": "après, ensuite, alors",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "danach",
           "pluriel": "",
-          "Mot FR": "après"
+          "Mot FR": "après",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "da sein",
           "pluriel": "",
-          "Mot FR": "être là"
+          "Mot FR": "être là",
+          "": ""
         },
         "15": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er ist da",
           "pluriel": "",
-          "Mot FR": "il est là"
+          "Mot FR": "il est là",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "weg sein",
           "pluriel": "",
-          "Mot FR": "être parti-e, ne plus être là,avoir disparu"
+          "Mot FR": "être parti-e, ne plus être là,avoir disparu",
+          "": ""
         },
         "17": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er ist weg",
           "pluriel": "",
-          "Mot FR": "'il est parti, il n''est plus là, il a disparu'"
+          "Mot FR": "'il est parti, il n''est plus là, il a disparu'",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Glück haben",
           "pluriel": "",
-          "Mot FR": "avoir de la chance"
+          "Mot FR": "avoir de la chance",
+          "": ""
         },
         "19": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie hat kein Glück.",
           "pluriel": "",
-          "Mot FR": "Elle n’a pas de chance."
+          "Mot FR": "Elle n’a pas de chance.",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "So ein Mist!",
           "pluriel": "",
-          "Mot FR": "Mince alors !"
+          "Mot FR": "Mince alors !",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Handy",
           "pluriel": "-s",
-          "Mot FR": "le (téléphone) portable"
+          "Mot FR": "le (téléphone) portable",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Portemonnaie",
           "pluriel": "-s",
-          "Mot FR": "le porte-monnaie"
+          "Mot FR": "le porte-monnaie",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Akku",
           "pluriel": "-s",
-          "Mot FR": "la batterie (rechargeable)"
+          "Mot FR": "la batterie (rechargeable)",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "leer",
           "pluriel": "",
-          "Mot FR": "vide"
+          "Mot FR": "vide",
+          "": ""
         },
         "25": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Der Akku ist leer.",
           "pluriel": "",
-          "Mot FR": "La batterie est vide."
+          "Mot FR": "La batterie est vide.",
+          "": ""
         },
         "26": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "klingeln",
           "pluriel": "",
-          "Mot FR": "sonner"
+          "Mot FR": "sonner",
+          "": ""
         },
         "27": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "es klingelt",
           "pluriel": "",
-          "Mot FR": "ça sonne"
+          "Mot FR": "ça sonne",
+          "": ""
         },
         "28": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Das Handy klingelt nicht.",
           "pluriel": "",
-          "Mot FR": "Le portable ne sonne pas."
+          "Mot FR": "Le portable ne sonne pas.",
+          "": ""
         },
         "29": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "zu spät sein",
           "pluriel": "",
-          "Mot FR": "être trop tard"
+          "Mot FR": "être trop tard",
+          "": ""
         },
         "30": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "Es ist zu spät.",
           "pluriel": "",
-          "Mot FR": "Il est trop tard."
+          "Mot FR": "Il est trop tard.",
+          "": ""
         },
         "31": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Mensch",
           "pluriel": "-en",
-          "Mot FR": "l’homme, l’être humain"
+          "Mot FR": "l’homme, l’être humain",
+          "": ""
         },
         "32": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Roboter",
           "pluriel": "-",
-          "Mot FR": "le robot"
+          "Mot FR": "le robot",
+          "": ""
         }
       }
     },
@@ -1041,133 +1187,152 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Herzlichen Glückwunsch zum Geburtstag!",
           "pluriel": "",
-          "Mot FR": "Joyeux anniversaire !"
+          "Mot FR": "Joyeux anniversaire !",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Frohe Ostern!",
           "pluriel": "",
-          "Mot FR": "Joyeuses Pâques !"
+          "Mot FR": "Joyeuses Pâques !",
+          "": ""
         },
         "3": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Frohe Weihnachten!",
           "pluriel": "",
-          "Mot FR": "Joyeux Noël !"
+          "Mot FR": "Joyeux Noël !",
+          "": ""
         },
         "4": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alles Gute!",
           "pluriel": "",
-          "Mot FR": "Tout de bon !"
+          "Mot FR": "Tout de bon !",
+          "": ""
         },
         "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Kommst du?",
           "pluriel": "",
-          "Mot FR": "Tu viens ?"
+          "Mot FR": "Tu viens ?",
+          "": ""
         },
         "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Viel Glück!",
           "pluriel": "",
-          "Mot FR": "Bonne chance !"
+          "Mot FR": "Bonne chance !",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Gute Reise!",
           "pluriel": "",
-          "Mot FR": "Bon voyage !"
+          "Mot FR": "Bon voyage !",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Gute Besserung!",
           "pluriel": "",
-          "Mot FR": "Bon rétablissement !"
+          "Mot FR": "Bon rétablissement !",
+          "": ""
         },
         "9": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Guten Appetit!",
           "pluriel": "",
-          "Mot FR": "Bon appétit !"
+          "Mot FR": "Bon appétit !",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Geburtstag",
           "pluriel": "-e",
-          "Mot FR": "l’anniversaire"
+          "Mot FR": "l’anniversaire",
+          "": ""
         },
         "11": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wann hast du Geburtstag?",
           "pluriel": "",
-          "Mot FR": "Quand as-tu ton anniversaire ?"
+          "Mot FR": "Quand as-tu ton anniversaire ?",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich habe am … Geburtstag",
           "pluriel": "",
-          "Mot FR": "J’ai mon anniversaire le…"
+          "Mot FR": "J’ai mon anniversaire le…",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Party",
           "pluriel": "-s",
-          "Mot FR": "la fête"
+          "Mot FR": "la fête",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wie war die Party?",
           "pluriel": "",
-          "Mot FR": "Comment était la fête ?"
+          "Mot FR": "Comment était la fête ?",
+          "": ""
         },
         "15": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Die Party war super!",
           "pluriel": "",
-          "Mot FR": "La fête était super !"
+          "Mot FR": "La fête était super !",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Kuchen",
           "pluriel": "-",
-          "Mot FR": "le gâteau"
+          "Mot FR": "le gâteau",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Saft",
           "pluriel": "ä-e",
-          "Mot FR": "le jus"
+          "Mot FR": "le jus",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Geschenk",
           "pluriel": "-e",
-          "Mot FR": "le cadeau"
+          "Mot FR": "le cadeau",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Eistee",
           "pluriel": "-s",
-          "Mot FR": "le thé froid"
+          "Mot FR": "le thé froid",
+          "": ""
         }
       },
       "p26": {
@@ -1176,196 +1341,224 @@
           "Der-Die-Das": "die",
           "Mot en ALL": "Geburtstagsparty",
           "pluriel": "-s",
-          "Mot FR": "la fête d’anniversaire"
+          "Mot FR": "la fête d’anniversaire",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "feiern, er feiert",
           "pluriel": "",
-          "Mot FR": "fêter, faire la fête"
+          "Mot FR": "fêter, faire la fête",
+          "": ""
         },
         "3": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wir feiern im Garten",
           "pluriel": "",
-          "Mot FR": "Nous faisons la fête dans le jardin."
+          "Mot FR": "Nous faisons la fête dans le jardin.",
+          "": ""
         },
         "4": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "ein|laden, er lädt ein",
           "pluriel": "",
-          "Mot FR": "inviter"
+          "Mot FR": "inviter",
+          "": ""
         },
         "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich lade meine Freunde ein.",
           "pluriel": "",
-          "Mot FR": "J’invite mes amis."
+          "Mot FR": "J’invite mes amis.",
+          "": ""
         },
         "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Komm doch später!",
           "pluriel": "",
-          "Mot FR": "Viens donc plus tard !"
+          "Mot FR": "Viens donc plus tard !",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "mit|bringen, er bringt … mịt",
           "pluriel": "",
-          "Mot FR": "apporter"
+          "Mot FR": "apporter",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie bringt ein Geschenk mit.",
           "pluriel": "",
-          "Mot FR": "Elle apporte un cadeau."
+          "Mot FR": "Elle apporte un cadeau.",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Ausflug",
           "pluriel": "ü-e",
-          "Mot FR": "l’excursion, la sortie"
+          "Mot FR": "l’excursion, la sortie",
+          "": ""
         },
         "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wir machen einen Ausflug in die Berge.",
           "pluriel": "",
-          "Mot FR": "Nous faisons une excursion à la montagne."
+          "Mot FR": "Nous faisons une excursion à la montagne.",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Gast",
           "pluriel": "ä-e",
-          "Mot FR": "l’hôte, l’invité"
+          "Mot FR": "l’hôte, l’invité",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Gestern hatte ich keine Zeit/Lust.",
           "pluriel": "",
-          "Mot FR": "Hier, je n’avais pas le temps / pas envie."
+          "Mot FR": "Hier, je n’avais pas le temps / pas envie.",
+          "": ""
         },
         "13": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "früh auf |stehen, er steht früh auf",
           "pluriel": "",
-          "Mot FR": "se lever tôt"
+          "Mot FR": "se lever tôt",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "lange schlafen, er schläft lange",
           "pluriel": "",
-          "Mot FR": "dormir longtemps"
+          "Mot FR": "dormir longtemps",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Einladung",
           "pluriel": "-en",
-          "Mot FR": "l’invitation"
+          "Mot FR": "l’invitation",
+          "": ""
         },
         "16": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Danke für deine Einladung.",
           "pluriel": "",
-          "Mot FR": "Merci pour ton invitation."
+          "Mot FR": "Merci pour ton invitation.",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Jugendlichen (Plural)",
           "pluriel": "",
-          "Mot FR": "les jeunes"
+          "Mot FR": "les jeunes",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "König",
           "pluriel": "-e",
-          "Mot FR": "le roi"
+          "Mot FR": "le roi",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Königin",
           "pluriel": "-nen",
-          "Mot FR": "la reine"
+          "Mot FR": "la reine",
+          "": ""
         },
         "20": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Frühling",
           "pluriel": "",
-          "Mot FR": "au printemps"
+          "Mot FR": "au printemps",
+          "": ""
         },
         "21": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Sommer",
           "pluriel": "",
-          "Mot FR": "en été"
+          "Mot FR": "en été",
+          "": ""
         },
         "22": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Herbst",
           "pluriel": "",
-          "Mot FR": "en automne"
+          "Mot FR": "en automne",
+          "": ""
         },
         "23": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Winter",
           "pluriel": "",
-          "Mot FR": "en hiver"
+          "Mot FR": "en hiver",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Monat",
           "pluriel": "-e",
-          "Mot FR": "le mois"
+          "Mot FR": "le mois",
+          "": ""
         },
         "25": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Januar",
           "pluriel": "",
-          "Mot FR": "en janvier"
+          "Mot FR": "en janvier",
+          "": ""
         },
         "26": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Februar",
           "pluriel": "",
-          "Mot FR": "en février"
+          "Mot FR": "en février",
+          "": ""
         },
         "27": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im März",
           "pluriel": "",
-          "Mot FR": "en mars"
+          "Mot FR": "en mars",
+          "": ""
         },
         "28": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im April",
           "pluriel": "",
-          "Mot FR": "en avril"
+          "Mot FR": "en avril",
+          "": ""
         }
       },
       "p27": {
@@ -1374,147 +1567,168 @@
           "Der-Die-Das": "",
           "Mot en ALL": "im Mai",
           "pluriel": "",
-          "Mot FR": "en mai"
+          "Mot FR": "en mai",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Juni",
           "pluriel": "",
-          "Mot FR": "en juin"
+          "Mot FR": "en juin",
+          "": ""
         },
         "3": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Juli",
           "pluriel": "",
-          "Mot FR": "en juillet"
+          "Mot FR": "en juillet",
+          "": ""
         },
         "4": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im August",
           "pluriel": "",
-          "Mot FR": "en août"
+          "Mot FR": "en août",
+          "": ""
         },
         "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Septẹmber",
           "pluriel": "",
-          "Mot FR": "en septembre"
+          "Mot FR": "en septembre",
+          "": ""
         },
         "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Oktober",
           "pluriel": "",
-          "Mot FR": "en octobre"
+          "Mot FR": "en octobre",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im November",
           "pluriel": "",
-          "Mot FR": "en novembre"
+          "Mot FR": "en novembre",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "im Dezember",
           "pluriel": "",
-          "Mot FR": "en décembre"
+          "Mot FR": "en décembre",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Kalender",
           "pluriel": "-",
-          "Mot FR": "le calendrier"
+          "Mot FR": "le calendrier",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Jahreszeit",
           "pluriel": "-en",
-          "Mot FR": "la saison"
+          "Mot FR": "la saison",
+          "": ""
         },
         "11": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Es gibt vier Jahreszeiten.",
           "pluriel": "",
-          "Mot FR": "Il y a quatre saisons."
+          "Mot FR": "Il y a quatre saisons.",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "immer",
           "pluriel": "",
-          "Mot FR": "toujours"
+          "Mot FR": "toujours",
+          "": ""
         },
         "13": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "meistens",
           "pluriel": "",
-          "Mot FR": "le plus souvent, la plupart du temps"
+          "Mot FR": "le plus souvent, la plupart du temps",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "oft",
           "pluriel": "",
-          "Mot FR": "souvent"
+          "Mot FR": "souvent",
+          "": ""
         },
         "15": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "manchmal",
           "pluriel": "",
-          "Mot FR": "parfois"
+          "Mot FR": "parfois",
+          "": ""
         },
         "16": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "nie",
           "pluriel": "",
-          "Mot FR": "jamais"
+          "Mot FR": "jamais",
+          "": ""
         },
         "17": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "krank",
           "pluriel": "",
-          "Mot FR": "malade"
+          "Mot FR": "malade",
+          "": ""
         },
         "18": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wie geht es dir?",
           "pluriel": "",
-          "Mot FR": "Comment vas-tu?"
+          "Mot FR": "Comment vas-tu?",
+          "": ""
         },
         "19": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Es geht mir schlecht",
           "pluriel": "",
-          "Mot FR": "Je vais mal"
+          "Mot FR": "Je vais mal",
+          "": ""
         },
         "20": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "nicht so gut",
           "pluriel": "",
-          "Mot FR": "pas très bien"
+          "Mot FR": "pas très bien",
+          "": ""
         },
         "21": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "besser",
           "pluriel": "",
-          "Mot FR": "mieux"
+          "Mot FR": "mieux",
+          "": ""
         }
       },
       "p28": {
@@ -1523,70 +1737,80 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Ich habe Fieber.",
           "pluriel": "",
-          "Mot FR": "J’ai de la fièvre."
+          "Mot FR": "J’ai de la fièvre.",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich habe Bauchweh.",
           "pluriel": "",
-          "Mot FR": "J’ai mal de ventre."
+          "Mot FR": "J’ai mal de ventre.",
+          "": ""
         },
         "3": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Gestern hatte ich Kopfweh.",
           "pluriel": "",
-          "Mot FR": "Hier, j’avais mal de tête."
+          "Mot FR": "Hier, j’avais mal de tête.",
+          "": ""
         },
         "4": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Bist du jetzt wieder o. k.?",
           "pluriel": "",
-          "Mot FR": "Es-tu de nouveau en forme ?"
+          "Mot FR": "Es-tu de nouveau en forme ?",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Unfall",
           "pluriel": "ä-e",
-          "Mot FR": "l’accident"
+          "Mot FR": "l’accident",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Krankenhaus",
           "pluriel": "ä-er",
-          "Mot FR": "l’hôpital"
+          "Mot FR": "l’hôpital",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Warst du im Krankenhaus?",
           "pluriel": "",
-          "Mot FR": "Tu étais à l’hôpital?"
+          "Mot FR": "Tu étais à l’hôpital?",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "furchtbar",
           "pluriel": "",
-          "Mot FR": "terrible, horrible"
+          "Mot FR": "terrible, horrible",
+          "": ""
         },
         "9": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Der Test war furchtbar!",
           "pluriel": "",
-          "Mot FR": "Le test était horrible !"
+          "Mot FR": "Le test était horrible !",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Katastrophe",
           "pluriel": "-n",
-          "Mot FR": "la catastrophe"
+          "Mot FR": "la catastrophe",
+          "": ""
         }
       }
     },
@@ -1597,168 +1821,192 @@
           "Der-Die-Das": "Das",
           "Mot en ALL": "Museum",
           "pluriel": "die Museen",
-          "Mot FR": "le musée"
+          "Mot FR": "le musée",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Zoo",
           "pluriel": "-s",
-          "Mot FR": "le zoo"
+          "Mot FR": "le zoo",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Zentrum",
           "pluriel": "",
-          "Mot FR": "le centre"
+          "Mot FR": "le centre",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Fahrkarte",
           "pluriel": "-n",
-          "Mot FR": "le billet, le titre de transport"
+          "Mot FR": "le billet, le titre de transport",
+          "": ""
         },
         "5": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "kaufen, er kauft, hat gekauft",
           "pluriel": "",
-          "Mot FR": "acheter (conjugaison)"
+          "Mot FR": "acheter (conjugaison)",
+          "": ""
         },
         "6": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "essen, er isst, hat gegessen",
           "pluriel": "",
-          "Mot FR": "manger (conjugaison)"
+          "Mot FR": "manger (conjugaison)",
+          "": ""
         },
         "7": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "besuchen, er besucht, hat besucht",
           "pluriel": "",
-          "Mot FR": "visiter (conjugaison)"
+          "Mot FR": "visiter (conjugaison)",
+          "": ""
         },
         "8": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "mit|kommen, er kommt mit, ist mitgekommen",
           "pluriel": "",
-          "Mot FR": "venir avec qqn (conjugaison)"
+          "Mot FR": "venir avec qqn (conjugaison)",
+          "": ""
         },
         "9": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "kommst du mit?",
           "pluriel": "",
-          "Mot FR": "Tu viens (avec moi avec nous)?"
+          "Mot FR": "Tu viens (avec moi avec nous)?",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Kirche",
           "pluriel": "-n",
-          "Mot FR": "l église"
+          "Mot FR": "l église",
+          "": ""
         },
         "11": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie geht in die Kirche",
           "pluriel": "",
-          "Mot FR": "elle va à l’église"
+          "Mot FR": "elle va à l’église",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Turm",
           "pluriel": "\"-e",
-          "Mot FR": "la tour"
+          "Mot FR": "la tour",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Brücke",
           "pluriel": "-n",
-          "Mot FR": "Le pont"
+          "Mot FR": "Le pont",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wir gehen über die Brücke",
           "pluriel": "",
-          "Mot FR": "Nous traversons le pont"
+          "Mot FR": "Nous traversons le pont",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Stadion",
           "pluriel": "Stadien",
-          "Mot FR": "le stade"
+          "Mot FR": "le stade",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Fussballstadion",
           "pluriel": "-stadien",
-          "Mot FR": "le stade de football"
+          "Mot FR": "le stade de football",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Polizei",
           "pluriel": "",
-          "Mot FR": "la police"
+          "Mot FR": "la police",
+          "": ""
         },
         "18": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "steigen, er steigt, ist gestiegen",
           "pluriel": "",
-          "Mot FR": " Jens et Martina ont rangé la cuisine"
+          "Mot FR": " Jens et Martina ont rangé la cuisine",
+          "": ""
         },
         "19": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wir sind auf dem Turm gestiegen",
           "pluriel": "",
-          "Mot FR": "nous sommes montés en haut de la tour"
+          "Mot FR": "nous sommes montés en haut de la tour",
+          "": ""
         },
         "20": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "besichtigen, er besichtigt, hat besichtigt",
           "pluriel": "",
-          "Mot FR": "visiter (la ville) (conjugaison)"
+          "Mot FR": "visiter (la ville) (conjugaison)",
+          "": ""
         },
         "21": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wie haben die Stadt besichtigt",
           "pluriel": "",
-          "Mot FR": "nous avons visité la ville"
+          "Mot FR": "nous avons visité la ville",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Meter",
           "pluriel": "-",
-          "Mot FR": "le mètre"
+          "Mot FR": "le mètre",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Altstadt",
           "pluriel": "ä-e",
-          "Mot FR": "la vieille ville, la cité"
+          "Mot FR": "la vieille ville, la cité",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Kunstmuseum",
           "pluriel": "-museen",
-          "Mot FR": "le musée d’art"
+          "Mot FR": "le musée d’art",
+          "": ""
         }
       },
       "p40": {
@@ -1767,154 +2015,176 @@
           "Der-Die-Das": "Die",
           "Mot en ALL": "Reise",
           "pluriel": "-n",
-          "Mot FR": "le voyage"
+          "Mot FR": "le voyage",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alle sind müde und schlafen",
           "pluriel": "",
-          "Mot FR": "tous sont fatigués et dorment"
+          "Mot FR": "tous sont fatigués et dorment",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Treffpunkt",
           "pluriel": "-e",
-          "Mot FR": "le point de rencontre"
+          "Mot FR": "le point de rencontre",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Internet",
           "pluriel": "",
-          "Mot FR": "internet"
+          "Mot FR": "internet",
+          "": ""
         },
         "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Im Hostel ist das Internet gratis",
           "pluriel": "",
-          "Mot FR": "A l auberge, l accès internet est gratuit"
+          "Mot FR": "A l auberge, l accès internet est gratuit",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Taschengeld",
           "pluriel": "",
-          "Mot FR": "l argent de poche (toujours au singulier)"
+          "Mot FR": "l argent de poche (toujours au singulier)",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Souvenir",
           "pluriel": "s",
-          "Mot FR": "Le souvenir"
+          "Mot FR": "Le souvenir",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "WLAN",
           "pluriel": "",
-          "Mot FR": "wifi"
+          "Mot FR": "wifi",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "gratis",
           "pluriel": "",
-          "Mot FR": "gratuit"
+          "Mot FR": "gratuit",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Tram",
           "pluriel": "",
-          "Mot FR": "le tram"
+          "Mot FR": "le tram",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "müde",
           "pluriel": "",
-          "Mot FR": "fatigué,-e"
+          "Mot FR": "fatigué,-e",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Abfahrt",
           "pluriel": "en",
-          "Mot FR": "le départ"
+          "Mot FR": "le départ",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Ankunft",
           "pluriel": "ü-e",
-          "Mot FR": "L arrivée"
+          "Mot FR": "L arrivée",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Rückreise",
           "pluriel": "n",
-          "Mot FR": "le retour"
+          "Mot FR": "le retour",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Strassenbahn",
           "pluriel": "en",
-          "Mot FR": "le tram(way)"
+          "Mot FR": "le tram(way)",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "Die",
           "Mot en ALL": "Ruhe",
           "pluriel": "",
-          "Mot FR": "le silence (toujours au singulier)"
+          "Mot FR": "le silence (toujours au singulier)",
+          "": ""
         },
         "18": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ab 22 Uhr ist Ruhe",
           "pluriel": "",
-          "Mot FR": "A partir de 22 H le silence est de rigueur"
+          "Mot FR": "A partir de 22 H le silence est de rigueur",
+          "": ""
         },
         "19": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Er hat kein Geld mehr",
           "pluriel": "",
-          "Mot FR": "il n’a plus d argent"
+          "Mot FR": "il n’a plus d argent",
+          "": ""
         },
         "20": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "pleite sein, er ist pleite",
           "pluriel": "",
-          "Mot FR": "être fauché,-e"
+          "Mot FR": "être fauché,-e",
+          "": ""
         },
         "21": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "leihen, er leiht, hat geliehen",
           "pluriel": "",
-          "Mot FR": "prêter"
+          "Mot FR": "prêter",
+          "": ""
         },
         "22": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Man kann Fahrräder leihen",
           "pluriel": "",
-          "Mot FR": "on peut prêter des bicyclettes"
+          "Mot FR": "on peut prêter des bicyclettes",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Gepäck",
           "pluriel": "",
-          "Mot FR": "les bagages (toujours au singulier)"
+          "Mot FR": "les bagages (toujours au singulier)",
+          "": ""
         }
       },
       "p41": {
@@ -1923,140 +2193,160 @@
           "Der-Die-Das": "",
           "Mot en ALL": "ab/geben, er gibt ab, hat abgegeben",
           "pluriel": "",
-          "Mot FR": "déposer"
+          "Mot FR": "déposer",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Speisesaal",
           "pluriel": "ä-e",
-          "Mot FR": "la salle à manger"
+          "Mot FR": "la salle à manger",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "Das",
           "Mot en ALL": "Geschenk",
           "pluriel": "e",
-          "Mot FR": "le cadeau"
+          "Mot FR": "le cadeau",
+          "": ""
         },
         "4": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "kochen er kocht, er hat gekocht",
           "pluriel": "",
-          "Mot FR": "cuisiner"
+          "Mot FR": "cuisiner",
+          "": ""
         },
         "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "probieren, er probiert, er hat probiert",
           "pluriel": "",
-          "Mot FR": "essayer"
+          "Mot FR": "essayer",
+          "": ""
         },
         "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "zeigen, er zeigt, er hat gezeigt",
           "pluriel": "",
-          "Mot FR": "montrer"
+          "Mot FR": "montrer",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "aus/packen, er packt aus, er hat ausgepackt",
           "pluriel": "",
-          "Mot FR": "déballer, ouvrir"
+          "Mot FR": "déballer, ouvrir",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Victor hat die Geschenke ausgepackt",
           "pluriel": "",
-          "Mot FR": "Victor a ouvert les cadeaux"
+          "Mot FR": "Victor a ouvert les cadeaux",
+          "": ""
         },
         "9": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "reden, er redet, er hat geredet",
           "pluriel": "",
-          "Mot FR": "parler"
+          "Mot FR": "parler",
+          "": ""
         },
         "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Musik hören, er hört, hat gehört",
           "pluriel": "",
-          "Mot FR": "écouter de la musique"
+          "Mot FR": "écouter de la musique",
+          "": ""
         },
         "11": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "tanzen, er tanzt, hat getanzt",
           "pluriel": "",
-          "Mot FR": "danser"
+          "Mot FR": "danser",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "auf/räumen, er räumt auf, hat aufgeräumt",
           "pluriel": "",
-          "Mot FR": "ranger"
+          "Mot FR": "ranger",
+          "": ""
         },
         "13": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Jens und Martina haben die Küche aufgeräumt",
           "pluriel": "",
-          "Mot FR": " Jens et Martina ont rangé la cuisine"
+          "Mot FR": " Jens et Martina ont rangé la cuisine",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "küssen, er küsst, hat geküsst",
           "pluriel": "",
-          "Mot FR": "embrasser"
+          "Mot FR": "embrasser",
+          "": ""
         },
         "15": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wer hat Jens geküsst?",
           "pluriel": "",
-          "Mot FR": "qui a embrassé Jens?"
+          "Mot FR": "qui a embrassé Jens?",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "stimmen",
           "pluriel": "",
-          "Mot FR": "être juste, vrai"
+          "Mot FR": "être juste, vrai",
+          "": ""
         },
         "17": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "das stimmt",
           "pluriel": "",
-          "Mot FR": "c’est juste"
+          "Mot FR": "c’est juste",
+          "": ""
         },
         "18": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "das stimmt nicht",
           "pluriel": "",
-          "Mot FR": "ce n’est pas juste/vrai"
+          "Mot FR": "ce n’est pas juste/vrai",
+          "": ""
         },
         "19": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "sauer sein, er ist sauer",
           "pluriel": "",
-          "Mot FR": "être fâché"
+          "Mot FR": "être fâché",
+          "": ""
         },
         "20": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alexandra ist sauer",
           "pluriel": "",
-          "Mot FR": "Alexandra est fâchée"
+          "Mot FR": "Alexandra est fâchée",
+          "": ""
         }
       },
       "p42": {
@@ -2065,84 +2355,96 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Entschuldigung!",
           "pluriel": "",
-          "Mot FR": "Excusez moi"
+          "Mot FR": "Excusez moi",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich hätte gern",
           "pluriel": "",
-          "Mot FR": "J’aimerai bien…"
+          "Mot FR": "J’aimerai bien…",
+          "": ""
         },
         "3": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wie viel kostet…",
           "pluriel": "",
-          "Mot FR": "Combien coûte…"
+          "Mot FR": "Combien coûte…",
+          "": ""
         },
         "4": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wie spät ist es?",
           "pluriel": "",
-          "Mot FR": "Quelle heure est il?"
+          "Mot FR": "Quelle heure est il?",
+          "": ""
         },
         "5": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wo ist die Toilette, bitte?",
           "pluriel": "",
-          "Mot FR": "Où sont les toilettes SVP?"
+          "Mot FR": "Où sont les toilettes SVP?",
+          "": ""
         },
         "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wie komme ich….",
           "pluriel": "",
-          "Mot FR": "comment est ce que je vais …"
+          "Mot FR": "comment est ce que je vais …",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "… zur Polizei?",
           "pluriel": "",
-          "Mot FR": "à la police?"
+          "Mot FR": "à la police?",
+          "": ""
         },
         "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "...zum Bahnhof?",
           "pluriel": "",
-          "Mot FR": "à la gare?"
+          "Mot FR": "à la gare?",
+          "": ""
         },
         "9": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Welcher Bus fährt ins Zentrum?",
           "pluriel": "",
-          "Mot FR": "Quel bus va dans le centre?"
+          "Mot FR": "Quel bus va dans le centre?",
+          "": ""
         },
         "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wann fährt…?",
           "pluriel": "",
-          "Mot FR": "A quelle heure part…?"
+          "Mot FR": "A quelle heure part…?",
+          "": ""
         },
         "11": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Gibt es hier Fahrkarten?",
           "pluriel": "",
-          "Mot FR": "Y a t il des billets ici?"
+          "Mot FR": "Y a t il des billets ici?",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Kann ich bitte noch eine Cola haben?",
           "pluriel": "",
-          "Mot FR": "Pourrais je encore avoir un coco SVP?"
+          "Mot FR": "Pourrais je encore avoir un coco SVP?",
+          "": ""
         }
       }
     },
@@ -2153,126 +2455,144 @@
           "Der-Die-Das": "der",
           "Mot en ALL": "Freund",
           "pluriel": "-e",
-          "Mot FR": "l’ami"
+          "Mot FR": "l’ami",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Freundin",
           "pluriel": "-nen",
-          "Mot FR": "l’amie"
+          "Mot FR": "l’amie",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Junge",
           "pluriel": "-n",
-          "Mot FR": "le garçon"
+          "Mot FR": "le garçon",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Mädchen",
           "pluriel": "-",
-          "Mot FR": "la fille"
+          "Mot FR": "la fille",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Lied",
           "pluriel": "-er",
-          "Mot FR": "la chanson"
+          "Mot FR": "la chanson",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "tanzen",
           "pluriel": "",
-          "Mot FR": "danser"
+          "Mot FR": "danser",
+          "": ""
         },
         "7": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "tanzen, er tanzt, er hat getanzt",
           "pluriel": "",
-          "Mot FR": "danser (conjugaison)"
+          "Mot FR": "danser (conjugaison)",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "langweilig",
           "pluriel": "",
-          "Mot FR": "ennuyeux,-euse"
+          "Mot FR": "ennuyeux,-euse",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "kennen|lernen",
           "pluriel": "",
-          "Mot FR": "faire la connaissance de"
+          "Mot FR": "faire la connaissance de",
+          "": ""
         },
         "10": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er lernt Caro kennen",
           "pluriel": "",
-          "Mot FR": "il fait la connaissance de Caro"
+          "Mot FR": "il fait la connaissance de Caro",
+          "": ""
         },
         "11": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "er hat Caro kennengelernt",
           "pluriel": "",
-          "Mot FR": "il a fait la connaissance de Caro"
+          "Mot FR": "il a fait la connaissance de Caro",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "sich treffen",
           "pluriel": "",
-          "Mot FR": "(se) rencontrer"
+          "Mot FR": "(se) rencontrer",
+          "": ""
         },
         "13": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "treffen, er trịfft sich, er hat sich getroffen",
           "pluriel": "",
-          "Mot FR": "se rencontrer (conjugaison)"
+          "Mot FR": "se rencontrer (conjugaison)",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Martina und Jens haben sich getroffen.",
           "pluriel": "",
-          "Mot FR": "Martina et Jens se sont rencontrés."
+          "Mot FR": "Martina et Jens se sont rencontrés.",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "sprechen",
           "pluriel": "",
-          "Mot FR": "parler"
+          "Mot FR": "parler",
+          "": ""
         },
         "16": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "sprechen, er spricht, hat gesprochen",
           "pluriel": "",
-          "Mot FR": "parler (conjugaison)"
+          "Mot FR": "parler (conjugaison)",
+          "": ""
         },
         "17": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alexandra hat mit Martina gesprochen.",
           "pluriel": "",
-          "Mot FR": "Alexandra a parlé avec Martina."
+          "Mot FR": "Alexandra a parlé avec Martina.",
+          "": ""
         },
         "18": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "fern|sehen, er sieht fern, hat ferngesehen",
           "pluriel": "",
-          "Mot FR": "regarder la télé (conjugaison)"
+          "Mot FR": "regarder la télé (conjugaison)",
+          "": ""
         }
       },
       "p46": {
@@ -2281,245 +2601,280 @@
           "Der-Die-Das": "",
           "Mot en ALL": "zusammen",
           "pluriel": "",
-          "Mot FR": "ensemble"
+          "Mot FR": "ensemble",
+          "": ""
         },
         "2": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Wir spielen zusammen Fussball.",
           "pluriel": "",
-          "Mot FR": "Nous jouons au football ensemble."
+          "Mot FR": "Nous jouons au football ensemble.",
+          "": ""
         },
         "3": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Was ist passiert?",
           "pluriel": "",
-          "Mot FR": "Qu’est-ce qui s’est passé ?"
+          "Mot FR": "Qu’est-ce qui s’est passé ?",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "gehen",
           "pluriel": "",
-          "Mot FR": "aller"
+          "Mot FR": "aller",
+          "": ""
         },
         "5": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "gehen, er geht, ist gegangen",
           "pluriel": "",
-          "Mot FR": "aller (conjugaison)"
+          "Mot FR": "aller (conjugaison)",
+          "": ""
         },
         "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Martina und Jens sind ins Kino gegangen.",
           "pluriel": "",
-          "Mot FR": "Martina et Jens sont allés au cinéma."
+          "Mot FR": "Martina et Jens sont allés au cinéma.",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "sein",
           "pluriel": "",
-          "Mot FR": "être"
+          "Mot FR": "être",
+          "": ""
         },
         "8": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "sein, er ist, ist gewesen",
           "pluriel": "",
-          "Mot FR": "être (conjugaison)"
+          "Mot FR": "être (conjugaison)",
+          "": ""
         },
         "9": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sophie ist auch im Kino gewesen.",
           "pluriel": "",
-          "Mot FR": "Sophie a aussi été au cinéma."
+          "Mot FR": "Sophie a aussi été au cinéma.",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "zu|hören",
           "pluriel": "",
-          "Mot FR": "écouter"
+          "Mot FR": "écouter",
+          "": ""
         },
         "11": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "zu|hören, er hört zu, hat zugehört",
           "pluriel": "",
-          "Mot FR": "écouter (conjugaison)"
+          "Mot FR": "écouter (conjugaison)",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "lügen",
           "pluriel": "",
-          "Mot FR": "mentir"
+          "Mot FR": "mentir",
+          "": ""
         },
         "13": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "lügen, er lügt, hat gelogen",
           "pluriel": "",
-          "Mot FR": "mentir (conjugaison)"
+          "Mot FR": "mentir (conjugaison)",
+          "": ""
         },
         "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Martina hat gelogen.",
           "pluriel": "",
-          "Mot FR": "Martina a menti."
+          "Mot FR": "Martina a menti.",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Freundschaft",
           "pluriel": "-en",
-          "Mot FR": "l’amitié"
+          "Mot FR": "l’amitié",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Tagebuch",
           "pluriel": "ü-er",
-          "Mot FR": "le journal (intime)"
+          "Mot FR": "le journal (intime)",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "wütend",
           "pluriel": "",
-          "Mot FR": "furieux-euse"
+          "Mot FR": "furieux-euse",
+          "": ""
         },
         "18": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alexandra ist wütend.",
           "pluriel": "",
-          "Mot FR": "Alexandra est furieuse."
+          "Mot FR": "Alexandra est furieuse.",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "helfen",
           "pluriel": "",
-          "Mot FR": "aider"
+          "Mot FR": "aider",
+          "": ""
         },
         "20": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "helfen, er hilft, hat geholfen",
           "pluriel": "",
-          "Mot FR": "aider (conjugaison)"
+          "Mot FR": "aider (conjugaison)",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Anfang",
           "pluriel": "ä-e",
-          "Mot FR": "le début"
+          "Mot FR": "le début",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Tipp",
           "pluriel": "-s",
-          "Mot FR": "le conseil"
+          "Mot FR": "le conseil",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "enttäuscht",
           "pluriel": "",
-          "Mot FR": "déçu-e"
+          "Mot FR": "déçu-e",
+          "": ""
         },
         "24": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alexandra ist enttäuscht.",
           "pluriel": "",
-          "Mot FR": "Alexandra est déçue."
+          "Mot FR": "Alexandra est déçue.",
+          "": ""
         },
         "25": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Streit",
           "pluriel": "(Sg.)",
-          "Mot FR": "la dispute"
+          "Mot FR": "la dispute",
+          "": ""
         },
         "26": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Alexandra und Martina haben Streit.",
           "pluriel": "",
-          "Mot FR": "Alexandra et Martina ont une dispute."
+          "Mot FR": "Alexandra et Martina ont une dispute.",
+          "": ""
         },
         "27": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Freunde fürs Leben",
           "pluriel": "",
-          "Mot FR": "des amis pour la vie"
+          "Mot FR": "des amis pour la vie",
+          "": ""
         },
         "28": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "nicht mehr",
           "pluriel": "",
-          "Mot FR": "ne… plus"
+          "Mot FR": "ne… plus",
+          "": ""
         },
         "29": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "nicht mehr zusammen",
           "pluriel": "",
-          "Mot FR": "sein ne plus être ensemble"
+          "Mot FR": "sein ne plus être ensemble",
+          "": ""
         },
         "30": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "keine Freunde/Freundinnen mehr sein",
           "pluriel": "",
-          "Mot FR": "ne plus être ami(e)s"
+          "Mot FR": "ne plus être ami(e)s",
+          "": ""
         },
         "31": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Was soll ich nur machen?",
           "pluriel": "",
-          "Mot FR": "Que dois-je faire ?"
+          "Mot FR": "Que dois-je faire ?",
+          "": ""
         },
         "32": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "sich fühlen",
           "pluriel": "",
-          "Mot FR": "se sentir"
+          "Mot FR": "se sentir",
+          "": ""
         },
         "33": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "sich fühlen, er fühlt sich, hat sich gefühlt",
           "pluriel": "",
-          "Mot FR": "se sentir (conjugaison)"
+          "Mot FR": "se sentir (conjugaison)",
+          "": ""
         },
         "34": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "fehlen",
           "pluriel": "",
-          "Mot FR": "manquer, tu me manques"
+          "Mot FR": "manquer, tu me manques",
+          "": ""
         },
         "35": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "fehlen, du fehlst mir, du hast mir gefehlt",
           "pluriel": "",
-          "Mot FR": "manquer, tu me manques, tu m’as manqué"
+          "Mot FR": "manquer, tu me manques, tu m’as manqué",
+          "": ""
         }
       },
       "p47": {
@@ -2528,224 +2883,686 @@
           "Der-Die-Das": "",
           "Mot en ALL": "sportlich",
           "pluriel": "",
-          "Mot FR": "sportif-ive"
+          "Mot FR": "sportif-ive",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unsportlich",
           "pluriel": "",
-          "Mot FR": "pas sportif-ive"
+          "Mot FR": "pas sportif-ive",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "intelligent",
           "pluriel": "",
-          "Mot FR": "intelligent-e"
+          "Mot FR": "intelligent-e",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dumm",
           "pluriel": "",
-          "Mot FR": "bête"
+          "Mot FR": "bête",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "lustig",
           "pluriel": "",
-          "Mot FR": "drôle,amusant-e"
+          "Mot FR": "drôle,amusant-e",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "traurig",
           "pluriel": "",
-          "Mot FR": "triste"
+          "Mot FR": "triste",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "sympathisch",
           "pluriel": "",
-          "Mot FR": "sympathique"
+          "Mot FR": "sympathique",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unsympathisch",
           "pluriel": "",
-          "Mot FR": "antipathique,désagréable"
+          "Mot FR": "antipathique,désagréable",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "fair",
           "pluriel": "",
-          "Mot FR": "juste"
+          "Mot FR": "juste",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unfair",
           "pluriel": "",
-          "Mot FR": "injuste"
+          "Mot FR": "injuste",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "glücklich",
           "pluriel": "",
-          "Mot FR": "heureux-euse"
+          "Mot FR": "heureux-euse",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unglücklich",
           "pluriel": "",
-          "Mot FR": "malheureux-euse"
+          "Mot FR": "malheureux-euse",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "freundlich",
           "pluriel": "",
-          "Mot FR": "aimable"
+          "Mot FR": "aimable",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unfreundlich",
           "pluriel": "",
-          "Mot FR": "peu aimable,désagréable"
+          "Mot FR": "peu aimable,désagréable",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "geduldig",
           "pluriel": "",
-          "Mot FR": "patient-e"
+          "Mot FR": "patient-e",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "ungeduldig",
           "pluriel": "",
-          "Mot FR": "impatient-e"
+          "Mot FR": "impatient-e",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "pünktlich",
           "pluriel": "",
-          "Mot FR": "ponctuel-le"
+          "Mot FR": "ponctuel-le",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unpünktlich",
           "pluriel": "",
-          "Mot FR": "en retard"
+          "Mot FR": "en retard",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "mutig",
           "pluriel": "",
-          "Mot FR": "courageux-euse"
+          "Mot FR": "courageux-euse",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "feige",
           "pluriel": "",
-          "Mot FR": "lâche"
+          "Mot FR": "lâche",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "ehrlich",
           "pluriel": "",
-          "Mot FR": "sincère"
+          "Mot FR": "sincère",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "unehrlich",
           "pluriel": "",
-          "Mot FR": "pas franc, franche"
+          "Mot FR": "pas franc, franche",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "komisch",
           "pluriel": "",
-          "Mot FR": "drôle,bizarre"
+          "Mot FR": "drôle,bizarre",
+          "": ""
         },
         "24": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Du bist lustig.",
           "pluriel": "",
-          "Mot FR": "Tu es drôle."
+          "Mot FR": "Tu es drôle.",
+          "": ""
         },
         "25": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Dein T-Shirt ist cool.",
           "pluriel": "",
-          "Mot FR": "Ton t-shirt est cool."
+          "Mot FR": "Ton t-shirt est cool.",
+          "": ""
         },
         "26": {
           "Type": "mot",
           "Der-Die-Das": "das",
           "Mot en ALL": "Kompliment",
           "pluriel": "-e",
-          "Mot FR": "le compliment"
+          "Mot FR": "le compliment",
+          "": ""
         },
         "27": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Komplimente machen, er macht, hat gemacht",
           "pluriel": "",
-          "Mot FR": "faire des compliments"
+          "Mot FR": "faire des compliments",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "gefallen",
           "pluriel": "",
-          "Mot FR": "plaire"
+          "Mot FR": "plaire",
+          "": ""
         },
         "29": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "gefallen, er gefällt ihm, er hat ihm gefallen",
           "pluriel": "",
-          "Mot FR": "plaire à qqn, il lui plaît, il lui a plu"
+          "Mot FR": "plaire à qqn, il lui plaît, il lui a plu",
+          "": ""
         },
         "30": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Du kannst gut singen.",
           "pluriel": "",
-          "Mot FR": "Tu sais bien chanter."
+          "Mot FR": "Tu sais bien chanter.",
+          "": ""
         },
         "31": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich finde dich nett.",
           "pluriel": "",
-          "Mot FR": "Je pense que tu es gentil."
+          "Mot FR": "Je pense que tu es gentil.",
+          "": ""
         },
         "32": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Ich mag dein Lachen.",
           "pluriel": "",
-          "Mot FR": "J’aime bien ton rire."
+          "Mot FR": "J’aime bien ton rire.",
+          "": ""
+        }
+      }
+    },
+    "voc5": {
+      "p31": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Karte",
+          "pluriel": "-n",
+          "Mot FR": "la carte",
+          "": ""
+        },
+        "2": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wo liegt das?",
+          "pluriel": "",
+          "Mot FR": "Où est-ce que ça se trouve ?",
+          "": ""
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "im Norden",
+          "pluriel": "",
+          "Mot FR": "au nord",
+          "": ""
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "im Süden",
+          "pluriel": "",
+          "Mot FR": "au sud",
+          "": ""
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "im Osten",
+          "pluriel": "",
+          "Mot FR": "à l’est",
+          "": ""
+        },
+        "6": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "im Westen",
+          "pluriel": "",
+          "Mot FR": "à l’ouest",
+          "": ""
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "in der Mitte",
+          "pluriel": "",
+          "Mot FR": "au centre, au milieu",
+          "": ""
+        },
+        "8": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "leben",
+          "pluriel": "",
+          "Mot FR": "vivre",
+          "": ""
+        },
+        "9": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er lebt",
+          "pluriel": "",
+          "Mot FR": "il vit",
+          "": ""
+        },
+        "10": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wo lebt er? Er lebt in Istanbul.",
+          "pluriel": "",
+          "Mot FR": "Il vit où? Il vit à Istanbul.",
+          "": ""
+        },
+        "11": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Hauptstadt (von)",
+          "pluriel": "ä-e",
+          "Mot FR": "la capitale (de …)",
+          "": ""
+        },
+        "12": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Berlin ist die Hauptstadt von Deutschland.",
+          "pluriel": "",
+          "Mot FR": "Berlin est la capitale de l’Allemagne.",
+          "": ""
+        },
+        "13": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "liegen",
+          "pluriel": "",
+          "Mot FR": "se trouver",
+          "": ""
+        },
+        "14": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er liegt",
+          "pluriel": "",
+          "Mot FR": "il se trouve",
+          "": ""
+        },
+        "15": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wo liegt Hamburg/Luzern?",
+          "pluriel": "",
+          "Mot FR": "Où se trouve Hambourg/Lucerne ?",
+          "": ""
+        },
+        "16": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Hamburg liegt im Norden von Deutschland.",
+          "pluriel": "",
+          "Mot FR": "Hamburg est située dans le nord de l’Allemagne.",
+          "": ""
+        },
+        "17": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Luzern liegt in der Mitte von der Schweiz.",
+          "pluriel": "",
+          "Mot FR": "Lucerne est située au centre de la Suisse.",
+          "": ""
+        },
+        "18": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Ferien",
+          "pluriel": "",
+          "Mot FR": "les vacances (d’école)",
+          "": ""
+        },
+        "19": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Urlaub",
+          "pluriel": "-e",
+          "Mot FR": "les vacances",
+          "": ""
+        },
+        "20": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "See",
+          "pluriel": "-n",
+          "Mot FR": "le lac",
+          "": ""
+        },
+        "21": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Strand",
+          "pluriel": "ä-e",
+          "Mot FR": "la plage",
+          "": ""
+        },
+        "22": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "teuer",
+          "pluriel": "",
+          "Mot FR": "cher, chère",
+          "": ""
+        },
+        "23": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "billig",
+          "pluriel": "",
+          "Mot FR": "bon marché",
+          "": ""
+        }
+      },
+      "p32": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Postkarte",
+          "pluriel": "-n",
+          "Mot FR": "la carte postale",
+          "": ""
+        },
+        "2": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "SMS",
+          "pluriel": "",
+          "Mot FR": "-",
+          "": "le SMS"
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "E-Mail",
+          "pluriel": "-s",
+          "Mot FR": "l’e-mail, le couriel (solution1) ",
+          "": ""
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Mail",
+          "pluriel": "-s",
+          "Mot FR": "l’e-mail, le couriel (solution2) ",
+          "": ""
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "wohin?",
+          "pluriel": "",
+          "Mot FR": "où (déplacement + accusatif)",
+          "": ""
+        },
+        "6": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wohin fahren wir in den Osterferien?",
+          "pluriel": "",
+          "Mot FR": "Où allons-nous pendant les vacances de Pâques ?",
+          "": ""
+        },
+        "7": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren nach Spanien/Hamburg.",
+          "pluriel": "",
+          "Mot FR": "Nous allons en Espagne/à Hambourg.",
+          "": ""
+        },
+        "8": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren in die Türkei/Schweiz.",
+          "pluriel": "",
+          "Mot FR": "Nous allons en Turquie/Suisse.",
+          "": ""
+        },
+        "9": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren ans Meer.",
+          "pluriel": "",
+          "Mot FR": "Nous allons au bord de la mer.",
+          "": ""
+        },
+        "10": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren an die Ostsee.",
+          "pluriel": "",
+          "Mot FR": "'Nous allons au bord de la mer Baltique (mer de l''est).'",
+          "": ""
+        },
+        "11": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren an den See.",
+          "pluriel": "",
+          "Mot FR": "Nous allons au bord du lac.",
+          "": ""
+        },
+        "12": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren in die Alpen/Berge.",
+          "pluriel": "",
+          "Mot FR": "Nous allons dans les Alpes/à la montagne.",
+          "": ""
+        },
+        "13": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren mit dem Zug.",
+          "pluriel": "",
+          "Mot FR": "Nous partons en train.",
+          "": ""
+        },
+        "14": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren mit dem Auto.",
+          "pluriel": "",
+          "Mot FR": "Nous partons en voiture.",
+          "": ""
+        },
+        "15": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren mit dem Schiff.",
+          "pluriel": "",
+          "Mot FR": "Nous partons en bateau.",
+          "": ""
+        },
+        "16": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Hafen",
+          "pluriel": "ä-",
+          "Mot FR": "le port",
+          "": ""
+        },
+        "17": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Im Hafen sind viele Schiffe.",
+          "pluriel": "",
+          "Mot FR": "Il y a beaucoup de bateaux au port.",
+          "": ""
+        },
+        "18": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wie viel kostet das Zimmer für eine Nacht?",
+          "pluriel": "",
+          "Mot FR": "Combien coûte la chambre pour une nuit ?",
+          "": ""
+        },
+        "19": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Hostel",
+          "pluriel": "-s",
+          "Mot FR": "l’auberge de jeunesse (solution 1)",
+          "": ""
+        },
+        "20": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Jugendherberge",
+          "pluriel": "-n",
+          "Mot FR": "l’auberge de jeunesse (solution 2)",
+          "": ""
+        },
+        "21": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "reservieren",
+          "pluriel": "",
+          "Mot FR": "réserver",
+          "": ""
+        },
+        "22": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er reserviert",
+          "pluriel": "",
+          "Mot FR": "il réserve",
+          "": ""
+        },
+        "23": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Sie reserviert ein Zimmer im Hostel.",
+          "pluriel": "",
+          "Mot FR": "Elle réserve une chambre à l’auberge de jeunesse.",
+          "": ""
+        },
+        "24": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "übernachten",
+          "pluriel": "",
+          "Mot FR": "passer la nuit",
+          "": ""
+        },
+        "25": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er übernachtet",
+          "pluriel": "",
+          "Mot FR": "il passe la nuit",
+          "": ""
+        },
+        "26": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir übernachten im Hostel.",
+          "pluriel": "",
+          "Mot FR": "Nous passons la nuit dans l’auberge de jeunesse(solution 1).",
+          "": ""
+        },
+        "27": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Übernachtung",
+          "pluriel": "-en",
+          "Mot FR": "la nuit à l’hôtel, la nuitée, l’hébergement",
+          "": ""
+        },
+        "28": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Schloss",
+          "pluriel": "ö-er",
+          "Mot FR": "le château",
+          "": ""
+        },
+        "29": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "an|kommen",
+          "pluriel": "",
+          "Mot FR": "arriver",
+          "": ""
+        },
+        "30": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er kommt an",
+          "pluriel": "",
+          "Mot FR": "il arrive",
+          "": ""
         }
       }
     }
@@ -2758,266 +3575,304 @@
           "Der-Die-Das": "",
           "Mot en ALL": "arrive, arrived",
           "pluriel": "",
-          "Mot FR": "arriver"
+          "Mot FR": "arriver",
+          "": ""
         },
         "2": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "call, called",
           "pluriel": "",
-          "Mot FR": "appeler"
+          "Mot FR": "appeler",
+          "": ""
         },
         "3": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "change, changed",
           "pluriel": "",
-          "Mot FR": "changer"
+          "Mot FR": "changer",
+          "": ""
         },
         "4": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "climb, climbed",
           "pluriel": "",
-          "Mot FR": "monter"
+          "Mot FR": "monter",
+          "": ""
         },
         "5": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "die, died",
           "pluriel": "",
-          "Mot FR": "mourir"
+          "Mot FR": "mourir",
+          "": ""
         },
         "6": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "end, ended",
           "pluriel": "",
-          "Mot FR": "s’achever"
+          "Mot FR": "s’achever",
+          "": ""
         },
         "7": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "finish, finished",
           "pluriel": "",
-          "Mot FR": "finir"
+          "Mot FR": "finir",
+          "": ""
         },
         "8": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "happen, happened",
           "pluriel": "",
-          "Mot FR": "se passer"
+          "Mot FR": "se passer",
+          "": ""
         },
         "9": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "look for, looked for",
           "pluriel": "",
-          "Mot FR": "chercher"
+          "Mot FR": "chercher",
+          "": ""
         },
         "10": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "marry, married",
           "pluriel": "",
-          "Mot FR": "se marier"
+          "Mot FR": "se marier",
+          "": ""
         },
         "11": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "start, started",
           "pluriel": "",
-          "Mot FR": "commencer"
+          "Mot FR": "commencer",
+          "": ""
         },
         "12": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "stay, stayed",
           "pluriel": "",
-          "Mot FR": "rester"
+          "Mot FR": "rester",
+          "": ""
         },
         "13": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "stop, stopped",
           "pluriel": "",
-          "Mot FR": "cesser"
+          "Mot FR": "cesser",
+          "": ""
         },
         "14": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "study, studied",
           "pluriel": "",
-          "Mot FR": "étudier"
+          "Mot FR": "étudier",
+          "": ""
         },
         "15": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "travel, travelled",
           "pluriel": "",
-          "Mot FR": "voyager"
+          "Mot FR": "voyager",
+          "": ""
         },
         "16": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "try, tried",
           "pluriel": "",
-          "Mot FR": "essayer"
+          "Mot FR": "essayer",
+          "": ""
         },
         "17": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "walk, walked",
           "pluriel": "",
-          "Mot FR": "marcher"
+          "Mot FR": "marcher",
+          "": ""
         },
         "18": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "watch, watched",
           "pluriel": "",
-          "Mot FR": "regarder"
+          "Mot FR": "regarder",
+          "": ""
         },
         "19": {
           "Type": "verbe",
           "Der-Die-Das": "",
           "Mot en ALL": "work, worked",
           "pluriel": "",
-          "Mot FR": "travailler"
+          "Mot FR": "travailler",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "arrive",
           "pluriel": "",
-          "Mot FR": "arriver"
+          "Mot FR": "arriver",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "call",
           "pluriel": "",
-          "Mot FR": "appeler"
+          "Mot FR": "appeler",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "change",
           "pluriel": "",
-          "Mot FR": "changer"
+          "Mot FR": "changer",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "climb",
           "pluriel": "",
-          "Mot FR": "monter"
+          "Mot FR": "monter",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "die",
           "pluriel": "",
-          "Mot FR": "mourir"
+          "Mot FR": "mourir",
+          "": ""
         },
         "25": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "end",
           "pluriel": "",
-          "Mot FR": "s’achever"
+          "Mot FR": "s’achever",
+          "": ""
         },
         "26": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "finish",
           "pluriel": "",
-          "Mot FR": "finir"
+          "Mot FR": "finir",
+          "": ""
         },
         "27": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "happen",
           "pluriel": "",
-          "Mot FR": "happened se passer"
+          "Mot FR": "happened se passer",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "look for",
           "pluriel": "",
-          "Mot FR": "chercher"
+          "Mot FR": "chercher",
+          "": ""
         },
         "29": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "marry",
           "pluriel": "",
-          "Mot FR": "se marier"
+          "Mot FR": "se marier",
+          "": ""
         },
         "30": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "start",
           "pluriel": "",
-          "Mot FR": "commencer"
+          "Mot FR": "commencer",
+          "": ""
         },
         "31": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "stay",
           "pluriel": "",
-          "Mot FR": "rester"
+          "Mot FR": "rester",
+          "": ""
         },
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "stop",
           "pluriel": "",
-          "Mot FR": "cesser"
+          "Mot FR": "cesser",
+          "": ""
         },
         "33": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "study",
           "pluriel": "",
-          "Mot FR": "étudier"
+          "Mot FR": "étudier",
+          "": ""
         },
         "34": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "travel",
           "pluriel": "",
-          "Mot FR": "voyager"
+          "Mot FR": "voyager",
+          "": ""
         },
         "35": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "try",
           "pluriel": "",
-          "Mot FR": "essayer"
+          "Mot FR": "essayer",
+          "": ""
         },
         "36": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "walk",
           "pluriel": "",
-          "Mot FR": "marcher"
+          "Mot FR": "marcher",
+          "": ""
         },
         "37": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "watch",
           "pluriel": "",
-          "Mot FR": "regarder"
+          "Mot FR": "regarder",
+          "": ""
         },
         "38": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "work",
           "pluriel": "",
-          "Mot FR": "travailler"
+          "Mot FR": "travailler",
+          "": ""
         }
       }
     },
@@ -3028,287 +3883,328 @@
           "Der-Die-Das": "",
           "Mot en ALL": "boring",
           "pluriel": "",
-          "Mot FR": "ennuyeux"
+          "Mot FR": "ennuyeux",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "busy",
           "pluriel": "",
-          "Mot FR": "animé (bondé) – <être occupé, un agenda chargé>"
+          "Mot FR": "animé (bondé) – <être occupé, un agenda chargé>",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dangerous",
           "pluriel": "",
-          "Mot FR": "dangereux"
+          "Mot FR": "dangereux",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "difficult",
           "pluriel": "",
-          "Mot FR": "difficile"
+          "Mot FR": "difficile",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "easy",
           "pluriel": "",
-          "Mot FR": "facile"
+          "Mot FR": "facile",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "exciting",
           "pluriel": "",
-          "Mot FR": "excitant"
+          "Mot FR": "excitant",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "interesting",
           "pluriel": "",
-          "Mot FR": "intéressant"
+          "Mot FR": "intéressant",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "modern",
           "pluriel": "",
-          "Mot FR": "moderne"
+          "Mot FR": "moderne",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "noisy",
           "pluriel": "",
-          "Mot FR": "bruyant"
+          "Mot FR": "bruyant",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "old-fashioned",
           "pluriel": "",
-          "Mot FR": "démodé"
+          "Mot FR": "démodé",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "quiet",
           "pluriel": "",
-          "Mot FR": "tranquille"
+          "Mot FR": "tranquille",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "safe",
           "pluriel": "",
-          "Mot FR": "sûr"
+          "Mot FR": "sûr",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "clean",
           "pluriel": "",
-          "Mot FR": "propre"
+          "Mot FR": "propre",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "comfortable",
           "pluriel": "",
-          "Mot FR": "confortable"
+          "Mot FR": "confortable",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "crowded",
           "pluriel": "",
-          "Mot FR": "bondé"
+          "Mot FR": "bondé",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dark",
           "pluriel": "",
-          "Mot FR": "sombre"
+          "Mot FR": "sombre",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dirty",
           "pluriel": "",
-          "Mot FR": "sale"
+          "Mot FR": "sale",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dry",
           "pluriel": "",
-          "Mot FR": "sec"
+          "Mot FR": "sec",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "empty",
           "pluriel": "",
-          "Mot FR": "vide"
+          "Mot FR": "vide",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "light",
           "pluriel": "",
-          "Mot FR": "clair (une couleur claire)"
+          "Mot FR": "clair (une couleur claire)",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "tidy",
           "pluriel": "",
-          "Mot FR": "rangé"
+          "Mot FR": "rangé",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "uncomfortable",
           "pluriel": "",
-          "Mot FR": "inconfortable"
+          "Mot FR": "inconfortable",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "untidy",
           "pluriel": "",
-          "Mot FR": "mal rangé, en désordre"
+          "Mot FR": "mal rangé, en désordre",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "wet",
           "pluriel": "",
-          "Mot FR": "mouillé"
+          "Mot FR": "mouillé",
+          "": ""
         },
         "25": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "town",
           "pluriel": "",
-          "Mot FR": "ville"
+          "Mot FR": "ville",
+          "": ""
         },
         "26": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "bank",
           "pluriel": "",
-          "Mot FR": "banque"
+          "Mot FR": "banque",
+          "": ""
         },
         "27": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "building",
           "pluriel": "",
-          "Mot FR": "bâtiment"
+          "Mot FR": "bâtiment",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "bus station",
           "pluriel": "",
-          "Mot FR": "gare routière"
+          "Mot FR": "gare routière",
+          "": ""
         },
         "29": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "church",
           "pluriel": "",
-          "Mot FR": "église"
+          "Mot FR": "église",
+          "": ""
         },
         "30": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "crossing",
           "pluriel": "",
-          "Mot FR": "passage piétons"
+          "Mot FR": "passage piétons",
+          "": ""
         },
         "31": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "market",
           "pluriel": "",
-          "Mot FR": "marché"
+          "Mot FR": "marché",
+          "": ""
         },
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "newsagent’s",
           "pluriel": "",
-          "Mot FR": "marchand de journaux"
+          "Mot FR": "marchand de journaux",
+          "": ""
         },
         "33": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "post office",
           "pluriel": "",
-          "Mot FR": "poste"
+          "Mot FR": "poste",
+          "": ""
         },
         "34": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "road",
           "pluriel": "",
-          "Mot FR": "route"
+          "Mot FR": "route",
+          "": ""
         },
         "35": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "roundabout",
           "pluriel": "",
-          "Mot FR": "rond-point"
+          "Mot FR": "rond-point",
+          "": ""
         },
         "36": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "secondary school",
           "pluriel": "",
-          "Mot FR": "école secondaire"
+          "Mot FR": "école secondaire",
+          "": ""
         },
         "37": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "shoe shop",
           "pluriel": "",
-          "Mot FR": "magasin de chaussures"
+          "Mot FR": "magasin de chaussures",
+          "": ""
         },
         "38": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "square",
           "pluriel": "",
-          "Mot FR": "place"
+          "Mot FR": "place",
+          "": ""
         },
         "39": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "street",
           "pluriel": "",
-          "Mot FR": "rue"
+          "Mot FR": "rue",
+          "": ""
         },
         "40": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "town centre",
           "pluriel": "",
-          "Mot FR": "centre-ville"
+          "Mot FR": "centre-ville",
+          "": ""
         },
         "41": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "traffic lights",
           "pluriel": "",
-          "Mot FR": "feux de circulation"
+          "Mot FR": "feux de circulation",
+          "": ""
         }
       },
       "p61": {
@@ -3317,259 +4213,296 @@
           "Der-Die-Das": "",
           "Mot en ALL": "behind",
           "pluriel": "",
-          "Mot FR": "derrière"
+          "Mot FR": "derrière",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "between",
           "pluriel": "",
-          "Mot FR": "entre"
+          "Mot FR": "entre",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "in front of",
           "pluriel": "",
-          "Mot FR": "devant"
+          "Mot FR": "devant",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "next to",
           "pluriel": "",
-          "Mot FR": "à côté de"
+          "Mot FR": "à côté de",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "on the corner of",
           "pluriel": "",
-          "Mot FR": "au coin de"
+          "Mot FR": "au coin de",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "opposite",
           "pluriel": "",
-          "Mot FR": "en face de"
+          "Mot FR": "en face de",
+          "": ""
         },
         "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "two years ago",
           "pluriel": "",
-          "Mot FR": "il y a deux ans"
+          "Mot FR": "il y a deux ans",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "ago",
           "pluriel": "",
-          "Mot FR": "il y a (deux ans)"
+          "Mot FR": "il y a (deux ans)",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "fall",
           "pluriel": "",
-          "Mot FR": "tomber (verbe)"
+          "Mot FR": "tomber (verbe)",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get lost",
           "pluriel": "",
-          "Mot FR": "se perdre"
+          "Mot FR": "se perdre",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "hit",
           "pluriel": "",
-          "Mot FR": "cogner, heurter"
+          "Mot FR": "cogner, heurter",
+          "": ""
         },
         "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "in the 1960s",
           "pluriel": "",
-          "Mot FR": "dans les années soixante"
+          "Mot FR": "dans les années soixante",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "in the",
           "pluriel": "",
-          "Mot FR": "dans les (années soixante)"
+          "Mot FR": "dans les (années soixante)",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "keep in touch",
           "pluriel": "",
-          "Mot FR": "rester en contact"
+          "Mot FR": "rester en contact",
+          "": ""
         },
         "15": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "move to Australia",
           "pluriel": "",
-          "Mot FR": "déménager / aller vivre en Australie"
+          "Mot FR": "déménager / aller vivre en Australie",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "move",
           "pluriel": "",
-          "Mot FR": "(verbe) déménager / aller vivre (en Australie)"
+          "Mot FR": "(verbe) déménager / aller vivre (en Australie)",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "popular",
           "pluriel": "",
-          "Mot FR": "populaire"
+          "Mot FR": "populaire",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "rubbish",
           "pluriel": "",
-          "Mot FR": "(n) ordures"
+          "Mot FR": "(n) ordures",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn round",
           "pluriel": "",
-          "Mot FR": "se retourner"
+          "Mot FR": "se retourner",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "bad",
           "pluriel": "",
-          "Mot FR": "mal"
+          "Mot FR": "mal",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "worse",
           "pluriel": "",
-          "Mot FR": "pire (plus mal)"
+          "Mot FR": "pire (plus mal)",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "far",
           "pluriel": "",
-          "Mot FR": "loin"
+          "Mot FR": "loin",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "further",
           "pluriel": "",
-          "Mot FR": "plus loin"
+          "Mot FR": "plus loin",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "good",
           "pluriel": "",
-          "Mot FR": "bien"
+          "Mot FR": "bien",
+          "": ""
         },
         "25": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "better",
           "pluriel": "",
-          "Mot FR": "mieux (plus mieux)"
+          "Mot FR": "mieux (plus mieux)",
+          "": ""
         },
         "26": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "cross",
           "pluriel": "",
-          "Mot FR": "traverser"
+          "Mot FR": "traverser",
+          "": ""
         },
         "27": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "cross the street",
           "pluriel": "",
-          "Mot FR": "traverser la rue"
+          "Mot FR": "traverser la rue",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "go down",
           "pluriel": "",
-          "Mot FR": "prendre"
+          "Mot FR": "prendre",
+          "": ""
         },
         "29": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "go down the street",
           "pluriel": "",
-          "Mot FR": "prendre la rue"
+          "Mot FR": "prendre la rue",
+          "": ""
         },
         "30": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "go straight on",
           "pluriel": "",
-          "Mot FR": "aller tout droit"
+          "Mot FR": "aller tout droit",
+          "": ""
         },
         "31": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn",
           "pluriel": "",
-          "Mot FR": "tourner"
+          "Mot FR": "tourner",
+          "": ""
         },
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn left",
           "pluriel": "",
-          "Mot FR": "tourner à gauche"
+          "Mot FR": "tourner à gauche",
+          "": ""
         },
         "33": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn right",
           "pluriel": "",
-          "Mot FR": "tourner à droite"
+          "Mot FR": "tourner à droite",
+          "": ""
         },
         "34": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "walk past",
           "pluriel": "",
-          "Mot FR": "passer devant"
+          "Mot FR": "passer devant",
+          "": ""
         },
         "35": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "walk past the church",
           "pluriel": "",
-          "Mot FR": "passer devant l’église"
+          "Mot FR": "passer devant l’église",
+          "": ""
         },
         "36": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Excuse me, where’s the post office, please?",
           "pluriel": "",
-          "Mot FR": "Pardon, madame/monsieur, où se trouve la poste s’il vous plaît ?"
+          "Mot FR": "Pardon, madame/monsieur, où se trouve la poste s’il vous plaît ?",
+          "": ""
         },
         "37": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "It’s over there.",
           "pluriel": "",
-          "Mot FR": "Il/elle est là-bas."
+          "Mot FR": "Il/elle est là-bas.",
+          "": ""
         }
       }
     },
@@ -3580,252 +4513,288 @@
           "Der-Die-Das": "",
           "Mot en ALL": "become, became",
           "pluriel": "",
-          "Mot FR": "devenir, +irrégulier"
+          "Mot FR": "devenir, +irrégulier",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "build, built",
           "pluriel": "",
-          "Mot FR": "construire, +irrégulier"
+          "Mot FR": "construire, +irrégulier",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "come, came",
           "pluriel": "",
-          "Mot FR": "venir, +irrégulier"
+          "Mot FR": "venir, +irrégulier",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "do, did",
           "pluriel": "",
-          "Mot FR": "faire, +irrégulier"
+          "Mot FR": "faire, +irrégulier",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "draw, drew",
           "pluriel": "",
-          "Mot FR": "dessiner, +irrégulier"
+          "Mot FR": "dessiner, +irrégulier",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get, got",
           "pluriel": "",
-          "Mot FR": "obtenir, +irrégulier"
+          "Mot FR": "obtenir, +irrégulier",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "give, gave",
           "pluriel": "",
-          "Mot FR": "donner, +irrégulier"
+          "Mot FR": "donner, +irrégulier",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "go, went",
           "pluriel": "",
-          "Mot FR": "aller, +irrégulier"
+          "Mot FR": "aller, +irrégulier",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "grow, grew",
           "pluriel": "",
-          "Mot FR": "grandir, +irrégulier"
+          "Mot FR": "grandir, +irrégulier",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "have, had",
           "pluriel": "",
-          "Mot FR": "avoir, +irrégulier"
+          "Mot FR": "avoir, +irrégulier",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "make, made",
           "pluriel": "",
-          "Mot FR": "faire, +irrégulier"
+          "Mot FR": "faire, +irrégulier",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "meet, met",
           "pluriel": "",
-          "Mot FR": "rencontrer, +irrégulier"
+          "Mot FR": "rencontrer, +irrégulier",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "see, saw",
           "pluriel": "",
-          "Mot FR": "voir, +irrégulier"
+          "Mot FR": "voir, +irrégulier",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "send, sent",
           "pluriel": "",
-          "Mot FR": "envoyer, +irrégulier"
+          "Mot FR": "envoyer, +irrégulier",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "take, took",
           "pluriel": "",
-          "Mot FR": "prendre, +irrégulier"
+          "Mot FR": "prendre, +irrégulier",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "tell, told",
           "pluriel": "",
-          "Mot FR": "dire, +irrégulier"
+          "Mot FR": "dire, +irrégulier",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "think, thought",
           "pluriel": "",
-          "Mot FR": "penser, +irrégulier"
+          "Mot FR": "penser, +irrégulier",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "home appliance",
           "pluriel": "",
-          "Mot FR": "appareil domestique"
+          "Mot FR": "appareil domestique",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "clock",
           "pluriel": "",
-          "Mot FR": "pendule, horloge"
+          "Mot FR": "pendule, horloge",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "freezer",
           "pluriel": "",
-          "Mot FR": "congélateur"
+          "Mot FR": "congélateur",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "fridge",
           "pluriel": "",
-          "Mot FR": "frigo (réfrigérateur)"
+          "Mot FR": "frigo (réfrigérateur)",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "hairdryer",
           "pluriel": "",
-          "Mot FR": "sèche-cheveux"
+          "Mot FR": "sèche-cheveux",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "heating",
           "pluriel": "",
-          "Mot FR": "chauffage"
+          "Mot FR": "chauffage",
+          "": ""
         },
         "24": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "lamp",
           "pluriel": "",
-          "Mot FR": "lampe"
+          "Mot FR": "lampe",
+          "": ""
         },
         "25": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "light",
           "pluriel": "",
-          "Mot FR": "lumière"
+          "Mot FR": "lumière",
+          "": ""
         },
         "26": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "microwave",
           "pluriel": "",
-          "Mot FR": "micro-ondes"
+          "Mot FR": "micro-ondes",
+          "": ""
         },
         "27": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "oven",
           "pluriel": "",
-          "Mot FR": "four"
+          "Mot FR": "four",
+          "": ""
         },
         "28": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "washing machine",
           "pluriel": "",
-          "Mot FR": "machine à laver"
+          "Mot FR": "machine à laver",
+          "": ""
         },
         "29": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "climb up",
           "pluriel": "",
-          "Mot FR": "monter"
+          "Mot FR": "monter",
+          "": ""
         },
         "30": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "come down",
           "pluriel": "",
-          "Mot FR": "descendre"
+          "Mot FR": "descendre",
+          "": ""
         },
         "31": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get in",
           "pluriel": "",
-          "Mot FR": "entrer"
+          "Mot FR": "entrer",
+          "": ""
         },
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get out",
           "pluriel": "",
-          "Mot FR": "sortir"
+          "Mot FR": "sortir",
+          "": ""
         },
         "33": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "pick up",
           "pluriel": "",
-          "Mot FR": "ramasser"
+          "Mot FR": "ramasser",
+          "": ""
         },
         "34": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "put down",
           "pluriel": "",
-          "Mot FR": "poser"
+          "Mot FR": "poser",
+          "": ""
         },
         "35": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "put on",
           "pluriel": "",
-          "Mot FR": "mettre"
+          "Mot FR": "mettre",
+          "": ""
         },
         "36": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "take off",
           "pluriel": "",
-          "Mot FR": "enlever"
+          "Mot FR": "enlever",
+          "": ""
         }
       },
       "p71": {
@@ -3834,161 +4803,184 @@
           "Der-Die-Das": "",
           "Mot en ALL": "get off",
           "pluriel": "",
-          "Mot FR": "descendre"
+          "Mot FR": "descendre",
+          "": ""
         },
         "2": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "get on",
           "pluriel": "",
-          "Mot FR": "monter"
+          "Mot FR": "monter",
+          "": ""
         },
         "3": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "lie down",
           "pluriel": "",
-          "Mot FR": "s’allonger"
+          "Mot FR": "s’allonger",
+          "": ""
         },
         "4": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "switch off",
           "pluriel": "",
-          "Mot FR": "éteindre"
+          "Mot FR": "éteindre",
+          "": ""
         },
         "5": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "switch on",
           "pluriel": "",
-          "Mot FR": "allumer"
+          "Mot FR": "allumer",
+          "": ""
         },
         "6": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn down",
           "pluriel": "",
-          "Mot FR": "baisser"
+          "Mot FR": "baisser",
+          "": ""
         },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "turn up",
           "pluriel": "",
-          "Mot FR": "augmenter"
+          "Mot FR": "augmenter",
+          "": ""
         },
         "8": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "wake up",
           "pluriel": "",
-          "Mot FR": "se réveiller"
+          "Mot FR": "se réveiller",
+          "": ""
         },
         "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "accident",
           "pluriel": "",
-          "Mot FR": "accident"
+          "Mot FR": "accident",
+          "": ""
         },
         "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "aeroplane",
           "pluriel": "",
-          "Mot FR": "avion"
+          "Mot FR": "avion",
+          "": ""
         },
         "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "at once",
           "pluriel": "",
-          "Mot FR": "immédiatement"
+          "Mot FR": "immédiatement",
+          "": ""
         },
         "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "burn (down)",
           "pluriel": "",
-          "Mot FR": "détruire par le feu"
+          "Mot FR": "détruire par le feu",
+          "": ""
         },
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dream",
           "pluriel": "",
-          "Mot FR": "un rêve"
+          "Mot FR": "un rêve",
+          "": ""
         },
         "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "dream",
           "pluriel": "",
-          "Mot FR": "rêver"
+          "Mot FR": "rêver",
+          "": ""
         },
         "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "farm",
           "pluriel": "",
-          "Mot FR": "la ferme"
+          "Mot FR": "la ferme",
+          "": ""
         },
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "flight",
           "pluriel": "",
-          "Mot FR": "vol"
+          "Mot FR": "vol",
+          "": ""
         },
         "17": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "fly",
           "pluriel": "",
-          "Mot FR": "voler (oiseau)"
+          "Mot FR": "voler (oiseau)",
+          "": ""
         },
         "18": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "invent",
           "pluriel": "",
-          "Mot FR": "inventer"
+          "Mot FR": "inventer",
+          "": ""
         },
         "19": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "invention",
           "pluriel": "",
-          "Mot FR": "invention"
+          "Mot FR": "invention",
+          "": ""
         },
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "inventor",
           "pluriel": "",
-          "Mot FR": "inventeur"
+          "Mot FR": "inventeur",
+          "": ""
         },
         "21": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "light bulb",
           "pluriel": "",
-          "Mot FR": "ampoule"
+          "Mot FR": "ampoule",
+          "": ""
         },
         "22": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "paper",
           "pluriel": "",
-          "Mot FR": "papier"
+          "Mot FR": "papier",
+          "": ""
         },
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "save (lives)",
           "pluriel": "",
-          "Mot FR": "sauver (des vies)"
+          "Mot FR": "sauver (des vies)",
+          "": ""
         }
       }
     }
