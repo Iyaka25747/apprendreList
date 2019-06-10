@@ -1,6 +1,7 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
+-ligne 204 sorted 
 - Simplifier le mecanisme de base, passer vers un mode ou l on doit simplement avoir une question et une réponse. Dans la réponse_donnée on affiche éventuellement une explication plus complète (e.g. <der> Kuchen) . Se débarasser du der, die, das en construisant un dict question réponse comme un autre.
 
 - Faire un fichier de statistic pour le consuleter et fabriquer un nouveau voc des mots difficiles. 
@@ -9,7 +10,7 @@ Reprise:
         - On doit pouvoir reconstruire un voc en choisissant une date. Le users se voit offrir un choix de date à laquelle il a fait des exercices (décroissant).
     - Faire un seul fichier avec toutes les stat (Tilio ou autre personne), ne pas multiplier les fichiers
     - Information: Date de la statistque (de l'exercice), Type d exercice (mot - mot der,die,das - phrase etc.)
-
+- Lors de la saisie du voc. Pour copie coller en D. On pourrait vérifier qu'il n'y a que les caractères autorisé (a-z, 1.9 etc. ) pour enlever les "ạ"
 - Passer à un system avec un ID unique pour tous les termes.
 - le compte 24/25 mots est faut, voir un screenshot de Tilio sur son PC
 ecrire ne pas montrer / effacer les lignes précédente sinon on peut facilement copier...

@@ -300,62 +300,20 @@ class ExerciceClass:
         print("Enregistrement des exercices dans {fichier}".format(fichier = self.record.recordFile ))
         return
 
-    # def ecrireVoc(self, voc):
-    #     countElements = 1
-    #     keyMotsDifficiles = []
-    #     nombreElements = len(voc)
-    #     for key in voc:
-    #         elementAEcrire = voc[key]['Mot en ALL']
-    #         indice = voc[key]['Mot FR']
-    #         if voc[key]['Der-Die-Das'] != '':
-    #             reponseAAfficher = voc[key]['Der-Die-Das'] + ' ' + elementAEcrire
-    #         else: 
-    #             reponseAAfficher = elementAEcrire 
-
-    #         reponseFausse = True
-    #         tentative = 0
-    #         while reponseFausse:
-    #             reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
-    #             tentative += 1
-    #             if reponse == elementAEcrire:
-    #                 print('Bravo')
-    #                 reponseFausse = False
-    #                 evaluationReponse = 'juste'
-    #                 playSoundGoodOOP(self.settings)
-    #             else:
-    #                 keyMotsDifficiles.append(key)
-    #                 evaluationReponse = 'faux'
-    #                 playSoundBadOOP(self.settings)
-    #                 if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
-    #                     # showError(informationAEcrireEtranger, reponse)
-    #                     showErrorString(elementAEcrire, reponse)
-
-    #             # resultatQuestion = [globalSettings.currentDate, globalSettings.currentTime, choix.nomJoueur, choix.nomLangueChoisie, choix.nomVocChoisi, choix.nomPageChoisie, choix.typeExerciceChoisi, evaluationReponse, elementAEcrire, reponse]
-                
-    #             resultatQuestion = [evaluationReponse, elementAEcrire, reponse]
-    #             self.record.recordTentative(resultatQuestion) 
-                    
-
-    #             if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
-    #                 break
-    #         print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
-    #         countElements += 1
-    #     return 
-
-
     def ecrireVoc(self, voc):
-        indexElement = 0
+        indexTentative = 0
         keyMotsDifficiles = []
-        nombreElements = len(voc)
+        nombreElementsTotal = len(voc)
         keysElements = [] # clef des éléments à exercer, évolue au cour de l exsercice, selon les fautes on étend la liste avec les mots difficile.
         for tmpKey in voc: # éléments de départ sont les éléments du voc.
             keysElements.append(tmpKey)
         ilResteDesElements = True
         while ilResteDesElements: #tant qu il reste des éléments on continue l exercice
-            elementAEcrire = voc[keysElements[indexElement]]['Mot en ALL']
-            indice = voc[keysElements[indexElement]]['Mot FR']
-            if voc[keysElements[indexElement]]['Der-Die-Das'] != '':
-                reponseAAfficher = voc[keysElements[indexElement]]['Der-Die-Das'] + ' ' + elementAEcrire
+            print('- Ecrire le mot sans le déterminant -\n{nombreElementsTotal} mots à apprendre\n{nbrElementsRestant} questions restantes\n'.format(indexTentative=indexTentative + 1, nombreElementsTotal=nombreElementsTotal, nbrElementsRestant = len(keysElements)-indexTentative ) )
+            elementAEcrire = voc[keysElements[indexTentative]]['Mot en ALL']
+            indice = voc[keysElements[indexTentative]]['Mot FR']
+            if voc[keysElements[indexTentative]]['Der-Die-Das'] != '':
+                reponseAAfficher = voc[keysElements[indexTentative]]['Der-Die-Das'] + ' ' + elementAEcrire
             else: 
                 reponseAAfficher = elementAEcrire 
 
@@ -364,7 +322,7 @@ class ExerciceClass:
             pasRemisEnJeux = True
             # on refait la saisie tant que la réponse est fausse.
             while reponseFausse:
-                reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire le mot sans le déterminant: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=indexElement + 1, nombreElements=nombreElements ))
+                reponse = input('[{nbrEssai} essai/{nbrEssaiTot}]: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"]))
                 tentative += 1
                 
                 if reponse == elementAEcrire:
@@ -373,12 +331,12 @@ class ExerciceClass:
                     evaluationReponse = 'juste'
                     playSoundGoodOOP(self.settings)
                 else: # s'il y a une erreur dans la réponse
-                    keyMotsDifficiles.append(keysElements[indexElement]) # on ajout l éléments à la liste des éléments difficile
+                    keyMotsDifficiles.append(keysElements[indexTentative]) # on ajout l éléments à la liste des éléments difficile
                     # keyMotsDifficiles[keysElements[indexElement]]=indexElement # on ajout l éléments à la liste des éléments difficile
                     if pasRemisEnJeux: # on remet l éléments dans la liste si ce n est pas déjà fait.
-                        positionAjout = indexElement + self.settings['deltaRemettreErreur']
+                        positionAjout = indexTentative + self.settings['deltaRemettreErreur']
                         keysElementsTmp = keysElements[:positionAjout]
-                        keysElementsTmp.append(keysElements[indexElement])
+                        keysElementsTmp.append(keysElements[indexTentative])
                         keysElementAfter =  keysElements[positionAjout:]
                         keysElements = keysElementsTmp + keysElementAfter
                         pasRemisEnJeux = False
@@ -400,9 +358,9 @@ class ExerciceClass:
             os.system('cls' if os.name == 'nt' else 'clear')
             
             #vérification s'il reste des éléments, si oui on continuera l'exercice
-            if len(keysElements) == indexElement + 1:
+            if len(keysElements) == indexTentative + 1:
                 ilResteDesElements = False
-            indexElement += 1
+            indexTentative += 1
         # construction de la liste des mots diffiles
 
         motsDifficiles = {}

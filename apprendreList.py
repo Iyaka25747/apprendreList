@@ -200,7 +200,9 @@ elif choix.typeExerciceChoisi == "Ecrire":
     motsDifficilesEtFrequence = exercice1.ecrireQuoi()
     #Affichage des Mots Difficle
     countErreurKeyFreq = motsDifficilesEtFrequence['frequenceErreur'] 
-    sorted_key = sorted(countErreurKeyFreq, reverse = False) #list of Keys sorted per frequence of error
+    # sorted_key = sorted(countErreurKeyFreq, reverse = False) #list of Keys sorted per frequence of error
+    # sorted_x = sorted(x.items(), key=operator.itemgetter(1))
+    sorted_key = sorted(countErreurKeyFreq) #list of Keys sorted per frequence of error
     print('*** Tes pires ennemis ***')
     for tempKey in sorted_key:
     # for tempKey in sorted_Errors:
