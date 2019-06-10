@@ -3124,6 +3124,260 @@
           "pluriel": "",
           "Mot FR": "il arrive"
         }
+      },
+      "p33": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "ab|fahren",
+          "pluriel": "",
+          "Mot FR": "partir (train/bus)"
+        },
+        "2": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er fährt ab",
+          "pluriel": "",
+          "Mot FR": "il part (train/bus)"
+        },
+        "3": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Der Bus fährt um 8 Uhr ab.",
+          "pluriel": "",
+          "Mot FR": "Le bus part à 8 heures."
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "fliegen",
+          "pluriel": "",
+          "Mot FR": "voler, aller en avion"
+        },
+        "5": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er fliegt",
+          "pluriel": "",
+          "Mot FR": "il vole, il va en avion"
+        },
+        "6": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Er fliegt in die Türkei.",
+          "pluriel": "",
+          "Mot FR": "Il part en Turquie (en avion)."
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "letztes Jahr",
+          "pluriel": "",
+          "Mot FR": "l’année dernière"
+        },
+        "8": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Da waren wir schon letztes Jahr.",
+          "pluriel": "",
+          "Mot FR": "Nous y sommes déjà allés l’année derrière."
+        },
+        "9": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Reiseziel",
+          "pluriel": "-e",
+          "Mot FR": "la destination"
+        },
+        "10": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Burg",
+          "pluriel": "-en",
+          "Mot FR": "le château fort"
+        },
+        "11": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Jugendgruppe",
+          "pluriel": "-n",
+          "Mot FR": "le groupe de jeunes"
+        },
+        "12": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Mitgliedskarte",
+          "pluriel": "-n",
+          "Mot FR": "la carte d’adhérent / de membre"
+        },
+        "13": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Vorschlag",
+          "pluriel": "ä-e",
+          "Mot FR": "la proposition"
+        },
+        "14": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "diskutieren",
+          "pluriel": "",
+          "Mot FR": " discuter"
+        },
+        "15": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er diskutiert",
+          "pluriel": "",
+          "Mot FR": "il discute"
+        },
+        "16": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "weg|fahren",
+          "pluriel": "",
+          "Mot FR": "partir en voyage"
+        },
+        "17": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er fährt weg",
+          "pluriel": "",
+          "Mot FR": "il part en voyage"
+        },
+        "18": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wir fahren im August weg.",
+          "pluriel": "",
+          "Mot FR": "Nous partons en août."
+        },
+        "19": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "überall",
+          "pluriel": "",
+          "Mot FR": "partout"
+        },
+        "20": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "unbedingt",
+          "pluriel": "",
+          "Mot FR": "absolument"
+        },
+        "21": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "dort",
+          "pluriel": "",
+          "Mot FR": "là-bas"
+        },
+        "22": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Essen und trinken",
+          "pluriel": "",
+          "Mot FR": "Nourriture et boisson"
+        },
+        "23": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Salat",
+          "pluriel": "-e",
+          "Mot FR": "la salade"
+        },
+        "24": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Hamburger",
+          "pluriel": "-",
+          "Mot FR": "le hamburger"
+        },
+        "25": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Suppe",
+          "pluriel": "-n",
+          "Mot FR": "la soupe, le potage"
+        },
+        "26": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Pizza",
+          "pluriel": "-s",
+          "Mot FR": "la pizza"
+        },
+        "27": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Pommes",
+          "pluriel": "",
+          "Mot FR": "les frites"
+        },
+        "28": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Pommes frites",
+          "pluriel": "",
+          "Mot FR": "les pommes frites"
+        },
+        "29": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Eis",
+          "pluriel": "-",
+          "Mot FR": "la glace"
+        },
+        "30": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Schokosauce",
+          "pluriel": "",
+          "Mot FR": "la sauce chocolat"
+        },
+        "31": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das Vanilleeis mit Schokosauce.",
+          "pluriel": "",
+          "Mot FR": "La glace vanille avec de la sauce chocolat."
+        },
+        "32": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Wasser",
+          "pluriel": "",
+          "Mot FR": "l’eau"
+        },
+        "33": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Mineralwasser",
+          "pluriel": "",
+          "Mot FR": "l’eau minérale"
+        },
+        "34": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Apfelsaft",
+          "pluriel": "ä-e",
+          "Mot FR": "le jus de pomme"
+        },
+        "35": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Cola",
+          "pluriel": "-",
+          "Mot FR": "le coca"
+        },
+        "36": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Was kostet das, bitte?",
+          "pluriel": "",
+          "Mot FR": "C’est combien, s’il vous plaît ?"
+        }
       }
     }
   },
