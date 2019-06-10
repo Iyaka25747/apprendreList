@@ -1,30 +1,35 @@
-﻿die	Postkarte	-n	la carte postale
-die	SMS		-	le SMS
-die	E-Mail	-s	l’e-mail, le couriel (solution1) 
-die	Mail	-s	l’e-mail, le couriel (solution2) 
-	wohin?		où (déplacement + accusatif)
-	Wohin fahren wir in den Osterferien?		Où allons-nous pendant les vacances de Pâques ?
-	Wir fahren nach Spanien/Hamburg.		Nous allons en Espagne/à Hambourg.
-	Wir fahren in die Türkei/Schweiz.		Nous allons en Turquie/Suisse.
-	Wir fahren ans Meer.		Nous allons au bord de la mer.
-	Wir fahren an die Ostsee.		Nous allons au bord de la mer Baltique (mer de l'est).
-	Wir fahren an den See.		Nous allons au bord du lac.
-	Wir fahren in die Alpen/Berge.		Nous allons dans les Alpes/à la montagne.
-	Wir fahren mit dem Zug.		Nous partons en train.
-	Wir fahren mit dem Auto.		Nous partons en voiture.
-	Wir fahren mit dem Schiff.		Nous partons en bateau.
-der	Hafen	”-	le port
-	Im Hafen sind viele Schiffe.		Il y a beaucoup de bateaux au port.
-	Wie viel kostet das Zimmer für eine Nacht?		Combien coûte la chambre pour une nuit ?
-das	Hostel	-s	l’auberge de jeunesse (solution 1)
-die	Jugendherberge	-n	l’auberge de jeunesse (solution 2)
-	reservieren		réserver
-	er reserviert		il réserve
-	Sie reserviert ein Zimmer im Hostel.		Elle réserve une chambre à l’auberge de jeunesse.
-	übernachten		passer la nuit
-	er übernachtet		il passe la nuit
-	Wir übernachten im Hostel.		Nous passons la nuit dans l’auberge de jeunesse(solution 1).
-die	Übernachtung	-en	la nuit à l’hôtel, la nuitée, l’hébergement
-das	Schloss	”-er	le château
-	an|kommen		arriver
-	er kommt an		il arrive
+﻿	ab|fahren		partir (train/bus)
+	er fährt ab		il part (train/bus)
+	Der Bus fährt um 8 Uhr ab.		Le bus part à 8 heures.
+	fliegen		voler, aller en avion
+	er fliegt		il vole, il va en avion
+	Er fliegt in die Türkei.		Il part en Turquie (en avion).
+	letztes Jahr		l’année dernière
+	Da waren wir schon letztes Jahr.		Nous y sommes déjà allés l’année derrière.
+das	Reiseziel	-e	la destination
+die	Burg	-en	le château fort
+die	Jugendgruppe	-n	le groupe de jeunes
+die	Mitgliedskarte	-n	la carte d’adhérent / de membre
+der	Vorschlag	ä-e	la proposition
+	diskutieren		 discuter
+	er diskutiert		il discute
+	weg|fahren		partir en voyage
+	er fährt weg		il part en voyage
+	Wir fahren im August weg.		Nous partons en août.
+	überall		partout
+	unbedingt		absolument
+	dort		là-bas
+	Essen und trinken		Nourriture et boisson
+der	Salat	-e	la salade
+der	Hamburger	-	le hamburger
+die	Suppe	-n	la soupe, le potage
+die	Pizza	-s	la pizza
+	Pommes frites		les frites, les pommes frites
+das	Eis	-	la glace
+die	Schokosauce		la sauce chocolat
+	Das Vanilleeis mit Schokosauce.		La glace vanille avec de la sauce chocolat.
+das	Wasser		l’eau
+das	Mineralwasser		l’eau minérale
+der	Apfelsaft	ä-e	le jus de pomme
+die	Cola	-	le coca
+	Was kostet das, bitte?		C’est combien, s’il vous plaît ?
