@@ -141,7 +141,13 @@ class ExerciceClass:
         if self.choix["quoiEcrire"] == "verbe":
             voc = self.vocabulaire['vocVerbe']['elements']
         if self.choix["quoiEcrire"] == "mot":
-            voc = self.vocabulaire['vocMotTous']['elements']
+            vocTemp = self.vocabulaire['vocMotTous']['elements']
+            questionResponse = {}
+            for key in vocTemp:
+                questionResponse[key] = {}
+                questionResponse[key]['question'] = vocTemp[key]['Mot FR']
+                questionResponse[key]['reponse'] = vocTemp[key]['Mot en ALL']
+                questionResponse[key]['reponseAffichee'] = vocTemp[key]['Der-Die-Das'] +' '+ vocTemp[key]['Mot en ALL']
         if self.choix["quoiEcrire"] == "motDerDieDas": # On écrit le determinant + mot (das Schloss)
             voc = self.vocabulaire['vocDerDieDasMot']['elements']
             #Construction d un voc avec Der Die Das

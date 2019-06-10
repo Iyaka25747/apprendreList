@@ -1,9 +1,12 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
--ligne 204 sorted 
+- continuer line 146
 - Si Tilio fait 3x enter sans entrer de text. Il faut compter comme un mot inconnu et pas écrit faux. 
-- Simplifier le mecanisme de base, passer vers un mode ou l on doit simplement avoir une question et une réponse. Dans la réponse_donnée on affiche éventuellement une explication plus complète (e.g. <der> Kuchen) . Se débarasser du der, die, das en construisant un dict question réponse comme un autre.
+- Simplifier le mecanisme de base
+    - passer vers un mode ou l on doit simplement avoir une question et une réponse. Dans la réponse_donnée on affiche une explication plus complète (e.g. <der> Kuchen). On a comme champs: question, reponse, reponseAffichee.
+    - 
+    - Se débarasser du der, die, das en construisant un dict question réponse comme un autre.
 
 - Faire un fichier de statistic pour le consuleter et fabriquer un nouveau voc des mots difficiles. 
     - On y inscrit le ID et la fréquence d erreur de tous les mots (0 si jamais fait faux). 
