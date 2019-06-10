@@ -1,37 +1,35 @@
-﻿	behind		derrière
-	between		entre
-	in front of		devant
-	next to		à côté de
-	on the corner of		au coin de
-	opposite		en face de
-	two years ago		il y a deux ans
-	ago		il y a
-	fall		tomber (verbe)
-	get lost		se perdre
-	hit		cogner, heurter
-	in the 1960s		dans les années soixante
-	in the		dans les
-	keep in touch		rester en contact
-	move to Australia (v) déménager / aller vivre (en Australie)
-	move		(verbe) déménager / aller vivre
-	popular		populaire
-	rubbish		(n) ordures
-	turn round		se retourner
-	bad		mal
-	worse		pire (plus mal)
-	far		loin
-	further		plus loin
-	good		bien
-	better		mieux (plus mieux)
-	cross		traverser
-	cross the street		traverser la rue
-	go down		prendre
-	go down the street		prendre la rue
-	go straight on		aller tout droit
-	turn		tourner
-	turn left		tourner à gauche
-	turn right		tourner à droite
-	walk past		passer devant
-	walk past the church		passer devant l’église
-	Excuse me, where’s the post office, please?		Pardon, madame/monsieur, où se trouve la poste s’il vous plaît ?
-	It’s over there.		Il/elle est là-bas.
+﻿	ab|fahren		partir (train/bus)
+	er fährt ab		il part (train/bus)
+	Der Bus fährt um 8 Uhr ab.		Le bus part à 8 heures.
+	fliegen		voler, aller en avion
+	er fliegt		il vole, il va en avion
+	Er fliegt in die Türkei.		Il part en Turquie (en avion).
+	letztes Jahr		l’année dernière
+	Da waren wir schon letztes Jahr.		Nous y sommes déjà allés l’année derrière.
+das	Reiseziel	-e	la destination
+die	Burg	-en	le château fort
+die	Jugendgruppe	-n	le groupe de jeunes
+die	Mitgliedskarte	-n	la carte d’adhérent / de membre
+der	Vorschlag	ä-e	la proposition
+	diskutieren		 discuter
+	er diskutiert		il discute
+	weg|fahren		partir en voyage
+	er fährt weg		il part en voyage
+	Wir fahren im August weg.		Nous partons en août.
+	überall		partout
+	unbedingt		absolument
+	dort		là-bas
+	Essen und trinken		Nourriture et boisson
+der	Salat	-e	la salade
+der	Hamburger	-	le hamburger
+die	Suppe	-n	la soupe, le potage
+die	Pizza	-s	la pizza
+	Pommes frites		les frites, les pommes frites
+das	Eis	-	la glace
+die	Schokosauce		la sauce chocolat
+	Das Vanilleeis mit Schokosauce.		La glace vanille avec de la sauce chocolat.
+das	Wasser		l’eau
+das	Mineralwasser		l’eau minérale
+der	Apfelsaft	ä-e	le jus de pomme
+die	Cola	-	le coca
+	Was kostet das, bitte?		C’est combien, s’il vous plaît ?

@@ -9,6 +9,8 @@ import winsound # Son, bruitage
 import datetime #for date, time
 # import time
 import csv #for statistics logs
+import operator #for sorting dict by value
+import collections
 
 ###############
 #Initialisation
@@ -87,6 +89,8 @@ with open(exercicesFile, 'r', encoding='utf8') as file:
 # globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
 exercice1.addSettings("nombreTentativeMax", 3)
 exercice1.addSettings("nombreEnnemis", 4)
+exercice1.addSettings("deltaRemettreErreur", 3)
+
 #----
 globalSettings.ecrireNombreTentativesMax = 3 #Fixe le nombre de tentative max avant de donner la réponse pour les exercices d écriture
 globalSettings.nombreEnnemis = 4 # defini le nombre de mots total dans lequel trouver une correspondance
@@ -152,7 +156,7 @@ else:
     #OOP-FIN
 
 #Affichage et selection du type d exercice "trouver le mot" ou "Orthographe Ecrire le mot"
-typePossible = ["Trouver une correspondance", "Ecrire"]
+typePossible = ["Lire les mots", "Trouver une correspondance", "Ecrire"]
 print("Quel type d'exercice")
 choix.typeExerciceChoisi = choisirElement(typePossible) #OOP - To delelte
 exercice1.addChoix("typeExercice", choix.typeExerciceChoisi)
@@ -173,6 +177,11 @@ exercice1.setVocabularies(vocabulaire)
 # test = ["rec1","rec2"]
 # record.recordTentative(exercice1, test)
 
+if choix.typeExerciceChoisi == "Lire les mots":
+    # initialisation du fichier de statistique
+    record = Record(globalSettings.recordFile, exercice1)
+    exercice1.record = record
+    exercice1.lire()
 if choix.typeExerciceChoisi == "Trouver une correspondance":
     # initialisation du fichier de statistique
     record = Record(globalSettings.recordFile, exercice1)
@@ -188,7 +197,22 @@ elif choix.typeExerciceChoisi == "Ecrire":
     exercice1.record = record
 
     #exectution de l'exercice
-    exercice1.ecrireQuoi()
+    motsDifficilesEtFrequence = exercice1.ecrireQuoi()
+    #Affichage des Mots Difficle
+    countErreurKeyFreq = motsDifficilesEtFrequence['frequenceErreur'] 
+    # sorted_key = sorted(countErreurKeyFreq, reverse = False) #list of Keys sorted per frequence of error
+    # sorted_x = sorted(x.items(), key=operator.itemgetter(1))
+    sorted_key_tup = sorted(countErreurKeyFreq.items(), key=operator.itemgetter(1), reverse = True) #list Keys sorted per frequence of error
+    
+    sorted_key =[]
+    for temp in sorted_key_tup:
+        sorted_key.append(temp[0])
+
+    print('*** Tes pires ennemis ***')
+    for tempKey in sorted_key:
+    # for tempKey in sorted_Errors:
+        reponse = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Der-Die-Das'] + ' ' + motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot en ALL']
+        print('{frequenceFaux} x faux: {indice} = {reponse}'.format(frequenceFaux=motsDifficilesEtFrequence['frequenceErreur'][tempKey], indice = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot FR'], reponse = reponse))
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()

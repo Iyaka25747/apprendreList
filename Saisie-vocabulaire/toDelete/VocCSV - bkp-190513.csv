@@ -15,8 +15,8 @@ allemand;voc2;p11;14;mot;;mit dem Auto;;aller en voiture
 allemand;voc2;p11;15;mot;;mit der U-Bahn;;aller en métro
 allemand;voc2;p11;16;phrase;;Entschuldigung, wo ist das Kino?;;Excusez-moi, où est le cinéma
 allemand;voc2;p11;17;mot;das;Zentrum;;le centre
-allemand;voc2;p11;18;mot;;im Zentrum;;au centre (centre-ville solution 1)
-allemand;voc2;p11;18;mot;;im Stadtzentrum;;au centre-ville (centre-ville solution 2)
+allemand;voc2;p11;18;mot;;im Zentrum;;au centre (centre-ville) (1)
+allemand;voc2;p11;18;mot;;im Stadtzentrum;;au centre-ville (2)
 allemand;voc2;p11;19;mot;das;Hotel;-s;l’hôtel
 allemand;voc2;p11;20;mot;der;Sportplatz;ä-e;le terrain de sport
 allemand;voc2;p11;21;phrase;;Jakob s’entraîne sur le terrain de sport.;;Jakob trainiert auf dem Sportplatz
@@ -26,11 +26,11 @@ allemand;voc2;p11;24;mot;die;Fahrkarte;-n;le billet, le titre de transport
 allemand;voc2;p11;25;mot;;warten;;attendre
 allemand;voc2;p11;26;verbe;;er wartet;;il attend
 allemand;voc2;p11;27;phrase;;Klara wartet auf den Bus.;;Klara attend le bus.
-allemand;voc2;p11;28;mot;die;Bank;ä-e;le banc
+allemand;voc2;p11;28;mot;die;Bank;ä e;le banc
 allemand;voc2;p11;29;phrase;;Klara wartet auf der Bank.;;Klara attend sur le banc.
 allemand;voc2;p11;30;mot;der;Weg;-e;le chemin
 allemand;voc2;p11;31;mot;;rechts;;droite
-allemand;voc2;p11;32;mot;;links;;gauche
+allemand;voc2;p11;32;mot;;links;;à gauche
 allemand;voc2;p11;33;mot;;nach rechts;;à droite
 allemand;voc2;p11;34;mot;;nach links;;à gauche
 allemand;voc2;p12;1;mot;;geradeaus;;tout droit
@@ -59,25 +59,25 @@ allemand;voc2;p13;3;mot;der;Ort;-e;le lieu, l’endroit
 allemand;voc2;p13;4;mot;die;Haltestelle;-n;l’arrêt
 allemand;voc2;p13;5;mot;;aus|steigen;;descendre (d’un véhicule)
 allemand;voc2;p13;6;verbe;;er steigt aus;;il descend (d’un véhicule)
-allemand;voc2;p13;7;phrase;;Klara steigt an der nächsten Haltestelle aus.;;Klara descend au prochain arrêt.
+allemand;voc2;p13;7;mot;;Klara steigt an der nächsten Haltestelle aus.;;Klara descend au prochain arrêt.
 allemand;voc2;p13;8;mot;der;Marktplatz;ä-e;la place du marché
 allemand;voc2;p13;9;mot;;nah;;proche, à proximité
 allemand;voc2;p13;10;phrase;;Alles ist ganz nah.;;Tout est à proximité.
 allemand;voc2;p13;11;mot;;weit;;loin
-allemand;voc2;p13;12;phrase;;Das Kino ist nicht weit.;;Le cinéma n’est pas loin.
+allemand;voc2;p13;12;mot;Das;Kino ist nicht weit.;;Le cinéma n’est pas loin.
 allemand;voc2;p13;13;mot;das;Jugendzentrum;-ren;le centre de jeunes
 allemand;voc2;p13;14;mot;das;Rathaus;;l’hôtel de ville
 allemand;voc2;p13;15;mot;der;Spielplatz;ä-e;le terrain de jeu
 allemand;voc2;p13;16;mot;der;Schulweg;-e; le chemin de l’école
-allemand;voc2;p13;17;mot;;ab|biegen;;tourner, virer
+allemand;voc2;p13;17;mot;;ab|biegen, er biegt ab;;tourner, virer
 allemand;voc2;p13;18;verbe;;er biegt ab;;il tourne, il vire
 allemand;voc2;p13;19;phrase;;Ich biege links ab.;;Je tourne à gauche.
 allemand;voc2;p13;20;mot;;Geschäfte;;des Magasins
 allemand;voc2;p13;21;mot;;kaufen;;acheter
-allemand;voc2;p13;22;verbe;;er kauft;;il achete
+allemand;voc2;p13;22;mot;;er kauft;;il achete
 allemand;voc2;p13;23;mot;;kosten;;coûter
-allemand;voc2;p13;24;verbe;;er kostet;;il coûte
-allemand;voc2;p13;25;verbe;;es kostet;;ça coûte
+allemand;voc2;p13;24;mot;;er kostet;;il coûte
+allemand;voc2;p13;25;mot;;es kostet;;ça coûte
 allemand;voc2;p13;26;phrase;;Die Jacke kostet nicht viel.;;La veste ne coûte pas cher.
 allemand;voc2;p13;27;mot;der;Supermarkt;-e;le supermarché
 allemand;voc2;p13;28;mot;das;Restaurant;-s;le restaurant
@@ -85,36 +85,37 @@ allemand;voc2;p13;29;mot;die;Bäckerei;-en;la boulangerie
 allemand;voc2;p13;30;phrase;;In der Bäckerei gibt es Brot und Brötchen.;;À la boulangerie, il y a du pain et des petits pains.
 allemand;voc2;p13;31;mot;der;Kiosk;-e;le kiosque
 allemand;voc2;p13;32;phrase;;Am Kiosk gibt es Zeitschriften und Zeitungen.;;Au kiosque, il y a des magazines et des journaux
-allemand;voc2;p14;1;phrase;;In der Apotheke kann man Medikamente kaufen;;À la pharmacie, on peut acheter des médicaments.
+allemand;voc2;p14;1;phrase;;Au kiosque, il y a des magazines et des journaux;;À la pharmacie, on peut acheter des médicaments.
 allemand;voc2;p14;2;mot;die;Apotheke;-n;la pharmacie
-allemand;voc2;p14;3;mot;die;Post;;la poste
-allemand;voc2;p14;4;mot;die;Bank;-en;la banque
-allemand;voc2;p14;5;phrase;;Jakob wartet vor der Bank.;;Jakob attend devant la banque.
-allemand;voc2;p14;6;mot;;ein|kaufen;;faire les courses
-allemand;voc2;p14;7;verbe;;er kauft ein;;il fait les courses
-allemand;voc2;p14;8;mot;;bezahlen;;payer
-allemand;voc2;p14;9;verbe;;er bezahlt;;il paie
-allemand;voc2;p14;10;phrase;;Ich bezahle an der Kasse.;;Je paie à la caisse.
-allemand;voc2;p14;11;mot;;shoppen;;faire du shopping
-allemand;voc2;p14;12;verbe;;er shoppt;;il fait du shopping
-allemand;voc2;p14;13;mot;das;Kaufhaus;ä-er;le grand magasin
-allemand;voc2;p14;14;mot;das;Geschäft;-e;le magasin
-allemand;voc2;p14;15;mot;die;Kasse;-n;la caisse
-allemand;voc2;p14;16;mot;;Lebensmittel und Waren;;Aliments et denrées
-allemand;voc2;p14;17;mot;das;Shampoo;-s;le shampoing
-allemand;voc2;p14;18;mot;die;Wurst;ü-e;la saucisse
-allemand;voc2;p14;19;mot;der;Käse;;le fromage (toujours au singulier)
-allemand;voc2;p14;20;mot;die;Banane;-n;la banane
-allemand;voc2;p14;21;mot;das;Brot;-e;le pain
-allemand;voc2;p14;22;mot;das;Brötchen;-;le petit pain
-allemand;voc2;p14;23;mot;das;Medikament;-e;le médicament
-allemand;voc2;p14;24;mot;die;Zeitschrift;-en;le magazine
-allemand;voc2;p14;25;mot;die;Zeitung;-en;le journal
-allemand;voc2;p14;26;mot;;Schulsachen;;Affaires d’école
-allemand;voc2;p14;27;mot;das;Heft;-e;le cahier
-allemand;voc2;p14;28;mot;das;Buch;ü-er;le livre
-allemand;voc2;p14;29;mot;das;Papier;-e;le papier
-allemand;voc2;p14;30;mot;der;Stift;-e;le stylo
+allemand;voc2;p14;3;phrase;;In der Apotheke kann man Medikamente kaufen;;
+allemand;voc2;p14;4;mot;die;Post;;la poste
+allemand;voc2;p14;5;mot;die;Bank;-en;la banque
+allemand;voc2;p14;6;phrase;;Jakob wartet vor der Bank.;;Jakob attend devant la banque.
+allemand;voc2;p14;7;mot;;ein|kaufen;;faire les courses
+allemand;voc2;p14;8;verbe;;er kauft ein;;il fait les courses
+allemand;voc2;p14;9;mot;;bezahlen;;payer
+allemand;voc2;p14;10;verbe;;er bezahlt;;il paie
+allemand;voc2;p14;11;phrase;;Ich bezahle an der Kasse.;;Je paie à la caisse.
+allemand;voc2;p14;12;mot;;shoppen;;faire du shopping
+allemand;voc2;p14;13;verbe;;er shoppt;;il fait du shopping
+allemand;voc2;p14;14;mot;das;Kaufhaus;ä-er;le grand magasin
+allemand;voc2;p14;15;mot;das;Geschäft;-e;le magasin
+allemand;voc2;p14;16;mot;die;Kạsse;-n;la caisse
+allemand;voc2;p14;17;mot;;Lebensmittel und Waren;;Aliments et denrées
+allemand;voc2;p14;18;mot;das;Shampoo;-s;le shampoing
+allemand;voc2;p14;19;mot;die;Wurst;ü-e;la saucisse
+allemand;voc2;p14;20;mot;der;Käse;;le fromage (toujours au singulier)
+allemand;voc2;p14;21;mot;die;Banane;-n;la banane
+allemand;voc2;p14;22;mot;das;Brot;-e;le pain
+allemand;voc2;p14;23;mot;das;Brötchen;-;le petit pain
+allemand;voc2;p14;24;mot;das;Medikament;-e;le médicament
+allemand;voc2;p14;25;mot;die;Zeitschrift;-en;le magazine
+allemand;voc2;p14;26;mot;die;Zeitung;-en;le journal
+allemand;voc2;p14;27;mot;;Schulsachen;;Affaires d’école
+allemand;voc2;p14;28;mot;das;Heft;-e;le cahier
+allemand;voc2;p14;29;mot;das;Buch;ü-er;le livre
+allemand;voc2;p14;30;mot;das;Papier;-e;le papier
+allemand;voc2;p14;31;mot;der;Stift;-e;le stylo
 allemand;voc2;p15;1;mot;das;Blatt;ä-er;la feuille
 allemand;voc2;p15;2;mot;;ein Blatt Papier;;une feuille de papier
 allemand;voc2;p15;3;mot;der;Kuli;-s;le stylo
@@ -264,6 +265,7 @@ allemand;voc6;p40;9;mot;;gratis;;gratuit
 allemand;voc6;p40;10;mot;Das;Tram;;le tram
 allemand;voc6;p40;11;mot;;müde;;fatigué,-e
 allemand;voc6;p40;12;mot;Die;Abfahrt;en;le départ
+allemand;voc6;p40;13;mot;Der;Treffpunkt;e;le point de rencontre
 allemand;voc6;p40;14;mot;Die;Ankunft;ü-e;L arrivée
 allemand;voc6;p40;15;mot;Die;Rückreise;n;le retour
 allemand;voc6;p40;16;mot;Die;Strassenbahn;en;le tram(way)
@@ -566,92 +568,3 @@ anglais;unit7;p71;20;mot;;inventor;;inventeur
 anglais;unit7;p71;21;mot;;light bulb;;ampoule
 anglais;unit7;p71;22;mot;;paper;;papier
 anglais;unit7;p71;23;mot;;save (lives);;sauver (des vies)
-allemand;voc5;p31;1;mot;die;Karte;-n;la carte
-allemand;voc5;p31;2;phrase;;Wo liegt das?;;Où est-ce que ça se trouve ?
-allemand;voc5;p31;3;mot;;im Norden;;au nord
-allemand;voc5;p31;4;mot;;im Süden;;au sud
-allemand;voc5;p31;5;mot;;im Osten;;à l’est
-allemand;voc5;p31;6;mot;;im Westen;;à l’ouest
-allemand;voc5;p31;7;mot;;in der Mitte;;au centre, au milieu
-allemand;voc5;p31;8;mot;;leben;;vivre
-allemand;voc5;p31;9;verbe;;er lebt;;il vit
-allemand;voc5;p31;10;phrase;;Wo lebt er? Er lebt in Istanbul.;;Il vit où? Il vit à Istanbul.
-allemand;voc5;p31;11;mot;die;Hauptstadt von;ä-e;la capitale de
-allemand;voc5;p31;12;phrase;;Berlin ist die Hauptstadt von Deutschland.;;Berlin est la capitale de l’Allemagne.
-allemand;voc5;p31;13;mot;;liegen;;se trouver
-allemand;voc5;p31;14;verbe;;er liegt;;il se trouve
-allemand;voc5;p31;15;phrase;;Wo liegt Hamburg/Luzern?;;Où se trouve Hambourg/Lucerne ?
-allemand;voc5;p31;16;phrase;;Hamburg liegt im Norden von Deutschland.;;Hamburg est située dans le nord de l’Allemagne.
-allemand;voc5;p31;17;phrase;;Luzern liegt in der Mitte von der Schweiz.;;Lucerne est située au centre de la Suisse.
-allemand;voc5;p31;18;mot;die;Ferien;;les vacances (d’école)
-allemand;voc5;p31;19;mot;der;Urlaub;-e;les vacances
-allemand;voc5;p31;20;mot;der;See;-n;le lac
-allemand;voc5;p31;21;mot;der;Strand;ä-e;la plage
-allemand;voc5;p31;22;mot;;teuer;;cher, chère
-allemand;voc5;p31;23;mot;;billig;;bon marché
-allemand;voc5;p32;1;mot;die;Postkarte;-n;la carte postale
-allemand;voc5;p32;2;mot;die;SMS;;Le SMS
-allemand;voc5;p32;3;mot;die;E-Mail;-s;l’e-mail, le couriel (solution1) 
-allemand;voc5;p32;4;mot;die;Mail;-s;l’e-mail, le couriel (solution2) 
-allemand;voc5;p32;5;mot;;wohin;;où (déplacement + accusatif)
-allemand;voc5;p32;6;phrase;;Wohin fahren wir in den Osterferien?;;Où allons-nous pendant les vacances de Pâques ?
-allemand;voc5;p32;7;phrase;;Wir fahren nach Spanien/Hamburg.;;Nous allons en Espagne/à Hambourg.
-allemand;voc5;p32;8;phrase;;Wir fahren in die Türkei/Schweiz.;;Nous allons en Turquie/Suisse.
-allemand;voc5;p32;9;phrase;;Wir fahren ans Meer.;;Nous allons au bord de la mer.
-allemand;voc5;p32;10;phrase;;Wir fahren an die Ostsee.;;'Nous allons au bord de la mer Baltique (mer de l''est).'
-allemand;voc5;p32;11;phrase;;Wir fahren an den See.;;Nous allons au bord du lac.
-allemand;voc5;p32;12;phrase;;Wir fahren in die Alpen/Berge.;;Nous allons dans les Alpes/à la montagne.
-allemand;voc5;p32;13;phrase;;Wir fahren mit dem Zug.;;Nous partons en train.
-allemand;voc5;p32;14;phrase;;Wir fahren mit dem Auto.;;Nous partons en voiture.
-allemand;voc5;p32;15;phrase;;Wir fahren mit dem Schiff.;;Nous partons en bateau.
-allemand;voc5;p32;16;mot;der;Hafen;ä-;le port
-allemand;voc5;p32;17;phrase;;Im Hafen sind viele Schiffe.;;Il y a beaucoup de bateaux au port.
-allemand;voc5;p32;18;phrase;;Wie viel kostet das Zimmer für eine Nacht?;;Combien coûte la chambre pour une nuit ?
-allemand;voc5;p32;19;mot;das;Hostel;-s;l’auberge de jeunesse (solution 1)
-allemand;voc5;p32;20;mot;die;Jugendherberge;-n;l’auberge de jeunesse (solution 2)
-allemand;voc5;p32;21;mot;;reservieren;;réserver
-allemand;voc5;p32;22;verbe;;er reserviert;;il réserve
-allemand;voc5;p32;23;phrase;;Sie reserviert ein Zimmer im Hostel.;;Elle réserve une chambre à l’auberge de jeunesse.
-allemand;voc5;p32;24;mot;;übernachten;;passer la nuit
-allemand;voc5;p32;25;verbe;;er übernachtet;;il passe la nuit
-allemand;voc5;p32;26;phrase;;Wir übernachten im Hostel.;;Nous passons la nuit dans l’auberge de jeunesse(solution 1).
-allemand;voc5;p32;27;mot;die;Übernachtung;-en;la nuit à l’hôtel, la nuitée, l’hébergement
-allemand;voc5;p32;28;mot;das;Schloss;ö-er;le château
-allemand;voc5;p32;29;mot;;an|kommen;;arriver
-allemand;voc5;p32;30;verbe;;er kommt an;;il arrive
-allemand;voc5;p33;1;mot;;ab|fahren;;partir (train/bus)
-allemand;voc5;p33;2;verbe;;er fährt ab;;il part (train/bus)
-allemand;voc5;p33;3;phrase;;Der Bus fährt um 8 Uhr ab.;;Le bus part à 8 heures.
-allemand;voc5;p33;4;mot;;fliegen;;voler, aller en avion
-allemand;voc5;p33;5;verbe;;er fliegt;;il vole, il va en avion
-allemand;voc5;p33;6;phrase;;Er fliegt in die Türkei.;;Il part en Turquie (en avion).
-allemand;voc5;p33;7;mot;;letztes Jahr;;l’année dernière
-allemand;voc5;p33;8;phrase;;Da waren wir schon letztes Jahr.;;Nous y sommes déjà allés l’année derrière.
-allemand;voc5;p33;9;mot;das;Reiseziel;-e;la destination
-allemand;voc5;p33;10;mot;die;Burg;-en;le château fort
-allemand;voc5;p33;11;mot;die;Jugendgruppe;-n;le groupe de jeunes
-allemand;voc5;p33;12;mot;die;Mitgliedskarte;-n;la carte d’adhérent / de membre
-allemand;voc5;p33;13;mot;der;Vorschlag;ä-e;la proposition
-allemand;voc5;p33;14;mot;;diskutieren;; discuter
-allemand;voc5;p33;15;verbe;;er diskutiert;;il discute
-allemand;voc5;p33;16;mot;;weg|fahren;;partir en voyage
-allemand;voc5;p33;17;verbe;;er fährt weg;;il part en voyage
-allemand;voc5;p33;18;phrase;;Wir fahren im August weg.;;Nous partons en août.
-allemand;voc5;p33;19;mot;;überall;;partout
-allemand;voc5;p33;20;mot;;unbedingt;;absolument
-allemand;voc5;p33;21;mot;;dort;;là-bas
-allemand;voc5;p33;22;mot;;Essen und trinken;;Nourriture et boisson
-allemand;voc5;p33;23;mot;der;Salat;-e;la salade
-allemand;voc5;p33;24;mot;der;Hamburger;-;le hamburger
-allemand;voc5;p33;25;mot;die;Suppe;-n;la soupe, le potage
-allemand;voc5;p33;26;mot;die;Pizza;-s;la pizza
-allemand;voc5;p33;27;mot;;Pommes;;les frites
-allemand;voc5;p33;28;mot;;Pommes frites;;les pommes frites
-allemand;voc5;p33;29;mot;das;Eis;-;la glace
-allemand;voc5;p33;30;mot;die;Schokosauce;;la sauce chocolat
-allemand;voc5;p33;31;phrase;;Das Vanilleeis mit Schokosauce.;;La glace vanille avec de la sauce chocolat.
-allemand;voc5;p33;32;mot;das;Wasser;;l’eau
-allemand;voc5;p33;33;mot;das;Mineralwasser;;l’eau minérale
-allemand;voc5;p33;34;mot;der;Apfelsaft;ä-e;le jus de pomme
-allemand;voc5;p33;35;mot;die;Cola;-;le coca
-allemand;voc5;p33;36;mot;;Was kostet das, bitte?;;C’est combien, s’il vous plaît ?

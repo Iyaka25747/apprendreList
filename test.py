@@ -10,6 +10,47 @@ from pprint import pprint
 import sys
 import datetime
 from func import *
+from collections import Counter
+import operator #for sorting dict by value
+import collections
+
+sorted_key_tup = [('1', 1), ('3', 2)]
+sorted_key =[]
+for temp in sorted_key_tup:
+    sorted_key.append(temp[0])
+
+
+keyMotsDifficiles = ['6', '6', '3'] #for debug only 
+statErreurKeyFreq = Counter(keyMotsDifficiles) # Key : freq
+
+sorted_freq = sorted(statErreurKeyFreq, reverse = True)
+
+print('*** Tes pires ennemis ***')
+for tempKey in sorted_freq:
+    # for tempKey in sorted_Errors:
+        reponse = motsDifficilesEtFrequence['motsDifficiles'][sorted_key[tempKey][0]]['Der-Die-Das'] + ' ' + motsDifficilesEtFrequence['motsDifficiles'][sorted_key[tempKey][0]]['Mot en ALL']
+
+
+motsDifficilesEtFrequence={}
+motsDifficilesEtFrequence['frequenceErreurs'] = {}
+# motsDifficilesEtFrequence['frequenceErreurs']= {Counter({'1': 2, '3': 1}), 'motsDifficiles': {'1': {...}, '3': {...}}}
+motsDifficilesEtFrequence['frequenceErreurs']= {'1': 1, '3': 4}
+sorted_Errors = sorted(motsDifficilesEtFrequence['frequenceErreurs'].items(), key=operator.itemgetter(1), reverse = True)
+# Counter = {'6': 2, '10': 1}
+Counter = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+sorted_Errors = sorted(Counter.items(), key=operator.itemgetter(1), reverse = True)
+print('*** Tes pires ennemis ***')
+# for tempKey in motsDifficilesEtFrequence['motsDifficiles']:
+
+
+# sorted_dict = collections.OrderedDict(sorted_Errors)
+
+for tempKey in sorted_Errors:
+    pass
+
+z = ['blue', 'red', 'blue', 'yellow', 'blue', 'red']
+stat = Counter(z)
+
 
 val = 'asdf'
 try:
