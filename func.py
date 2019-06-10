@@ -158,13 +158,14 @@ class ExerciceClass:
             # countElements = 1
             vocNew = {}
             for key in voc:
-                reponse = voc[key]['Der-Die-Das']
-                vocNew[key] = voc[key]                
-                vocNew[key]['Mot FR'] = voc[key]['Mot en ALL'] + ' (' + voc[key]['Mot FR'] +')' #indice
-                vocNew[key]['Mot en ALL'] = reponse
+                reponse = voc[key]['Der-Die-Das'] # reponse = "der"
+                vocNew[key] = voc[key] # on commence avec le meme mot               
+                vocNew[key]['Mot FR'] = voc[key]['Mot en ALL'] + ' (' + voc[key]['Mot FR'] +')' #indice "Freund (l'ami)"
+                vocNew[key]['Mot en ALL'] = reponse 
             voc = vocNew
             
         motsDifficilesEtFrequence = self.ecrireVoc(voc) #on exerce le voc par écrit
+        return motsDifficilesEtFrequence
 
         # else: # exception: trouver Der Die Das
         #     if self.choix["quoiEcrire"] == "seulement der, die, das":
