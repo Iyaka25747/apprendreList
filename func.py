@@ -135,58 +135,70 @@ class ExerciceClass:
         return
 
     def ecrireQuoi(self):
-        if not (self.choix["quoiEcrire"] == "seulement der, die, das"): # cas standard, on emploie les voc tel quel.
-            if self.choix["quoiEcrire"] == "phrase":
-                voc = self.vocabulaire['vocPhrase']['elements']
-            if self.choix["quoiEcrire"] == "verbe":
-                voc = self.vocabulaire['vocVerbe']['elements']
-            if self.choix["quoiEcrire"] == "mot":
-                voc = self.vocabulaire['vocMotTous']['elements']
-            if self.choix["quoiEcrire"] == "motDerDieDas":
-                voc = self.vocabulaire['vocDerDieDasMot']['elements']
-                #Construction d un voc avec Der Die Das
-                vocDerDieDas = {}
-                for Key in voc:
-                    elementDDD = voc[Key]['Der-Die-Das'] + ' ' + voc[Key]['Mot en ALL']
-                    vocDerDieDas[Key] = voc[Key]
-                    vocDerDieDas[Key]['Mot en ALL'] = elementDDD
-                voc = vocDerDieDas
-            # self.ecrireVoc(voc) #on exerce le voc par écrit
-            motsDifficilesEtFrequence = self.ecrireVoc(voc) #on exerce le voc par écrit
+        # if not (self.choix["quoiEcrire"] == "seulement der, die, das"): # cas standard, on emploie les voc tel quel.
+        if self.choix["quoiEcrire"] == "phrase":
+            voc = self.vocabulaire['vocPhrase']['elements']
+        if self.choix["quoiEcrire"] == "verbe":
+            voc = self.vocabulaire['vocVerbe']['elements']
+        if self.choix["quoiEcrire"] == "mot":
+            voc = self.vocabulaire['vocMotTous']['elements']
+        if self.choix["quoiEcrire"] == "motDerDieDas": # On écrit le determinant + mot (das Schloss)
+            voc = self.vocabulaire['vocDerDieDasMot']['elements']
+            #Construction d un voc avec Der Die Das
+            vocDerDieDas = {}
+            for Key in voc:
+                elementDDD = voc[Key]['Der-Die-Das'] + ' ' + voc[Key]['Mot en ALL']
+                vocDerDieDas[Key] = voc[Key]
+                vocDerDieDas[Key]['Mot en ALL'] = elementDDD
+            voc = vocDerDieDas
 
-        else: # exception: trouver Der Die Das
-            if self.choix["quoiEcrire"] == "seulement der, die, das":
-                voc =self.vocabulaire['vocDerDieDasMot']['elements']
-                # self.trouverDerDieDas(voc)
-                nombreElements = len(voc) 
-                countElements = 1
-                keyMotsDifficiles = []
-                for key in voc:
-                    elementAEcrire = voc[key]['Der-Die-Das'] # il faut écrire "der"
-                    indice = voc[key]['Mot en ALL'] # on donne "Freund"
-                    reponseAAfficher = elementAEcrire + ' ' + indice # la solution est "der Freund"
-                    reponseFausse = True
-                    tentative = 0
-                    while reponseFausse:
-                        reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire der, die ou das: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
-                        tentative += 1
-                        if reponse == elementAEcrire:
-                            print('Bravo')
-                            reponseFausse = False
-                            evaluationReponse = 'juste'
-                            playSoundGoodOOP(self.settings)
-                        else:
-                            evaluationReponse = 'faux'
-                            playSoundBadOOP(self.settings)
-                            if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
-                                # showError(informationAEcrireEtranger, reponse)
-                                showErrorString(elementAEcrire, reponse)
-                        if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
-                            keyMotsDifficiles.append(key)                    
-                            break
-                    print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
-                    countElements += 1
-        return motsDifficilesEtFrequence
+        if self.choix["quoiEcrire"] == "seulement der, die, das": # On érite que le determinant (reponse: der / question: Schloss)
+            voc =self.vocabulaire['vocDerDieDasMot']['elements']
+            # nombreElements = len(voc)
+            # countElements = 1
+            vocNew = {}
+            for key in voc:
+                reponse = voc[key]['Der-Die-Das']
+                vocNew[key] = voc[key]                
+                vocNew[key]['Mot FR'] = voc[key]['Mot en ALL'] + ' (' + voc[key]['Mot FR'] +')' #indice
+                vocNew[key]['Mot en ALL'] = reponse
+            voc = vocNew
+            
+        motsDifficilesEtFrequence = self.ecrireVoc(voc) #on exerce le voc par écrit
+
+        # else: # exception: trouver Der Die Das
+        #     if self.choix["quoiEcrire"] == "seulement der, die, das":
+        #         voc =self.vocabulaire['vocDerDieDasMot']['elements']
+        #         # self.trouverDerDieDas(voc)
+        #         nombreElements = len(voc) 
+        #         countElements = 1
+        #         keyMotsDifficiles = []
+        #         for key in voc:
+        #             elementAEcrire = voc[key]['Der-Die-Das'] # il faut écrire "der"
+        #             indice = voc[key]['Mot en ALL'] # on donne "Freund"
+        #             reponseAAfficher = elementAEcrire + ' ' + indice # la solution est "der Freund"
+        #             reponseFausse = True
+        #             tentative = 0
+        #             while reponseFausse:
+        #                 reponse = input('[{countElements}/{nombreElements}], [{nbrEssai} essai/{nbrEssaiTot}] Ecrire der, die ou das: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"], countElements=countElements, nombreElements=nombreElements ))
+        #                 tentative += 1
+        #                 if reponse == elementAEcrire:
+        #                     print('Bravo')
+        #                     reponseFausse = False
+        #                     evaluationReponse = 'juste'
+        #                     playSoundGoodOOP(self.settings)
+        #                 else:
+        #                     evaluationReponse = 'faux'
+        #                     playSoundBadOOP(self.settings)
+        #                     if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
+        #                         # showError(informationAEcrireEtranger, reponse)
+        #                         showErrorString(elementAEcrire, reponse)
+        #                 if tentative == self.settings['nombreTentativeMax']: # globalSettings.ecrireNombreTentativesMax: #si le nombre de tentative max est atteint on arrête.
+        #                     keyMotsDifficiles.append(key)                    
+        #                     break
+        #             print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
+        #             countElements += 1
+        # return motsDifficilesEtFrequence
 
     def lire(self):
         dictionnaire = {}
