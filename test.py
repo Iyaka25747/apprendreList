@@ -15,6 +15,11 @@ import operator #for sorting dict by value
 import collections
 
 
+questionResponse[key] = {}
+questionResponse[key]['question'] = vocTemp[key]['Mot FR']
+questionResponse[key]['reponse'] = vocTemp[key]['Mot en ALL']
+questionResponse[key]['reponseAffichee'] = vocTemp[key]['Der-Die-Das'] +' '+ vocTemp[key]['Mot en ALL']
+
 questionResponse = {}
 questionResponse['1'] = {}
 questionResponse['1']['question'] = 'hello question'

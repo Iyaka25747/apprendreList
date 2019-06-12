@@ -211,8 +211,8 @@ elif choix.typeExerciceChoisi == "Ecrire":
     print('*** Tes pires ennemis ***')
     for tempKey in sorted_key:
     # for tempKey in sorted_Errors:
-        reponse = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Der-Die-Das'] + ' ' + motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot en ALL']
-        print('{frequenceFaux} x faux: {indice} = {reponse}'.format(frequenceFaux=motsDifficilesEtFrequence['frequenceErreur'][tempKey], indice = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot FR'], reponse = reponse))
+        # reponse = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Der-Die-Das'] + ' ' + motsDifficilesEtFrequence['motsDifficiles'][tempKey]['Mot en ALL']
+        print('{frequenceFaux} x faux: {question} = {reponseAffichee}'.format(frequenceFaux=motsDifficilesEtFrequence['frequenceErreur'][tempKey], question = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['question'], reponseAffichee = motsDifficilesEtFrequence['motsDifficiles'][tempKey]['reponseAffichee']))
 
 globalTimeKeeper.stopTimer()
 duree = globalTimeKeeper.totalDuration()

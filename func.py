@@ -137,40 +137,73 @@ class ExerciceClass:
     def ecrireQuoi(self):
         # if not (self.choix["quoiEcrire"] == "seulement der, die, das"): # cas standard, on emploie les voc tel quel.
         if self.choix["quoiEcrire"] == "phrase":
-            voc = self.vocabulaire['vocPhrase']['elements']
+            vocTemp = self.vocabulaire['vocPhrase']['elements']
+            questionsResponses = {}
+            for key in vocTemp:
+                questionsResponses[key] = {}
+                questionsResponses[key]['question'] = vocTemp[key]['Mot FR']
+                questionsResponses[key]['reponse'] = vocTemp[key]['Mot en ALL']
+                questionsResponses[key]['reponseAffichee'] = vocTemp[key]['Mot en ALL']
+          
         if self.choix["quoiEcrire"] == "verbe":
-            voc = self.vocabulaire['vocVerbe']['elements']
+            vocTemp = self.vocabulaire['vocVerbe']['elements']
+            questionsResponses = {}
+            for key in vocTemp:
+                questionsResponses[key] = {}
+                questionsResponses[key]['question'] = vocTemp[key]['Mot FR']
+                questionsResponses[key]['reponse'] = vocTemp[key]['Mot en ALL']
+                questionsResponses[key]['reponseAffichee'] = vocTemp[key]['Mot en ALL']
+          
         if self.choix["quoiEcrire"] == "mot":
             vocTemp = self.vocabulaire['vocMotTous']['elements']
-            questionResponse = {}
+            questionsResponses = {}
             for key in vocTemp:
-                questionResponse[key] = {}
-                questionResponse[key]['question'] = vocTemp[key]['Mot FR']
-                questionResponse[key]['reponse'] = vocTemp[key]['Mot en ALL']
-                questionResponse[key]['reponseAffichee'] = vocTemp[key]['Der-Die-Das'] +' '+ vocTemp[key]['Mot en ALL']
+                questionsResponses[key] = {}
+                questionsResponses[key]['question'] = vocTemp[key]['Mot FR']
+                questionsResponses[key]['reponse'] = vocTemp[key]['Mot en ALL']
+                questionsResponses[key]['reponseAffichee'] = vocTemp[key]['Der-Die-Das'] +' '+ vocTemp[key]['Mot en ALL']
+          
         if self.choix["quoiEcrire"] == "motDerDieDas": # On écrit le determinant + mot (das Schloss)
-            voc = self.vocabulaire['vocDerDieDasMot']['elements']
-            #Construction d un voc avec Der Die Das
-            vocDerDieDas = {}
-            for Key in voc:
-                elementDDD = voc[Key]['Der-Die-Das'] + ' ' + voc[Key]['Mot en ALL']
-                vocDerDieDas[Key] = voc[Key]
-                vocDerDieDas[Key]['Mot en ALL'] = elementDDD
-            voc = vocDerDieDas
+            vocTemp = self.vocabulaire['vocDerDieDasMot']['elements']
+            questionsResponses = {}
+            for key in vocTemp:
+                questionsResponses[key] = {}
+                questionsResponses[key]['question'] = vocTemp[key]['Mot FR']
+                questionsResponses[key]['reponse'] = vocTemp[key]['Der-Die-Das'] +' '+ vocTemp[key]['Mot en ALL']
+                questionsResponses[key]['reponseAffichee'] = vocTemp[key]['Der-Die-Das'] +' '+ vocTemp[key]['Mot en ALL']
+          
+
+
+            # #Construction d un voc avec Der Die Das
+            # vocDerDieDas = {}
+            # for Key in voc:
+            #     elementDDD = voc[Key]['Der-Die-Das'] + ' ' + voc[Key]['Mot en ALL']
+            #     vocDerDieDas[Key] = voc[Key]
+            #     vocDerDieDas[Key]['Mot en ALL'] = elementDDD
+            # voc = vocDerDieDas
 
         if self.choix["quoiEcrire"] == "seulement der, die, das": # On érite que le determinant (reponse: der / question: Schloss)
-            voc =self.vocabulaire['vocDerDieDasMot']['elements']
-            # nombreElements = len(voc)
-            # countElements = 1
-            vocNew = {}
-            for key in voc:
-                reponse = voc[key]['Der-Die-Das'] # reponse = "der"
-                vocNew[key] = voc[key] # on commence avec le meme mot               
-                vocNew[key]['Mot FR'] = voc[key]['Mot en ALL'] + ' (' + voc[key]['Mot FR'] +')' #indice "Freund (l'ami)"
-                vocNew[key]['Mot en ALL'] = reponse 
-            voc = vocNew
+            vocTemp =self.vocabulaire['vocDerDieDasMot']['elements']
+            questionsResponses = {}
+            for key in vocTemp:
+                questionsResponses[key] = {}
+                questionsResponses[key]['question'] = vocTemp[key]['Mot en ALL'] + ' (' + vocTemp[key]['Mot FR'] + ')'
+                questionsResponses[key]['reponse'] = vocTemp[key]['Der-Die-Das']
+                questionsResponses[key]['reponseAffichee'] = vocTemp[key]['Der-Die-Das'] +' '+ vocTemp[key]['Mot en ALL']
+          
+
+
+            # # nombreElements = len(voc)
+            # # countElements = 1
+            # vocNew = {}
+            # for key in voc:
+            #     reponse = voc[key]['Der-Die-Das'] # reponse = "der"
+            #     vocNew[key] = voc[key] # on commence avec le meme mot               
+            #     vocNew[key]['Mot FR'] = voc[key]['Mot en ALL'] + ' (' + voc[key]['Mot FR'] +')' #indice "Freund (l'ami)"
+            #     vocNew[key]['Mot en ALL'] = reponse 
+            # voc = vocNew
             
-        motsDifficilesEtFrequence = self.ecrireVoc(voc) #on exerce le voc par écrit
+        motsDifficilesEtFrequence = self.ecrireVoc(questionsResponses) #on exerce le voc par écrit
         return motsDifficilesEtFrequence
 
         # else: # exception: trouver Der Die Das
@@ -329,22 +362,19 @@ class ExerciceClass:
         ilResteDesElements = True
         while ilResteDesElements: #tant qu il reste des éléments on continue l exercice
             print('- Ecrire le mot sans le déterminant -\n{nombreElementsTotal} mots à apprendre\n{nbrElementsRestant} questions restantes\n'.format(indexTentative=indexTentative + 1, nombreElementsTotal=nombreElementsTotal, nbrElementsRestant = len(keysElements)-indexTentative ) )
-            elementAEcrire = voc[keysElements[indexTentative]]['Mot en ALL']
-            indice = voc[keysElements[indexTentative]]['Mot FR']
-            if voc[keysElements[indexTentative]]['Der-Die-Das'] != '':
-                reponseAAfficher = voc[keysElements[indexTentative]]['Der-Die-Das'] + ' ' + elementAEcrire
-            else: 
-                reponseAAfficher = elementAEcrire 
+            reponseADonner = voc[keysElements[indexTentative]]['reponse']
+            question = voc[keysElements[indexTentative]]['question']
+            reponseAAfficher = voc[keysElements[indexTentative]]['reponseAffichee'] 
 
             reponseFausse = True
             tentative = 0
             pasRemisEnJeux = True
             # on refait la saisie tant que la réponse est fausse.
             while reponseFausse:
-                reponse = input('[{nbrEssai} essai/{nbrEssaiTot}]: [{mot}] '.format(mot= indice, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"]))
+                reponse = input('[{nbrEssai} essai/{nbrEssaiTot}]: [{question}] '.format(question = question, nbrEssai = tentative+1,nbrEssaiTot=self.settings["nombreTentativeMax"]))
                 tentative += 1
                 
-                if reponse == elementAEcrire:
+                if reponse == reponseADonner:
                     print('Bravo')
                     reponseFausse = False
                     evaluationReponse = 'juste'
@@ -363,14 +393,14 @@ class ExerciceClass:
                     playSoundBadOOP(self.settings)
                     if self.choix["aide"] == "True": #choix.ecrireMotPhraseAide:
                         # showError(informationAEcrireEtranger, reponse)
-                        showErrorString(elementAEcrire, reponse)
+                        showErrorString(reponseADonner, reponse)
                 # on enregistre le résultat d'un élément exercé.                       
-                resultatQuestion = [evaluationReponse, elementAEcrire, reponse]
+                resultatQuestion = [evaluationReponse, reponseADonner, reponse]
                 self.record.recordTentative(resultatQuestion) 
                 # si on c'est trompé trop de foix, on passe à l'élément suivant
                 if tentative == self.settings['nombreTentativeMax']:#si le nombre de tentative max est atteint on arrête.
                     break
-            print('[{motFR}] est [{motEtranger}]\n'.format(motEtranger=reponseAAfficher, motFR = indice))
+            print('[{question}] est [{reponse}]\n'.format(reponse = reponseAAfficher, question = question))
             print("")
             input('Appuyer sur ENTER')
             #Clear terminal screen 

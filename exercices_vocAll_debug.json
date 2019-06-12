@@ -26,9 +26,9 @@
                 "7": {
                     "Type": "verbe",
                     "Der-Die-Das": "",
-                    "Mot en ALL": "tanzen, er tanzt, hat getanzt",
+                    "Mot en ALL": "er tanzt",
                     "pluriel": "",
-                    "Mot FR": "danser"
+                    "Mot FR": "il danse"
                 },
                 "10": {
                     "Type": "mot",
@@ -42,7 +42,7 @@
                     "Der-Die-Das": "",
                     "Mot en ALL": "nicht mehr",
                     "pluriel": "",
-                    "Mot FR": "ne… plus"
+                    "Mot FR": "ne plus"
                 }
             }
         }
