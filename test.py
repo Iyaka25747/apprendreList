@@ -14,6 +14,12 @@ from collections import Counter
 import operator #for sorting dict by value
 import collections
 
+
+questionResponse = {}
+questionResponse['1'] = {}
+questionResponse['1']['question'] = 'hello question'
+
+
 sorted_key_tup = [('1', 1), ('3', 2)]
 sorted_key =[]
 for temp in sorted_key_tup:
