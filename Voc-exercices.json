@@ -3378,6 +3378,218 @@
           "pluriel": "",
           "Mot FR": "C’est combien, s’il vous plaît ?"
         }
+      },
+      "p34": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Teller",
+          "pluriel": "-",
+          "Mot FR": "l’assiette"
+        },
+        "2": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ein Teller Suppe.",
+          "pluriel": "",
+          "Mot FR": "Une assiette de soupe."
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Flasche",
+          "pluriel": "-n",
+          "Mot FR": "la bouteille"
+        },
+        "4": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Eine Flasche Wasser.",
+          "pluriel": "",
+          "Mot FR": "Une bouteille d’eau."
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Glas",
+          "pluriel": "ä-er",
+          "Mot FR": "le verre"
+        },
+        "6": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ein Glas Mineralwasser.",
+          "pluriel": "",
+          "Mot FR": "Un verre d’eau minérale."
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Tasse",
+          "pluriel": "-n",
+          "Mot FR": "la tasse"
+        },
+        "8": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Eine Tasse Kaffee/Tee.",
+          "pluriel": "",
+          "Mot FR": "Une tasse de café/de thé."
+        },
+        "9": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Dose",
+          "pluriel": "-n",
+          "Mot FR": "la boîte, la canette"
+        },
+        "10": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Eine Dose Cola.",
+          "pluriel": "",
+          "Mot FR": "Une canette de coca."
+        },
+        "11": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Stück",
+          "pluriel": "-e",
+          "Mot FR": "le morceau / la tranche"
+        },
+        "12": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ein Stück Kuchen/Pizza.",
+          "pluriel": "",
+          "Mot FR": "Un morceau de gâteau/de pizza."
+        },
+        "13": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Eine Portion Pommes.",
+          "pluriel": "Une portion de frites.",
+          "Mot FR": ""
+        },
+        "14": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Portion",
+          "pluriel": "-en",
+          "Mot FR": "la portion"
+        },
+        "15": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Käsebrötchen",
+          "pluriel": "-",
+          "Mot FR": "le sandwich au fromage"
+        },
+        "16": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich möchte...",
+          "pluriel": "",
+          "Mot FR": "Je voudrais..."
+        },
+        "17": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich hätte gern...",
+          "pluriel": "",
+          "Mot FR": "J’aimerais bien..."
+        },
+        "18": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "nichts",
+          "pluriel": "",
+          "Mot FR": "rien"
+        },
+        "19": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich möchte nichts essen.",
+          "pluriel": "",
+          "Mot FR": "Je ne veux rien manger."
+        },
+        "20": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Hunger haben",
+          "pluriel": "",
+          "Mot FR": "avoir faim"
+        },
+        "21": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Er hat keinen Hunger.",
+          "pluriel": "",
+          "Mot FR": "Il n’a pas faim."
+        },
+        "22": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Durst haben",
+          "pluriel": "",
+          "Mot FR": "avoir soif"
+        },
+        "23": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Er hat keinen Durst.",
+          "pluriel": "",
+          "Mot FR": "Il n’a pas soif."
+        },
+        "24": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das schmeckt lecker.",
+          "pluriel": "",
+          "Mot FR": "C’est bon/délicieux."
+        },
+        "25": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das ist echt gut.",
+          "pluriel": "",
+          "Mot FR": "C’est vraiment bon."
+        },
+        "26": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das schmeckt mir nicht.",
+          "pluriel": "",
+          "Mot FR": " Je n’aime pas ça."
+        },
+        "27": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich nehme...",
+          "pluriel": "",
+          "Mot FR": "Je prends..."
+        },
+        "28": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "alles zusammen",
+          "pluriel": "",
+          "Mot FR": "le tout"
+        },
+        "29": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Fischbrötchen",
+          "pluriel": "-",
+          "Mot FR": "le sandwich au poisson"
+        },
+        "30": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Currywurst",
+          "pluriel": "ü-e",
+          "Mot FR": "la saucisse au curry"
+        }
       }
     }
   },
