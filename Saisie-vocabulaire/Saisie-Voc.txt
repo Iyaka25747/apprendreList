@@ -1,35 +1,31 @@
-﻿	ab|fahren		partir (train/bus)
-	er fährt ab		il part (train/bus)
-	Der Bus fährt um 8 Uhr ab.		Le bus part à 8 heures.
-	fliegen		voler, aller en avion
-	er fliegt		il vole, il va en avion
-	Er fliegt in die Türkei.		Il part en Turquie (en avion).
-	letztes Jahr		l’année dernière
-	Da waren wir schon letztes Jahr.		Nous y sommes déjà allés l’année derrière.
-das	Reiseziel	-e	la destination
-die	Burg	-en	le château fort
-die	Jugendgruppe	-n	le groupe de jeunes
-die	Mitgliedskarte	-n	la carte d’adhérent / de membre
-der	Vorschlag	ä-e	la proposition
-	diskutieren		 discuter
-	er diskutiert		il discute
-	weg|fahren		partir en voyage
-	er fährt weg		il part en voyage
-	Wir fahren im August weg.		Nous partons en août.
-	überall		partout
-	unbedingt		absolument
-	dort		là-bas
-	Essen und trinken		Nourriture et boisson
-der	Salat	-e	la salade
-der	Hamburger	-	le hamburger
-die	Suppe	-n	la soupe, le potage
-die	Pizza	-s	la pizza
-	Pommes frites		les frites, les pommes frites
-das	Eis	-	la glace
-die	Schokosauce		la sauce chocolat
-	Das Vanilleeis mit Schokosauce.		La glace vanille avec de la sauce chocolat.
-das	Wasser		l’eau
-das	Mineralwasser		l’eau minérale
-der	Apfelsaft	ä-e	le jus de pomme
-die	Cola	-	le coca
-	Was kostet das, bitte?		C’est combien, s’il vous plaît ?
+﻿	Lieber...,		Cher...,
+	Liebe...,		Chère...,
+	Hier in Hamburg ist es cool.		Ici à Hamburg c'est cool.
+	Es gibt		Il y a (un papa cool)
+	Das Essen ist fertig.		On peut manger/Le repas est prêt.
+	Das Wetter ist gut/schlecht.		Il fait beau/mauvais (temps).
+	Hier kann man		Ici on peut
+	Ich war schwimmen.		Je suis allé nager.
+	Viele Grüsse aus Lugano		Bien de bonjour de Lugano
+	Tschüs		Salut
+	Bis bald		À bientôt
+	Wie findest du das?		Qu’en penses-tu?
+	Ich habe eine Idee.		J’ai une idée.
+	Das finde ich gut.		Je trouve ça bien.
+	Das finde ich nicht gut.		Je ne trouve pas cela bien.
+	Ich möchte lieber		Je préférerais
+	Ich will lieber		J’aimerais mieux
+	Keine Lust!		Pas envie !
+	Keine Zeit!		Pas le temps !
+	Kein Geld!		Pas d’argent !
+	Das ist doch langweilig.		C’est ennuyeux.
+	klasse		super, génial-e
+	cool		cool
+	lustig		amusant-e, marrant-e
+	Das ist viel lustiger.		C’est beaucoup plus amusant.
+	Spass haben		bien s’amuser
+	er hat Spass		il s'amuse bien
+	Das ist eine gute Idee.		C’est une bonne idée.
+	Das ist keine gute Idee.		Ce n’est pas une bonne idée.
+	Einverstanden!		D’accord !
+	OK		OK

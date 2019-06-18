@@ -1,6 +1,7 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
+- bug: lorsque Tilio fait "trouver" à l affichage de la réponse il ne voit pas le bon mot en FR (e.g. Il voit "OK" = essen)
 - line 432 Simplifier le choix, passe à un mode option1Text = "Tous les mots sans der, die, das"; 
 - Afficher le type d exercice "Seulement Der, Die, Das", "Tous les mots sans der, die, das", "Seulement les mots avec der, die, das" 
 - Si Tilio fait 3x enter sans entrer de text. Il faut compter comme un mot inconnu et pas écrit faux. 

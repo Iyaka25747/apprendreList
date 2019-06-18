@@ -3222,7 +3222,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "diskutieren",
           "pluriel": "",
-          "Mot FR": " discuter"
+          "Mot FR": "discuter"
         },
         "15": {
           "Type": "verbe",
@@ -3468,8 +3468,8 @@
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Eine Portion Pommes.",
-          "pluriel": "Une portion de frites.",
-          "Mot FR": ""
+          "pluriel": "",
+          "Mot FR": "Une portion de frites."
         },
         "14": {
           "Type": "mot",
@@ -3560,7 +3560,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Das schmeckt mir nicht.",
           "pluriel": "",
-          "Mot FR": " Je n’aime pas ça."
+          "Mot FR": "Je n’aime pas ça."
         },
         "27": {
           "Type": "verbe",
@@ -3589,6 +3589,225 @@
           "Mot en ALL": "Currywurst",
           "pluriel": "ü-e",
           "Mot FR": "la saucisse au curry"
+        }
+      },
+      "p35": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Lieber...,",
+          "pluriel": "",
+          "Mot FR": "Cher...,"
+        },
+        "2": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Liebe...,",
+          "pluriel": "",
+          "Mot FR": "Chère...,"
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Hier in Hamburg ist es cool.",
+          "pluriel": "",
+          "Mot FR": "'Ici à Hamburg c''est cool.'"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Es gibt",
+          "pluriel": "",
+          "Mot FR": "Il y a (un papa cool)"
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das Essen ist fertig.",
+          "pluriel": "",
+          "Mot FR": "On peut manger/Le repas est prêt."
+        },
+        "6": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das Wetter ist gut/schlecht.",
+          "pluriel": "",
+          "Mot FR": "Il fait beau/mauvais (temps)."
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Hier kann man",
+          "pluriel": "",
+          "Mot FR": "Ici on peut"
+        },
+        "8": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich war schwimmen.",
+          "pluriel": "",
+          "Mot FR": "Je suis allé nager."
+        },
+        "9": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Viele Grüsse aus Lugano",
+          "pluriel": "",
+          "Mot FR": "Bien de bonjour de Lugano"
+        },
+        "10": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Tschüs",
+          "pluriel": "",
+          "Mot FR": "Salut"
+        },
+        "11": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Bis bald",
+          "pluriel": "",
+          "Mot FR": "À bientôt"
+        },
+        "12": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Wie findest du das?",
+          "pluriel": "",
+          "Mot FR": "Qu’en penses-tu?"
+        },
+        "13": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich habe eine Idee.",
+          "pluriel": "",
+          "Mot FR": "J’ai une idée."
+        },
+        "14": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das finde ich gut.",
+          "pluriel": "",
+          "Mot FR": "Je trouve ça bien."
+        },
+        "15": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das finde ich nicht gut.",
+          "pluriel": "",
+          "Mot FR": "Je ne trouve pas cela bien."
+        },
+        "16": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich möchte lieber",
+          "pluriel": "",
+          "Mot FR": "Je préférerais"
+        },
+        "17": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ich will lieber",
+          "pluriel": "",
+          "Mot FR": "J’aimerais mieux"
+        },
+        "18": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Keine Lust!",
+          "pluriel": "",
+          "Mot FR": "Pas envie !"
+        },
+        "19": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Keine Zeit!",
+          "pluriel": "",
+          "Mot FR": "Pas le temps !"
+        },
+        "20": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Kein Geld!",
+          "pluriel": "",
+          "Mot FR": "Pas d’argent !"
+        },
+        "21": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das ist doch langweilig.",
+          "pluriel": "",
+          "Mot FR": "C’est ennuyeux."
+        },
+        "22": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "klasse",
+          "pluriel": "",
+          "Mot FR": "super, génial-e"
+        },
+        "23": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "cool",
+          "pluriel": "",
+          "Mot FR": "cool"
+        },
+        "24": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "lustig",
+          "pluriel": "",
+          "Mot FR": "amusant-e, marrant-e"
+        },
+        "25": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das ist viel lustiger.",
+          "pluriel": "",
+          "Mot FR": "C’est beaucoup plus amusant."
+        },
+        "26": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Spass haben",
+          "pluriel": "",
+          "Mot FR": "bien s’amuser"
+        },
+        "27": {
+          "Type": "verbe",
+          "Der-Die-Das": "",
+          "Mot en ALL": "er hat Spass",
+          "pluriel": "",
+          "Mot FR": "'il s''amuse bien'"
+        },
+        "28": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das ist eine gute Idee.",
+          "pluriel": "",
+          "Mot FR": "C’est une bonne idée."
+        },
+        "29": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Das ist keine gute Idee.",
+          "pluriel": "",
+          "Mot FR": "Ce n’est pas une bonne idée."
+        },
+        "30": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Einverstanden!",
+          "pluriel": "",
+          "Mot FR": "D’accord !"
+        },
+        "31": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "OK",
+          "pluriel": "",
+          "Mot FR": "OK"
         }
       }
     }

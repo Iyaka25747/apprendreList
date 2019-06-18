@@ -632,7 +632,7 @@ allemand;voc5;p33;10;mot;die;Burg;-en;le château fort
 allemand;voc5;p33;11;mot;die;Jugendgruppe;-n;le groupe de jeunes
 allemand;voc5;p33;12;mot;die;Mitgliedskarte;-n;la carte d’adhérent / de membre
 allemand;voc5;p33;13;mot;der;Vorschlag;ä-e;la proposition
-allemand;voc5;p33;14;mot;;diskutieren;; discuter
+allemand;voc5;p33;14;mot;;diskutieren;;discuter
 allemand;voc5;p33;15;verbe;;er diskutiert;;il discute
 allemand;voc5;p33;16;mot;;weg|fahren;;partir en voyage
 allemand;voc5;p33;17;verbe;;er fährt weg;;il part en voyage
@@ -667,7 +667,7 @@ allemand;voc5;p34;9;mot;die;Dose;-n;la boîte, la canette
 allemand;voc5;p34;10;phrase;;Eine Dose Cola.;;Une canette de coca.
 allemand;voc5;p34;11;mot;das;Stück;-e;le morceau / la tranche
 allemand;voc5;p34;12;phrase;;Ein Stück Kuchen/Pizza.;;Un morceau de gâteau/de pizza.
-allemand;voc5;p34;13;phrase;;Eine Portion Pommes.;Une portion de frites.;
+allemand;voc5;p34;13;phrase;;Eine Portion Pommes.;;Une portion de frites.
 allemand;voc5;p34;14;mot;die;Portion;-en;la portion
 allemand;voc5;p34;15;mot;das;Käsebrötchen;-;le sandwich au fromage
 allemand;voc5;p34;16;mot;;Ich möchte...;;Je voudrais...
@@ -680,8 +680,39 @@ allemand;voc5;p34;22;mot;;Durst haben;;avoir soif
 allemand;voc5;p34;23;phrase;;Er hat keinen Durst.;;Il n’a pas soif.
 allemand;voc5;p34;24;phrase;;Das schmeckt lecker.;;C’est bon/délicieux.
 allemand;voc5;p34;25;phrase;;Das ist echt gut.;;C’est vraiment bon.
-allemand;voc5;p34;26;phrase;;Das schmeckt mir nicht.;; Je n’aime pas ça.
+allemand;voc5;p34;26;phrase;;Das schmeckt mir nicht.;;Je n’aime pas ça.
 allemand;voc5;p34;27;verbe;;Ich nehme...;;Je prends...
 allemand;voc5;p34;28;mot;;alles zusammen;;le tout
 allemand;voc5;p34;29;mot;das;Fischbrötchen;-;le sandwich au poisson
 allemand;voc5;p34;30;mot;die;Currywurst;ü-e;la saucisse au curry
+allemand;voc5;p35;1;mot;;Lieber...,;;Cher...,
+allemand;voc5;p35;2;mot;;Liebe...,;;Chère...,
+allemand;voc5;p35;3;mot;;Hier in Hamburg ist es cool.;;Ici à Hamburg c est cool.
+allemand;voc5;p35;4;mot;;Es gibt;;Il y a (un papa cool)
+allemand;voc5;p35;5;mot;;Das Essen ist fertig.;;On peut manger/Le repas est prêt.
+allemand;voc5;p35;6;mot;;Das Wetter ist gut/schlecht.;;Il fait beau/mauvais (temps).
+allemand;voc5;p35;7;mot;;Hier kann man;;Ici on peut
+allemand;voc5;p35;8;mot;;Ich war schwimmen.;;Je suis allé nager.
+allemand;voc5;p35;9;mot;;Viele Grüsse aus Lugano;;Bien de bonjour de Lugano
+allemand;voc5;p35;10;mot;;Tschüs;;Salut
+allemand;voc5;p35;11;mot;;Bis bald;;À bientôt
+allemand;voc5;p35;12;mot;;Wie findest du das?;;Qu’en penses-tu?
+allemand;voc5;p35;13;mot;;Ich habe eine Idee.;;J’ai une idée.
+allemand;voc5;p35;14;mot;;Das finde ich gut.;;Je trouve ça bien.
+allemand;voc5;p35;15;mot;;Das finde ich nicht gut.;;Je ne trouve pas cela bien.
+allemand;voc5;p35;16;mot;;Ich möchte lieber;;Je préférerais
+allemand;voc5;p35;17;mot;;Ich will lieber;;J’aimerais mieux
+allemand;voc5;p35;18;mot;;Keine Lust!;;Pas envie !
+allemand;voc5;p35;19;mot;;Keine Zeit!;;Pas le temps !
+allemand;voc5;p35;20;mot;;Kein Geld!;;Pas d’argent !
+allemand;voc5;p35;21;mot;;Das ist doch langweilig.;;C’est ennuyeux.
+allemand;voc5;p35;22;mot;;klasse;;super, génial-e
+allemand;voc5;p35;23;mot;;cool;;cool
+allemand;voc5;p35;24;mot;;lustig;;amusant-e, marrant-e
+allemand;voc5;p35;25;mot;;Das ist viel lustiger.;;C’est beaucoup plus amusant.
+allemand;voc5;p35;26;mot;;Spass haben;;bien s’amuser
+allemand;voc5;p35;27;verbe;;er hat Spass;;'il s''amuse bien'
+allemand;voc5;p35;28;mot;;Das ist eine gute Idee.;;C’est une bonne idée.
+allemand;voc5;p35;29;mot;;Das ist keine gute Idee.;;Ce n’est pas une bonne idée.
+allemand;voc5;p35;30;mot;;Einverstanden!;;D’accord !
+allemand;voc5;p35;31;mot;;OK;;OK
