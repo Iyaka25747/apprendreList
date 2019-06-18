@@ -1,6 +1,9 @@
 Pour tester, vocabulaire: All, Voc7 (3), p45(1)
 
 Reprise: 
+- Il n y a pas d exercice avec les pluriels
+- Le log pour le der, die, das ne contient pas la question  on ne voit que das, das ...
+- Le log ne contient pas le key/ID du mot. 
 - bug: lorsque Tilio fait "trouver" à l affichage de la réponse il ne voit pas le bon mot en FR (e.g. Il voit "OK" = essen)
 - line 432 Simplifier le choix, passe à un mode option1Text = "Tous les mots sans der, die, das"; 
 - Afficher le type d exercice "Seulement Der, Die, Das", "Tous les mots sans der, die, das", "Seulement les mots avec der, die, das" 
