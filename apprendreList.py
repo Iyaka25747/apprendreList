@@ -16,8 +16,8 @@ import collections
 #Initialisation
 ################
 
-# debug = False
-debug = True
+debug = False
+# debug = True
 debugLangue = "DE"
 # debugLangue = "EN"
 

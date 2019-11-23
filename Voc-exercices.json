@@ -3611,7 +3611,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Hier in Hamburg ist es cool.",
           "pluriel": "",
-          "Mot FR": "'Ici à Hamburg c''est cool.'"
+          "Mot FR": "Ici à Hamburg c est cool."
         },
         "4": {
           "Type": "mot",
@@ -5051,6 +5051,255 @@
           "Mot en ALL": "save (lives)",
           "pluriel": "",
           "Mot FR": "sauver (des vies)"
+        }
+      }
+    },
+    "unit3 (10eme)": {
+      "p30": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "architect",
+          "pluriel": "",
+          "Mot FR": "architecte"
+        },
+        "2": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "builder",
+          "pluriel": "",
+          "Mot FR": "maçon"
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "computer programmer",
+          "pluriel": "",
+          "Mot FR": "programmeur"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "doctor",
+          "pluriel": "",
+          "Mot FR": "médecin"
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "engineer",
+          "pluriel": "",
+          "Mot FR": "ingénieur"
+        },
+        "6": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "farmer",
+          "pluriel": "",
+          "Mot FR": "agriculteur"
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "firefighter",
+          "pluriel": "",
+          "Mot FR": "pompier"
+        },
+        "8": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "flight attendant",
+          "pluriel": "",
+          "Mot FR": "membre de l’équipage (d’un avion)"
+        },
+        "9": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "hairdresser",
+          "pluriel": "",
+          "Mot FR": "coiffeur"
+        },
+        "10": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "mechanic",
+          "pluriel": "",
+          "Mot FR": "mécanicien"
+        },
+        "11": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "nurse",
+          "pluriel": "",
+          "Mot FR": "infirmier"
+        },
+        "12": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "vet",
+          "pluriel": "",
+          "Mot FR": "vétérinaire"
+        },
+        "13": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "chemist’s",
+          "pluriel": "",
+          "Mot FR": "pharmacie"
+        },
+        "14": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "department store",
+          "pluriel": "",
+          "Mot FR": "grand magasin"
+        },
+        "15": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "factory",
+          "pluriel": "",
+          "Mot FR": "usine"
+        },
+        "16": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "fire station",
+          "pluriel": "",
+          "Mot FR": "caserne de pompiers"
+        },
+        "17": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "garage",
+          "pluriel": "",
+          "Mot FR": "garage"
+        },
+        "18": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "hospital",
+          "pluriel": "",
+          "Mot FR": "hôpital"
+        },
+        "19": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "office",
+          "pluriel": "",
+          "Mot FR": "bureau"
+        },
+        "20": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "petrol station",
+          "pluriel": "",
+          "Mot FR": "station-service"
+        },
+        "21": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "police station",
+          "pluriel": "",
+          "Mot FR": "poste de police, commissariat"
+        },
+        "22": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "railway station",
+          "pluriel": "",
+          "Mot FR": "gare ferroviaire"
+        },
+        "23": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "travel agent’s",
+          "pluriel": "",
+          "Mot FR": "agence de voyages"
+        },
+        "24": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "university",
+          "pluriel": "",
+          "Mot FR": "université"
+        },
+        "25": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "earn",
+          "pluriel": "",
+          "Mot FR": "gagner"
+        },
+        "26": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "full-time",
+          "pluriel": "",
+          "Mot FR": "à plein temps"
+        },
+        "27": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "job",
+          "pluriel": "",
+          "Mot FR": "travail"
+        },
+        "28": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "part-time",
+          "pluriel": "",
+          "Mot FR": "à temps partiel"
+        },
+        "29": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "pay",
+          "pluriel": "",
+          "Mot FR": "payer"
+        },
+        "30": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "pocket money",
+          "pluriel": "",
+          "Mot FR": "argent de poche"
+        },
+        "31": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "save (money)",
+          "pluriel": "",
+          "Mot FR": "économiser (de l’argent)"
+        },
+        "32": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "savings",
+          "pluriel": "",
+          "Mot FR": "économies"
+        },
+        "33": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "spend",
+          "pluriel": "",
+          "Mot FR": "(spend money on sth) dépenser (de l’argent pour acheter qqch)"
+        },
+        "34": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "spend money on cars",
+          "pluriel": "",
+          "Mot FR": "dépenser de l’argent pour les voitures"
+        },
+        "35": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "work",
+          "pluriel": "",
+          "Mot FR": "travailler"
         }
       }
     }

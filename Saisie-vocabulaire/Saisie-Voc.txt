@@ -1,31 +1,35 @@
-﻿	Lieber...,		Cher...,
-	Liebe...,		Chère...,
-	Hier in Hamburg ist es cool.		Ici à Hamburg c'est cool.
-	Es gibt		Il y a (un papa cool)
-	Das Essen ist fertig.		On peut manger/Le repas est prêt.
-	Das Wetter ist gut/schlecht.		Il fait beau/mauvais (temps).
-	Hier kann man		Ici on peut
-	Ich war schwimmen.		Je suis allé nager.
-	Viele Grüsse aus Lugano		Bien de bonjour de Lugano
-	Tschüs		Salut
-	Bis bald		À bientôt
-	Wie findest du das?		Qu’en penses-tu?
-	Ich habe eine Idee.		J’ai une idée.
-	Das finde ich gut.		Je trouve ça bien.
-	Das finde ich nicht gut.		Je ne trouve pas cela bien.
-	Ich möchte lieber		Je préférerais
-	Ich will lieber		J’aimerais mieux
-	Keine Lust!		Pas envie !
-	Keine Zeit!		Pas le temps !
-	Kein Geld!		Pas d’argent !
-	Das ist doch langweilig.		C’est ennuyeux.
-	klasse		super, génial-e
-	cool		cool
-	lustig		amusant-e, marrant-e
-	Das ist viel lustiger.		C’est beaucoup plus amusant.
-	Spass haben		bien s’amuser
-	er hat Spass		il s'amuse bien
-	Das ist eine gute Idee.		C’est une bonne idée.
-	Das ist keine gute Idee.		Ce n’est pas une bonne idée.
-	Einverstanden!		D’accord !
-	OK		OK
+﻿	architect		architecte
+	builder		maçon
+	computer programmer		programmeur
+	doctor		médecin
+	engineer		ingénieur
+	farmer		agriculteur
+	firefighter		pompier
+	flight attendant		membre de l’équipage (d’un avion)
+	hairdresser		coiffeur
+	mechanic		mécanicien
+	nurse		infirmier
+	vet		vétérinaire
+	chemist’s pharmacie
+	department store		grand magasin
+	factory		usine
+	fire station		caserne de pompiers
+	garage		garage
+	hospital		hôpital
+	office		bureau
+	petrol station		station-service
+	police station		poste de police, commissariat
+	railway station		gare ferroviaire
+	travel agent’s		agence de voyages
+	university		université
+	earn		gagner
+	full-time		à plein temps
+	job		travail
+	part-time		à temps partiel
+	pay		payer
+	pocket money		argent de poche
+	save (money)		économiser (de l’argent)
+	savings		économies
+	spend		(spend money on sth) dépenser (de l’argent pour acheter qqch)
+	spend money on cars		dépenser de l’argent pour les voitures
+	work		travailler
