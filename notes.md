@@ -20,6 +20,7 @@ ecrire ne pas montrer / effacer les lignes précédente sinon on peut facilement
 - enregistrer les mots difficile.
   
 Améliorations:
+- Lorsqu on doit trouver les motes correspondants: on devrait boucler sur les mots marqués "je ne me souviens pas"
 - dans le "trouver" on boucle jusqu'à ce que l on fasse juste du premier coup. S il y a une faute on garde le mot dans la liste et on repose la question. Ce mot est ajouté à la liste de mot difficile, à la fin on pondere selon le nombre de fois ou le mot a été faux.
 - Dans le "trouver" on doit associer le mot et les conjugaisons (e.g. kennen|lernen)
 - aller du FR et trouver all est plus dif. pour Tilio
