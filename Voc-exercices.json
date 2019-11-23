@@ -925,7 +925,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "er ist weg",
           "pluriel": "",
-          "Mot FR": "il est parti, il n'est plus là, il a disparu"
+          "Mot FR": "'il est parti, il n''est plus là, il a disparu'"
         },
         "18": {
           "Type": "mot",
@@ -2982,7 +2982,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Wir fahren an die Ostsee.",
           "pluriel": "",
-          "Mot FR": "Nous allons au bord de la mer Baltique (mer de l'est)."
+          "Mot FR": "'Nous allons au bord de la mer Baltique (mer de l''est).'"
         },
         "11": {
           "Type": "phrase",
@@ -3779,7 +3779,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "er hat Spass",
           "pluriel": "",
-          "Mot FR": "il s'amuse bien"
+          "Mot FR": "'il s''amuse bien'"
         },
         "28": {
           "Type": "mot",
@@ -4305,7 +4305,7 @@
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "newsagent’s",
+          "Mot en ALL": "'newsagent''s'",
           "pluriel": "",
           "Mot FR": "marchand de journaux"
         },
@@ -5055,7 +5055,7 @@
       }
     },
     "unit3 (10eme)": {
-      "p30": {
+      "P30 (1)": {
         "1": {
           "Type": "mot",
           "Der-Die-Das": "",
@@ -5143,7 +5143,7 @@
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "chemist’s",
+          "Mot en ALL": "'chemist''s'",
           "pluriel": "",
           "Mot FR": "pharmacie"
         },
@@ -5160,7 +5160,9 @@
           "Mot en ALL": "factory",
           "pluriel": "",
           "Mot FR": "usine"
-        },
+        }
+      },
+      "P30 (2)": {
         "16": {
           "Type": "mot",
           "Der-Die-Das": "",
@@ -5213,7 +5215,7 @@
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "travel agent’s",
+          "Mot en ALL": "'travel agent''s'",
           "pluriel": "",
           "Mot FR": "agence de voyages"
         },
@@ -5285,7 +5287,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "spend",
           "pluriel": "",
-          "Mot FR": "(spend money on sth) dépenser (de l’argent pour acheter qqch)"
+          "Mot FR": "dépenser"
         },
         "34": {
           "Type": "mot",
@@ -5302,7 +5304,7 @@
           "Mot FR": "travailler"
         }
       },
-      "p31": {
+      "P31 (1)": {
         "1": {
           "Type": "mot",
           "Der-Die-Das": "",
@@ -5435,7 +5437,9 @@
           "Mot en ALL": "carry",
           "pluriel": "",
           "Mot FR": "porter"
-        },
+        }
+      },
+      "P31 (2)": {
         "20": {
           "Type": "mot",
           "Der-Die-Das": "",

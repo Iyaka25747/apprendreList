@@ -130,7 +130,7 @@ allemand;voc2;p15;12;mot;;danach;;après
 allemand;voc2;p15;14;mot;;da sein;;être là
 allemand;voc2;p15;15;verbe;;er ist da;;il est là
 allemand;voc2;p15;16;mot;;weg sein;;être parti-e, ne plus être là,avoir disparu
-allemand;voc2;p15;17;verbe;;er ist weg;;il est parti, il n'est plus là, il a disparu
+allemand;voc2;p15;17;verbe;;er ist weg;;'il est parti, il n''est plus là, il a disparu'
 allemand;voc2;p15;18;mot;;Glück haben;;avoir de la chance
 allemand;voc2;p15;19;verbe;;Sie hat kein Glück.;;Elle n’a pas de chance.
 allemand;voc2;p15;20;mot;;So ein Mist!;;Mince alors !
@@ -460,7 +460,7 @@ anglais;unit6;p60;28;mot;;bus station;;gare routière
 anglais;unit6;p60;29;mot;;church;;église
 anglais;unit6;p60;30;mot;;crossing;;passage piétons
 anglais;unit6;p60;31;mot;;market;;marché
-anglais;unit6;p60;32;mot;;newsagent's;;marchand de journaux
+anglais;unit6;p60;32;mot;;'newsagent''s';;marchand de journaux
 anglais;unit6;p60;33;mot;;post office;;poste
 anglais;unit6;p60;34;mot;;road;;route
 anglais;unit6;p60;35;mot;;roundabout;;rond-point
@@ -598,7 +598,7 @@ allemand;voc5;p32;6;phrase;;Wohin fahren wir in den Osterferien?;;Où allons-nou
 allemand;voc5;p32;7;phrase;;Wir fahren nach Spanien/Hamburg.;;Nous allons en Espagne/à Hambourg.
 allemand;voc5;p32;8;phrase;;Wir fahren in die Türkei/Schweiz.;;Nous allons en Turquie/Suisse.
 allemand;voc5;p32;9;phrase;;Wir fahren ans Meer.;;Nous allons au bord de la mer.
-allemand;voc5;p32;10;phrase;;Wir fahren an die Ostsee.;;Nous allons au bord de la mer Baltique (mer de l'est).
+allemand;voc5;p32;10;phrase;;Wir fahren an die Ostsee.;;'Nous allons au bord de la mer Baltique (mer de l''est).'
 allemand;voc5;p32;11;phrase;;Wir fahren an den See.;;Nous allons au bord du lac.
 allemand;voc5;p32;12;phrase;;Wir fahren in die Alpen/Berge.;;Nous allons dans les Alpes/à la montagne.
 allemand;voc5;p32;13;phrase;;Wir fahren mit dem Zug.;;Nous partons en train.
@@ -711,84 +711,84 @@ allemand;voc5;p35;23;mot;;cool;;cool
 allemand;voc5;p35;24;mot;;lustig;;amusant-e, marrant-e
 allemand;voc5;p35;25;mot;;Das ist viel lustiger.;;C’est beaucoup plus amusant.
 allemand;voc5;p35;26;mot;;Spass haben;;bien s’amuser
-allemand;voc5;p35;27;verbe;;er hat Spass;;il s'amuse bien
+allemand;voc5;p35;27;verbe;;er hat Spass;;'il s''amuse bien'
 allemand;voc5;p35;28;mot;;Das ist eine gute Idee.;;C’est une bonne idée.
 allemand;voc5;p35;29;mot;;Das ist keine gute Idee.;;Ce n’est pas une bonne idée.
 allemand;voc5;p35;30;mot;;Einverstanden!;;D’accord !
 allemand;voc5;p35;31;mot;;OK;;OK
-anglais;unit3 (10eme);p30;1;mot;;architect;;architecte
-anglais;unit3 (10eme);p30;2;mot;;builder;;maçon
-anglais;unit3 (10eme);p30;3;mot;;computer programmer;;programmeur
-anglais;unit3 (10eme);p30;4;mot;;doctor;;médecin
-anglais;unit3 (10eme);p30;5;mot;;engineer;;ingénieur
-anglais;unit3 (10eme);p30;6;mot;;farmer;;agriculteur
-anglais;unit3 (10eme);p30;7;mot;;firefighter;;pompier
-anglais;unit3 (10eme);p30;8;mot;;flight attendant;;membre de l’équipage (d’un avion)
-anglais;unit3 (10eme);p30;9;mot;;hairdresser;;coiffeur
-anglais;unit3 (10eme);p30;10;mot;;mechanic;;mécanicien
-anglais;unit3 (10eme);p30;11;mot;;nurse;;infirmier
-anglais;unit3 (10eme);p30;12;mot;;vet;;vétérinaire
-anglais;unit3 (10eme);p30;13;mot;;chemist's;;pharmacie
-anglais;unit3 (10eme);p30;14;mot;;department store;;grand magasin
-anglais;unit3 (10eme);p30;15;mot;;factory;;usine
-anglais;unit3 (10eme);p30;16;mot;;fire station;;caserne de pompiers
-anglais;unit3 (10eme);p30;17;mot;;garage;;garage
-anglais;unit3 (10eme);p30;18;mot;;hospital;;hôpital
-anglais;unit3 (10eme);p30;19;mot;;office;;bureau
-anglais;unit3 (10eme);p30;20;mot;;petrol station;;station-service
-anglais;unit3 (10eme);p30;21;mot;;police station;;poste de police, commissariat
-anglais;unit3 (10eme);p30;22;mot;;railway station;;gare ferroviaire
-anglais;unit3 (10eme);p30;23;mot;;travel agent’s;;agence de voyages
-anglais;unit3 (10eme);p30;24;mot;;university;;université
-anglais;unit3 (10eme);p30;25;mot;;earn;;gagner
-anglais;unit3 (10eme);p30;26;mot;;full-time;;à plein temps
-anglais;unit3 (10eme);p30;27;mot;;job;;travail
-anglais;unit3 (10eme);p30;28;mot;;part-time;;à temps partiel
-anglais;unit3 (10eme);p30;29;mot;;pay;;payer
-anglais;unit3 (10eme);p30;30;mot;;pocket money;;argent de poche
-anglais;unit3 (10eme);p30;31;mot;;save (money);;économiser (de l’argent)
-anglais;unit3 (10eme);p30;32;mot;;savings;;économies
-anglais;unit3 (10eme);p30;33;mot;;spend;;dépenser
-anglais;unit3 (10eme);p30;34;mot;;spend money on cars;;dépenser de l’argent pour les voitures
-anglais;unit3 (10eme);p30;35;mot;;work;;travailler
-anglais;unit3 (10eme);p31;1;mot;;a lot of;;beaucoup de
-anglais;unit3 (10eme);p31;2;mot;;design;;concevoir
-anglais;unit3 (10eme);p31;3;mot;;during the week;;au cours de la semaine
-anglais;unit3 (10eme);p31;4;mot;;early;;tôt
-anglais;unit3 (10eme);p31;5;mot;;get good/bad marks;;avoir de bonnes/mauvaises notes
-anglais;unit3 (10eme);p31;6;mot;;grow up;;grandir
-anglais;unit3 (10eme);p31;7;mot;;inside;;dedans
-anglais;unit3 (10eme);p31;8;mot;;machine;;machine
-anglais;unit3 (10eme);p31;9;mot;;outside;;dehors
-anglais;unit3 (10eme);p31;10;mot;;repair;;réparer
-anglais;unit3 (10eme);p31;11;mot;;sell;;vendre
-anglais;unit3 (10eme);p31;12;mot;;sick;;malade
-anglais;unit3 (10eme);p31;13;mot;;training course;;formation
-anglais;unit3 (10eme);p31;14;mot;;work hard;;travailler dur
-anglais;unit3 (10eme);p31;15;mot;;work long hours;;faire beaucoup d’heures
-anglais;unit3 (10eme);p31;16;mot;;Is it hard work?;;C’est un travail difficile ?
-anglais;unit3 (10eme);p31;17;mot;;alone;;seul
-anglais;unit3 (10eme);p31;18;mot;;babysit;;garder des enfants
-anglais;unit3 (10eme);p31;19;mot;;carry;;porter
-anglais;unit3 (10eme);p31;20;mot;;deliver;;livrer
-anglais;unit3 (10eme);p31;21;mot;;fresh air;;grand air
-anglais;unit3 (10eme);p31;22;mot;;get some exercise;;faire de l’exercice
-anglais;unit3 (10eme);p31;23;mot;;keep Miaou company;;tenir compagnie à Miaou
-anglais;unit3 (10eme);p31;24;mot;;neighbourhood;;quartier
-anglais;unit3 (10eme);p31;25;mot;;your own bike;;ton/votre propre vélo
-anglais;unit3 (10eme);p31;26;mot;;waste time;;perdre du temps
-anglais;unit3 (10eme);p31;27;mot;;maths;;les mathématiques
-anglais;unit3 (10eme);p31;28;mot;;cent;;cent
-anglais;unit3 (10eme);p31;29;mot;;coin;;pièce (de monnaie)
-anglais;unit3 (10eme);p31;30;mot;;divided by;;divisé par
-anglais;unit3 (10eme);p31;31;mot;;dollar;;dollar
-anglais;unit3 (10eme);p31;32;mot;;equals;;égale
-anglais;unit3 (10eme);p31;33;mot;;minus;;moins
-anglais;unit3 (10eme);p31;34;mot;;note;;billet (de banque)
-anglais;unit3 (10eme);p31;35;mot;;pence;;pence
-anglais;unit3 (10eme);p31;36;mot;;pound;;livre sterling
-anglais;unit3 (10eme);p31;37;mot;;times;;fois (multiplication)
-anglais;unit3 (10eme);p31;38;mot;;4 times 5;;4 fois 5
+anglais;unit3 (10eme);P30 (1);1;mot;;architect;;architecte
+anglais;unit3 (10eme);P30 (1);2;mot;;builder;;maçon
+anglais;unit3 (10eme);P30 (1);3;mot;;computer programmer;;programmeur
+anglais;unit3 (10eme);P30 (1);4;mot;;doctor;;médecin
+anglais;unit3 (10eme);P30 (1);5;mot;;engineer;;ingénieur
+anglais;unit3 (10eme);P30 (1);6;mot;;farmer;;agriculteur
+anglais;unit3 (10eme);P30 (1);7;mot;;firefighter;;pompier
+anglais;unit3 (10eme);P30 (1);8;mot;;flight attendant;;membre de l’équipage (d’un avion)
+anglais;unit3 (10eme);P30 (1);9;mot;;hairdresser;;coiffeur
+anglais;unit3 (10eme);P30 (1);10;mot;;mechanic;;mécanicien
+anglais;unit3 (10eme);P30 (1);11;mot;;nurse;;infirmier
+anglais;unit3 (10eme);P30 (1);12;mot;;vet;;vétérinaire
+anglais;unit3 (10eme);P30 (1);13;mot;;'chemist''s';;pharmacie
+anglais;unit3 (10eme);P30 (1);14;mot;;department store;;grand magasin
+anglais;unit3 (10eme);P30 (1);15;mot;;factory;;usine
+anglais;unit3 (10eme);P30 (2);16;mot;;fire station;;caserne de pompiers
+anglais;unit3 (10eme);P30 (2);17;mot;;garage;;garage
+anglais;unit3 (10eme);P30 (2);18;mot;;hospital;;hôpital
+anglais;unit3 (10eme);P30 (2);19;mot;;office;;bureau
+anglais;unit3 (10eme);P30 (2);20;mot;;petrol station;;station-service
+anglais;unit3 (10eme);P30 (2);21;mot;;police station;;poste de police, commissariat
+anglais;unit3 (10eme);P30 (2);22;mot;;railway station;;gare ferroviaire
+anglais;unit3 (10eme);P30 (2);23;mot;;'travel agent''s';;agence de voyages
+anglais;unit3 (10eme);P30 (2);24;mot;;university;;université
+anglais;unit3 (10eme);P30 (2);25;mot;;earn;;gagner
+anglais;unit3 (10eme);P30 (2);26;mot;;full-time;;à plein temps
+anglais;unit3 (10eme);P30 (2);27;mot;;job;;travail
+anglais;unit3 (10eme);P30 (2);28;mot;;part-time;;à temps partiel
+anglais;unit3 (10eme);P30 (2);29;mot;;pay;;payer
+anglais;unit3 (10eme);P30 (2);30;mot;;pocket money;;argent de poche
+anglais;unit3 (10eme);P30 (2);31;mot;;save (money);;économiser (de l’argent)
+anglais;unit3 (10eme);P30 (2);32;mot;;savings;;économies
+anglais;unit3 (10eme);P30 (2);33;mot;;spend;;dépenser
+anglais;unit3 (10eme);P30 (2);34;mot;;spend money on cars;;dépenser de l’argent pour les voitures
+anglais;unit3 (10eme);P30 (2);35;mot;;work;;travailler
+anglais;unit3 (10eme);P31 (1);1;mot;;a lot of;;beaucoup de
+anglais;unit3 (10eme);P31 (1);2;mot;;design;;concevoir
+anglais;unit3 (10eme);P31 (1);3;mot;;during the week;;au cours de la semaine
+anglais;unit3 (10eme);P31 (1);4;mot;;early;;tôt
+anglais;unit3 (10eme);P31 (1);5;mot;;get good/bad marks;;avoir de bonnes/mauvaises notes
+anglais;unit3 (10eme);P31 (1);6;mot;;grow up;;grandir
+anglais;unit3 (10eme);P31 (1);7;mot;;inside;;dedans
+anglais;unit3 (10eme);P31 (1);8;mot;;machine;;machine
+anglais;unit3 (10eme);P31 (1);9;mot;;outside;;dehors
+anglais;unit3 (10eme);P31 (1);10;mot;;repair;;réparer
+anglais;unit3 (10eme);P31 (1);11;mot;;sell;;vendre
+anglais;unit3 (10eme);P31 (1);12;mot;;sick;;malade
+anglais;unit3 (10eme);P31 (1);13;mot;;training course;;formation
+anglais;unit3 (10eme);P31 (1);14;mot;;work hard;;travailler dur
+anglais;unit3 (10eme);P31 (1);15;mot;;work long hours;;faire beaucoup d’heures
+anglais;unit3 (10eme);P31 (1);16;mot;;Is it hard work?;;C’est un travail difficile ?
+anglais;unit3 (10eme);P31 (1);17;mot;;alone;;seul
+anglais;unit3 (10eme);P31 (1);18;mot;;babysit;;garder des enfants
+anglais;unit3 (10eme);P31 (1);19;mot;;carry;;porter
+anglais;unit3 (10eme);P31 (2);20;mot;;deliver;;livrer
+anglais;unit3 (10eme);P31 (2);21;mot;;fresh air;;grand air
+anglais;unit3 (10eme);P31 (2);22;mot;;get some exercise;;faire de l’exercice
+anglais;unit3 (10eme);P31 (2);23;mot;;keep Miaou company;;tenir compagnie à Miaou
+anglais;unit3 (10eme);P31 (2);24;mot;;neighbourhood;;quartier
+anglais;unit3 (10eme);P31 (2);25;mot;;your own bike;;ton/votre propre vélo
+anglais;unit3 (10eme);P31 (2);26;mot;;waste time;;perdre du temps
+anglais;unit3 (10eme);P31 (2);27;mot;;maths;;les mathématiques
+anglais;unit3 (10eme);P31 (2);28;mot;;cent;;cent
+anglais;unit3 (10eme);P31 (2);29;mot;;coin;;pièce (de monnaie)
+anglais;unit3 (10eme);P31 (2);30;mot;;divided by;;divisé par
+anglais;unit3 (10eme);P31 (2);31;mot;;dollar;;dollar
+anglais;unit3 (10eme);P31 (2);32;mot;;equals;;égale
+anglais;unit3 (10eme);P31 (2);33;mot;;minus;;moins
+anglais;unit3 (10eme);P31 (2);34;mot;;note;;billet (de banque)
+anglais;unit3 (10eme);P31 (2);35;mot;;pence;;pence
+anglais;unit3 (10eme);P31 (2);36;mot;;pound;;livre sterling
+anglais;unit3 (10eme);P31 (2);37;mot;;times;;fois (multiplication)
+anglais;unit3 (10eme);P31 (2);38;mot;;4 times 5;;4 fois 5
 anglais;basic words question;p0;1;phrase;;Who is this boy?;;QUI est ce garçon ?
 anglais;basic words question;p0;2;phrase;;How are you?;;COMMENT vas tu ?
 anglais;basic words question;p0;3;phrase;;What do you eat?;;QUOI manges tu ? (qu’est ce que tu manges)
