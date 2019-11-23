@@ -239,7 +239,7 @@ allemand;voc6;p39;8;verbe;;mit|kommen, er kommt mit, ist mitgekommen;;venir avec
 allemand;voc6;p39;9;phrase;;kommst du mit?;;Tu viens (avec moi avec nous)?
 allemand;voc6;p39;10;mot;Die;Kirche;-n;l église
 allemand;voc6;p39;11;phrase;;Sie geht in die Kirche;;elle va à l’église
-allemand;voc6;p39;12;mot;Der;Turm;"""""""-e""";la tour
+allemand;voc6;p39;12;mot;Der;Turm;"""""""""""""""-e""""""";la tour
 allemand;voc6;p39;13;mot;Die;Brücke;-n;Le pont
 allemand;voc6;p39;14;phrase;;Wir gehen über die Brücke;;Nous traversons le pont
 allemand;voc6;p39;15;mot;Das;Stadion;Stadien;le stade
@@ -789,3 +789,32 @@ anglais;unit3 (10eme);p31;35;mot;;pence;;pence
 anglais;unit3 (10eme);p31;36;mot;;pound;;livre sterling
 anglais;unit3 (10eme);p31;37;mot;;times;;fois (multiplication)
 anglais;unit3 (10eme);p31;38;mot;;4 times 5;;4 fois 5
+anglais;basic words question;p0;1;phrase;;Who is this boy?;;QUI est ce garçon ?
+anglais;basic words question;p0;2;phrase;;How are you?;;COMMENT vas tu ?
+anglais;basic words question;p0;3;phrase;;What do you eat?;;QUOI manges tu ? (qu’est ce que tu manges)
+anglais;basic words question;p0;4;phrase;;Where is my new pen ? ;;Où est mon nouveau stylo ?
+anglais;basic words question;p0;5;phrase;;My bike is there;;Mon vélo est là bas
+anglais;basic words question;p0;6;phrase;;When do you come to play with me?;;QUAND viens tu jouer avec moi ?
+anglais;basic words question;p0;7;phrase;;Which game do you play? Fortnite or COD ?;;QUEL jeux joues tu? Fortnite ou COD ?
+anglais;basic words question;p0;8;mot;;Who;;Qui
+anglais;basic words question;p0;9;mot;;How;;Comment
+anglais;basic words question;p0;10;mot;;What;;Quoi
+anglais;basic words question;p0;11;mot;;Where;;Où
+anglais;basic words question;p0;12;mot;;Here/There;;Ici/Là bas
+anglais;basic words question;p0;13;mot;;When;;Quand
+anglais;basic words question;p0;14;mot;;Which;;Quel
+anglais;basic words sequence;p0;1;mot;;after;;après
+anglais;basic words sequence;p0;2;mot;;before;;avant
+anglais;basic words sequence;p0;3;mot;;later;;plus tard
+anglais;basic words sequence;p0;4;mot;;then;;puis
+anglais;basic words sequence;p0;5;mot;;when;;quand
+anglais;basic words sequence;p0;6;mot;;while;;pendant que
+anglais;basic words position;p0;1;mot;;behind;;derrière
+anglais;basic words position;p0;2;mot;;between;;entre
+anglais;basic words position;p0;3;mot;;in front of;;devant
+anglais;basic words position;p0;4;mot;;next to;;à côté de
+anglais;basic words position;p0;5;mot;;on the corner of;;au coin de
+anglais;basic words position;p0;6;mot;;opposite;;en face de
+anglais;basic words position;p0;7;mot;;above;;au dessus
+anglais;basic words position;p0;8;mot;;below;;au dessous
+anglais;basic words position;p0;9;mot;;under;;sous

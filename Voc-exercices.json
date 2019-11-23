@@ -1673,7 +1673,7 @@
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Turm",
-          "pluriel": "\"\"\"-e\"",
+          "pluriel": "\"\"\"\"\"\"\"-e\"\"\"",
           "Mot FR": "la tour"
         },
         "13": {
@@ -5568,6 +5568,221 @@
           "Mot en ALL": "4 times 5",
           "pluriel": "",
           "Mot FR": "4 fois 5"
+        }
+      }
+    },
+    "basic words question": {
+      "p0": {
+        "1": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Who is this boy?",
+          "pluriel": "",
+          "Mot FR": "QUI est ce garçon ?"
+        },
+        "2": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "How are you?",
+          "pluriel": "",
+          "Mot FR": "COMMENT vas tu ?"
+        },
+        "3": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "What do you eat?",
+          "pluriel": "",
+          "Mot FR": "QUOI manges tu ? (qu’est ce que tu manges)"
+        },
+        "4": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Where is my new pen ? ",
+          "pluriel": "",
+          "Mot FR": "Où est mon nouveau stylo ?"
+        },
+        "5": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "My bike is there",
+          "pluriel": "",
+          "Mot FR": "Mon vélo est là bas"
+        },
+        "6": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "When do you come to play with me?",
+          "pluriel": "",
+          "Mot FR": "QUAND viens tu jouer avec moi ?"
+        },
+        "7": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Which game do you play? Fortnite or COD ?",
+          "pluriel": "",
+          "Mot FR": "QUEL jeux joues tu? Fortnite ou COD ?"
+        },
+        "8": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Who",
+          "pluriel": "",
+          "Mot FR": "Qui"
+        },
+        "9": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "How",
+          "pluriel": "",
+          "Mot FR": "Comment"
+        },
+        "10": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "What",
+          "pluriel": "",
+          "Mot FR": "Quoi"
+        },
+        "11": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Where",
+          "pluriel": "",
+          "Mot FR": "Où"
+        },
+        "12": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Here/There",
+          "pluriel": "",
+          "Mot FR": "Ici/Là bas"
+        },
+        "13": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "When",
+          "pluriel": "",
+          "Mot FR": "Quand"
+        },
+        "14": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Which",
+          "pluriel": "",
+          "Mot FR": "Quel"
+        }
+      }
+    },
+    "basic words sequence": {
+      "p0": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "after",
+          "pluriel": "",
+          "Mot FR": "après"
+        },
+        "2": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "before",
+          "pluriel": "",
+          "Mot FR": "avant"
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "later",
+          "pluriel": "",
+          "Mot FR": "plus tard"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "then",
+          "pluriel": "",
+          "Mot FR": "puis"
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "when",
+          "pluriel": "",
+          "Mot FR": "quand"
+        },
+        "6": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "while",
+          "pluriel": "",
+          "Mot FR": "pendant que"
+        }
+      }
+    },
+    "basic words position": {
+      "p0": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "behind",
+          "pluriel": "",
+          "Mot FR": "derrière"
+        },
+        "2": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "between",
+          "pluriel": "",
+          "Mot FR": "entre"
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "in front of",
+          "pluriel": "",
+          "Mot FR": "devant"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "next to",
+          "pluriel": "",
+          "Mot FR": "à côté de"
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "on the corner of",
+          "pluriel": "",
+          "Mot FR": "au coin de"
+        },
+        "6": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "opposite",
+          "pluriel": "",
+          "Mot FR": "en face de"
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "above",
+          "pluriel": "",
+          "Mot FR": "au dessus"
+        },
+        "8": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "below",
+          "pluriel": "",
+          "Mot FR": "au dessous"
+        },
+        "9": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "under",
+          "pluriel": "",
+          "Mot FR": "sous"
         }
       }
     }
