@@ -130,7 +130,7 @@ allemand;voc2;p15;12;mot;;danach;;après
 allemand;voc2;p15;14;mot;;da sein;;être là
 allemand;voc2;p15;15;verbe;;er ist da;;il est là
 allemand;voc2;p15;16;mot;;weg sein;;être parti-e, ne plus être là,avoir disparu
-allemand;voc2;p15;17;verbe;;er ist weg;;il est parti, il n'est plus là, il a disparu
+allemand;voc2;p15;17;verbe;;er ist weg;;'il est parti, il n''est plus là, il a disparu'
 allemand;voc2;p15;18;mot;;Glück haben;;avoir de la chance
 allemand;voc2;p15;19;verbe;;Sie hat kein Glück.;;Elle n’a pas de chance.
 allemand;voc2;p15;20;mot;;So ein Mist!;;Mince alors !
@@ -239,7 +239,7 @@ allemand;voc6;p39;8;verbe;;mit|kommen, er kommt mit, ist mitgekommen;;venir avec
 allemand;voc6;p39;9;phrase;;kommst du mit?;;Tu viens (avec moi avec nous)?
 allemand;voc6;p39;10;mot;Die;Kirche;-n;l église
 allemand;voc6;p39;11;phrase;;Sie geht in die Kirche;;elle va à l’église
-allemand;voc6;p39;12;mot;Der;Turm;"""""""-e""";la tour
+allemand;voc6;p39;12;mot;Der;Turm;"""-e";la tour
 allemand;voc6;p39;13;mot;Die;Brücke;-n;Le pont
 allemand;voc6;p39;14;phrase;;Wir gehen über die Brücke;;Nous traversons le pont
 allemand;voc6;p39;15;mot;Das;Stadion;Stadien;le stade
@@ -598,7 +598,7 @@ allemand;voc5;p32;6;phrase;;Wohin fahren wir in den Osterferien?;;Où allons-nou
 allemand;voc5;p32;7;phrase;;Wir fahren nach Spanien/Hamburg.;;Nous allons en Espagne/à Hambourg.
 allemand;voc5;p32;8;phrase;;Wir fahren in die Türkei/Schweiz.;;Nous allons en Turquie/Suisse.
 allemand;voc5;p32;9;phrase;;Wir fahren ans Meer.;;Nous allons au bord de la mer.
-allemand;voc5;p32;10;phrase;;Wir fahren an die Ostsee.;;Nous allons au bord de la mer Baltique (mer de l'est).
+allemand;voc5;p32;10;phrase;;Wir fahren an die Ostsee.;;'Nous allons au bord de la mer Baltique (mer de l''est).'
 allemand;voc5;p32;11;phrase;;Wir fahren an den See.;;Nous allons au bord du lac.
 allemand;voc5;p32;12;phrase;;Wir fahren in die Alpen/Berge.;;Nous allons dans les Alpes/à la montagne.
 allemand;voc5;p32;13;phrase;;Wir fahren mit dem Zug.;;Nous partons en train.
@@ -711,7 +711,7 @@ allemand;voc5;p35;23;mot;;cool;;cool
 allemand;voc5;p35;24;mot;;lustig;;amusant-e, marrant-e
 allemand;voc5;p35;25;mot;;Das ist viel lustiger.;;C’est beaucoup plus amusant.
 allemand;voc5;p35;26;mot;;Spass haben;;bien s’amuser
-allemand;voc5;p35;27;verbe;;er hat Spass;;il s'amuse bien
+allemand;voc5;p35;27;verbe;;er hat Spass;;'il s''amuse bien'
 allemand;voc5;p35;28;mot;;Das ist eine gute Idee.;;C’est une bonne idée.
 allemand;voc5;p35;29;mot;;Das ist keine gute Idee.;;Ce n’est pas une bonne idée.
 allemand;voc5;p35;30;mot;;Einverstanden!;;D’accord !
@@ -751,41 +751,3 @@ anglais;unit3 (10eme);p30;32;mot;;savings;;économies
 anglais;unit3 (10eme);p30;33;mot;;spend;;(spend money on sth) dépenser (de l’argent pour acheter qqch)
 anglais;unit3 (10eme);p30;34;mot;;spend money on cars;;dépenser de l’argent pour les voitures
 anglais;unit3 (10eme);p30;35;mot;;work;;travailler
-anglais;unit3 (10eme);p31;1;mot;;a lot of;;beaucoup de
-anglais;unit3 (10eme);p31;2;mot;;design;;concevoir
-anglais;unit3 (10eme);p31;3;mot;;during the week;;au cours de la semaine
-anglais;unit3 (10eme);p31;4;mot;;early;;tôt
-anglais;unit3 (10eme);p31;5;mot;;get good/bad marks;;avoir de bonnes/mauvaises notes
-anglais;unit3 (10eme);p31;6;mot;;grow up;;grandir
-anglais;unit3 (10eme);p31;7;mot;;inside;;dedans
-anglais;unit3 (10eme);p31;8;mot;;machine;;machine
-anglais;unit3 (10eme);p31;9;mot;;outside;;dehors
-anglais;unit3 (10eme);p31;10;mot;;repair;;réparer
-anglais;unit3 (10eme);p31;11;mot;;sell;;vendre
-anglais;unit3 (10eme);p31;12;mot;;sick;;malade
-anglais;unit3 (10eme);p31;13;mot;;training course;;formation
-anglais;unit3 (10eme);p31;14;mot;;work hard;;travailler dur
-anglais;unit3 (10eme);p31;15;mot;;work long hours;;faire beaucoup d’heures
-anglais;unit3 (10eme);p31;16;mot;;Is it hard work?;;C’est un travail difficile ?
-anglais;unit3 (10eme);p31;17;mot;;alone;;seul
-anglais;unit3 (10eme);p31;18;mot;;babysit;;garder des enfants
-anglais;unit3 (10eme);p31;19;mot;;carry;;porter
-anglais;unit3 (10eme);p31;20;mot;;deliver;;livrer
-anglais;unit3 (10eme);p31;21;mot;;fresh air;;grand air
-anglais;unit3 (10eme);p31;22;mot;;get some exercise;;faire de l’exercice
-anglais;unit3 (10eme);p31;23;mot;;keep Miaou company;;tenir compagnie à Miaou
-anglais;unit3 (10eme);p31;24;mot;;neighbourhood;;quartier
-anglais;unit3 (10eme);p31;25;mot;;your own bike;;ton/votre propre vélo
-anglais;unit3 (10eme);p31;26;mot;;waste time;;perdre du temps
-anglais;unit3 (10eme);p31;27;mot;;maths;;les mathématiques
-anglais;unit3 (10eme);p31;28;mot;;cent;;cent
-anglais;unit3 (10eme);p31;29;mot;;coin;;pièce (de monnaie)
-anglais;unit3 (10eme);p31;30;mot;;divided by;;divisé par
-anglais;unit3 (10eme);p31;31;mot;;dollar;;dollar
-anglais;unit3 (10eme);p31;32;mot;;equals;;égale
-anglais;unit3 (10eme);p31;33;mot;;minus;;moins
-anglais;unit3 (10eme);p31;34;mot;;note;;billet (de banque)
-anglais;unit3 (10eme);p31;35;mot;;pence;;pence
-anglais;unit3 (10eme);p31;36;mot;;pound;;livre sterling
-anglais;unit3 (10eme);p31;37;mot;;times;;fois (multiplication)
-anglais;unit3 (10eme);p31;38;mot;;4 times 5;;4 fois 5

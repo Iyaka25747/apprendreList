@@ -925,7 +925,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "er ist weg",
           "pluriel": "",
-          "Mot FR": "'il est parti, il n''est plus là, il a disparu'"
+          "Mot FR": "il est parti, il n'est plus là, il a disparu"
         },
         "18": {
           "Type": "mot",
@@ -1673,7 +1673,7 @@
           "Type": "mot",
           "Der-Die-Das": "Der",
           "Mot en ALL": "Turm",
-          "pluriel": "\"-e",
+          "pluriel": "\"\"\"-e\"",
           "Mot FR": "la tour"
         },
         "13": {
@@ -2982,7 +2982,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Wir fahren an die Ostsee.",
           "pluriel": "",
-          "Mot FR": "'Nous allons au bord de la mer Baltique (mer de l''est).'"
+          "Mot FR": "Nous allons au bord de la mer Baltique (mer de l'est)."
         },
         "11": {
           "Type": "phrase",
@@ -3779,7 +3779,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "er hat Spass",
           "pluriel": "",
-          "Mot FR": "'il s''amuse bien'"
+          "Mot FR": "il s'amuse bien"
         },
         "28": {
           "Type": "mot",
@@ -5300,6 +5300,274 @@
           "Mot en ALL": "work",
           "pluriel": "",
           "Mot FR": "travailler"
+        }
+      },
+      "p31": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "a lot of",
+          "pluriel": "",
+          "Mot FR": "beaucoup de"
+        },
+        "2": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "design",
+          "pluriel": "",
+          "Mot FR": "concevoir"
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "during the week",
+          "pluriel": "",
+          "Mot FR": "au cours de la semaine"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "early",
+          "pluriel": "",
+          "Mot FR": "tôt"
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "get good/bad marks",
+          "pluriel": "",
+          "Mot FR": "avoir de bonnes/mauvaises notes"
+        },
+        "6": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "grow up",
+          "pluriel": "",
+          "Mot FR": "grandir"
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "inside",
+          "pluriel": "",
+          "Mot FR": "dedans"
+        },
+        "8": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "machine",
+          "pluriel": "",
+          "Mot FR": "machine"
+        },
+        "9": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "outside",
+          "pluriel": "",
+          "Mot FR": "dehors"
+        },
+        "10": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "repair",
+          "pluriel": "",
+          "Mot FR": "réparer"
+        },
+        "11": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "sell",
+          "pluriel": "",
+          "Mot FR": "vendre"
+        },
+        "12": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "sick",
+          "pluriel": "",
+          "Mot FR": "malade"
+        },
+        "13": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "training course",
+          "pluriel": "",
+          "Mot FR": "formation"
+        },
+        "14": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "work hard",
+          "pluriel": "",
+          "Mot FR": "travailler dur"
+        },
+        "15": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "work long hours",
+          "pluriel": "",
+          "Mot FR": "faire beaucoup d’heures"
+        },
+        "16": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Is it hard work?",
+          "pluriel": "",
+          "Mot FR": "C’est un travail difficile ?"
+        },
+        "17": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "alone",
+          "pluriel": "",
+          "Mot FR": "seul"
+        },
+        "18": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "babysit",
+          "pluriel": "",
+          "Mot FR": "garder des enfants"
+        },
+        "19": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "carry",
+          "pluriel": "",
+          "Mot FR": "porter"
+        },
+        "20": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "deliver",
+          "pluriel": "",
+          "Mot FR": "livrer"
+        },
+        "21": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "fresh air",
+          "pluriel": "",
+          "Mot FR": "grand air"
+        },
+        "22": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "get some exercise",
+          "pluriel": "",
+          "Mot FR": "faire de l’exercice"
+        },
+        "23": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "keep Miaou company",
+          "pluriel": "",
+          "Mot FR": "tenir compagnie à Miaou"
+        },
+        "24": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "neighbourhood",
+          "pluriel": "",
+          "Mot FR": "quartier"
+        },
+        "25": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "your own bike",
+          "pluriel": "",
+          "Mot FR": "ton/votre propre vélo"
+        },
+        "26": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "waste time",
+          "pluriel": "",
+          "Mot FR": "perdre du temps"
+        },
+        "27": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "maths",
+          "pluriel": "",
+          "Mot FR": "les mathématiques"
+        },
+        "28": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "cent",
+          "pluriel": "",
+          "Mot FR": "cent"
+        },
+        "29": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "coin",
+          "pluriel": "",
+          "Mot FR": "pièce (de monnaie)"
+        },
+        "30": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "divided by",
+          "pluriel": "",
+          "Mot FR": "divisé par"
+        },
+        "31": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "dollar",
+          "pluriel": "",
+          "Mot FR": "dollar"
+        },
+        "32": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "equals",
+          "pluriel": "",
+          "Mot FR": "égale"
+        },
+        "33": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "minus",
+          "pluriel": "",
+          "Mot FR": "moins"
+        },
+        "34": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "note",
+          "pluriel": "",
+          "Mot FR": "billet (de banque)"
+        },
+        "35": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "pence",
+          "pluriel": "",
+          "Mot FR": "pence"
+        },
+        "36": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "pound",
+          "pluriel": "",
+          "Mot FR": "livre sterling"
+        },
+        "37": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "times",
+          "pluriel": "",
+          "Mot FR": "fois (multiplication)"
+        },
+        "38": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "4 times 5",
+          "pluriel": "",
+          "Mot FR": "4 fois 5"
         }
       }
     }
