@@ -4305,7 +4305,7 @@
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "'newsagent''s'",
+          "Mot en ALL": "newsagent`s",
           "pluriel": "",
           "Mot FR": "marchand de journaux"
         },
@@ -5143,7 +5143,7 @@
         "13": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "'chemist''s'",
+          "Mot en ALL": "chemist`s",
           "pluriel": "",
           "Mot FR": "pharmacie"
         },
@@ -5215,7 +5215,7 @@
         "23": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "'travel agent''s'",
+          "Mot en ALL": "travel agent`s",
           "pluriel": "",
           "Mot FR": "agence de voyages"
         },
@@ -5271,16 +5271,16 @@
         "31": {
           "Type": "mot",
           "Der-Die-Das": "",
-          "Mot en ALL": "save (money)",
+          "Mot en ALL": "save money",
           "pluriel": "",
-          "Mot FR": "économiser (de l’argent)"
+          "Mot FR": "économiser de l’argent"
         },
         "32": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "savings",
           "pluriel": "",
-          "Mot FR": "économies"
+          "Mot FR": "des économies"
         },
         "33": {
           "Type": "mot",
