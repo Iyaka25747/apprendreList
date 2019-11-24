@@ -30,13 +30,6 @@
           "pluriel": "-en",
           "Mot FR": "le métro"
         },
-        "6": {
-          "Type": "mot",
-          "Der-Die-Das": "der",
-          "Mot en ALL": "Bus",
-          "pluriel": "-se",
-          "Mot FR": "le bus"
-        },
         "7": {
           "Type": "mot",
           "Der-Die-Das": "das",
@@ -3808,6 +3801,175 @@
           "Mot en ALL": "OK",
           "pluriel": "",
           "Mot FR": "OK"
+        }
+      }
+    },
+    "Voc 1 (10eme)": {
+      "P6 (1)": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Gastfamilie",
+          "pluriel": "-n",
+          "Mot FR": "la famille d’accueil"
+        },
+        "2": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Sie wohnt bei einer Gastfamilie.",
+          "pluriel": "",
+          "Mot FR": "Elle habite chez une famille d’accueil."
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Austauschpartner",
+          "pluriel": "-",
+          "Mot FR": "le partenaire d’échange"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Austauschpartnerin",
+          "pluriel": "-nen",
+          "Mot FR": "la partenaire d’échange"
+        },
+        "5": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Ankunft",
+          "pluriel": "”-e",
+          "Mot FR": "l’arrivée"
+        },
+        "6": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Bei der Ankunft hat sie am Bahnhof gewartet.",
+          "pluriel": "",
+          "Mot FR": "À l’arrivée, elle a attendu à la gare."
+        },
+        "7": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Begrüssung",
+          "pluriel": "-en",
+          "Mot FR": "les salutations"
+        },
+        "8": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "grüssen, er grüsst, hat gegrüsst",
+          "pluriel": "",
+          "Mot FR": "(se) saluer"
+        },
+        "9": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Die Leute grüssen auf der Strasse.",
+          "pluriel": "",
+          "Mot FR": "Les gens se saluent dans la rue."
+        },
+        "10": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "ab|holen, er holt … ab, hat abgeholt",
+          "pluriel": "",
+          "Mot FR": "aller chercher"
+        }
+      },
+      "P6 (2)": {
+        "11": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Er holt Paul am Bahnhof ab.",
+          "pluriel": "",
+          "Mot FR": "Il vient chercher Paul à la gare."
+        },
+        "12": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "kennen|lernen, er lernt … kennen, hat kennengelernt",
+          "pluriel": "",
+          "Mot FR": "faire (la) connaissance"
+        },
+        "13": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Paul hat Lukas beim Austausch kennengelernt.",
+          "pluriel": "",
+          "Mot FR": "Paul a fait la connaissance de Lukas lors de l’échange."
+        },
+        "14": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "schicken, er schickt, hat geschickt",
+          "pluriel": "",
+          "Mot FR": "envoyer"
+        },
+        "15": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Meine Tante hat mir ein Geschenk geschickt.",
+          "pluriel": "",
+          "Mot FR": "Ma tante m’a envoyé un cadeau."
+        },
+        "16": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Fremdsprache",
+          "pluriel": "-n",
+          "Mot FR": "la langue étrangère"
+        },
+        "17": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Ina spricht drei Fremdsprachen.",
+          "pluriel": "",
+          "Mot FR": "Ina parle trois langues étrangères."
+        },
+        "18": {
+          "Type": "mot",
+          "Der-Die-Das": "der",
+          "Mot en ALL": "Tourist",
+          "pluriel": "-en",
+          "Mot FR": "le touriste"
+        },
+        "19": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Touristin",
+          "pluriel": "-nen",
+          "Mot FR": "la touriste"
+        }
+      },
+      "p7": {
+        "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "niemand",
+          "pluriel": "",
+          "Mot FR": "personne"
+        },
+        "2": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "manche",
+          "pluriel": "",
+          "Mot FR": "quelques-uns, quelques"
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "viele",
+          "pluriel": "",
+          "Mot FR": "beaucoup (de)"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "alle",
+          "pluriel": "",
+          "Mot FR": "tous, toutes"
         }
       }
     }
