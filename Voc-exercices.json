@@ -3805,71 +3805,99 @@
       }
     },
     "Voc 1 (10eme)": {
-      "P6 (1)": {
+      "p6 (1)": {
         "1": {
+          "Type": "mot",
+          "Der-Die-Das": "",
+          "Mot en ALL": "in der Mịtte von",
+          "pluriel": "",
+          "Mot FR": "au milieu de"
+        },
+        "2": {
+          "Type": "phrase",
+          "Der-Die-Das": "",
+          "Mot en ALL": "Sarnen liegt in der Mitte von der Schweiz.",
+          "pluriel": "",
+          "Mot FR": "Sarnen se trouve au milieu de la Suisse."
+        },
+        "3": {
+          "Type": "mot",
+          "Der-Die-Das": "die",
+          "Mot en ALL": "Wohnung",
+          "pluriel": "-en",
+          "Mot FR": "l’appartement"
+        },
+        "4": {
+          "Type": "mot",
+          "Der-Die-Das": "das",
+          "Mot en ALL": "Dorf",
+          "pluriel": "”-er",
+          "Mot FR": "le village"
+        },
+        "5": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Gastfamilie",
           "pluriel": "-n",
           "Mot FR": "la famille d’accueil"
         },
-        "2": {
+        "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Sie wohnt bei einer Gastfamilie.",
           "pluriel": "",
           "Mot FR": "Elle habite chez une famille d’accueil."
         },
-        "3": {
+        "7": {
           "Type": "mot",
           "Der-Die-Das": "der",
           "Mot en ALL": "Austauschpartner",
           "pluriel": "-",
           "Mot FR": "le partenaire d’échange"
         },
-        "4": {
+        "8": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Austauschpartnerin",
           "pluriel": "-nen",
           "Mot FR": "la partenaire d’échange"
         },
-        "5": {
+        "9": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Ankunft",
           "pluriel": "”-e",
           "Mot FR": "l’arrivée"
         },
-        "6": {
+        "10": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Bei der Ankunft hat sie am Bahnhof gewartet.",
           "pluriel": "",
           "Mot FR": "À l’arrivée, elle a attendu à la gare."
         },
-        "7": {
+        "11": {
           "Type": "mot",
           "Der-Die-Das": "die",
           "Mot en ALL": "Begrüssung",
           "pluriel": "-en",
           "Mot FR": "les salutations"
         },
-        "8": {
+        "12": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "grüssen, er grüsst, hat gegrüsst",
           "pluriel": "",
           "Mot FR": "(se) saluer"
         },
-        "9": {
+        "13": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Die Leute grüssen auf der Strasse.",
           "pluriel": "",
           "Mot FR": "Les gens se saluent dans la rue."
         },
-        "10": {
+        "14": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "ab|holen, er holt … ab, hat abgeholt",
@@ -3877,7 +3905,7 @@
           "Mot FR": "aller chercher"
         }
       },
-      "P6 (2)": {
+      "p6 (2)": {
         "11": {
           "Type": "phrase",
           "Der-Die-Das": "",
