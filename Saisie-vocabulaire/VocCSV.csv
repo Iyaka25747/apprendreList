@@ -797,11 +797,11 @@ anglais;basic words question;p0;7;phrase;;When do you come to play with me?;;QUA
 anglais;basic words question;p0;8;phrase;;Which game do you play? Fortnite or COD ?;;À QUEL jeux joues tu? Fortnite ou COD ?
 anglais;basic words question;p0;9;mot;;Who;;Qui
 anglais;basic words question;p0;10;mot;;How;;Comment
-anglais;basic words question;p0;11;mot;;What;;Quoi (tu réponds ce que tu veux)
+anglais;basic words question;p0;11;mot;;What;;Quoi (= tu peux répondre ce que tu veux, ce n’est pas limité)
 anglais;basic words question;p0;12;mot;;Where;;Où
 anglais;basic words question;p0;13;mot;;Here/There;;Ici/Là bas
 anglais;basic words question;p0;14;mot;;When;;Quand
-anglais;basic words question;p0;15;mot;;Which;;Quel (la réponse est limitée, il faut faire un choix)
+anglais;basic words question;p0;15;mot;;Which;;Quel (la réponse est limitée, il faut faire un choix dans une liste Fortnite ou COD)
 anglais;basic words sequence;p0;1;mot;;after;;après
 anglais;basic words sequence;p0;2;mot;;before;;avant
 anglais;basic words sequence;p0;3;mot;;later;;plus tard

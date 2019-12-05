@@ -5835,7 +5835,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "What",
           "pluriel": "",
-          "Mot FR": "Quoi (tu réponds ce que tu veux)"
+          "Mot FR": "Quoi (= tu peux répondre ce que tu veux, ce n’est pas limité)"
         },
         "12": {
           "Type": "mot",
@@ -5863,7 +5863,7 @@
           "Der-Die-Das": "",
           "Mot en ALL": "Which",
           "pluriel": "",
-          "Mot FR": "Quel (la réponse est limitée, il faut faire un choix)"
+          "Mot FR": "Quel (la réponse est limitée, il faut faire un choix dans une liste Fortnite ou COD)"
         }
       }
     },
