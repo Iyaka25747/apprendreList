@@ -5795,75 +5795,75 @@
           "pluriel": "",
           "Mot FR": "Où est mon nouveau stylo ?"
         },
-        "5": {
+        "6": {
           "Type": "phrase",
           "Der-Die-Das": "",
-          "Mot en ALL": "My bike is there",
+          "Mot en ALL": "My bike is here but my gun is there. ",
           "pluriel": "",
-          "Mot FR": "Mon vélo est là bas"
+          "Mot FR": "Mon vélo est ici mais mon arme est là bas."
         },
-        "6": {
+        "7": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "When do you come to play with me?",
           "pluriel": "",
           "Mot FR": "QUAND viens tu jouer avec moi ?"
         },
-        "7": {
+        "8": {
           "Type": "phrase",
           "Der-Die-Das": "",
           "Mot en ALL": "Which game do you play? Fortnite or COD ?",
           "pluriel": "",
-          "Mot FR": "QUEL jeux joues tu? Fortnite ou COD ?"
+          "Mot FR": "À QUEL jeux joues tu? Fortnite ou COD ?"
         },
-        "8": {
+        "9": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Who",
           "pluriel": "",
           "Mot FR": "Qui"
         },
-        "9": {
+        "10": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "How",
           "pluriel": "",
           "Mot FR": "Comment"
         },
-        "10": {
+        "11": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "What",
           "pluriel": "",
-          "Mot FR": "Quoi"
+          "Mot FR": "Quoi (tu réponds ce que tu veux)"
         },
-        "11": {
+        "12": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Where",
           "pluriel": "",
           "Mot FR": "Où"
         },
-        "12": {
+        "13": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Here/There",
           "pluriel": "",
           "Mot FR": "Ici/Là bas"
         },
-        "13": {
+        "14": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "When",
           "pluriel": "",
           "Mot FR": "Quand"
         },
-        "14": {
+        "15": {
           "Type": "mot",
           "Der-Die-Das": "",
           "Mot en ALL": "Which",
           "pluriel": "",
-          "Mot FR": "Quel"
+          "Mot FR": "Quel (la réponse est limitée, il faut faire un choix)"
         }
       }
     },

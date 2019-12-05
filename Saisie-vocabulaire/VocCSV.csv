@@ -792,16 +792,16 @@ anglais;basic words question;p0;1;phrase;;Who is this boy?;;QUI est ce garçon 
 anglais;basic words question;p0;2;phrase;;How are you?;;COMMENT vas tu ?
 anglais;basic words question;p0;3;phrase;;What do you eat?;;QUOI manges tu ? (qu’est ce que tu manges)
 anglais;basic words question;p0;4;phrase;;Where is my new pen ? ;;Où est mon nouveau stylo ?
-anglais;basic words question;p0;5;phrase;;My bike is there;;Mon vélo est là bas
-anglais;basic words question;p0;6;phrase;;When do you come to play with me?;;QUAND viens tu jouer avec moi ?
-anglais;basic words question;p0;7;phrase;;Which game do you play? Fortnite or COD ?;;QUEL jeux joues tu? Fortnite ou COD ?
-anglais;basic words question;p0;8;mot;;Who;;Qui
-anglais;basic words question;p0;9;mot;;How;;Comment
-anglais;basic words question;p0;10;mot;;What;;Quoi
-anglais;basic words question;p0;11;mot;;Where;;Où
-anglais;basic words question;p0;12;mot;;Here/There;;Ici/Là bas
-anglais;basic words question;p0;13;mot;;When;;Quand
-anglais;basic words question;p0;14;mot;;Which;;Quel
+anglais;basic words question;p0;6;phrase;;My bike is here but my gun is there. ;;Mon vélo est ici mais mon arme est là bas.
+anglais;basic words question;p0;7;phrase;;When do you come to play with me?;;QUAND viens tu jouer avec moi ?
+anglais;basic words question;p0;8;phrase;;Which game do you play? Fortnite or COD ?;;À QUEL jeux joues tu? Fortnite ou COD ?
+anglais;basic words question;p0;9;mot;;Who;;Qui
+anglais;basic words question;p0;10;mot;;How;;Comment
+anglais;basic words question;p0;11;mot;;What;;Quoi (tu réponds ce que tu veux)
+anglais;basic words question;p0;12;mot;;Where;;Où
+anglais;basic words question;p0;13;mot;;Here/There;;Ici/Là bas
+anglais;basic words question;p0;14;mot;;When;;Quand
+anglais;basic words question;p0;15;mot;;Which;;Quel (la réponse est limitée, il faut faire un choix)
 anglais;basic words sequence;p0;1;mot;;after;;après
 anglais;basic words sequence;p0;2;mot;;before;;avant
 anglais;basic words sequence;p0;3;mot;;later;;plus tard
